@@ -1,0 +1,109 @@
+{
+  "name": "devdeck",
+  "displayName": "DevDeck - Developer Command Hub",
+  "description": "Universal command discovery and execution hub for VS Code.",
+  "version": "0.1.0",
+  "publisher": "devdeck",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joeboy77/DevDeck.git"
+  },
+  "homepage": "https://github.com/Joeboy77/DevDeck",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other",
+    "Snippets"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onView:devdeck.sidebar"
+  ],
+  "main": "./dist/extension.js",
+  "scripts": {
+    "generate:data": "node scripts/generate-command-data.mjs",
+    "build:extension": "esbuild src/extension.ts --bundle --platform=node --target=node18 --format=cjs --external:vscode --outfile=dist/extension.js",
+    "build:webview": "esbuild webview/index.tsx --bundle --platform=browser --format=iife --jsx=automatic --outfile=dist/webview.js",
+    "build": "yarn build:extension && yarn build:webview",
+    "watch:extension": "esbuild src/extension.ts --bundle --platform=node --target=node18 --format=cjs --external:vscode --outfile=dist/extension.js --watch",
+    "watch:webview": "esbuild webview/index.tsx --bundle --platform=browser --format=iife --jsx=automatic --outfile=dist/webview.js --watch",
+    "watch": "yarn watch:extension & yarn watch:webview",
+    "lint": "eslint \"src/**/*.ts\" \"webview/**/*.{ts,tsx}\"",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "test": "echo \"Tests will be added in Phase 2\""
+  },
+  "keywords": [
+    "commands",
+    "developer-tools",
+    "cli",
+    "productivity",
+    "vscode-extension"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "devdeck.openPanel",
+        "title": "DevDeck: Open Panel"
+      },
+      {
+        "command": "devdeck.refresh",
+        "title": "DevDeck: Refresh"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "devdeck",
+          "title": "DevDeck",
+          "icon": "resources/devdeck.svg"
+        }
+      ]
+    },
+    "views": {
+      "devdeck": [
+        {
+          "type": "webview",
+          "id": "devdeck.sidebar",
+          "name": "Command Hub"
+        }
+      ]
+    },
+    "keybindings": [
+      {
+        "command": "devdeck.openPanel",
+        "key": "ctrl+shift+d",
+        "mac": "cmd+shift+d"
+      }
+    ]
+  },
+  "files": [
+    "dist",
+    "data",
+    "resources",
+    "README.md",
+    "CONTRIBUTING.md"
+  ],
+  "author": "Joe",
+  "dependencies": {
+    "fuse.js": "^7.1.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/vscode": "^1.109.0",
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@typescript-eslint/parser": "^8.56.1",
+    "autoprefixer": "^10.4.27",
+    "esbuild": "^0.27.3",
+    "eslint": "^10.0.2",
+    "postcss": "^8.5.6",
+    "prettier": "^3.8.1",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3"
+  }
+}

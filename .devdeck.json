@@ -1,0 +1,62 @@
+[
+  {
+    "id": "project-001",
+    "tool": "project-commands",
+    "category": "Project",
+    "title": "Start development server",
+    "description": "Starts the local development server for this project.",
+    "command": "yarn dev",
+    "params": [],
+    "flags": [],
+    "tags": ["dev", "start", "local"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "project-002",
+    "tool": "project-commands",
+    "category": "Project",
+    "title": "Run lint checks",
+    "description": "Runs static checks for code quality.",
+    "command": "yarn lint",
+    "params": [],
+    "flags": [],
+    "tags": ["lint", "quality"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "project-003",
+    "tool": "project-commands",
+    "category": "Project",
+    "title": "Run tests",
+    "description": "Executes the project test suite.",
+    "command": "yarn test",
+    "params": [],
+    "flags": [],
+    "tags": ["test", "ci"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "project-004",
+    "tool": "project-commands",
+    "category": "Project",
+    "title": "Build extension bundles",
+    "description": "Builds extension host and webview bundles.",
+    "command": "yarn build",
+    "params": [],
+    "flags": [],
+    "tags": ["build", "bundle"],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "project-005",
+    "tool": "project-commands",
+    "category": "Project",
+    "title": "Type check project",
+    "description": "Runs strict TypeScript type checks with no emit.",
+    "command": "yarn check",
+    "params": [],
+    "flags": [],
+    "tags": ["typescript", "check"],
+    "difficulty": "beginner"
+  }
+]

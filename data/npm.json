@@ -1,0 +1,2004 @@
+[
+  {
+    "id": "npm-0001",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm init -y (Local)",
+    "description": "Npm init -y command for npm workflows in local mode.",
+    "command": "npm init -y",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-y",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "npm",
+      "init",
+      "-y"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0002",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm init -y (Team)",
+    "description": "Npm init -y command for npm workflows in team mode.",
+    "command": "npm init -y",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-y",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "npm",
+      "init",
+      "-y"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0003",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm init -y (CI)",
+    "description": "Npm init -y command for npm workflows in ci mode.",
+    "command": "npm init -y --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-y",
+        "description": "Flag used by npm"
+      },
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "init",
+      "-y",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0004",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm init -y (Production)",
+    "description": "Npm init -y command for npm workflows in production mode.",
+    "command": "npm init -y",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-y",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "npm",
+      "init",
+      "-y"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0005",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm init -y (Verbose)",
+    "description": "Npm init -y command for npm workflows in verbose mode.",
+    "command": "npm init -y --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-y",
+        "description": "Flag used by npm"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "init",
+      "-y",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0006",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm install (Local)",
+    "description": "Npm install command for npm workflows in local mode.",
+    "command": "npm install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0007",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm install (Team)",
+    "description": "Npm install command for npm workflows in team mode.",
+    "command": "npm install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0008",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm install (CI)",
+    "description": "Npm install command for npm workflows in ci mode.",
+    "command": "npm install --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "install",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0009",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm install (Production)",
+    "description": "Npm install command for npm workflows in production mode.",
+    "command": "npm install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0010",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm install (Verbose)",
+    "description": "Npm install command for npm workflows in verbose mode.",
+    "command": "npm install --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "install",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0011",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm install (Local)",
+    "description": "Npm install command for npm workflows in local mode.",
+    "command": "npm install [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "npm",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0012",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm install (Team)",
+    "description": "Npm install command for npm workflows in team mode.",
+    "command": "npm install [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "npm",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0013",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm install (CI)",
+    "description": "Npm install command for npm workflows in ci mode.",
+    "command": "npm install [PACKAGE_NAME] --silent",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "install",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0014",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm install (Production)",
+    "description": "Npm install command for npm workflows in production mode.",
+    "command": "npm install [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "npm",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0015",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm install (Verbose)",
+    "description": "Npm install command for npm workflows in verbose mode.",
+    "command": "npm install [PACKAGE_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "install",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0016",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm install -D (Local)",
+    "description": "Npm install -D command for npm workflows in local mode.",
+    "command": "npm install -D [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "npm",
+      "install",
+      "-d"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0017",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm install -D (Team)",
+    "description": "Npm install -D command for npm workflows in team mode.",
+    "command": "npm install -D [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "npm",
+      "install",
+      "-d"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0018",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm install -D (CI)",
+    "description": "Npm install -D command for npm workflows in ci mode.",
+    "command": "npm install -D [PACKAGE_NAME] --silent",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      },
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "install",
+      "-d",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0019",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm install -D (Production)",
+    "description": "Npm install -D command for npm workflows in production mode.",
+    "command": "npm install -D [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "npm",
+      "install",
+      "-d"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0020",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm install -D (Verbose)",
+    "description": "Npm install -D command for npm workflows in verbose mode.",
+    "command": "npm install -D [PACKAGE_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "install",
+      "-d",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0021",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm uninstall (Local)",
+    "description": "Npm uninstall command for npm workflows in local mode.",
+    "command": "npm uninstall [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "npm",
+      "uninstall"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0022",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm uninstall (Team)",
+    "description": "Npm uninstall command for npm workflows in team mode.",
+    "command": "npm uninstall [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "npm",
+      "uninstall"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0023",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm uninstall (CI)",
+    "description": "Npm uninstall command for npm workflows in ci mode.",
+    "command": "npm uninstall [PACKAGE_NAME] --silent",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "uninstall",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0024",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm uninstall (Production)",
+    "description": "Npm uninstall command for npm workflows in production mode.",
+    "command": "npm uninstall [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "npm",
+      "uninstall"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0025",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm uninstall (Verbose)",
+    "description": "Npm uninstall command for npm workflows in verbose mode.",
+    "command": "npm uninstall [PACKAGE_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "uninstall",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0026",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run dev (Local)",
+    "description": "Npm run dev command for npm workflows in local mode.",
+    "command": "npm run dev",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "run",
+      "dev"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0027",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run dev (Team)",
+    "description": "Npm run dev command for npm workflows in team mode.",
+    "command": "npm run dev",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "run",
+      "dev"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0028",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run dev (CI)",
+    "description": "Npm run dev command for npm workflows in ci mode.",
+    "command": "npm run dev --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "run",
+      "dev",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0029",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run dev (Production)",
+    "description": "Npm run dev command for npm workflows in production mode.",
+    "command": "npm run dev",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "run",
+      "dev"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0030",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run dev (Verbose)",
+    "description": "Npm run dev command for npm workflows in verbose mode.",
+    "command": "npm run dev --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "run",
+      "dev",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0031",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run build (Local)",
+    "description": "Npm run build command for npm workflows in local mode.",
+    "command": "npm run build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0032",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run build (Team)",
+    "description": "Npm run build command for npm workflows in team mode.",
+    "command": "npm run build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0033",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run build (CI)",
+    "description": "Npm run build command for npm workflows in ci mode.",
+    "command": "npm run build --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "run",
+      "build",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0034",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run build (Production)",
+    "description": "Npm run build command for npm workflows in production mode.",
+    "command": "npm run build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0035",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run build (Verbose)",
+    "description": "Npm run build command for npm workflows in verbose mode.",
+    "command": "npm run build --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "run",
+      "build",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0036",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run test (Local)",
+    "description": "Npm run test command for npm workflows in local mode.",
+    "command": "npm run test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "run",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0037",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run test (Team)",
+    "description": "Npm run test command for npm workflows in team mode.",
+    "command": "npm run test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "run",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0038",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run test (CI)",
+    "description": "Npm run test command for npm workflows in ci mode.",
+    "command": "npm run test --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "run",
+      "test",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0039",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run test (Production)",
+    "description": "Npm run test command for npm workflows in production mode.",
+    "command": "npm run test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "run",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0040",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run test (Verbose)",
+    "description": "Npm run test command for npm workflows in verbose mode.",
+    "command": "npm run test --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "run",
+      "test",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0041",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run lint (Local)",
+    "description": "Npm run lint command for npm workflows in local mode.",
+    "command": "npm run lint",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "run",
+      "lint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0042",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run lint (Team)",
+    "description": "Npm run lint command for npm workflows in team mode.",
+    "command": "npm run lint",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "run",
+      "lint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0043",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run lint (CI)",
+    "description": "Npm run lint command for npm workflows in ci mode.",
+    "command": "npm run lint --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "run",
+      "lint",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0044",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run lint (Production)",
+    "description": "Npm run lint command for npm workflows in production mode.",
+    "command": "npm run lint",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "run",
+      "lint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0045",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run lint (Verbose)",
+    "description": "Npm run lint command for npm workflows in verbose mode.",
+    "command": "npm run lint --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "run",
+      "lint",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0046",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run format (Local)",
+    "description": "Npm run format command for npm workflows in local mode.",
+    "command": "npm run format",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "run",
+      "format"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0047",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run format (Team)",
+    "description": "Npm run format command for npm workflows in team mode.",
+    "command": "npm run format",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "run",
+      "format"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0048",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run format (CI)",
+    "description": "Npm run format command for npm workflows in ci mode.",
+    "command": "npm run format --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "run",
+      "format",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0049",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run format (Production)",
+    "description": "Npm run format command for npm workflows in production mode.",
+    "command": "npm run format",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "run",
+      "format"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0050",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm run format (Verbose)",
+    "description": "Npm run format command for npm workflows in verbose mode.",
+    "command": "npm run format --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "run",
+      "format",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0051",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm audit (Local)",
+    "description": "Npm audit command for npm workflows in local mode.",
+    "command": "npm audit",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "audit"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0052",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm audit (Team)",
+    "description": "Npm audit command for npm workflows in team mode.",
+    "command": "npm audit",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "audit"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0053",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm audit (CI)",
+    "description": "Npm audit command for npm workflows in ci mode.",
+    "command": "npm audit --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "audit",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0054",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm audit (Production)",
+    "description": "Npm audit command for npm workflows in production mode.",
+    "command": "npm audit",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "audit"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0055",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm audit (Verbose)",
+    "description": "Npm audit command for npm workflows in verbose mode.",
+    "command": "npm audit --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "audit",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0056",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm audit fix (Local)",
+    "description": "Npm audit fix command for npm workflows in local mode.",
+    "command": "npm audit fix",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "audit",
+      "fix"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0057",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm audit fix (Team)",
+    "description": "Npm audit fix command for npm workflows in team mode.",
+    "command": "npm audit fix",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "audit",
+      "fix"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0058",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm audit fix (CI)",
+    "description": "Npm audit fix command for npm workflows in ci mode.",
+    "command": "npm audit fix --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "audit",
+      "fix",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0059",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm audit fix (Production)",
+    "description": "Npm audit fix command for npm workflows in production mode.",
+    "command": "npm audit fix",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "audit",
+      "fix"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0060",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm audit fix (Verbose)",
+    "description": "Npm audit fix command for npm workflows in verbose mode.",
+    "command": "npm audit fix --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "audit",
+      "fix",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0061",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm outdated (Local)",
+    "description": "Npm outdated command for npm workflows in local mode.",
+    "command": "npm outdated",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "outdated"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0062",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm outdated (Team)",
+    "description": "Npm outdated command for npm workflows in team mode.",
+    "command": "npm outdated",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "outdated"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0063",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm outdated (CI)",
+    "description": "Npm outdated command for npm workflows in ci mode.",
+    "command": "npm outdated --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "outdated",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0064",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm outdated (Production)",
+    "description": "Npm outdated command for npm workflows in production mode.",
+    "command": "npm outdated",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "outdated"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0065",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm outdated (Verbose)",
+    "description": "Npm outdated command for npm workflows in verbose mode.",
+    "command": "npm outdated --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "outdated",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0066",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm update (Local)",
+    "description": "Npm update command for npm workflows in local mode.",
+    "command": "npm update",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "update"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0067",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm update (Team)",
+    "description": "Npm update command for npm workflows in team mode.",
+    "command": "npm update",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "update"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0068",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm update (CI)",
+    "description": "Npm update command for npm workflows in ci mode.",
+    "command": "npm update --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "update",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0069",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm update (Production)",
+    "description": "Npm update command for npm workflows in production mode.",
+    "command": "npm update",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "update"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0070",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm update (Verbose)",
+    "description": "Npm update command for npm workflows in verbose mode.",
+    "command": "npm update --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "update",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0071",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm cache clean --force (Local)",
+    "description": "Npm cache clean --force command for npm workflows in local mode.",
+    "command": "npm cache clean --force",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--force",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "npm",
+      "cache",
+      "clean",
+      "--force"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0072",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm cache clean --force (Team)",
+    "description": "Npm cache clean --force command for npm workflows in team mode.",
+    "command": "npm cache clean --force",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--force",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "npm",
+      "cache",
+      "clean",
+      "--force"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0073",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm cache clean --force (CI)",
+    "description": "Npm cache clean --force command for npm workflows in ci mode.",
+    "command": "npm cache clean --force --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--force",
+        "description": "Flag used by npm"
+      },
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "cache",
+      "clean",
+      "--force",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0074",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm cache clean --force (Production)",
+    "description": "Npm cache clean --force command for npm workflows in production mode.",
+    "command": "npm cache clean --force",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--force",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "npm",
+      "cache",
+      "clean",
+      "--force"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0075",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm cache clean --force (Verbose)",
+    "description": "Npm cache clean --force command for npm workflows in verbose mode.",
+    "command": "npm cache clean --force --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--force",
+        "description": "Flag used by npm"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "cache",
+      "clean",
+      "--force",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0076",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm pack (Local)",
+    "description": "Npm pack command for npm workflows in local mode.",
+    "command": "npm pack",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "pack"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0077",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm pack (Team)",
+    "description": "Npm pack command for npm workflows in team mode.",
+    "command": "npm pack",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "pack"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0078",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm pack (CI)",
+    "description": "Npm pack command for npm workflows in ci mode.",
+    "command": "npm pack --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "pack",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0079",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm pack (Production)",
+    "description": "Npm pack command for npm workflows in production mode.",
+    "command": "npm pack",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "pack"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0080",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm pack (Verbose)",
+    "description": "Npm pack command for npm workflows in verbose mode.",
+    "command": "npm pack --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "pack",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0081",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm publish (Local)",
+    "description": "Npm publish command for npm workflows in local mode.",
+    "command": "npm publish",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "publish"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0082",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm publish (Team)",
+    "description": "Npm publish command for npm workflows in team mode.",
+    "command": "npm publish",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "publish"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0083",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm publish (CI)",
+    "description": "Npm publish command for npm workflows in ci mode.",
+    "command": "npm publish --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "publish",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0084",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm publish (Production)",
+    "description": "Npm publish command for npm workflows in production mode.",
+    "command": "npm publish",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "publish"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0085",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm publish (Verbose)",
+    "description": "Npm publish command for npm workflows in verbose mode.",
+    "command": "npm publish --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "publish",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0086",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm ci (Local)",
+    "description": "Npm ci command for npm workflows in local mode.",
+    "command": "npm ci",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "ci"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0087",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm ci (Team)",
+    "description": "Npm ci command for npm workflows in team mode.",
+    "command": "npm ci",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "ci"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0088",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm ci (CI)",
+    "description": "Npm ci command for npm workflows in ci mode.",
+    "command": "npm ci --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "ci",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0089",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm ci (Production)",
+    "description": "Npm ci command for npm workflows in production mode.",
+    "command": "npm ci",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "ci"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0090",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm ci (Verbose)",
+    "description": "Npm ci command for npm workflows in verbose mode.",
+    "command": "npm ci --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "ci",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0091",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm list --depth=0 (Local)",
+    "description": "Npm list --depth=0 command for npm workflows in local mode.",
+    "command": "npm list --depth=0",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--depth=0",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "npm",
+      "list",
+      "--depth0"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0092",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm list --depth=0 (Team)",
+    "description": "Npm list --depth=0 command for npm workflows in team mode.",
+    "command": "npm list --depth=0",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--depth=0",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "npm",
+      "list",
+      "--depth0"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0093",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm list --depth=0 (CI)",
+    "description": "Npm list --depth=0 command for npm workflows in ci mode.",
+    "command": "npm list --depth=0 --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--depth=0",
+        "description": "Flag used by npm"
+      },
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "list",
+      "--depth0",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0094",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm list --depth=0 (Production)",
+    "description": "Npm list --depth=0 command for npm workflows in production mode.",
+    "command": "npm list --depth=0",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--depth=0",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "npm",
+      "list",
+      "--depth0"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0095",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm list --depth=0 (Verbose)",
+    "description": "Npm list --depth=0 command for npm workflows in verbose mode.",
+    "command": "npm list --depth=0 --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--depth=0",
+        "description": "Flag used by npm"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "list",
+      "--depth0",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0096",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm config get registry (Local)",
+    "description": "Npm config get registry command for npm workflows in local mode.",
+    "command": "npm config get registry",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "config",
+      "get",
+      "registry"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0097",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm config get registry (Team)",
+    "description": "Npm config get registry command for npm workflows in team mode.",
+    "command": "npm config get registry",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "config",
+      "get",
+      "registry"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0098",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm config get registry (CI)",
+    "description": "Npm config get registry command for npm workflows in ci mode.",
+    "command": "npm config get registry --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "config",
+      "get",
+      "registry",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0099",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm config get registry (Production)",
+    "description": "Npm config get registry command for npm workflows in production mode.",
+    "command": "npm config get registry",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "npm",
+      "config",
+      "get",
+      "registry"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "npm-0100",
+    "tool": "npm",
+    "category": "JavaScript",
+    "title": "Npm config get registry (Verbose)",
+    "description": "Npm config get registry command for npm workflows in verbose mode.",
+    "command": "npm config get registry --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "npm",
+      "config",
+      "get",
+      "registry",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  }
+]

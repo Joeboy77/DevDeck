@@ -1,0 +1,2300 @@
+[
+  {
+    "id": "aws-0001",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws configure (Local)",
+    "description": "Aws configure command for aws workflows in local mode.",
+    "command": "aws configure",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "configure"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0002",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws configure (Team)",
+    "description": "Aws configure command for aws workflows in team mode.",
+    "command": "aws configure",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "configure"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0003",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws configure (CI)",
+    "description": "Aws configure command for aws workflows in ci mode.",
+    "command": "aws configure --output json",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "configure",
+      "--output",
+      "json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0004",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws configure (Production)",
+    "description": "Aws configure command for aws workflows in production mode.",
+    "command": "aws configure",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "configure"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0005",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws configure (Verbose)",
+    "description": "Aws configure command for aws workflows in verbose mode.",
+    "command": "aws configure --debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "configure",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0006",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws sts get-caller-identity (Local)",
+    "description": "Aws sts get-caller-identity command for aws workflows in local mode.",
+    "command": "aws sts get-caller-identity",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "sts",
+      "get-caller-identity"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0007",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws sts get-caller-identity (Team)",
+    "description": "Aws sts get-caller-identity command for aws workflows in team mode.",
+    "command": "aws sts get-caller-identity",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "sts",
+      "get-caller-identity"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0008",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws sts get-caller-identity (CI)",
+    "description": "Aws sts get-caller-identity command for aws workflows in ci mode.",
+    "command": "aws sts get-caller-identity --output json",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "sts",
+      "get-caller-identity",
+      "--output",
+      "json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0009",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws sts get-caller-identity (Production)",
+    "description": "Aws sts get-caller-identity command for aws workflows in production mode.",
+    "command": "aws sts get-caller-identity",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "sts",
+      "get-caller-identity"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0010",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws sts get-caller-identity (Verbose)",
+    "description": "Aws sts get-caller-identity command for aws workflows in verbose mode.",
+    "command": "aws sts get-caller-identity --debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "sts",
+      "get-caller-identity",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0011",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws s3 ls (Local)",
+    "description": "Aws s3 ls command for aws workflows in local mode.",
+    "command": "aws s3 ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "s3",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0012",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws s3 ls (Team)",
+    "description": "Aws s3 ls command for aws workflows in team mode.",
+    "command": "aws s3 ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "s3",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0013",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws s3 ls (CI)",
+    "description": "Aws s3 ls command for aws workflows in ci mode.",
+    "command": "aws s3 ls --output json",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "s3",
+      "ls",
+      "--output",
+      "json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0014",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws s3 ls (Production)",
+    "description": "Aws s3 ls command for aws workflows in production mode.",
+    "command": "aws s3 ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "s3",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0015",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws s3 ls (Verbose)",
+    "description": "Aws s3 ls command for aws workflows in verbose mode.",
+    "command": "aws s3 ls --debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "s3",
+      "ls",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0016",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws s3 cp (Local)",
+    "description": "Aws s3 cp command for aws workflows in local mode.",
+    "command": "aws s3 cp [SOURCE] [DESTINATION]",
+    "params": [
+      {
+        "placeholder": "[SOURCE]",
+        "label": "Source",
+        "description": "Value for source",
+        "required": true
+      },
+      {
+        "placeholder": "[DESTINATION]",
+        "label": "Destination",
+        "description": "Value for destination",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "aws",
+      "s3",
+      "cp"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0017",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws s3 cp (Team)",
+    "description": "Aws s3 cp command for aws workflows in team mode.",
+    "command": "aws s3 cp [SOURCE] [DESTINATION]",
+    "params": [
+      {
+        "placeholder": "[SOURCE]",
+        "label": "Source",
+        "description": "Value for source",
+        "required": true
+      },
+      {
+        "placeholder": "[DESTINATION]",
+        "label": "Destination",
+        "description": "Value for destination",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "aws",
+      "s3",
+      "cp"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0018",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws s3 cp (CI)",
+    "description": "Aws s3 cp command for aws workflows in ci mode.",
+    "command": "aws s3 cp [SOURCE] [DESTINATION] --output json",
+    "params": [
+      {
+        "placeholder": "[SOURCE]",
+        "label": "Source",
+        "description": "Value for source",
+        "required": true
+      },
+      {
+        "placeholder": "[DESTINATION]",
+        "label": "Destination",
+        "description": "Value for destination",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "s3",
+      "cp",
+      "--output",
+      "json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0019",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws s3 cp (Production)",
+    "description": "Aws s3 cp command for aws workflows in production mode.",
+    "command": "aws s3 cp [SOURCE] [DESTINATION]",
+    "params": [
+      {
+        "placeholder": "[SOURCE]",
+        "label": "Source",
+        "description": "Value for source",
+        "required": true
+      },
+      {
+        "placeholder": "[DESTINATION]",
+        "label": "Destination",
+        "description": "Value for destination",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "aws",
+      "s3",
+      "cp"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0020",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws s3 cp (Verbose)",
+    "description": "Aws s3 cp command for aws workflows in verbose mode.",
+    "command": "aws s3 cp [SOURCE] [DESTINATION] --debug",
+    "params": [
+      {
+        "placeholder": "[SOURCE]",
+        "label": "Source",
+        "description": "Value for source",
+        "required": true
+      },
+      {
+        "placeholder": "[DESTINATION]",
+        "label": "Destination",
+        "description": "Value for destination",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "s3",
+      "cp",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0021",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws s3 sync (Local)",
+    "description": "Aws s3 sync command for aws workflows in local mode.",
+    "command": "aws s3 sync [SOURCE] [DESTINATION]",
+    "params": [
+      {
+        "placeholder": "[SOURCE]",
+        "label": "Source",
+        "description": "Value for source",
+        "required": true
+      },
+      {
+        "placeholder": "[DESTINATION]",
+        "label": "Destination",
+        "description": "Value for destination",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "aws",
+      "s3",
+      "sync"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0022",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws s3 sync (Team)",
+    "description": "Aws s3 sync command for aws workflows in team mode.",
+    "command": "aws s3 sync [SOURCE] [DESTINATION]",
+    "params": [
+      {
+        "placeholder": "[SOURCE]",
+        "label": "Source",
+        "description": "Value for source",
+        "required": true
+      },
+      {
+        "placeholder": "[DESTINATION]",
+        "label": "Destination",
+        "description": "Value for destination",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "aws",
+      "s3",
+      "sync"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0023",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws s3 sync (CI)",
+    "description": "Aws s3 sync command for aws workflows in ci mode.",
+    "command": "aws s3 sync [SOURCE] [DESTINATION] --output json",
+    "params": [
+      {
+        "placeholder": "[SOURCE]",
+        "label": "Source",
+        "description": "Value for source",
+        "required": true
+      },
+      {
+        "placeholder": "[DESTINATION]",
+        "label": "Destination",
+        "description": "Value for destination",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "s3",
+      "sync",
+      "--output",
+      "json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0024",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws s3 sync (Production)",
+    "description": "Aws s3 sync command for aws workflows in production mode.",
+    "command": "aws s3 sync [SOURCE] [DESTINATION]",
+    "params": [
+      {
+        "placeholder": "[SOURCE]",
+        "label": "Source",
+        "description": "Value for source",
+        "required": true
+      },
+      {
+        "placeholder": "[DESTINATION]",
+        "label": "Destination",
+        "description": "Value for destination",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "aws",
+      "s3",
+      "sync"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0025",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws s3 sync (Verbose)",
+    "description": "Aws s3 sync command for aws workflows in verbose mode.",
+    "command": "aws s3 sync [SOURCE] [DESTINATION] --debug",
+    "params": [
+      {
+        "placeholder": "[SOURCE]",
+        "label": "Source",
+        "description": "Value for source",
+        "required": true
+      },
+      {
+        "placeholder": "[DESTINATION]",
+        "label": "Destination",
+        "description": "Value for destination",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "s3",
+      "sync",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0026",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ec2 describe-instances (Local)",
+    "description": "Aws ec2 describe-instances command for aws workflows in local mode.",
+    "command": "aws ec2 describe-instances",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "ec2",
+      "describe-instances"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0027",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ec2 describe-instances (Team)",
+    "description": "Aws ec2 describe-instances command for aws workflows in team mode.",
+    "command": "aws ec2 describe-instances",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "ec2",
+      "describe-instances"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0028",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ec2 describe-instances (CI)",
+    "description": "Aws ec2 describe-instances command for aws workflows in ci mode.",
+    "command": "aws ec2 describe-instances --output json",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "ec2",
+      "describe-instances",
+      "--output",
+      "json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0029",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ec2 describe-instances (Production)",
+    "description": "Aws ec2 describe-instances command for aws workflows in production mode.",
+    "command": "aws ec2 describe-instances",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "ec2",
+      "describe-instances"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0030",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ec2 describe-instances (Verbose)",
+    "description": "Aws ec2 describe-instances command for aws workflows in verbose mode.",
+    "command": "aws ec2 describe-instances --debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "ec2",
+      "describe-instances",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0031",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ec2 start-instances --instance-ids (Local)",
+    "description": "Aws ec2 start-instances --instance-ids command for aws workflows in local mode.",
+    "command": "aws ec2 start-instances --instance-ids [INSTANCE_ID]",
+    "params": [
+      {
+        "placeholder": "[INSTANCE_ID]",
+        "label": "Instance Id",
+        "description": "Value for instance id",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--instance-ids",
+        "description": "Flag used by aws"
+      }
+    ],
+    "tags": [
+      "aws",
+      "ec2",
+      "start-instances",
+      "--instance-ids"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0032",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ec2 start-instances --instance-ids (Team)",
+    "description": "Aws ec2 start-instances --instance-ids command for aws workflows in team mode.",
+    "command": "aws ec2 start-instances --instance-ids [INSTANCE_ID]",
+    "params": [
+      {
+        "placeholder": "[INSTANCE_ID]",
+        "label": "Instance Id",
+        "description": "Value for instance id",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--instance-ids",
+        "description": "Flag used by aws"
+      }
+    ],
+    "tags": [
+      "aws",
+      "ec2",
+      "start-instances",
+      "--instance-ids"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0033",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ec2 start-instances --instance-ids (CI)",
+    "description": "Aws ec2 start-instances --instance-ids command for aws workflows in ci mode.",
+    "command": "aws ec2 start-instances --instance-ids [INSTANCE_ID] --output json",
+    "params": [
+      {
+        "placeholder": "[INSTANCE_ID]",
+        "label": "Instance Id",
+        "description": "Value for instance id",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--instance-ids",
+        "description": "Flag used by aws"
+      },
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "ec2",
+      "start-instances",
+      "--instance-ids",
+      "--output"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0034",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ec2 start-instances --instance-ids (Production)",
+    "description": "Aws ec2 start-instances --instance-ids command for aws workflows in production mode.",
+    "command": "aws ec2 start-instances --instance-ids [INSTANCE_ID]",
+    "params": [
+      {
+        "placeholder": "[INSTANCE_ID]",
+        "label": "Instance Id",
+        "description": "Value for instance id",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--instance-ids",
+        "description": "Flag used by aws"
+      }
+    ],
+    "tags": [
+      "aws",
+      "ec2",
+      "start-instances",
+      "--instance-ids"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0035",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ec2 start-instances --instance-ids (Verbose)",
+    "description": "Aws ec2 start-instances --instance-ids command for aws workflows in verbose mode.",
+    "command": "aws ec2 start-instances --instance-ids [INSTANCE_ID] --debug",
+    "params": [
+      {
+        "placeholder": "[INSTANCE_ID]",
+        "label": "Instance Id",
+        "description": "Value for instance id",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--instance-ids",
+        "description": "Flag used by aws"
+      },
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "ec2",
+      "start-instances",
+      "--instance-ids",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0036",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ec2 stop-instances --instance-ids (Local)",
+    "description": "Aws ec2 stop-instances --instance-ids command for aws workflows in local mode.",
+    "command": "aws ec2 stop-instances --instance-ids [INSTANCE_ID]",
+    "params": [
+      {
+        "placeholder": "[INSTANCE_ID]",
+        "label": "Instance Id",
+        "description": "Value for instance id",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--instance-ids",
+        "description": "Flag used by aws"
+      }
+    ],
+    "tags": [
+      "aws",
+      "ec2",
+      "stop-instances",
+      "--instance-ids"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0037",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ec2 stop-instances --instance-ids (Team)",
+    "description": "Aws ec2 stop-instances --instance-ids command for aws workflows in team mode.",
+    "command": "aws ec2 stop-instances --instance-ids [INSTANCE_ID]",
+    "params": [
+      {
+        "placeholder": "[INSTANCE_ID]",
+        "label": "Instance Id",
+        "description": "Value for instance id",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--instance-ids",
+        "description": "Flag used by aws"
+      }
+    ],
+    "tags": [
+      "aws",
+      "ec2",
+      "stop-instances",
+      "--instance-ids"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0038",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ec2 stop-instances --instance-ids (CI)",
+    "description": "Aws ec2 stop-instances --instance-ids command for aws workflows in ci mode.",
+    "command": "aws ec2 stop-instances --instance-ids [INSTANCE_ID] --output json",
+    "params": [
+      {
+        "placeholder": "[INSTANCE_ID]",
+        "label": "Instance Id",
+        "description": "Value for instance id",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--instance-ids",
+        "description": "Flag used by aws"
+      },
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "ec2",
+      "stop-instances",
+      "--instance-ids",
+      "--output"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0039",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ec2 stop-instances --instance-ids (Production)",
+    "description": "Aws ec2 stop-instances --instance-ids command for aws workflows in production mode.",
+    "command": "aws ec2 stop-instances --instance-ids [INSTANCE_ID]",
+    "params": [
+      {
+        "placeholder": "[INSTANCE_ID]",
+        "label": "Instance Id",
+        "description": "Value for instance id",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--instance-ids",
+        "description": "Flag used by aws"
+      }
+    ],
+    "tags": [
+      "aws",
+      "ec2",
+      "stop-instances",
+      "--instance-ids"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0040",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ec2 stop-instances --instance-ids (Verbose)",
+    "description": "Aws ec2 stop-instances --instance-ids command for aws workflows in verbose mode.",
+    "command": "aws ec2 stop-instances --instance-ids [INSTANCE_ID] --debug",
+    "params": [
+      {
+        "placeholder": "[INSTANCE_ID]",
+        "label": "Instance Id",
+        "description": "Value for instance id",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--instance-ids",
+        "description": "Flag used by aws"
+      },
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "ec2",
+      "stop-instances",
+      "--instance-ids",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0041",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws lambda list-functions (Local)",
+    "description": "Aws lambda list-functions command for aws workflows in local mode.",
+    "command": "aws lambda list-functions",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "lambda",
+      "list-functions"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0042",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws lambda list-functions (Team)",
+    "description": "Aws lambda list-functions command for aws workflows in team mode.",
+    "command": "aws lambda list-functions",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "lambda",
+      "list-functions"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0043",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws lambda list-functions (CI)",
+    "description": "Aws lambda list-functions command for aws workflows in ci mode.",
+    "command": "aws lambda list-functions --output json",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "lambda",
+      "list-functions",
+      "--output",
+      "json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0044",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws lambda list-functions (Production)",
+    "description": "Aws lambda list-functions command for aws workflows in production mode.",
+    "command": "aws lambda list-functions",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "lambda",
+      "list-functions"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0045",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws lambda list-functions (Verbose)",
+    "description": "Aws lambda list-functions command for aws workflows in verbose mode.",
+    "command": "aws lambda list-functions --debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "lambda",
+      "list-functions",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0046",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws lambda invoke --function-name out.json (Local)",
+    "description": "Aws lambda invoke --function-name out.json command for aws workflows in local mode.",
+    "command": "aws lambda invoke --function-name [FUNCTION_NAME] out.json",
+    "params": [
+      {
+        "placeholder": "[FUNCTION_NAME]",
+        "label": "Function Name",
+        "description": "Value for function name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--function-name",
+        "description": "Flag used by aws"
+      }
+    ],
+    "tags": [
+      "aws",
+      "lambda",
+      "invoke",
+      "--function-name",
+      "outjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0047",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws lambda invoke --function-name out.json (Team)",
+    "description": "Aws lambda invoke --function-name out.json command for aws workflows in team mode.",
+    "command": "aws lambda invoke --function-name [FUNCTION_NAME] out.json",
+    "params": [
+      {
+        "placeholder": "[FUNCTION_NAME]",
+        "label": "Function Name",
+        "description": "Value for function name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--function-name",
+        "description": "Flag used by aws"
+      }
+    ],
+    "tags": [
+      "aws",
+      "lambda",
+      "invoke",
+      "--function-name",
+      "outjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0048",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws lambda invoke --function-name out.json (CI)",
+    "description": "Aws lambda invoke --function-name out.json command for aws workflows in ci mode.",
+    "command": "aws lambda invoke --function-name [FUNCTION_NAME] out.json --output json",
+    "params": [
+      {
+        "placeholder": "[FUNCTION_NAME]",
+        "label": "Function Name",
+        "description": "Value for function name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--function-name",
+        "description": "Flag used by aws"
+      },
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "lambda",
+      "invoke",
+      "--function-name",
+      "outjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0049",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws lambda invoke --function-name out.json (Production)",
+    "description": "Aws lambda invoke --function-name out.json command for aws workflows in production mode.",
+    "command": "aws lambda invoke --function-name [FUNCTION_NAME] out.json",
+    "params": [
+      {
+        "placeholder": "[FUNCTION_NAME]",
+        "label": "Function Name",
+        "description": "Value for function name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--function-name",
+        "description": "Flag used by aws"
+      }
+    ],
+    "tags": [
+      "aws",
+      "lambda",
+      "invoke",
+      "--function-name",
+      "outjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0050",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws lambda invoke --function-name out.json (Verbose)",
+    "description": "Aws lambda invoke --function-name out.json command for aws workflows in verbose mode.",
+    "command": "aws lambda invoke --function-name [FUNCTION_NAME] out.json --debug",
+    "params": [
+      {
+        "placeholder": "[FUNCTION_NAME]",
+        "label": "Function Name",
+        "description": "Value for function name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--function-name",
+        "description": "Flag used by aws"
+      },
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "lambda",
+      "invoke",
+      "--function-name",
+      "outjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0051",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ecr get-login-password --region (Local)",
+    "description": "Aws ecr get-login-password --region command for aws workflows in local mode.",
+    "command": "aws ecr get-login-password --region [REGION]",
+    "params": [
+      {
+        "placeholder": "[REGION]",
+        "label": "Region",
+        "description": "Value for region",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--region",
+        "description": "Flag used by aws"
+      }
+    ],
+    "tags": [
+      "aws",
+      "ecr",
+      "get-login-password",
+      "--region"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0052",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ecr get-login-password --region (Team)",
+    "description": "Aws ecr get-login-password --region command for aws workflows in team mode.",
+    "command": "aws ecr get-login-password --region [REGION]",
+    "params": [
+      {
+        "placeholder": "[REGION]",
+        "label": "Region",
+        "description": "Value for region",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--region",
+        "description": "Flag used by aws"
+      }
+    ],
+    "tags": [
+      "aws",
+      "ecr",
+      "get-login-password",
+      "--region"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0053",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ecr get-login-password --region (CI)",
+    "description": "Aws ecr get-login-password --region command for aws workflows in ci mode.",
+    "command": "aws ecr get-login-password --region [REGION] --output json",
+    "params": [
+      {
+        "placeholder": "[REGION]",
+        "label": "Region",
+        "description": "Value for region",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--region",
+        "description": "Flag used by aws"
+      },
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "ecr",
+      "get-login-password",
+      "--region",
+      "--output"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0054",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ecr get-login-password --region (Production)",
+    "description": "Aws ecr get-login-password --region command for aws workflows in production mode.",
+    "command": "aws ecr get-login-password --region [REGION]",
+    "params": [
+      {
+        "placeholder": "[REGION]",
+        "label": "Region",
+        "description": "Value for region",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--region",
+        "description": "Flag used by aws"
+      }
+    ],
+    "tags": [
+      "aws",
+      "ecr",
+      "get-login-password",
+      "--region"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0055",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ecr get-login-password --region (Verbose)",
+    "description": "Aws ecr get-login-password --region command for aws workflows in verbose mode.",
+    "command": "aws ecr get-login-password --region [REGION] --debug",
+    "params": [
+      {
+        "placeholder": "[REGION]",
+        "label": "Region",
+        "description": "Value for region",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--region",
+        "description": "Flag used by aws"
+      },
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "ecr",
+      "get-login-password",
+      "--region",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0056",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ecs list-clusters (Local)",
+    "description": "Aws ecs list-clusters command for aws workflows in local mode.",
+    "command": "aws ecs list-clusters",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "ecs",
+      "list-clusters"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0057",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ecs list-clusters (Team)",
+    "description": "Aws ecs list-clusters command for aws workflows in team mode.",
+    "command": "aws ecs list-clusters",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "ecs",
+      "list-clusters"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0058",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ecs list-clusters (CI)",
+    "description": "Aws ecs list-clusters command for aws workflows in ci mode.",
+    "command": "aws ecs list-clusters --output json",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "ecs",
+      "list-clusters",
+      "--output",
+      "json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0059",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ecs list-clusters (Production)",
+    "description": "Aws ecs list-clusters command for aws workflows in production mode.",
+    "command": "aws ecs list-clusters",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "ecs",
+      "list-clusters"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0060",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws ecs list-clusters (Verbose)",
+    "description": "Aws ecs list-clusters command for aws workflows in verbose mode.",
+    "command": "aws ecs list-clusters --debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "ecs",
+      "list-clusters",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0061",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws iam list-users (Local)",
+    "description": "Aws iam list-users command for aws workflows in local mode.",
+    "command": "aws iam list-users",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "iam",
+      "list-users"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0062",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws iam list-users (Team)",
+    "description": "Aws iam list-users command for aws workflows in team mode.",
+    "command": "aws iam list-users",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "iam",
+      "list-users"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0063",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws iam list-users (CI)",
+    "description": "Aws iam list-users command for aws workflows in ci mode.",
+    "command": "aws iam list-users --output json",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "iam",
+      "list-users",
+      "--output",
+      "json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0064",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws iam list-users (Production)",
+    "description": "Aws iam list-users command for aws workflows in production mode.",
+    "command": "aws iam list-users",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "iam",
+      "list-users"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0065",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws iam list-users (Verbose)",
+    "description": "Aws iam list-users command for aws workflows in verbose mode.",
+    "command": "aws iam list-users --debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "iam",
+      "list-users",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0066",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws cloudformation list-stacks (Local)",
+    "description": "Aws cloudformation list-stacks command for aws workflows in local mode.",
+    "command": "aws cloudformation list-stacks",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "cloudformation",
+      "list-stacks"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0067",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws cloudformation list-stacks (Team)",
+    "description": "Aws cloudformation list-stacks command for aws workflows in team mode.",
+    "command": "aws cloudformation list-stacks",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "cloudformation",
+      "list-stacks"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0068",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws cloudformation list-stacks (CI)",
+    "description": "Aws cloudformation list-stacks command for aws workflows in ci mode.",
+    "command": "aws cloudformation list-stacks --output json",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "cloudformation",
+      "list-stacks",
+      "--output",
+      "json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0069",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws cloudformation list-stacks (Production)",
+    "description": "Aws cloudformation list-stacks command for aws workflows in production mode.",
+    "command": "aws cloudformation list-stacks",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "cloudformation",
+      "list-stacks"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0070",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws cloudformation list-stacks (Verbose)",
+    "description": "Aws cloudformation list-stacks command for aws workflows in verbose mode.",
+    "command": "aws cloudformation list-stacks --debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "cloudformation",
+      "list-stacks",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0071",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws logs tail --follow (Local)",
+    "description": "Aws logs tail --follow command for aws workflows in local mode.",
+    "command": "aws logs tail [LOG_GROUP] --follow",
+    "params": [
+      {
+        "placeholder": "[LOG_GROUP]",
+        "label": "Log Group",
+        "description": "Value for log group",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--follow",
+        "description": "Flag used by aws"
+      }
+    ],
+    "tags": [
+      "aws",
+      "logs",
+      "tail",
+      "--follow"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0072",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws logs tail --follow (Team)",
+    "description": "Aws logs tail --follow command for aws workflows in team mode.",
+    "command": "aws logs tail [LOG_GROUP] --follow",
+    "params": [
+      {
+        "placeholder": "[LOG_GROUP]",
+        "label": "Log Group",
+        "description": "Value for log group",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--follow",
+        "description": "Flag used by aws"
+      }
+    ],
+    "tags": [
+      "aws",
+      "logs",
+      "tail",
+      "--follow"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0073",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws logs tail --follow (CI)",
+    "description": "Aws logs tail --follow command for aws workflows in ci mode.",
+    "command": "aws logs tail [LOG_GROUP] --follow --output json",
+    "params": [
+      {
+        "placeholder": "[LOG_GROUP]",
+        "label": "Log Group",
+        "description": "Value for log group",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--follow",
+        "description": "Flag used by aws"
+      },
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "logs",
+      "tail",
+      "--follow",
+      "--output"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0074",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws logs tail --follow (Production)",
+    "description": "Aws logs tail --follow command for aws workflows in production mode.",
+    "command": "aws logs tail [LOG_GROUP] --follow",
+    "params": [
+      {
+        "placeholder": "[LOG_GROUP]",
+        "label": "Log Group",
+        "description": "Value for log group",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--follow",
+        "description": "Flag used by aws"
+      }
+    ],
+    "tags": [
+      "aws",
+      "logs",
+      "tail",
+      "--follow"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0075",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws logs tail --follow (Verbose)",
+    "description": "Aws logs tail --follow command for aws workflows in verbose mode.",
+    "command": "aws logs tail [LOG_GROUP] --follow --debug",
+    "params": [
+      {
+        "placeholder": "[LOG_GROUP]",
+        "label": "Log Group",
+        "description": "Value for log group",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--follow",
+        "description": "Flag used by aws"
+      },
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "logs",
+      "tail",
+      "--follow",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0076",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws dynamodb list-tables (Local)",
+    "description": "Aws dynamodb list-tables command for aws workflows in local mode.",
+    "command": "aws dynamodb list-tables",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "dynamodb",
+      "list-tables"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0077",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws dynamodb list-tables (Team)",
+    "description": "Aws dynamodb list-tables command for aws workflows in team mode.",
+    "command": "aws dynamodb list-tables",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "dynamodb",
+      "list-tables"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0078",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws dynamodb list-tables (CI)",
+    "description": "Aws dynamodb list-tables command for aws workflows in ci mode.",
+    "command": "aws dynamodb list-tables --output json",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "dynamodb",
+      "list-tables",
+      "--output",
+      "json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0079",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws dynamodb list-tables (Production)",
+    "description": "Aws dynamodb list-tables command for aws workflows in production mode.",
+    "command": "aws dynamodb list-tables",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "dynamodb",
+      "list-tables"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0080",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws dynamodb list-tables (Verbose)",
+    "description": "Aws dynamodb list-tables command for aws workflows in verbose mode.",
+    "command": "aws dynamodb list-tables --debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "dynamodb",
+      "list-tables",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0081",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws rds describe-db-instances (Local)",
+    "description": "Aws rds describe-db-instances command for aws workflows in local mode.",
+    "command": "aws rds describe-db-instances",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "rds",
+      "describe-db-instances"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0082",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws rds describe-db-instances (Team)",
+    "description": "Aws rds describe-db-instances command for aws workflows in team mode.",
+    "command": "aws rds describe-db-instances",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "rds",
+      "describe-db-instances"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0083",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws rds describe-db-instances (CI)",
+    "description": "Aws rds describe-db-instances command for aws workflows in ci mode.",
+    "command": "aws rds describe-db-instances --output json",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "rds",
+      "describe-db-instances",
+      "--output",
+      "json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0084",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws rds describe-db-instances (Production)",
+    "description": "Aws rds describe-db-instances command for aws workflows in production mode.",
+    "command": "aws rds describe-db-instances",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "rds",
+      "describe-db-instances"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0085",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws rds describe-db-instances (Verbose)",
+    "description": "Aws rds describe-db-instances command for aws workflows in verbose mode.",
+    "command": "aws rds describe-db-instances --debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "rds",
+      "describe-db-instances",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0086",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws eks list-clusters (Local)",
+    "description": "Aws eks list-clusters command for aws workflows in local mode.",
+    "command": "aws eks list-clusters",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "eks",
+      "list-clusters"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0087",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws eks list-clusters (Team)",
+    "description": "Aws eks list-clusters command for aws workflows in team mode.",
+    "command": "aws eks list-clusters",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "eks",
+      "list-clusters"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0088",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws eks list-clusters (CI)",
+    "description": "Aws eks list-clusters command for aws workflows in ci mode.",
+    "command": "aws eks list-clusters --output json",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "eks",
+      "list-clusters",
+      "--output",
+      "json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0089",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws eks list-clusters (Production)",
+    "description": "Aws eks list-clusters command for aws workflows in production mode.",
+    "command": "aws eks list-clusters",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "eks",
+      "list-clusters"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0090",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws eks list-clusters (Verbose)",
+    "description": "Aws eks list-clusters command for aws workflows in verbose mode.",
+    "command": "aws eks list-clusters --debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "eks",
+      "list-clusters",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0091",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws secretsmanager list-secrets (Local)",
+    "description": "Aws secretsmanager list-secrets command for aws workflows in local mode.",
+    "command": "aws secretsmanager list-secrets",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "secretsmanager",
+      "list-secrets"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0092",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws secretsmanager list-secrets (Team)",
+    "description": "Aws secretsmanager list-secrets command for aws workflows in team mode.",
+    "command": "aws secretsmanager list-secrets",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "secretsmanager",
+      "list-secrets"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0093",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws secretsmanager list-secrets (CI)",
+    "description": "Aws secretsmanager list-secrets command for aws workflows in ci mode.",
+    "command": "aws secretsmanager list-secrets --output json",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "secretsmanager",
+      "list-secrets",
+      "--output",
+      "json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0094",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws secretsmanager list-secrets (Production)",
+    "description": "Aws secretsmanager list-secrets command for aws workflows in production mode.",
+    "command": "aws secretsmanager list-secrets",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "secretsmanager",
+      "list-secrets"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0095",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws secretsmanager list-secrets (Verbose)",
+    "description": "Aws secretsmanager list-secrets command for aws workflows in verbose mode.",
+    "command": "aws secretsmanager list-secrets --debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "secretsmanager",
+      "list-secrets",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0096",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws configure list-profiles (Local)",
+    "description": "Aws configure list-profiles command for aws workflows in local mode.",
+    "command": "aws configure list-profiles",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "configure",
+      "list-profiles"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0097",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws configure list-profiles (Team)",
+    "description": "Aws configure list-profiles command for aws workflows in team mode.",
+    "command": "aws configure list-profiles",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "configure",
+      "list-profiles"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0098",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws configure list-profiles (CI)",
+    "description": "Aws configure list-profiles command for aws workflows in ci mode.",
+    "command": "aws configure list-profiles --output json",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--output",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "configure",
+      "list-profiles",
+      "--output",
+      "json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0099",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws configure list-profiles (Production)",
+    "description": "Aws configure list-profiles command for aws workflows in production mode.",
+    "command": "aws configure list-profiles",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "aws",
+      "configure",
+      "list-profiles"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "aws-0100",
+    "tool": "aws",
+    "category": "Cloud",
+    "title": "Aws configure list-profiles (Verbose)",
+    "description": "Aws configure list-profiles command for aws workflows in verbose mode.",
+    "command": "aws configure list-profiles --debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--debug",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "aws",
+      "configure",
+      "list-profiles",
+      "--debug"
+    ],
+    "difficulty": "beginner"
+  }
+]

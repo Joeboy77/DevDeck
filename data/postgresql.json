@@ -1,0 +1,5277 @@
+[
+  {
+    "id": "postgresql-0001",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d (Local)",
+    "description": "Psql -h -U -d command for postgresql workflows in local mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0002",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d (Team)",
+    "description": "Psql -h -U -d command for postgresql workflows in team mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0003",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d (CI)",
+    "description": "Psql -h -U -d command for postgresql workflows in ci mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0004",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d (Production)",
+    "description": "Psql -h -U -d command for postgresql workflows in production mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0005",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d (Verbose)",
+    "description": "Psql -h -U -d command for postgresql workflows in verbose mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0006",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Createdb (Local)",
+    "description": "Createdb command for postgresql workflows in local mode.",
+    "command": "createdb [DB_NAME]",
+    "params": [
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "postgresql",
+      "createdb"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "postgresql-0007",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Createdb (Team)",
+    "description": "Createdb command for postgresql workflows in team mode.",
+    "command": "createdb [DB_NAME]",
+    "params": [
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "postgresql",
+      "createdb"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "postgresql-0008",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Createdb (CI)",
+    "description": "Createdb command for postgresql workflows in ci mode.",
+    "command": "createdb [DB_NAME]",
+    "params": [
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "postgresql",
+      "createdb"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "postgresql-0009",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Createdb (Production)",
+    "description": "Createdb command for postgresql workflows in production mode.",
+    "command": "createdb [DB_NAME]",
+    "params": [
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "postgresql",
+      "createdb"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "postgresql-0010",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Createdb (Verbose)",
+    "description": "Createdb command for postgresql workflows in verbose mode.",
+    "command": "createdb [DB_NAME]",
+    "params": [
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "postgresql",
+      "createdb"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "postgresql-0011",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Dropdb (Local)",
+    "description": "Dropdb command for postgresql workflows in local mode.",
+    "command": "dropdb [DB_NAME]",
+    "params": [
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "postgresql",
+      "dropdb"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "postgresql-0012",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Dropdb (Team)",
+    "description": "Dropdb command for postgresql workflows in team mode.",
+    "command": "dropdb [DB_NAME]",
+    "params": [
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "postgresql",
+      "dropdb"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "postgresql-0013",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Dropdb (CI)",
+    "description": "Dropdb command for postgresql workflows in ci mode.",
+    "command": "dropdb [DB_NAME]",
+    "params": [
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "postgresql",
+      "dropdb"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "postgresql-0014",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Dropdb (Production)",
+    "description": "Dropdb command for postgresql workflows in production mode.",
+    "command": "dropdb [DB_NAME]",
+    "params": [
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "postgresql",
+      "dropdb"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "postgresql-0015",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Dropdb (Verbose)",
+    "description": "Dropdb command for postgresql workflows in verbose mode.",
+    "command": "dropdb [DB_NAME]",
+    "params": [
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "postgresql",
+      "dropdb"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "postgresql-0016",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Pg_dump -h -U -d > (Local)",
+    "description": "Pg_dump -h -U -d > command for postgresql workflows in local mode.",
+    "command": "pg_dump -h [HOST] -U [USER] -d [DB_NAME] > [OUTPUT_FILE]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[OUTPUT_FILE]",
+        "label": "Output File",
+        "description": "Value for output file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by pg_dump"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by pg_dump"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by pg_dump"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "pgdump",
+      "-h",
+      "-u",
+      "-d"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0017",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Pg_dump -h -U -d > (Team)",
+    "description": "Pg_dump -h -U -d > command for postgresql workflows in team mode.",
+    "command": "pg_dump -h [HOST] -U [USER] -d [DB_NAME] > [OUTPUT_FILE]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[OUTPUT_FILE]",
+        "label": "Output File",
+        "description": "Value for output file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by pg_dump"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by pg_dump"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by pg_dump"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "pgdump",
+      "-h",
+      "-u",
+      "-d"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0018",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Pg_dump -h -U -d > (CI)",
+    "description": "Pg_dump -h -U -d > command for postgresql workflows in ci mode.",
+    "command": "pg_dump -h [HOST] -U [USER] -d [DB_NAME] > [OUTPUT_FILE]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[OUTPUT_FILE]",
+        "label": "Output File",
+        "description": "Value for output file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by pg_dump"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by pg_dump"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by pg_dump"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "pgdump",
+      "-h",
+      "-u",
+      "-d"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0019",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Pg_dump -h -U -d > (Production)",
+    "description": "Pg_dump -h -U -d > command for postgresql workflows in production mode.",
+    "command": "pg_dump -h [HOST] -U [USER] -d [DB_NAME] > [OUTPUT_FILE]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[OUTPUT_FILE]",
+        "label": "Output File",
+        "description": "Value for output file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by pg_dump"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by pg_dump"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by pg_dump"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "pgdump",
+      "-h",
+      "-u",
+      "-d"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0020",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Pg_dump -h -U -d > (Verbose)",
+    "description": "Pg_dump -h -U -d > command for postgresql workflows in verbose mode.",
+    "command": "pg_dump -h [HOST] -U [USER] -d [DB_NAME] > [OUTPUT_FILE]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[OUTPUT_FILE]",
+        "label": "Output File",
+        "description": "Value for output file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by pg_dump"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by pg_dump"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by pg_dump"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "pgdump",
+      "-h",
+      "-u",
+      "-d"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0021",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Pg_restore -h -U -d (Local)",
+    "description": "Pg_restore -h -U -d command for postgresql workflows in local mode.",
+    "command": "pg_restore -h [HOST] -U [USER] -d [DB_NAME] [DUMP_FILE]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[DUMP_FILE]",
+        "label": "Dump File",
+        "description": "Value for dump file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by pg_restore"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by pg_restore"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by pg_restore"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "pgrestore",
+      "-h",
+      "-u",
+      "-d"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0022",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Pg_restore -h -U -d (Team)",
+    "description": "Pg_restore -h -U -d command for postgresql workflows in team mode.",
+    "command": "pg_restore -h [HOST] -U [USER] -d [DB_NAME] [DUMP_FILE]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[DUMP_FILE]",
+        "label": "Dump File",
+        "description": "Value for dump file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by pg_restore"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by pg_restore"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by pg_restore"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "pgrestore",
+      "-h",
+      "-u",
+      "-d"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0023",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Pg_restore -h -U -d (CI)",
+    "description": "Pg_restore -h -U -d command for postgresql workflows in ci mode.",
+    "command": "pg_restore -h [HOST] -U [USER] -d [DB_NAME] [DUMP_FILE]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[DUMP_FILE]",
+        "label": "Dump File",
+        "description": "Value for dump file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by pg_restore"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by pg_restore"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by pg_restore"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "pgrestore",
+      "-h",
+      "-u",
+      "-d"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0024",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Pg_restore -h -U -d (Production)",
+    "description": "Pg_restore -h -U -d command for postgresql workflows in production mode.",
+    "command": "pg_restore -h [HOST] -U [USER] -d [DB_NAME] [DUMP_FILE]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[DUMP_FILE]",
+        "label": "Dump File",
+        "description": "Value for dump file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by pg_restore"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by pg_restore"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by pg_restore"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "pgrestore",
+      "-h",
+      "-u",
+      "-d"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0025",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Pg_restore -h -U -d (Verbose)",
+    "description": "Pg_restore -h -U -d command for postgresql workflows in verbose mode.",
+    "command": "pg_restore -h [HOST] -U [USER] -d [DB_NAME] [DUMP_FILE]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[DUMP_FILE]",
+        "label": "Dump File",
+        "description": "Value for dump file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by pg_restore"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by pg_restore"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by pg_restore"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "pgrestore",
+      "-h",
+      "-u",
+      "-d"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0026",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (Local)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in local mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT now();\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0027",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (Team)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in team mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT now();\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0028",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (CI)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in ci mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT now();\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0029",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (Production)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in production mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT now();\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0030",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (Verbose)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in verbose mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT now();\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0031",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\dt (Local)",
+    "description": "Psql -h -U -d -c \\dt command for postgresql workflows in local mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\dt\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0032",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\dt (Team)",
+    "description": "Psql -h -U -d -c \\dt command for postgresql workflows in team mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\dt\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0033",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\dt (CI)",
+    "description": "Psql -h -U -d -c \\dt command for postgresql workflows in ci mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\dt\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0034",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\dt (Production)",
+    "description": "Psql -h -U -d -c \\dt command for postgresql workflows in production mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\dt\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0035",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\dt (Verbose)",
+    "description": "Psql -h -U -d -c \\dt command for postgresql workflows in verbose mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\dt\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0036",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\d (Local)",
+    "description": "Psql -h -U -d -c \\d command for postgresql workflows in local mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\d [TABLE_NAME]\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[TABLE_NAME]",
+        "label": "Table Name",
+        "description": "Value for table name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0037",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\d (Team)",
+    "description": "Psql -h -U -d -c \\d command for postgresql workflows in team mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\d [TABLE_NAME]\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[TABLE_NAME]",
+        "label": "Table Name",
+        "description": "Value for table name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0038",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\d (CI)",
+    "description": "Psql -h -U -d -c \\d command for postgresql workflows in ci mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\d [TABLE_NAME]\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[TABLE_NAME]",
+        "label": "Table Name",
+        "description": "Value for table name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0039",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\d (Production)",
+    "description": "Psql -h -U -d -c \\d command for postgresql workflows in production mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\d [TABLE_NAME]\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[TABLE_NAME]",
+        "label": "Table Name",
+        "description": "Value for table name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0040",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\d (Verbose)",
+    "description": "Psql -h -U -d -c \\d command for postgresql workflows in verbose mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\d [TABLE_NAME]\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[TABLE_NAME]",
+        "label": "Table Name",
+        "description": "Value for table name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0041",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c EXPLAIN (Local)",
+    "description": "Psql -h -U -d -c EXPLAIN command for postgresql workflows in local mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"EXPLAIN ANALYZE [QUERY]\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[QUERY]",
+        "label": "Query",
+        "description": "Value for query",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0042",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c EXPLAIN (Team)",
+    "description": "Psql -h -U -d -c EXPLAIN command for postgresql workflows in team mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"EXPLAIN ANALYZE [QUERY]\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[QUERY]",
+        "label": "Query",
+        "description": "Value for query",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0043",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c EXPLAIN (CI)",
+    "description": "Psql -h -U -d -c EXPLAIN command for postgresql workflows in ci mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"EXPLAIN ANALYZE [QUERY]\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[QUERY]",
+        "label": "Query",
+        "description": "Value for query",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0044",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c EXPLAIN (Production)",
+    "description": "Psql -h -U -d -c EXPLAIN command for postgresql workflows in production mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"EXPLAIN ANALYZE [QUERY]\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[QUERY]",
+        "label": "Query",
+        "description": "Value for query",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0045",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c EXPLAIN (Verbose)",
+    "description": "Psql -h -U -d -c EXPLAIN command for postgresql workflows in verbose mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"EXPLAIN ANALYZE [QUERY]\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[QUERY]",
+        "label": "Query",
+        "description": "Value for query",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0046",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c VACUUM (Local)",
+    "description": "Psql -h -U -d -c VACUUM command for postgresql workflows in local mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"VACUUM ANALYZE;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0047",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c VACUUM (Team)",
+    "description": "Psql -h -U -d -c VACUUM command for postgresql workflows in team mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"VACUUM ANALYZE;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0048",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c VACUUM (CI)",
+    "description": "Psql -h -U -d -c VACUUM command for postgresql workflows in ci mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"VACUUM ANALYZE;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0049",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c VACUUM (Production)",
+    "description": "Psql -h -U -d -c VACUUM command for postgresql workflows in production mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"VACUUM ANALYZE;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0050",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c VACUUM (Verbose)",
+    "description": "Psql -h -U -d -c VACUUM command for postgresql workflows in verbose mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"VACUUM ANALYZE;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0051",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (Local)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in local mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT * FROM [TABLE_NAME] LIMIT 50;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[TABLE_NAME]",
+        "label": "Table Name",
+        "description": "Value for table name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0052",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (Team)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in team mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT * FROM [TABLE_NAME] LIMIT 50;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[TABLE_NAME]",
+        "label": "Table Name",
+        "description": "Value for table name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0053",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (CI)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in ci mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT * FROM [TABLE_NAME] LIMIT 50;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[TABLE_NAME]",
+        "label": "Table Name",
+        "description": "Value for table name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0054",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (Production)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in production mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT * FROM [TABLE_NAME] LIMIT 50;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[TABLE_NAME]",
+        "label": "Table Name",
+        "description": "Value for table name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0055",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (Verbose)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in verbose mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT * FROM [TABLE_NAME] LIMIT 50;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[TABLE_NAME]",
+        "label": "Table Name",
+        "description": "Value for table name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0056",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c CREATE (Local)",
+    "description": "Psql -h -U -d -c CREATE command for postgresql workflows in local mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"CREATE EXTENSION IF NOT EXISTS pgcrypto;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0057",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c CREATE (Team)",
+    "description": "Psql -h -U -d -c CREATE command for postgresql workflows in team mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"CREATE EXTENSION IF NOT EXISTS pgcrypto;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0058",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c CREATE (CI)",
+    "description": "Psql -h -U -d -c CREATE command for postgresql workflows in ci mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"CREATE EXTENSION IF NOT EXISTS pgcrypto;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0059",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c CREATE (Production)",
+    "description": "Psql -h -U -d -c CREATE command for postgresql workflows in production mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"CREATE EXTENSION IF NOT EXISTS pgcrypto;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0060",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c CREATE (Verbose)",
+    "description": "Psql -h -U -d -c CREATE command for postgresql workflows in verbose mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"CREATE EXTENSION IF NOT EXISTS pgcrypto;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0061",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\l (Local)",
+    "description": "Psql -h -U -d -c \\l command for postgresql workflows in local mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\l\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0062",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\l (Team)",
+    "description": "Psql -h -U -d -c \\l command for postgresql workflows in team mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\l\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0063",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\l (CI)",
+    "description": "Psql -h -U -d -c \\l command for postgresql workflows in ci mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\l\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0064",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\l (Production)",
+    "description": "Psql -h -U -d -c \\l command for postgresql workflows in production mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\l\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0065",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\l (Verbose)",
+    "description": "Psql -h -U -d -c \\l command for postgresql workflows in verbose mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\l\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0066",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\du (Local)",
+    "description": "Psql -h -U -d -c \\du command for postgresql workflows in local mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\du\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0067",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\du (Team)",
+    "description": "Psql -h -U -d -c \\du command for postgresql workflows in team mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\du\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0068",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\du (CI)",
+    "description": "Psql -h -U -d -c \\du command for postgresql workflows in ci mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\du\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0069",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\du (Production)",
+    "description": "Psql -h -U -d -c \\du command for postgresql workflows in production mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\du\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0070",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\du (Verbose)",
+    "description": "Psql -h -U -d -c \\du command for postgresql workflows in verbose mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\du\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0071",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\conninfo (Local)",
+    "description": "Psql -h -U -d -c \\conninfo command for postgresql workflows in local mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\conninfo\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0072",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\conninfo (Team)",
+    "description": "Psql -h -U -d -c \\conninfo command for postgresql workflows in team mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\conninfo\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0073",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\conninfo (CI)",
+    "description": "Psql -h -U -d -c \\conninfo command for postgresql workflows in ci mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\conninfo\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0074",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\conninfo (Production)",
+    "description": "Psql -h -U -d -c \\conninfo command for postgresql workflows in production mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\conninfo\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0075",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\conninfo (Verbose)",
+    "description": "Psql -h -U -d -c \\conninfo command for postgresql workflows in verbose mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\conninfo\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0076",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (Local)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in local mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT pg_size_pretty(pg_database_size('[DB_NAME]'));\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0077",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (Team)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in team mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT pg_size_pretty(pg_database_size('[DB_NAME]'));\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0078",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (CI)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in ci mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT pg_size_pretty(pg_database_size('[DB_NAME]'));\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0079",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (Production)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in production mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT pg_size_pretty(pg_database_size('[DB_NAME]'));\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0080",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (Verbose)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in verbose mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT pg_size_pretty(pg_database_size('[DB_NAME]'));\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0081",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (Local)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in local mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT * FROM pg_stat_activity;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0082",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (Team)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in team mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT * FROM pg_stat_activity;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0083",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (CI)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in ci mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT * FROM pg_stat_activity;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0084",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (Production)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in production mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT * FROM pg_stat_activity;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0085",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c SELECT (Verbose)",
+    "description": "Psql -h -U -d -c SELECT command for postgresql workflows in verbose mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"SELECT * FROM pg_stat_activity;\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0086",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -f (Local)",
+    "description": "Psql -h -U -d -f command for postgresql workflows in local mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -f [SCRIPT_FILE]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[SCRIPT_FILE]",
+        "label": "Script File",
+        "description": "Value for script file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-f",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-f"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0087",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -f (Team)",
+    "description": "Psql -h -U -d -f command for postgresql workflows in team mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -f [SCRIPT_FILE]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[SCRIPT_FILE]",
+        "label": "Script File",
+        "description": "Value for script file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-f",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-f"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0088",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -f (CI)",
+    "description": "Psql -h -U -d -f command for postgresql workflows in ci mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -f [SCRIPT_FILE]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[SCRIPT_FILE]",
+        "label": "Script File",
+        "description": "Value for script file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-f",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-f"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0089",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -f (Production)",
+    "description": "Psql -h -U -d -f command for postgresql workflows in production mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -f [SCRIPT_FILE]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[SCRIPT_FILE]",
+        "label": "Script File",
+        "description": "Value for script file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-f",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-f"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0090",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -f (Verbose)",
+    "description": "Psql -h -U -d -f command for postgresql workflows in verbose mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -f [SCRIPT_FILE]",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      },
+      {
+        "placeholder": "[SCRIPT_FILE]",
+        "label": "Script File",
+        "description": "Value for script file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-f",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-f"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0091",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\timing (Local)",
+    "description": "Psql -h -U -d -c \\timing command for postgresql workflows in local mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\timing\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0092",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\timing (Team)",
+    "description": "Psql -h -U -d -c \\timing command for postgresql workflows in team mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\timing\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0093",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\timing (CI)",
+    "description": "Psql -h -U -d -c \\timing command for postgresql workflows in ci mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\timing\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0094",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\timing (Production)",
+    "description": "Psql -h -U -d -c \\timing command for postgresql workflows in production mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\timing\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0095",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\timing (Verbose)",
+    "description": "Psql -h -U -d -c \\timing command for postgresql workflows in verbose mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\timing\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0096",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\q (Local)",
+    "description": "Psql -h -U -d -c \\q command for postgresql workflows in local mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\q\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0097",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\q (Team)",
+    "description": "Psql -h -U -d -c \\q command for postgresql workflows in team mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\q\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0098",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\q (CI)",
+    "description": "Psql -h -U -d -c \\q command for postgresql workflows in ci mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\q\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0099",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\q (Production)",
+    "description": "Psql -h -U -d -c \\q command for postgresql workflows in production mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\q\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "postgresql-0100",
+    "tool": "postgresql",
+    "category": "Database",
+    "title": "Psql -h -U -d -c \\q (Verbose)",
+    "description": "Psql -h -U -d -c \\q command for postgresql workflows in verbose mode.",
+    "command": "psql -h [HOST] -U [USER] -d [DB_NAME] -c \"\\q\"",
+    "params": [
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[DB_NAME]",
+        "label": "Db Name",
+        "description": "Value for db name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-U",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-d",
+        "description": "Flag used by psql"
+      },
+      {
+        "flag": "-c",
+        "description": "Flag used by psql"
+      }
+    ],
+    "tags": [
+      "postgresql",
+      "psql",
+      "-h",
+      "-u",
+      "-d",
+      "-c"
+    ],
+    "difficulty": "intermediate"
+  }
+]

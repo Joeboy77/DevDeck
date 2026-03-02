@@ -1,0 +1,2181 @@
+[
+  {
+    "id": "expo-0001",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx create-expo-app (Local)",
+    "description": "Npx create-expo-app command for expo workflows in local mode.",
+    "command": "npx create-expo-app [APP_NAME]",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "create-expo-app"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0002",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx create-expo-app (Team)",
+    "description": "Npx create-expo-app command for expo workflows in team mode.",
+    "command": "npx create-expo-app [APP_NAME]",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "create-expo-app"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0003",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx create-expo-app (CI)",
+    "description": "Npx create-expo-app command for expo workflows in ci mode.",
+    "command": "npx create-expo-app [APP_NAME] --non-interactive",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "create-expo-app",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0004",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx create-expo-app (Production)",
+    "description": "Npx create-expo-app command for expo workflows in production mode.",
+    "command": "npx create-expo-app [APP_NAME]",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "create-expo-app"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0005",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx create-expo-app (Verbose)",
+    "description": "Npx create-expo-app command for expo workflows in verbose mode.",
+    "command": "npx create-expo-app [APP_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "create-expo-app",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0006",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo start (Local)",
+    "description": "Npx expo start command for expo workflows in local mode.",
+    "command": "npx expo start",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "start"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0007",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo start (Team)",
+    "description": "Npx expo start command for expo workflows in team mode.",
+    "command": "npx expo start",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "start"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0008",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo start (CI)",
+    "description": "Npx expo start command for expo workflows in ci mode.",
+    "command": "npx expo start --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "start",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0009",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo start (Production)",
+    "description": "Npx expo start command for expo workflows in production mode.",
+    "command": "npx expo start",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "start"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0010",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo start (Verbose)",
+    "description": "Npx expo start command for expo workflows in verbose mode.",
+    "command": "npx expo start --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "start",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0011",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo start --tunnel (Local)",
+    "description": "Npx expo start --tunnel command for expo workflows in local mode.",
+    "command": "npx expo start --tunnel",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--tunnel",
+        "description": "Flag used by npx"
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "start",
+      "--tunnel"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0012",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo start --tunnel (Team)",
+    "description": "Npx expo start --tunnel command for expo workflows in team mode.",
+    "command": "npx expo start --tunnel",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--tunnel",
+        "description": "Flag used by npx"
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "start",
+      "--tunnel"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0013",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo start --tunnel (CI)",
+    "description": "Npx expo start --tunnel command for expo workflows in ci mode.",
+    "command": "npx expo start --tunnel --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--tunnel",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "start",
+      "--tunnel",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0014",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo start --tunnel (Production)",
+    "description": "Npx expo start --tunnel command for expo workflows in production mode.",
+    "command": "npx expo start --tunnel",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--tunnel",
+        "description": "Flag used by npx"
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "start",
+      "--tunnel"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0015",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo start --tunnel (Verbose)",
+    "description": "Npx expo start --tunnel command for expo workflows in verbose mode.",
+    "command": "npx expo start --tunnel --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--tunnel",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "start",
+      "--tunnel",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0016",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo start --lan (Local)",
+    "description": "Npx expo start --lan command for expo workflows in local mode.",
+    "command": "npx expo start --lan",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--lan",
+        "description": "Flag used by npx"
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "start",
+      "--lan"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0017",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo start --lan (Team)",
+    "description": "Npx expo start --lan command for expo workflows in team mode.",
+    "command": "npx expo start --lan",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--lan",
+        "description": "Flag used by npx"
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "start",
+      "--lan"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0018",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo start --lan (CI)",
+    "description": "Npx expo start --lan command for expo workflows in ci mode.",
+    "command": "npx expo start --lan --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--lan",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "start",
+      "--lan",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0019",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo start --lan (Production)",
+    "description": "Npx expo start --lan command for expo workflows in production mode.",
+    "command": "npx expo start --lan",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--lan",
+        "description": "Flag used by npx"
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "start",
+      "--lan"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0020",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo start --lan (Verbose)",
+    "description": "Npx expo start --lan command for expo workflows in verbose mode.",
+    "command": "npx expo start --lan --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--lan",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "start",
+      "--lan",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0021",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo prebuild (Local)",
+    "description": "Npx expo prebuild command for expo workflows in local mode.",
+    "command": "npx expo prebuild",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "prebuild"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0022",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo prebuild (Team)",
+    "description": "Npx expo prebuild command for expo workflows in team mode.",
+    "command": "npx expo prebuild",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "prebuild"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0023",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo prebuild (CI)",
+    "description": "Npx expo prebuild command for expo workflows in ci mode.",
+    "command": "npx expo prebuild --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "prebuild",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0024",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo prebuild (Production)",
+    "description": "Npx expo prebuild command for expo workflows in production mode.",
+    "command": "npx expo prebuild",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "prebuild"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0025",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo prebuild (Verbose)",
+    "description": "Npx expo prebuild command for expo workflows in verbose mode.",
+    "command": "npx expo prebuild --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "prebuild",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0026",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo run:android (Local)",
+    "description": "Npx expo run:android command for expo workflows in local mode.",
+    "command": "npx expo run:android",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "run:android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0027",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo run:android (Team)",
+    "description": "Npx expo run:android command for expo workflows in team mode.",
+    "command": "npx expo run:android",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "run:android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0028",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo run:android (CI)",
+    "description": "Npx expo run:android command for expo workflows in ci mode.",
+    "command": "npx expo run:android --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "run:android",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0029",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo run:android (Production)",
+    "description": "Npx expo run:android command for expo workflows in production mode.",
+    "command": "npx expo run:android",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "run:android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0030",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo run:android (Verbose)",
+    "description": "Npx expo run:android command for expo workflows in verbose mode.",
+    "command": "npx expo run:android --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "run:android",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0031",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo run:ios (Local)",
+    "description": "Npx expo run:ios command for expo workflows in local mode.",
+    "command": "npx expo run:ios",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "run:ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0032",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo run:ios (Team)",
+    "description": "Npx expo run:ios command for expo workflows in team mode.",
+    "command": "npx expo run:ios",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "run:ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0033",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo run:ios (CI)",
+    "description": "Npx expo run:ios command for expo workflows in ci mode.",
+    "command": "npx expo run:ios --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "run:ios",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0034",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo run:ios (Production)",
+    "description": "Npx expo run:ios command for expo workflows in production mode.",
+    "command": "npx expo run:ios",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "run:ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0035",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo run:ios (Verbose)",
+    "description": "Npx expo run:ios command for expo workflows in verbose mode.",
+    "command": "npx expo run:ios --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "run:ios",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0036",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo install (Local)",
+    "description": "Npx expo install command for expo workflows in local mode.",
+    "command": "npx expo install [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0037",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo install (Team)",
+    "description": "Npx expo install command for expo workflows in team mode.",
+    "command": "npx expo install [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0038",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo install (CI)",
+    "description": "Npx expo install command for expo workflows in ci mode.",
+    "command": "npx expo install [PACKAGE_NAME] --non-interactive",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "install",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0039",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo install (Production)",
+    "description": "Npx expo install command for expo workflows in production mode.",
+    "command": "npx expo install [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0040",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo install (Verbose)",
+    "description": "Npx expo install command for expo workflows in verbose mode.",
+    "command": "npx expo install [PACKAGE_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "install",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0041",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo doctor (Local)",
+    "description": "Npx expo doctor command for expo workflows in local mode.",
+    "command": "npx expo doctor",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "doctor"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0042",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo doctor (Team)",
+    "description": "Npx expo doctor command for expo workflows in team mode.",
+    "command": "npx expo doctor",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "doctor"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0043",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo doctor (CI)",
+    "description": "Npx expo doctor command for expo workflows in ci mode.",
+    "command": "npx expo doctor --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "doctor",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0044",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo doctor (Production)",
+    "description": "Npx expo doctor command for expo workflows in production mode.",
+    "command": "npx expo doctor",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "doctor"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0045",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo doctor (Verbose)",
+    "description": "Npx expo doctor command for expo workflows in verbose mode.",
+    "command": "npx expo doctor --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "doctor",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0046",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo export (Local)",
+    "description": "Npx expo export command for expo workflows in local mode.",
+    "command": "npx expo export",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "export"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0047",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo export (Team)",
+    "description": "Npx expo export command for expo workflows in team mode.",
+    "command": "npx expo export",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "export"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0048",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo export (CI)",
+    "description": "Npx expo export command for expo workflows in ci mode.",
+    "command": "npx expo export --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "export",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0049",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo export (Production)",
+    "description": "Npx expo export command for expo workflows in production mode.",
+    "command": "npx expo export",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "export"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0050",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo export (Verbose)",
+    "description": "Npx expo export command for expo workflows in verbose mode.",
+    "command": "npx expo export --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "export",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0051",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo publish (Local)",
+    "description": "Npx expo publish command for expo workflows in local mode.",
+    "command": "npx expo publish",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "publish"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0052",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo publish (Team)",
+    "description": "Npx expo publish command for expo workflows in team mode.",
+    "command": "npx expo publish",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "publish"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0053",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo publish (CI)",
+    "description": "Npx expo publish command for expo workflows in ci mode.",
+    "command": "npx expo publish --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "publish",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0054",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo publish (Production)",
+    "description": "Npx expo publish command for expo workflows in production mode.",
+    "command": "npx expo publish",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "publish"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0055",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo publish (Verbose)",
+    "description": "Npx expo publish command for expo workflows in verbose mode.",
+    "command": "npx expo publish --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "publish",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0056",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo login (Local)",
+    "description": "Npx expo login command for expo workflows in local mode.",
+    "command": "npx expo login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0057",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo login (Team)",
+    "description": "Npx expo login command for expo workflows in team mode.",
+    "command": "npx expo login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0058",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo login (CI)",
+    "description": "Npx expo login command for expo workflows in ci mode.",
+    "command": "npx expo login --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "login",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0059",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo login (Production)",
+    "description": "Npx expo login command for expo workflows in production mode.",
+    "command": "npx expo login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0060",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo login (Verbose)",
+    "description": "Npx expo login command for expo workflows in verbose mode.",
+    "command": "npx expo login --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "login",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0061",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo whoami (Local)",
+    "description": "Npx expo whoami command for expo workflows in local mode.",
+    "command": "npx expo whoami",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "whoami"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0062",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo whoami (Team)",
+    "description": "Npx expo whoami command for expo workflows in team mode.",
+    "command": "npx expo whoami",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "whoami"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0063",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo whoami (CI)",
+    "description": "Npx expo whoami command for expo workflows in ci mode.",
+    "command": "npx expo whoami --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "whoami",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0064",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo whoami (Production)",
+    "description": "Npx expo whoami command for expo workflows in production mode.",
+    "command": "npx expo whoami",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "whoami"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0065",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo whoami (Verbose)",
+    "description": "Npx expo whoami command for expo workflows in verbose mode.",
+    "command": "npx expo whoami --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "whoami",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0066",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo diagnostics (Local)",
+    "description": "Npx expo diagnostics command for expo workflows in local mode.",
+    "command": "npx expo diagnostics",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "diagnostics"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0067",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo diagnostics (Team)",
+    "description": "Npx expo diagnostics command for expo workflows in team mode.",
+    "command": "npx expo diagnostics",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "diagnostics"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0068",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo diagnostics (CI)",
+    "description": "Npx expo diagnostics command for expo workflows in ci mode.",
+    "command": "npx expo diagnostics --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "diagnostics",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0069",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo diagnostics (Production)",
+    "description": "Npx expo diagnostics command for expo workflows in production mode.",
+    "command": "npx expo diagnostics",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "diagnostics"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0070",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo diagnostics (Verbose)",
+    "description": "Npx expo diagnostics command for expo workflows in verbose mode.",
+    "command": "npx expo diagnostics --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "diagnostics",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0071",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo config --type public (Local)",
+    "description": "Npx expo config --type public command for expo workflows in local mode.",
+    "command": "npx expo config --type public",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--type",
+        "description": "Flag used by npx"
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "config",
+      "--type",
+      "public"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0072",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo config --type public (Team)",
+    "description": "Npx expo config --type public command for expo workflows in team mode.",
+    "command": "npx expo config --type public",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--type",
+        "description": "Flag used by npx"
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "config",
+      "--type",
+      "public"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0073",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo config --type public (CI)",
+    "description": "Npx expo config --type public command for expo workflows in ci mode.",
+    "command": "npx expo config --type public --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--type",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "config",
+      "--type",
+      "public"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0074",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo config --type public (Production)",
+    "description": "Npx expo config --type public command for expo workflows in production mode.",
+    "command": "npx expo config --type public",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--type",
+        "description": "Flag used by npx"
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "config",
+      "--type",
+      "public"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0075",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo config --type public (Verbose)",
+    "description": "Npx expo config --type public command for expo workflows in verbose mode.",
+    "command": "npx expo config --type public --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--type",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "config",
+      "--type",
+      "public"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0076",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo upgrade (Local)",
+    "description": "Npx expo upgrade command for expo workflows in local mode.",
+    "command": "npx expo upgrade",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "upgrade"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0077",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo upgrade (Team)",
+    "description": "Npx expo upgrade command for expo workflows in team mode.",
+    "command": "npx expo upgrade",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "upgrade"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0078",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo upgrade (CI)",
+    "description": "Npx expo upgrade command for expo workflows in ci mode.",
+    "command": "npx expo upgrade --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "upgrade",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0079",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo upgrade (Production)",
+    "description": "Npx expo upgrade command for expo workflows in production mode.",
+    "command": "npx expo upgrade",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "npx",
+      "upgrade"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0080",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Npx expo upgrade (Verbose)",
+    "description": "Npx expo upgrade command for expo workflows in verbose mode.",
+    "command": "npx expo upgrade --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "npx",
+      "upgrade",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0081",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas build --platform all (Local)",
+    "description": "Eas build --platform all command for expo workflows in local mode.",
+    "command": "eas build --platform all",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by eas"
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "build",
+      "--platform",
+      "all"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0082",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas build --platform all (Team)",
+    "description": "Eas build --platform all command for expo workflows in team mode.",
+    "command": "eas build --platform all",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by eas"
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "build",
+      "--platform",
+      "all"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0083",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas build --platform all (CI)",
+    "description": "Eas build --platform all command for expo workflows in ci mode.",
+    "command": "eas build --platform all --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by eas"
+      },
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "build",
+      "--platform",
+      "all",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0084",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas build --platform all (Production)",
+    "description": "Eas build --platform all command for expo workflows in production mode.",
+    "command": "eas build --platform all",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by eas"
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "build",
+      "--platform",
+      "all"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0085",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas build --platform all (Verbose)",
+    "description": "Eas build --platform all command for expo workflows in verbose mode.",
+    "command": "eas build --platform all --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by eas"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "build",
+      "--platform",
+      "all",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0086",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas submit --platform ios (Local)",
+    "description": "Eas submit --platform ios command for expo workflows in local mode.",
+    "command": "eas submit --platform ios",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by eas"
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "submit",
+      "--platform",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0087",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas submit --platform ios (Team)",
+    "description": "Eas submit --platform ios command for expo workflows in team mode.",
+    "command": "eas submit --platform ios",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by eas"
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "submit",
+      "--platform",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0088",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas submit --platform ios (CI)",
+    "description": "Eas submit --platform ios command for expo workflows in ci mode.",
+    "command": "eas submit --platform ios --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by eas"
+      },
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "submit",
+      "--platform",
+      "ios",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0089",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas submit --platform ios (Production)",
+    "description": "Eas submit --platform ios command for expo workflows in production mode.",
+    "command": "eas submit --platform ios",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by eas"
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "submit",
+      "--platform",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0090",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas submit --platform ios (Verbose)",
+    "description": "Eas submit --platform ios command for expo workflows in verbose mode.",
+    "command": "eas submit --platform ios --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by eas"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "submit",
+      "--platform",
+      "ios",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0091",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas update --branch --message  (Local)",
+    "description": "Eas update --branch --message  command for expo workflows in local mode.",
+    "command": "eas update --branch [BRANCH_NAME] --message \"[MESSAGE]\"",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      },
+      {
+        "placeholder": "[MESSAGE]",
+        "label": "Message",
+        "description": "Value for message",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--branch",
+        "description": "Flag used by eas"
+      },
+      {
+        "flag": "--message",
+        "description": "Flag used by eas"
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "update",
+      "--branch",
+      "--message"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0092",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas update --branch --message  (Team)",
+    "description": "Eas update --branch --message  command for expo workflows in team mode.",
+    "command": "eas update --branch [BRANCH_NAME] --message \"[MESSAGE]\"",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      },
+      {
+        "placeholder": "[MESSAGE]",
+        "label": "Message",
+        "description": "Value for message",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--branch",
+        "description": "Flag used by eas"
+      },
+      {
+        "flag": "--message",
+        "description": "Flag used by eas"
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "update",
+      "--branch",
+      "--message"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0093",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas update --branch --message  (CI)",
+    "description": "Eas update --branch --message  command for expo workflows in ci mode.",
+    "command": "eas update --branch [BRANCH_NAME] --message \"[MESSAGE]\" --non-interactive",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      },
+      {
+        "placeholder": "[MESSAGE]",
+        "label": "Message",
+        "description": "Value for message",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--branch",
+        "description": "Flag used by eas"
+      },
+      {
+        "flag": "--message",
+        "description": "Flag used by eas"
+      },
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "update",
+      "--branch",
+      "--message"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0094",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas update --branch --message  (Production)",
+    "description": "Eas update --branch --message  command for expo workflows in production mode.",
+    "command": "eas update --branch [BRANCH_NAME] --message \"[MESSAGE]\"",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      },
+      {
+        "placeholder": "[MESSAGE]",
+        "label": "Message",
+        "description": "Value for message",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--branch",
+        "description": "Flag used by eas"
+      },
+      {
+        "flag": "--message",
+        "description": "Flag used by eas"
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "update",
+      "--branch",
+      "--message"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0095",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas update --branch --message  (Verbose)",
+    "description": "Eas update --branch --message  command for expo workflows in verbose mode.",
+    "command": "eas update --branch [BRANCH_NAME] --message \"[MESSAGE]\" --verbose",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      },
+      {
+        "placeholder": "[MESSAGE]",
+        "label": "Message",
+        "description": "Value for message",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--branch",
+        "description": "Flag used by eas"
+      },
+      {
+        "flag": "--message",
+        "description": "Flag used by eas"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "update",
+      "--branch",
+      "--message"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0096",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas device:list (Local)",
+    "description": "Eas device:list command for expo workflows in local mode.",
+    "command": "eas device:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "eas",
+      "device:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0097",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas device:list (Team)",
+    "description": "Eas device:list command for expo workflows in team mode.",
+    "command": "eas device:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "eas",
+      "device:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0098",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas device:list (CI)",
+    "description": "Eas device:list command for expo workflows in ci mode.",
+    "command": "eas device:list --non-interactive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--non-interactive",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "device:list",
+      "--non-interactive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0099",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas device:list (Production)",
+    "description": "Eas device:list command for expo workflows in production mode.",
+    "command": "eas device:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "expo",
+      "eas",
+      "device:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "expo-0100",
+    "tool": "expo",
+    "category": "Mobile",
+    "title": "Eas device:list (Verbose)",
+    "description": "Eas device:list command for expo workflows in verbose mode.",
+    "command": "eas device:list --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "expo",
+      "eas",
+      "device:list",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  }
+]

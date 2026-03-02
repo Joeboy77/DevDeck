@@ -1,0 +1,2582 @@
+[
+  {
+    "id": "linux-0001",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Rg (Local)",
+    "description": "Rg command for linux workflows in local mode.",
+    "command": "rg [PATTERN] [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATTERN]",
+        "label": "Pattern",
+        "description": "Value for pattern",
+        "required": true
+      },
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "rg"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0002",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Rg (Team)",
+    "description": "Rg command for linux workflows in team mode.",
+    "command": "rg [PATTERN] [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATTERN]",
+        "label": "Pattern",
+        "description": "Value for pattern",
+        "required": true
+      },
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "rg"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0003",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Rg (CI)",
+    "description": "Rg command for linux workflows in ci mode.",
+    "command": "rg [PATTERN] [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATTERN]",
+        "label": "Pattern",
+        "description": "Value for pattern",
+        "required": true
+      },
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "rg"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0004",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Rg (Production)",
+    "description": "Rg command for linux workflows in production mode.",
+    "command": "rg [PATTERN] [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATTERN]",
+        "label": "Pattern",
+        "description": "Value for pattern",
+        "required": true
+      },
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "rg"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0005",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Rg (Verbose)",
+    "description": "Rg command for linux workflows in verbose mode.",
+    "command": "rg [PATTERN] [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATTERN]",
+        "label": "Pattern",
+        "description": "Value for pattern",
+        "required": true
+      },
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "rg"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0006",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Ls -la (Local)",
+    "description": "Ls -la command for linux workflows in local mode.",
+    "command": "ls -la",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-la",
+        "description": "Flag used by ls"
+      }
+    ],
+    "tags": [
+      "linux",
+      "ls",
+      "-la"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0007",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Ls -la (Team)",
+    "description": "Ls -la command for linux workflows in team mode.",
+    "command": "ls -la",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-la",
+        "description": "Flag used by ls"
+      }
+    ],
+    "tags": [
+      "linux",
+      "ls",
+      "-la"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0008",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Ls -la (CI)",
+    "description": "Ls -la command for linux workflows in ci mode.",
+    "command": "ls -la",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-la",
+        "description": "Flag used by ls"
+      }
+    ],
+    "tags": [
+      "linux",
+      "ls",
+      "-la"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0009",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Ls -la (Production)",
+    "description": "Ls -la command for linux workflows in production mode.",
+    "command": "ls -la",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-la",
+        "description": "Flag used by ls"
+      }
+    ],
+    "tags": [
+      "linux",
+      "ls",
+      "-la"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0010",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Ls -la (Verbose)",
+    "description": "Ls -la command for linux workflows in verbose mode.",
+    "command": "ls -la",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-la",
+        "description": "Flag used by ls"
+      }
+    ],
+    "tags": [
+      "linux",
+      "ls",
+      "-la"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0011",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Pwd (Local)",
+    "description": "Pwd command for linux workflows in local mode.",
+    "command": "pwd",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "linux",
+      "pwd"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0012",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Pwd (Team)",
+    "description": "Pwd command for linux workflows in team mode.",
+    "command": "pwd",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "linux",
+      "pwd"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0013",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Pwd (CI)",
+    "description": "Pwd command for linux workflows in ci mode.",
+    "command": "pwd",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "linux",
+      "pwd"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0014",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Pwd (Production)",
+    "description": "Pwd command for linux workflows in production mode.",
+    "command": "pwd",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "linux",
+      "pwd"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0015",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Pwd (Verbose)",
+    "description": "Pwd command for linux workflows in verbose mode.",
+    "command": "pwd",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "linux",
+      "pwd"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0016",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Cd (Local)",
+    "description": "Cd command for linux workflows in local mode.",
+    "command": "cd [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "cd"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0017",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Cd (Team)",
+    "description": "Cd command for linux workflows in team mode.",
+    "command": "cd [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "cd"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0018",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Cd (CI)",
+    "description": "Cd command for linux workflows in ci mode.",
+    "command": "cd [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "cd"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0019",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Cd (Production)",
+    "description": "Cd command for linux workflows in production mode.",
+    "command": "cd [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "cd"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0020",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Cd (Verbose)",
+    "description": "Cd command for linux workflows in verbose mode.",
+    "command": "cd [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "cd"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0021",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Chmod +x (Local)",
+    "description": "Chmod +x command for linux workflows in local mode.",
+    "command": "chmod +x [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "chmod",
+      "x"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0022",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Chmod +x (Team)",
+    "description": "Chmod +x command for linux workflows in team mode.",
+    "command": "chmod +x [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "chmod",
+      "x"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0023",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Chmod +x (CI)",
+    "description": "Chmod +x command for linux workflows in ci mode.",
+    "command": "chmod +x [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "chmod",
+      "x"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0024",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Chmod +x (Production)",
+    "description": "Chmod +x command for linux workflows in production mode.",
+    "command": "chmod +x [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "chmod",
+      "x"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0025",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Chmod +x (Verbose)",
+    "description": "Chmod +x command for linux workflows in verbose mode.",
+    "command": "chmod +x [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "chmod",
+      "x"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0026",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Chown : (Local)",
+    "description": "Chown : command for linux workflows in local mode.",
+    "command": "chown [USER]:[GROUP] [PATH]",
+    "params": [
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[GROUP]",
+        "label": "Group",
+        "description": "Value for group",
+        "required": true
+      },
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "chown",
+      ":"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "linux-0027",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Chown : (Team)",
+    "description": "Chown : command for linux workflows in team mode.",
+    "command": "chown [USER]:[GROUP] [PATH]",
+    "params": [
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[GROUP]",
+        "label": "Group",
+        "description": "Value for group",
+        "required": true
+      },
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "chown",
+      ":"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "linux-0028",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Chown : (CI)",
+    "description": "Chown : command for linux workflows in ci mode.",
+    "command": "chown [USER]:[GROUP] [PATH]",
+    "params": [
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[GROUP]",
+        "label": "Group",
+        "description": "Value for group",
+        "required": true
+      },
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "chown",
+      ":"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "linux-0029",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Chown : (Production)",
+    "description": "Chown : command for linux workflows in production mode.",
+    "command": "chown [USER]:[GROUP] [PATH]",
+    "params": [
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[GROUP]",
+        "label": "Group",
+        "description": "Value for group",
+        "required": true
+      },
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "chown",
+      ":"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "linux-0030",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Chown : (Verbose)",
+    "description": "Chown : command for linux workflows in verbose mode.",
+    "command": "chown [USER]:[GROUP] [PATH]",
+    "params": [
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[GROUP]",
+        "label": "Group",
+        "description": "Value for group",
+        "required": true
+      },
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "chown",
+      ":"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "linux-0031",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Ps aux (Local)",
+    "description": "Ps aux command for linux workflows in local mode.",
+    "command": "ps aux",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "linux",
+      "ps",
+      "aux"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0032",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Ps aux (Team)",
+    "description": "Ps aux command for linux workflows in team mode.",
+    "command": "ps aux",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "linux",
+      "ps",
+      "aux"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0033",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Ps aux (CI)",
+    "description": "Ps aux command for linux workflows in ci mode.",
+    "command": "ps aux",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "linux",
+      "ps",
+      "aux"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0034",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Ps aux (Production)",
+    "description": "Ps aux command for linux workflows in production mode.",
+    "command": "ps aux",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "linux",
+      "ps",
+      "aux"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0035",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Ps aux (Verbose)",
+    "description": "Ps aux command for linux workflows in verbose mode.",
+    "command": "ps aux",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "linux",
+      "ps",
+      "aux"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0036",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Kill -9 (Local)",
+    "description": "Kill -9 command for linux workflows in local mode.",
+    "command": "kill -9 [PID]",
+    "params": [
+      {
+        "placeholder": "[PID]",
+        "label": "Pid",
+        "description": "Value for pid",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-9",
+        "description": "Flag used by kill"
+      }
+    ],
+    "tags": [
+      "linux",
+      "kill",
+      "-9"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0037",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Kill -9 (Team)",
+    "description": "Kill -9 command for linux workflows in team mode.",
+    "command": "kill -9 [PID]",
+    "params": [
+      {
+        "placeholder": "[PID]",
+        "label": "Pid",
+        "description": "Value for pid",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-9",
+        "description": "Flag used by kill"
+      }
+    ],
+    "tags": [
+      "linux",
+      "kill",
+      "-9"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0038",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Kill -9 (CI)",
+    "description": "Kill -9 command for linux workflows in ci mode.",
+    "command": "kill -9 [PID]",
+    "params": [
+      {
+        "placeholder": "[PID]",
+        "label": "Pid",
+        "description": "Value for pid",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-9",
+        "description": "Flag used by kill"
+      }
+    ],
+    "tags": [
+      "linux",
+      "kill",
+      "-9"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0039",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Kill -9 (Production)",
+    "description": "Kill -9 command for linux workflows in production mode.",
+    "command": "kill -9 [PID]",
+    "params": [
+      {
+        "placeholder": "[PID]",
+        "label": "Pid",
+        "description": "Value for pid",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-9",
+        "description": "Flag used by kill"
+      }
+    ],
+    "tags": [
+      "linux",
+      "kill",
+      "-9"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0040",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Kill -9 (Verbose)",
+    "description": "Kill -9 command for linux workflows in verbose mode.",
+    "command": "kill -9 [PID]",
+    "params": [
+      {
+        "placeholder": "[PID]",
+        "label": "Pid",
+        "description": "Value for pid",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-9",
+        "description": "Flag used by kill"
+      }
+    ],
+    "tags": [
+      "linux",
+      "kill",
+      "-9"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0041",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Df -h (Local)",
+    "description": "Df -h command for linux workflows in local mode.",
+    "command": "df -h",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by df"
+      }
+    ],
+    "tags": [
+      "linux",
+      "df",
+      "-h"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0042",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Df -h (Team)",
+    "description": "Df -h command for linux workflows in team mode.",
+    "command": "df -h",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by df"
+      }
+    ],
+    "tags": [
+      "linux",
+      "df",
+      "-h"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0043",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Df -h (CI)",
+    "description": "Df -h command for linux workflows in ci mode.",
+    "command": "df -h",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by df"
+      }
+    ],
+    "tags": [
+      "linux",
+      "df",
+      "-h"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0044",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Df -h (Production)",
+    "description": "Df -h command for linux workflows in production mode.",
+    "command": "df -h",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by df"
+      }
+    ],
+    "tags": [
+      "linux",
+      "df",
+      "-h"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0045",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Df -h (Verbose)",
+    "description": "Df -h command for linux workflows in verbose mode.",
+    "command": "df -h",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-h",
+        "description": "Flag used by df"
+      }
+    ],
+    "tags": [
+      "linux",
+      "df",
+      "-h"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0046",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Du -sh (Local)",
+    "description": "Du -sh command for linux workflows in local mode.",
+    "command": "du -sh [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-sh",
+        "description": "Flag used by du"
+      }
+    ],
+    "tags": [
+      "linux",
+      "du",
+      "-sh"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0047",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Du -sh (Team)",
+    "description": "Du -sh command for linux workflows in team mode.",
+    "command": "du -sh [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-sh",
+        "description": "Flag used by du"
+      }
+    ],
+    "tags": [
+      "linux",
+      "du",
+      "-sh"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0048",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Du -sh (CI)",
+    "description": "Du -sh command for linux workflows in ci mode.",
+    "command": "du -sh [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-sh",
+        "description": "Flag used by du"
+      }
+    ],
+    "tags": [
+      "linux",
+      "du",
+      "-sh"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0049",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Du -sh (Production)",
+    "description": "Du -sh command for linux workflows in production mode.",
+    "command": "du -sh [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-sh",
+        "description": "Flag used by du"
+      }
+    ],
+    "tags": [
+      "linux",
+      "du",
+      "-sh"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0050",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Du -sh (Verbose)",
+    "description": "Du -sh command for linux workflows in verbose mode.",
+    "command": "du -sh [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-sh",
+        "description": "Flag used by du"
+      }
+    ],
+    "tags": [
+      "linux",
+      "du",
+      "-sh"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0051",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Curl -X GET (Local)",
+    "description": "Curl -X GET command for linux workflows in local mode.",
+    "command": "curl -X GET [URL]",
+    "params": [
+      {
+        "placeholder": "[URL]",
+        "label": "Url",
+        "description": "Value for url",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-X",
+        "description": "Flag used by curl"
+      }
+    ],
+    "tags": [
+      "linux",
+      "curl",
+      "-x",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0052",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Curl -X GET (Team)",
+    "description": "Curl -X GET command for linux workflows in team mode.",
+    "command": "curl -X GET [URL]",
+    "params": [
+      {
+        "placeholder": "[URL]",
+        "label": "Url",
+        "description": "Value for url",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-X",
+        "description": "Flag used by curl"
+      }
+    ],
+    "tags": [
+      "linux",
+      "curl",
+      "-x",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0053",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Curl -X GET (CI)",
+    "description": "Curl -X GET command for linux workflows in ci mode.",
+    "command": "curl -X GET [URL]",
+    "params": [
+      {
+        "placeholder": "[URL]",
+        "label": "Url",
+        "description": "Value for url",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-X",
+        "description": "Flag used by curl"
+      }
+    ],
+    "tags": [
+      "linux",
+      "curl",
+      "-x",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0054",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Curl -X GET (Production)",
+    "description": "Curl -X GET command for linux workflows in production mode.",
+    "command": "curl -X GET [URL]",
+    "params": [
+      {
+        "placeholder": "[URL]",
+        "label": "Url",
+        "description": "Value for url",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-X",
+        "description": "Flag used by curl"
+      }
+    ],
+    "tags": [
+      "linux",
+      "curl",
+      "-x",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0055",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Curl -X GET (Verbose)",
+    "description": "Curl -X GET command for linux workflows in verbose mode.",
+    "command": "curl -X GET [URL]",
+    "params": [
+      {
+        "placeholder": "[URL]",
+        "label": "Url",
+        "description": "Value for url",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-X",
+        "description": "Flag used by curl"
+      }
+    ],
+    "tags": [
+      "linux",
+      "curl",
+      "-x",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0056",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Wget (Local)",
+    "description": "Wget command for linux workflows in local mode.",
+    "command": "wget [URL]",
+    "params": [
+      {
+        "placeholder": "[URL]",
+        "label": "Url",
+        "description": "Value for url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "wget"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0057",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Wget (Team)",
+    "description": "Wget command for linux workflows in team mode.",
+    "command": "wget [URL]",
+    "params": [
+      {
+        "placeholder": "[URL]",
+        "label": "Url",
+        "description": "Value for url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "wget"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0058",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Wget (CI)",
+    "description": "Wget command for linux workflows in ci mode.",
+    "command": "wget [URL]",
+    "params": [
+      {
+        "placeholder": "[URL]",
+        "label": "Url",
+        "description": "Value for url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "wget"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0059",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Wget (Production)",
+    "description": "Wget command for linux workflows in production mode.",
+    "command": "wget [URL]",
+    "params": [
+      {
+        "placeholder": "[URL]",
+        "label": "Url",
+        "description": "Value for url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "wget"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0060",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Wget (Verbose)",
+    "description": "Wget command for linux workflows in verbose mode.",
+    "command": "wget [URL]",
+    "params": [
+      {
+        "placeholder": "[URL]",
+        "label": "Url",
+        "description": "Value for url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "wget"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0061",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Ssh @ (Local)",
+    "description": "Ssh @ command for linux workflows in local mode.",
+    "command": "ssh [USER]@[HOST]",
+    "params": [
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "ssh"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0062",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Ssh @ (Team)",
+    "description": "Ssh @ command for linux workflows in team mode.",
+    "command": "ssh [USER]@[HOST]",
+    "params": [
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "ssh"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0063",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Ssh @ (CI)",
+    "description": "Ssh @ command for linux workflows in ci mode.",
+    "command": "ssh [USER]@[HOST]",
+    "params": [
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "ssh"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0064",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Ssh @ (Production)",
+    "description": "Ssh @ command for linux workflows in production mode.",
+    "command": "ssh [USER]@[HOST]",
+    "params": [
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "ssh"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0065",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Ssh @ (Verbose)",
+    "description": "Ssh @ command for linux workflows in verbose mode.",
+    "command": "ssh [USER]@[HOST]",
+    "params": [
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "ssh"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0066",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Scp @: (Local)",
+    "description": "Scp @: command for linux workflows in local mode.",
+    "command": "scp [SOURCE] [USER]@[HOST]:[DESTINATION]",
+    "params": [
+      {
+        "placeholder": "[SOURCE]",
+        "label": "Source",
+        "description": "Value for source",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[DESTINATION]",
+        "label": "Destination",
+        "description": "Value for destination",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "scp",
+      ":"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "linux-0067",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Scp @: (Team)",
+    "description": "Scp @: command for linux workflows in team mode.",
+    "command": "scp [SOURCE] [USER]@[HOST]:[DESTINATION]",
+    "params": [
+      {
+        "placeholder": "[SOURCE]",
+        "label": "Source",
+        "description": "Value for source",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[DESTINATION]",
+        "label": "Destination",
+        "description": "Value for destination",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "scp",
+      ":"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "linux-0068",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Scp @: (CI)",
+    "description": "Scp @: command for linux workflows in ci mode.",
+    "command": "scp [SOURCE] [USER]@[HOST]:[DESTINATION]",
+    "params": [
+      {
+        "placeholder": "[SOURCE]",
+        "label": "Source",
+        "description": "Value for source",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[DESTINATION]",
+        "label": "Destination",
+        "description": "Value for destination",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "scp",
+      ":"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "linux-0069",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Scp @: (Production)",
+    "description": "Scp @: command for linux workflows in production mode.",
+    "command": "scp [SOURCE] [USER]@[HOST]:[DESTINATION]",
+    "params": [
+      {
+        "placeholder": "[SOURCE]",
+        "label": "Source",
+        "description": "Value for source",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[DESTINATION]",
+        "label": "Destination",
+        "description": "Value for destination",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "scp",
+      ":"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "linux-0070",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Scp @: (Verbose)",
+    "description": "Scp @: command for linux workflows in verbose mode.",
+    "command": "scp [SOURCE] [USER]@[HOST]:[DESTINATION]",
+    "params": [
+      {
+        "placeholder": "[SOURCE]",
+        "label": "Source",
+        "description": "Value for source",
+        "required": true
+      },
+      {
+        "placeholder": "[USER]",
+        "label": "User",
+        "description": "Value for user",
+        "required": true
+      },
+      {
+        "placeholder": "[HOST]",
+        "label": "Host",
+        "description": "Value for host",
+        "required": true
+      },
+      {
+        "placeholder": "[DESTINATION]",
+        "label": "Destination",
+        "description": "Value for destination",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "scp",
+      ":"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "linux-0071",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Tar -czf .tar.gz (Local)",
+    "description": "Tar -czf .tar.gz command for linux workflows in local mode.",
+    "command": "tar -czf [ARCHIVE_NAME].tar.gz [PATH]",
+    "params": [
+      {
+        "placeholder": "[ARCHIVE_NAME]",
+        "label": "Archive Name",
+        "description": "Value for archive name",
+        "required": true
+      },
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-czf",
+        "description": "Flag used by tar"
+      }
+    ],
+    "tags": [
+      "linux",
+      "tar",
+      "-czf",
+      "targz"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0072",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Tar -czf .tar.gz (Team)",
+    "description": "Tar -czf .tar.gz command for linux workflows in team mode.",
+    "command": "tar -czf [ARCHIVE_NAME].tar.gz [PATH]",
+    "params": [
+      {
+        "placeholder": "[ARCHIVE_NAME]",
+        "label": "Archive Name",
+        "description": "Value for archive name",
+        "required": true
+      },
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-czf",
+        "description": "Flag used by tar"
+      }
+    ],
+    "tags": [
+      "linux",
+      "tar",
+      "-czf",
+      "targz"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0073",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Tar -czf .tar.gz (CI)",
+    "description": "Tar -czf .tar.gz command for linux workflows in ci mode.",
+    "command": "tar -czf [ARCHIVE_NAME].tar.gz [PATH]",
+    "params": [
+      {
+        "placeholder": "[ARCHIVE_NAME]",
+        "label": "Archive Name",
+        "description": "Value for archive name",
+        "required": true
+      },
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-czf",
+        "description": "Flag used by tar"
+      }
+    ],
+    "tags": [
+      "linux",
+      "tar",
+      "-czf",
+      "targz"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0074",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Tar -czf .tar.gz (Production)",
+    "description": "Tar -czf .tar.gz command for linux workflows in production mode.",
+    "command": "tar -czf [ARCHIVE_NAME].tar.gz [PATH]",
+    "params": [
+      {
+        "placeholder": "[ARCHIVE_NAME]",
+        "label": "Archive Name",
+        "description": "Value for archive name",
+        "required": true
+      },
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-czf",
+        "description": "Flag used by tar"
+      }
+    ],
+    "tags": [
+      "linux",
+      "tar",
+      "-czf",
+      "targz"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0075",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Tar -czf .tar.gz (Verbose)",
+    "description": "Tar -czf .tar.gz command for linux workflows in verbose mode.",
+    "command": "tar -czf [ARCHIVE_NAME].tar.gz [PATH]",
+    "params": [
+      {
+        "placeholder": "[ARCHIVE_NAME]",
+        "label": "Archive Name",
+        "description": "Value for archive name",
+        "required": true
+      },
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-czf",
+        "description": "Flag used by tar"
+      }
+    ],
+    "tags": [
+      "linux",
+      "tar",
+      "-czf",
+      "targz"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0076",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Unzip (Local)",
+    "description": "Unzip command for linux workflows in local mode.",
+    "command": "unzip [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "unzip"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0077",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Unzip (Team)",
+    "description": "Unzip command for linux workflows in team mode.",
+    "command": "unzip [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "unzip"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0078",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Unzip (CI)",
+    "description": "Unzip command for linux workflows in ci mode.",
+    "command": "unzip [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "unzip"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0079",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Unzip (Production)",
+    "description": "Unzip command for linux workflows in production mode.",
+    "command": "unzip [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "unzip"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0080",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Unzip (Verbose)",
+    "description": "Unzip command for linux workflows in verbose mode.",
+    "command": "unzip [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "unzip"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0081",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Sed -n ,p (Local)",
+    "description": "Sed -n ,p command for linux workflows in local mode.",
+    "command": "sed -n '[START],[END]p' [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[START]",
+        "label": "Start",
+        "description": "Value for start",
+        "required": true
+      },
+      {
+        "placeholder": "[END]",
+        "label": "End",
+        "description": "Value for end",
+        "required": true
+      },
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by sed"
+      }
+    ],
+    "tags": [
+      "linux",
+      "sed",
+      "-n",
+      "p"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "linux-0082",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Sed -n ,p (Team)",
+    "description": "Sed -n ,p command for linux workflows in team mode.",
+    "command": "sed -n '[START],[END]p' [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[START]",
+        "label": "Start",
+        "description": "Value for start",
+        "required": true
+      },
+      {
+        "placeholder": "[END]",
+        "label": "End",
+        "description": "Value for end",
+        "required": true
+      },
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by sed"
+      }
+    ],
+    "tags": [
+      "linux",
+      "sed",
+      "-n",
+      "p"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "linux-0083",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Sed -n ,p (CI)",
+    "description": "Sed -n ,p command for linux workflows in ci mode.",
+    "command": "sed -n '[START],[END]p' [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[START]",
+        "label": "Start",
+        "description": "Value for start",
+        "required": true
+      },
+      {
+        "placeholder": "[END]",
+        "label": "End",
+        "description": "Value for end",
+        "required": true
+      },
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by sed"
+      }
+    ],
+    "tags": [
+      "linux",
+      "sed",
+      "-n",
+      "p"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "linux-0084",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Sed -n ,p (Production)",
+    "description": "Sed -n ,p command for linux workflows in production mode.",
+    "command": "sed -n '[START],[END]p' [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[START]",
+        "label": "Start",
+        "description": "Value for start",
+        "required": true
+      },
+      {
+        "placeholder": "[END]",
+        "label": "End",
+        "description": "Value for end",
+        "required": true
+      },
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by sed"
+      }
+    ],
+    "tags": [
+      "linux",
+      "sed",
+      "-n",
+      "p"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "linux-0085",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Sed -n ,p (Verbose)",
+    "description": "Sed -n ,p command for linux workflows in verbose mode.",
+    "command": "sed -n '[START],[END]p' [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[START]",
+        "label": "Start",
+        "description": "Value for start",
+        "required": true
+      },
+      {
+        "placeholder": "[END]",
+        "label": "End",
+        "description": "Value for end",
+        "required": true
+      },
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by sed"
+      }
+    ],
+    "tags": [
+      "linux",
+      "sed",
+      "-n",
+      "p"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "linux-0086",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Awk {print $1} (Local)",
+    "description": "Awk {print $1} command for linux workflows in local mode.",
+    "command": "awk '{print $1}' [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "awk",
+      "print",
+      "1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0087",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Awk {print $1} (Team)",
+    "description": "Awk {print $1} command for linux workflows in team mode.",
+    "command": "awk '{print $1}' [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "awk",
+      "print",
+      "1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0088",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Awk {print $1} (CI)",
+    "description": "Awk {print $1} command for linux workflows in ci mode.",
+    "command": "awk '{print $1}' [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "awk",
+      "print",
+      "1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0089",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Awk {print $1} (Production)",
+    "description": "Awk {print $1} command for linux workflows in production mode.",
+    "command": "awk '{print $1}' [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "awk",
+      "print",
+      "1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0090",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Awk {print $1} (Verbose)",
+    "description": "Awk {print $1} command for linux workflows in verbose mode.",
+    "command": "awk '{print $1}' [FILE_PATH]",
+    "params": [
+      {
+        "placeholder": "[FILE_PATH]",
+        "label": "File Path",
+        "description": "Value for file path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "linux",
+      "awk",
+      "print",
+      "1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0091",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Xargs -I {} echo {} (Local)",
+    "description": "Xargs -I {} echo {} command for linux workflows in local mode.",
+    "command": "xargs -I {} echo {}",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-I",
+        "description": "Flag used by xargs"
+      }
+    ],
+    "tags": [
+      "linux",
+      "xargs",
+      "-i",
+      "echo"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0092",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Xargs -I {} echo {} (Team)",
+    "description": "Xargs -I {} echo {} command for linux workflows in team mode.",
+    "command": "xargs -I {} echo {}",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-I",
+        "description": "Flag used by xargs"
+      }
+    ],
+    "tags": [
+      "linux",
+      "xargs",
+      "-i",
+      "echo"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0093",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Xargs -I {} echo {} (CI)",
+    "description": "Xargs -I {} echo {} command for linux workflows in ci mode.",
+    "command": "xargs -I {} echo {}",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-I",
+        "description": "Flag used by xargs"
+      }
+    ],
+    "tags": [
+      "linux",
+      "xargs",
+      "-i",
+      "echo"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0094",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Xargs -I {} echo {} (Production)",
+    "description": "Xargs -I {} echo {} command for linux workflows in production mode.",
+    "command": "xargs -I {} echo {}",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-I",
+        "description": "Flag used by xargs"
+      }
+    ],
+    "tags": [
+      "linux",
+      "xargs",
+      "-i",
+      "echo"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0095",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "Xargs -I {} echo {} (Verbose)",
+    "description": "Xargs -I {} echo {} command for linux workflows in verbose mode.",
+    "command": "xargs -I {} echo {}",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-I",
+        "description": "Flag used by xargs"
+      }
+    ],
+    "tags": [
+      "linux",
+      "xargs",
+      "-i",
+      "echo"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0096",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "History (Local)",
+    "description": "History command for linux workflows in local mode.",
+    "command": "history",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "linux",
+      "history"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0097",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "History (Team)",
+    "description": "History command for linux workflows in team mode.",
+    "command": "history",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "linux",
+      "history"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0098",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "History (CI)",
+    "description": "History command for linux workflows in ci mode.",
+    "command": "history",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "linux",
+      "history"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0099",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "History (Production)",
+    "description": "History command for linux workflows in production mode.",
+    "command": "history",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "linux",
+      "history"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "linux-0100",
+    "tool": "linux",
+    "category": "Shell",
+    "title": "History (Verbose)",
+    "description": "History command for linux workflows in verbose mode.",
+    "command": "history",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "linux",
+      "history"
+    ],
+    "difficulty": "beginner"
+  }
+]

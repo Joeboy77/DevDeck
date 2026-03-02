@@ -1,0 +1,2692 @@
+[
+  {
+    "id": "github-0001",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh auth login (Local)",
+    "description": "Gh auth login command for github workflows in local mode.",
+    "command": "gh auth login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "auth",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0002",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh auth login (Team)",
+    "description": "Gh auth login command for github workflows in team mode.",
+    "command": "gh auth login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "auth",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0003",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh auth login (CI)",
+    "description": "Gh auth login command for github workflows in ci mode.",
+    "command": "gh auth login --json id",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "auth",
+      "login",
+      "--json",
+      "id"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0004",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh auth login (Production)",
+    "description": "Gh auth login command for github workflows in production mode.",
+    "command": "gh auth login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "auth",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0005",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh auth login (Verbose)",
+    "description": "Gh auth login command for github workflows in verbose mode.",
+    "command": "gh auth login --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "auth",
+      "login",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0006",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh repo view (Local)",
+    "description": "Gh repo view command for github workflows in local mode.",
+    "command": "gh repo view",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "repo",
+      "view"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0007",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh repo view (Team)",
+    "description": "Gh repo view command for github workflows in team mode.",
+    "command": "gh repo view",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "repo",
+      "view"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0008",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh repo view (CI)",
+    "description": "Gh repo view command for github workflows in ci mode.",
+    "command": "gh repo view --json id",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "repo",
+      "view",
+      "--json",
+      "id"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0009",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh repo view (Production)",
+    "description": "Gh repo view command for github workflows in production mode.",
+    "command": "gh repo view",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "repo",
+      "view"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0010",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh repo view (Verbose)",
+    "description": "Gh repo view command for github workflows in verbose mode.",
+    "command": "gh repo view --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "repo",
+      "view",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0011",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh repo clone (Local)",
+    "description": "Gh repo clone command for github workflows in local mode.",
+    "command": "gh repo clone [REPO_NAME]",
+    "params": [
+      {
+        "placeholder": "[REPO_NAME]",
+        "label": "Repo Name",
+        "description": "Value for repo name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "repo",
+      "clone"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0012",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh repo clone (Team)",
+    "description": "Gh repo clone command for github workflows in team mode.",
+    "command": "gh repo clone [REPO_NAME]",
+    "params": [
+      {
+        "placeholder": "[REPO_NAME]",
+        "label": "Repo Name",
+        "description": "Value for repo name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "repo",
+      "clone"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0013",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh repo clone (CI)",
+    "description": "Gh repo clone command for github workflows in ci mode.",
+    "command": "gh repo clone [REPO_NAME] --json id",
+    "params": [
+      {
+        "placeholder": "[REPO_NAME]",
+        "label": "Repo Name",
+        "description": "Value for repo name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "repo",
+      "clone",
+      "--json",
+      "id"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0014",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh repo clone (Production)",
+    "description": "Gh repo clone command for github workflows in production mode.",
+    "command": "gh repo clone [REPO_NAME]",
+    "params": [
+      {
+        "placeholder": "[REPO_NAME]",
+        "label": "Repo Name",
+        "description": "Value for repo name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "repo",
+      "clone"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0015",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh repo clone (Verbose)",
+    "description": "Gh repo clone command for github workflows in verbose mode.",
+    "command": "gh repo clone [REPO_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[REPO_NAME]",
+        "label": "Repo Name",
+        "description": "Value for repo name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "repo",
+      "clone",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0016",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh issue list (Local)",
+    "description": "Gh issue list command for github workflows in local mode.",
+    "command": "gh issue list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "issue",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0017",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh issue list (Team)",
+    "description": "Gh issue list command for github workflows in team mode.",
+    "command": "gh issue list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "issue",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0018",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh issue list (CI)",
+    "description": "Gh issue list command for github workflows in ci mode.",
+    "command": "gh issue list --json id",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "issue",
+      "list",
+      "--json",
+      "id"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0019",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh issue list (Production)",
+    "description": "Gh issue list command for github workflows in production mode.",
+    "command": "gh issue list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "issue",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0020",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh issue list (Verbose)",
+    "description": "Gh issue list command for github workflows in verbose mode.",
+    "command": "gh issue list --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "issue",
+      "list",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0021",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh issue view (Local)",
+    "description": "Gh issue view command for github workflows in local mode.",
+    "command": "gh issue view [ISSUE_NUMBER]",
+    "params": [
+      {
+        "placeholder": "[ISSUE_NUMBER]",
+        "label": "Issue Number",
+        "description": "Value for issue number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "issue",
+      "view"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0022",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh issue view (Team)",
+    "description": "Gh issue view command for github workflows in team mode.",
+    "command": "gh issue view [ISSUE_NUMBER]",
+    "params": [
+      {
+        "placeholder": "[ISSUE_NUMBER]",
+        "label": "Issue Number",
+        "description": "Value for issue number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "issue",
+      "view"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0023",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh issue view (CI)",
+    "description": "Gh issue view command for github workflows in ci mode.",
+    "command": "gh issue view [ISSUE_NUMBER] --json id",
+    "params": [
+      {
+        "placeholder": "[ISSUE_NUMBER]",
+        "label": "Issue Number",
+        "description": "Value for issue number",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "issue",
+      "view",
+      "--json",
+      "id"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0024",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh issue view (Production)",
+    "description": "Gh issue view command for github workflows in production mode.",
+    "command": "gh issue view [ISSUE_NUMBER]",
+    "params": [
+      {
+        "placeholder": "[ISSUE_NUMBER]",
+        "label": "Issue Number",
+        "description": "Value for issue number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "issue",
+      "view"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0025",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh issue view (Verbose)",
+    "description": "Gh issue view command for github workflows in verbose mode.",
+    "command": "gh issue view [ISSUE_NUMBER] --verbose",
+    "params": [
+      {
+        "placeholder": "[ISSUE_NUMBER]",
+        "label": "Issue Number",
+        "description": "Value for issue number",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "issue",
+      "view",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0026",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh issue create --title  --body (Local)",
+    "description": "Gh issue create --title  --body command for github workflows in local mode.",
+    "command": "gh issue create --title \"[TITLE]\" --body \"[BODY]\"",
+    "params": [
+      {
+        "placeholder": "[TITLE]",
+        "label": "Title",
+        "description": "Value for title",
+        "required": true
+      },
+      {
+        "placeholder": "[BODY]",
+        "label": "Body",
+        "description": "Value for body",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--title",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--body",
+        "description": "Flag used by gh"
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "issue",
+      "create",
+      "--title"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0027",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh issue create --title  --body (Team)",
+    "description": "Gh issue create --title  --body command for github workflows in team mode.",
+    "command": "gh issue create --title \"[TITLE]\" --body \"[BODY]\"",
+    "params": [
+      {
+        "placeholder": "[TITLE]",
+        "label": "Title",
+        "description": "Value for title",
+        "required": true
+      },
+      {
+        "placeholder": "[BODY]",
+        "label": "Body",
+        "description": "Value for body",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--title",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--body",
+        "description": "Flag used by gh"
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "issue",
+      "create",
+      "--title"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0028",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh issue create --title  --body (CI)",
+    "description": "Gh issue create --title  --body command for github workflows in ci mode.",
+    "command": "gh issue create --title \"[TITLE]\" --body \"[BODY]\" --json id",
+    "params": [
+      {
+        "placeholder": "[TITLE]",
+        "label": "Title",
+        "description": "Value for title",
+        "required": true
+      },
+      {
+        "placeholder": "[BODY]",
+        "label": "Body",
+        "description": "Value for body",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--title",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--body",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "issue",
+      "create",
+      "--title"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0029",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh issue create --title  --body (Production)",
+    "description": "Gh issue create --title  --body command for github workflows in production mode.",
+    "command": "gh issue create --title \"[TITLE]\" --body \"[BODY]\"",
+    "params": [
+      {
+        "placeholder": "[TITLE]",
+        "label": "Title",
+        "description": "Value for title",
+        "required": true
+      },
+      {
+        "placeholder": "[BODY]",
+        "label": "Body",
+        "description": "Value for body",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--title",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--body",
+        "description": "Flag used by gh"
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "issue",
+      "create",
+      "--title"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0030",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh issue create --title  --body (Verbose)",
+    "description": "Gh issue create --title  --body command for github workflows in verbose mode.",
+    "command": "gh issue create --title \"[TITLE]\" --body \"[BODY]\" --verbose",
+    "params": [
+      {
+        "placeholder": "[TITLE]",
+        "label": "Title",
+        "description": "Value for title",
+        "required": true
+      },
+      {
+        "placeholder": "[BODY]",
+        "label": "Body",
+        "description": "Value for body",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--title",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--body",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "issue",
+      "create",
+      "--title"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0031",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr list (Local)",
+    "description": "Gh pr list command for github workflows in local mode.",
+    "command": "gh pr list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0032",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr list (Team)",
+    "description": "Gh pr list command for github workflows in team mode.",
+    "command": "gh pr list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0033",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr list (CI)",
+    "description": "Gh pr list command for github workflows in ci mode.",
+    "command": "gh pr list --json id",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "list",
+      "--json",
+      "id"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0034",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr list (Production)",
+    "description": "Gh pr list command for github workflows in production mode.",
+    "command": "gh pr list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0035",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr list (Verbose)",
+    "description": "Gh pr list command for github workflows in verbose mode.",
+    "command": "gh pr list --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "list",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0036",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr view (Local)",
+    "description": "Gh pr view command for github workflows in local mode.",
+    "command": "gh pr view [PR_NUMBER]",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "view"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0037",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr view (Team)",
+    "description": "Gh pr view command for github workflows in team mode.",
+    "command": "gh pr view [PR_NUMBER]",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "view"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0038",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr view (CI)",
+    "description": "Gh pr view command for github workflows in ci mode.",
+    "command": "gh pr view [PR_NUMBER] --json id",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "view",
+      "--json",
+      "id"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0039",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr view (Production)",
+    "description": "Gh pr view command for github workflows in production mode.",
+    "command": "gh pr view [PR_NUMBER]",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "view"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0040",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr view (Verbose)",
+    "description": "Gh pr view command for github workflows in verbose mode.",
+    "command": "gh pr view [PR_NUMBER] --verbose",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "view",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0041",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr checkout (Local)",
+    "description": "Gh pr checkout command for github workflows in local mode.",
+    "command": "gh pr checkout [PR_NUMBER]",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "checkout"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0042",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr checkout (Team)",
+    "description": "Gh pr checkout command for github workflows in team mode.",
+    "command": "gh pr checkout [PR_NUMBER]",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "checkout"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0043",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr checkout (CI)",
+    "description": "Gh pr checkout command for github workflows in ci mode.",
+    "command": "gh pr checkout [PR_NUMBER] --json id",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "checkout",
+      "--json",
+      "id"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0044",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr checkout (Production)",
+    "description": "Gh pr checkout command for github workflows in production mode.",
+    "command": "gh pr checkout [PR_NUMBER]",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "checkout"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0045",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr checkout (Verbose)",
+    "description": "Gh pr checkout command for github workflows in verbose mode.",
+    "command": "gh pr checkout [PR_NUMBER] --verbose",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "checkout",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0046",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr create --title  --body (Local)",
+    "description": "Gh pr create --title  --body command for github workflows in local mode.",
+    "command": "gh pr create --title \"[TITLE]\" --body \"[BODY]\"",
+    "params": [
+      {
+        "placeholder": "[TITLE]",
+        "label": "Title",
+        "description": "Value for title",
+        "required": true
+      },
+      {
+        "placeholder": "[BODY]",
+        "label": "Body",
+        "description": "Value for body",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--title",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--body",
+        "description": "Flag used by gh"
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "create",
+      "--title"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0047",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr create --title  --body (Team)",
+    "description": "Gh pr create --title  --body command for github workflows in team mode.",
+    "command": "gh pr create --title \"[TITLE]\" --body \"[BODY]\"",
+    "params": [
+      {
+        "placeholder": "[TITLE]",
+        "label": "Title",
+        "description": "Value for title",
+        "required": true
+      },
+      {
+        "placeholder": "[BODY]",
+        "label": "Body",
+        "description": "Value for body",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--title",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--body",
+        "description": "Flag used by gh"
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "create",
+      "--title"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0048",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr create --title  --body (CI)",
+    "description": "Gh pr create --title  --body command for github workflows in ci mode.",
+    "command": "gh pr create --title \"[TITLE]\" --body \"[BODY]\" --json id",
+    "params": [
+      {
+        "placeholder": "[TITLE]",
+        "label": "Title",
+        "description": "Value for title",
+        "required": true
+      },
+      {
+        "placeholder": "[BODY]",
+        "label": "Body",
+        "description": "Value for body",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--title",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--body",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "create",
+      "--title"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0049",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr create --title  --body (Production)",
+    "description": "Gh pr create --title  --body command for github workflows in production mode.",
+    "command": "gh pr create --title \"[TITLE]\" --body \"[BODY]\"",
+    "params": [
+      {
+        "placeholder": "[TITLE]",
+        "label": "Title",
+        "description": "Value for title",
+        "required": true
+      },
+      {
+        "placeholder": "[BODY]",
+        "label": "Body",
+        "description": "Value for body",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--title",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--body",
+        "description": "Flag used by gh"
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "create",
+      "--title"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0050",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr create --title  --body (Verbose)",
+    "description": "Gh pr create --title  --body command for github workflows in verbose mode.",
+    "command": "gh pr create --title \"[TITLE]\" --body \"[BODY]\" --verbose",
+    "params": [
+      {
+        "placeholder": "[TITLE]",
+        "label": "Title",
+        "description": "Value for title",
+        "required": true
+      },
+      {
+        "placeholder": "[BODY]",
+        "label": "Body",
+        "description": "Value for body",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--title",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--body",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "create",
+      "--title"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0051",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr merge (Local)",
+    "description": "Gh pr merge command for github workflows in local mode.",
+    "command": "gh pr merge [PR_NUMBER]",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "merge"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0052",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr merge (Team)",
+    "description": "Gh pr merge command for github workflows in team mode.",
+    "command": "gh pr merge [PR_NUMBER]",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "merge"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0053",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr merge (CI)",
+    "description": "Gh pr merge command for github workflows in ci mode.",
+    "command": "gh pr merge [PR_NUMBER] --json id",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "merge",
+      "--json",
+      "id"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0054",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr merge (Production)",
+    "description": "Gh pr merge command for github workflows in production mode.",
+    "command": "gh pr merge [PR_NUMBER]",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "merge"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0055",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr merge (Verbose)",
+    "description": "Gh pr merge command for github workflows in verbose mode.",
+    "command": "gh pr merge [PR_NUMBER] --verbose",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "merge",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0056",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr checks (Local)",
+    "description": "Gh pr checks command for github workflows in local mode.",
+    "command": "gh pr checks [PR_NUMBER]",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "checks"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0057",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr checks (Team)",
+    "description": "Gh pr checks command for github workflows in team mode.",
+    "command": "gh pr checks [PR_NUMBER]",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "checks"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0058",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr checks (CI)",
+    "description": "Gh pr checks command for github workflows in ci mode.",
+    "command": "gh pr checks [PR_NUMBER] --json id",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "checks",
+      "--json",
+      "id"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0059",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr checks (Production)",
+    "description": "Gh pr checks command for github workflows in production mode.",
+    "command": "gh pr checks [PR_NUMBER]",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "checks"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0060",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh pr checks (Verbose)",
+    "description": "Gh pr checks command for github workflows in verbose mode.",
+    "command": "gh pr checks [PR_NUMBER] --verbose",
+    "params": [
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "pr",
+      "checks",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0061",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh run list (Local)",
+    "description": "Gh run list command for github workflows in local mode.",
+    "command": "gh run list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "run",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0062",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh run list (Team)",
+    "description": "Gh run list command for github workflows in team mode.",
+    "command": "gh run list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "run",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0063",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh run list (CI)",
+    "description": "Gh run list command for github workflows in ci mode.",
+    "command": "gh run list --json id",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "run",
+      "list",
+      "--json",
+      "id"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0064",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh run list (Production)",
+    "description": "Gh run list command for github workflows in production mode.",
+    "command": "gh run list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "run",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0065",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh run list (Verbose)",
+    "description": "Gh run list command for github workflows in verbose mode.",
+    "command": "gh run list --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "run",
+      "list",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0066",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh run view (Local)",
+    "description": "Gh run view command for github workflows in local mode.",
+    "command": "gh run view [RUN_ID]",
+    "params": [
+      {
+        "placeholder": "[RUN_ID]",
+        "label": "Run Id",
+        "description": "Value for run id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "run",
+      "view"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0067",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh run view (Team)",
+    "description": "Gh run view command for github workflows in team mode.",
+    "command": "gh run view [RUN_ID]",
+    "params": [
+      {
+        "placeholder": "[RUN_ID]",
+        "label": "Run Id",
+        "description": "Value for run id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "run",
+      "view"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0068",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh run view (CI)",
+    "description": "Gh run view command for github workflows in ci mode.",
+    "command": "gh run view [RUN_ID] --json id",
+    "params": [
+      {
+        "placeholder": "[RUN_ID]",
+        "label": "Run Id",
+        "description": "Value for run id",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "run",
+      "view",
+      "--json",
+      "id"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0069",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh run view (Production)",
+    "description": "Gh run view command for github workflows in production mode.",
+    "command": "gh run view [RUN_ID]",
+    "params": [
+      {
+        "placeholder": "[RUN_ID]",
+        "label": "Run Id",
+        "description": "Value for run id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "run",
+      "view"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0070",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh run view (Verbose)",
+    "description": "Gh run view command for github workflows in verbose mode.",
+    "command": "gh run view [RUN_ID] --verbose",
+    "params": [
+      {
+        "placeholder": "[RUN_ID]",
+        "label": "Run Id",
+        "description": "Value for run id",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "run",
+      "view",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0071",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh workflow list (Local)",
+    "description": "Gh workflow list command for github workflows in local mode.",
+    "command": "gh workflow list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "workflow",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0072",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh workflow list (Team)",
+    "description": "Gh workflow list command for github workflows in team mode.",
+    "command": "gh workflow list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "workflow",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0073",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh workflow list (CI)",
+    "description": "Gh workflow list command for github workflows in ci mode.",
+    "command": "gh workflow list --json id",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "workflow",
+      "list",
+      "--json",
+      "id"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0074",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh workflow list (Production)",
+    "description": "Gh workflow list command for github workflows in production mode.",
+    "command": "gh workflow list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "workflow",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0075",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh workflow list (Verbose)",
+    "description": "Gh workflow list command for github workflows in verbose mode.",
+    "command": "gh workflow list --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "workflow",
+      "list",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0076",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh workflow run (Local)",
+    "description": "Gh workflow run command for github workflows in local mode.",
+    "command": "gh workflow run [WORKFLOW_FILE]",
+    "params": [
+      {
+        "placeholder": "[WORKFLOW_FILE]",
+        "label": "Workflow File",
+        "description": "Value for workflow file",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "workflow",
+      "run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0077",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh workflow run (Team)",
+    "description": "Gh workflow run command for github workflows in team mode.",
+    "command": "gh workflow run [WORKFLOW_FILE]",
+    "params": [
+      {
+        "placeholder": "[WORKFLOW_FILE]",
+        "label": "Workflow File",
+        "description": "Value for workflow file",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "workflow",
+      "run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0078",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh workflow run (CI)",
+    "description": "Gh workflow run command for github workflows in ci mode.",
+    "command": "gh workflow run [WORKFLOW_FILE] --json id",
+    "params": [
+      {
+        "placeholder": "[WORKFLOW_FILE]",
+        "label": "Workflow File",
+        "description": "Value for workflow file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "workflow",
+      "run",
+      "--json",
+      "id"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0079",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh workflow run (Production)",
+    "description": "Gh workflow run command for github workflows in production mode.",
+    "command": "gh workflow run [WORKFLOW_FILE]",
+    "params": [
+      {
+        "placeholder": "[WORKFLOW_FILE]",
+        "label": "Workflow File",
+        "description": "Value for workflow file",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "workflow",
+      "run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0080",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh workflow run (Verbose)",
+    "description": "Gh workflow run command for github workflows in verbose mode.",
+    "command": "gh workflow run [WORKFLOW_FILE] --verbose",
+    "params": [
+      {
+        "placeholder": "[WORKFLOW_FILE]",
+        "label": "Workflow File",
+        "description": "Value for workflow file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "workflow",
+      "run",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0081",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh release list (Local)",
+    "description": "Gh release list command for github workflows in local mode.",
+    "command": "gh release list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "release",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0082",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh release list (Team)",
+    "description": "Gh release list command for github workflows in team mode.",
+    "command": "gh release list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "release",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0083",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh release list (CI)",
+    "description": "Gh release list command for github workflows in ci mode.",
+    "command": "gh release list --json id",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "release",
+      "list",
+      "--json",
+      "id"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0084",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh release list (Production)",
+    "description": "Gh release list command for github workflows in production mode.",
+    "command": "gh release list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "release",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0085",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh release list (Verbose)",
+    "description": "Gh release list command for github workflows in verbose mode.",
+    "command": "gh release list --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "release",
+      "list",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0086",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh release create --title  --notes (Local)",
+    "description": "Gh release create --title  --notes command for github workflows in local mode.",
+    "command": "gh release create [TAG_NAME] --title \"[TITLE]\" --notes \"[NOTES]\"",
+    "params": [
+      {
+        "placeholder": "[TAG_NAME]",
+        "label": "Tag Name",
+        "description": "Value for tag name",
+        "required": true
+      },
+      {
+        "placeholder": "[TITLE]",
+        "label": "Title",
+        "description": "Value for title",
+        "required": true
+      },
+      {
+        "placeholder": "[NOTES]",
+        "label": "Notes",
+        "description": "Value for notes",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--title",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--notes",
+        "description": "Flag used by gh"
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "release",
+      "create",
+      "--title"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "github-0087",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh release create --title  --notes (Team)",
+    "description": "Gh release create --title  --notes command for github workflows in team mode.",
+    "command": "gh release create [TAG_NAME] --title \"[TITLE]\" --notes \"[NOTES]\"",
+    "params": [
+      {
+        "placeholder": "[TAG_NAME]",
+        "label": "Tag Name",
+        "description": "Value for tag name",
+        "required": true
+      },
+      {
+        "placeholder": "[TITLE]",
+        "label": "Title",
+        "description": "Value for title",
+        "required": true
+      },
+      {
+        "placeholder": "[NOTES]",
+        "label": "Notes",
+        "description": "Value for notes",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--title",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--notes",
+        "description": "Flag used by gh"
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "release",
+      "create",
+      "--title"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "github-0088",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh release create --title  --notes (CI)",
+    "description": "Gh release create --title  --notes command for github workflows in ci mode.",
+    "command": "gh release create [TAG_NAME] --title \"[TITLE]\" --notes \"[NOTES]\" --json id",
+    "params": [
+      {
+        "placeholder": "[TAG_NAME]",
+        "label": "Tag Name",
+        "description": "Value for tag name",
+        "required": true
+      },
+      {
+        "placeholder": "[TITLE]",
+        "label": "Title",
+        "description": "Value for title",
+        "required": true
+      },
+      {
+        "placeholder": "[NOTES]",
+        "label": "Notes",
+        "description": "Value for notes",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--title",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--notes",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "release",
+      "create",
+      "--title"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "github-0089",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh release create --title  --notes (Production)",
+    "description": "Gh release create --title  --notes command for github workflows in production mode.",
+    "command": "gh release create [TAG_NAME] --title \"[TITLE]\" --notes \"[NOTES]\"",
+    "params": [
+      {
+        "placeholder": "[TAG_NAME]",
+        "label": "Tag Name",
+        "description": "Value for tag name",
+        "required": true
+      },
+      {
+        "placeholder": "[TITLE]",
+        "label": "Title",
+        "description": "Value for title",
+        "required": true
+      },
+      {
+        "placeholder": "[NOTES]",
+        "label": "Notes",
+        "description": "Value for notes",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--title",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--notes",
+        "description": "Flag used by gh"
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "release",
+      "create",
+      "--title"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "github-0090",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh release create --title  --notes (Verbose)",
+    "description": "Gh release create --title  --notes command for github workflows in verbose mode.",
+    "command": "gh release create [TAG_NAME] --title \"[TITLE]\" --notes \"[NOTES]\" --verbose",
+    "params": [
+      {
+        "placeholder": "[TAG_NAME]",
+        "label": "Tag Name",
+        "description": "Value for tag name",
+        "required": true
+      },
+      {
+        "placeholder": "[TITLE]",
+        "label": "Title",
+        "description": "Value for title",
+        "required": true
+      },
+      {
+        "placeholder": "[NOTES]",
+        "label": "Notes",
+        "description": "Value for notes",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--title",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--notes",
+        "description": "Flag used by gh"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "release",
+      "create",
+      "--title"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "github-0091",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh api repos///pulls//comments (Local)",
+    "description": "Gh api repos///pulls//comments command for github workflows in local mode.",
+    "command": "gh api repos/[OWNER]/[REPO]/pulls/[PR_NUMBER]/comments",
+    "params": [
+      {
+        "placeholder": "[OWNER]",
+        "label": "Owner",
+        "description": "Value for owner",
+        "required": true
+      },
+      {
+        "placeholder": "[REPO]",
+        "label": "Repo",
+        "description": "Value for repo",
+        "required": true
+      },
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "api",
+      "repospullscomments"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "github-0092",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh api repos///pulls//comments (Team)",
+    "description": "Gh api repos///pulls//comments command for github workflows in team mode.",
+    "command": "gh api repos/[OWNER]/[REPO]/pulls/[PR_NUMBER]/comments",
+    "params": [
+      {
+        "placeholder": "[OWNER]",
+        "label": "Owner",
+        "description": "Value for owner",
+        "required": true
+      },
+      {
+        "placeholder": "[REPO]",
+        "label": "Repo",
+        "description": "Value for repo",
+        "required": true
+      },
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "api",
+      "repospullscomments"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "github-0093",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh api repos///pulls//comments (CI)",
+    "description": "Gh api repos///pulls//comments command for github workflows in ci mode.",
+    "command": "gh api repos/[OWNER]/[REPO]/pulls/[PR_NUMBER]/comments --json id",
+    "params": [
+      {
+        "placeholder": "[OWNER]",
+        "label": "Owner",
+        "description": "Value for owner",
+        "required": true
+      },
+      {
+        "placeholder": "[REPO]",
+        "label": "Repo",
+        "description": "Value for repo",
+        "required": true
+      },
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "api",
+      "repospullscomments",
+      "--json",
+      "id"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "github-0094",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh api repos///pulls//comments (Production)",
+    "description": "Gh api repos///pulls//comments command for github workflows in production mode.",
+    "command": "gh api repos/[OWNER]/[REPO]/pulls/[PR_NUMBER]/comments",
+    "params": [
+      {
+        "placeholder": "[OWNER]",
+        "label": "Owner",
+        "description": "Value for owner",
+        "required": true
+      },
+      {
+        "placeholder": "[REPO]",
+        "label": "Repo",
+        "description": "Value for repo",
+        "required": true
+      },
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "api",
+      "repospullscomments"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "github-0095",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh api repos///pulls//comments (Verbose)",
+    "description": "Gh api repos///pulls//comments command for github workflows in verbose mode.",
+    "command": "gh api repos/[OWNER]/[REPO]/pulls/[PR_NUMBER]/comments --verbose",
+    "params": [
+      {
+        "placeholder": "[OWNER]",
+        "label": "Owner",
+        "description": "Value for owner",
+        "required": true
+      },
+      {
+        "placeholder": "[REPO]",
+        "label": "Repo",
+        "description": "Value for repo",
+        "required": true
+      },
+      {
+        "placeholder": "[PR_NUMBER]",
+        "label": "Pr Number",
+        "description": "Value for pr number",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "api",
+      "repospullscomments",
+      "--verbose"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "github-0096",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh status (Local)",
+    "description": "Gh status command for github workflows in local mode.",
+    "command": "gh status",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "status"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0097",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh status (Team)",
+    "description": "Gh status command for github workflows in team mode.",
+    "command": "gh status",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "status"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0098",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh status (CI)",
+    "description": "Gh status command for github workflows in ci mode.",
+    "command": "gh status --json id",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--json",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "status",
+      "--json",
+      "id"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0099",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh status (Production)",
+    "description": "Gh status command for github workflows in production mode.",
+    "command": "gh status",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "github",
+      "gh",
+      "status"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "github-0100",
+    "tool": "github",
+    "category": "Collaboration",
+    "title": "Gh status (Verbose)",
+    "description": "Gh status command for github workflows in verbose mode.",
+    "command": "gh status --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "github",
+      "gh",
+      "status",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  }
+]

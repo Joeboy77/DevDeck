@@ -1,0 +1,2643 @@
+[
+  {
+    "id": "docker-0001",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker build -t : . (Local)",
+    "description": "Docker build -t : . command for docker workflows in local mode.",
+    "command": "docker build -t [IMAGE_NAME]:[TAG] .",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-t",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "build",
+      "-t",
+      ":"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0002",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker build -t : . (Team)",
+    "description": "Docker build -t : . command for docker workflows in team mode.",
+    "command": "docker build -t [IMAGE_NAME]:[TAG] .",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-t",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "build",
+      "-t",
+      ":"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0003",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker build -t : . (CI)",
+    "description": "Docker build -t : . command for docker workflows in ci mode.",
+    "command": "docker build -t [IMAGE_NAME]:[TAG] . --quiet",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-t",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "build",
+      "-t",
+      ":"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0004",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker build -t : . (Production)",
+    "description": "Docker build -t : . command for docker workflows in production mode.",
+    "command": "docker build -t [IMAGE_NAME]:[TAG] .",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-t",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "build",
+      "-t",
+      ":"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0005",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker build -t : . (Verbose)",
+    "description": "Docker build -t : . command for docker workflows in verbose mode.",
+    "command": "docker build -t [IMAGE_NAME]:[TAG] . --log-level debug",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-t",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "build",
+      "-t",
+      ":"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0006",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker run -d --name -p : (Local)",
+    "description": "Docker run -d --name -p : command for docker workflows in local mode.",
+    "command": "docker run -d --name [CONTAINER_NAME] -p [HOST_PORT]:[CONTAINER_PORT] [IMAGE_NAME]:[TAG]",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      },
+      {
+        "placeholder": "[HOST_PORT]",
+        "label": "Host Port",
+        "description": "Value for host port",
+        "required": true
+      },
+      {
+        "placeholder": "[CONTAINER_PORT]",
+        "label": "Container Port",
+        "description": "Value for container port",
+        "required": true
+      },
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--name",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "-p",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "run",
+      "-d",
+      "--name",
+      "-p"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "docker-0007",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker run -d --name -p : (Team)",
+    "description": "Docker run -d --name -p : command for docker workflows in team mode.",
+    "command": "docker run -d --name [CONTAINER_NAME] -p [HOST_PORT]:[CONTAINER_PORT] [IMAGE_NAME]:[TAG]",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      },
+      {
+        "placeholder": "[HOST_PORT]",
+        "label": "Host Port",
+        "description": "Value for host port",
+        "required": true
+      },
+      {
+        "placeholder": "[CONTAINER_PORT]",
+        "label": "Container Port",
+        "description": "Value for container port",
+        "required": true
+      },
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--name",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "-p",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "run",
+      "-d",
+      "--name",
+      "-p"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "docker-0008",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker run -d --name -p : (CI)",
+    "description": "Docker run -d --name -p : command for docker workflows in ci mode.",
+    "command": "docker run -d --name [CONTAINER_NAME] -p [HOST_PORT]:[CONTAINER_PORT] [IMAGE_NAME]:[TAG] --quiet",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      },
+      {
+        "placeholder": "[HOST_PORT]",
+        "label": "Host Port",
+        "description": "Value for host port",
+        "required": true
+      },
+      {
+        "placeholder": "[CONTAINER_PORT]",
+        "label": "Container Port",
+        "description": "Value for container port",
+        "required": true
+      },
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--name",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "-p",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "run",
+      "-d",
+      "--name",
+      "-p"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "docker-0009",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker run -d --name -p : (Production)",
+    "description": "Docker run -d --name -p : command for docker workflows in production mode.",
+    "command": "docker run -d --name [CONTAINER_NAME] -p [HOST_PORT]:[CONTAINER_PORT] [IMAGE_NAME]:[TAG]",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      },
+      {
+        "placeholder": "[HOST_PORT]",
+        "label": "Host Port",
+        "description": "Value for host port",
+        "required": true
+      },
+      {
+        "placeholder": "[CONTAINER_PORT]",
+        "label": "Container Port",
+        "description": "Value for container port",
+        "required": true
+      },
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--name",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "-p",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "run",
+      "-d",
+      "--name",
+      "-p"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "docker-0010",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker run -d --name -p : (Verbose)",
+    "description": "Docker run -d --name -p : command for docker workflows in verbose mode.",
+    "command": "docker run -d --name [CONTAINER_NAME] -p [HOST_PORT]:[CONTAINER_PORT] [IMAGE_NAME]:[TAG] --log-level debug",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      },
+      {
+        "placeholder": "[HOST_PORT]",
+        "label": "Host Port",
+        "description": "Value for host port",
+        "required": true
+      },
+      {
+        "placeholder": "[CONTAINER_PORT]",
+        "label": "Container Port",
+        "description": "Value for container port",
+        "required": true
+      },
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--name",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "-p",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "run",
+      "-d",
+      "--name",
+      "-p"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "docker-0011",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker ps (Local)",
+    "description": "Docker ps command for docker workflows in local mode.",
+    "command": "docker ps",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "ps"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0012",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker ps (Team)",
+    "description": "Docker ps command for docker workflows in team mode.",
+    "command": "docker ps",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "ps"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0013",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker ps (CI)",
+    "description": "Docker ps command for docker workflows in ci mode.",
+    "command": "docker ps --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "ps",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0014",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker ps (Production)",
+    "description": "Docker ps command for docker workflows in production mode.",
+    "command": "docker ps",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "ps"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0015",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker ps (Verbose)",
+    "description": "Docker ps command for docker workflows in verbose mode.",
+    "command": "docker ps --log-level debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "ps",
+      "--log-level",
+      "debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0016",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker ps -a (Local)",
+    "description": "Docker ps -a command for docker workflows in local mode.",
+    "command": "docker ps -a",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-a",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "ps",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0017",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker ps -a (Team)",
+    "description": "Docker ps -a command for docker workflows in team mode.",
+    "command": "docker ps -a",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-a",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "ps",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0018",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker ps -a (CI)",
+    "description": "Docker ps -a command for docker workflows in ci mode.",
+    "command": "docker ps -a --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-a",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "ps",
+      "-a",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0019",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker ps -a (Production)",
+    "description": "Docker ps -a command for docker workflows in production mode.",
+    "command": "docker ps -a",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-a",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "ps",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0020",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker ps -a (Verbose)",
+    "description": "Docker ps -a command for docker workflows in verbose mode.",
+    "command": "docker ps -a --log-level debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-a",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "ps",
+      "-a",
+      "--log-level",
+      "debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0021",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker logs (Local)",
+    "description": "Docker logs command for docker workflows in local mode.",
+    "command": "docker logs [CONTAINER_NAME]",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "logs"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0022",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker logs (Team)",
+    "description": "Docker logs command for docker workflows in team mode.",
+    "command": "docker logs [CONTAINER_NAME]",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "logs"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0023",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker logs (CI)",
+    "description": "Docker logs command for docker workflows in ci mode.",
+    "command": "docker logs [CONTAINER_NAME] --quiet",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "logs",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0024",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker logs (Production)",
+    "description": "Docker logs command for docker workflows in production mode.",
+    "command": "docker logs [CONTAINER_NAME]",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "logs"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0025",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker logs (Verbose)",
+    "description": "Docker logs command for docker workflows in verbose mode.",
+    "command": "docker logs [CONTAINER_NAME] --log-level debug",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "logs",
+      "--log-level",
+      "debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0026",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker exec -it /bin/sh (Local)",
+    "description": "Docker exec -it /bin/sh command for docker workflows in local mode.",
+    "command": "docker exec -it [CONTAINER_NAME] /bin/sh",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-it",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "exec",
+      "-it",
+      "binsh"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0027",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker exec -it /bin/sh (Team)",
+    "description": "Docker exec -it /bin/sh command for docker workflows in team mode.",
+    "command": "docker exec -it [CONTAINER_NAME] /bin/sh",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-it",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "exec",
+      "-it",
+      "binsh"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0028",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker exec -it /bin/sh (CI)",
+    "description": "Docker exec -it /bin/sh command for docker workflows in ci mode.",
+    "command": "docker exec -it [CONTAINER_NAME] /bin/sh --quiet",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-it",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "exec",
+      "-it",
+      "binsh",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0029",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker exec -it /bin/sh (Production)",
+    "description": "Docker exec -it /bin/sh command for docker workflows in production mode.",
+    "command": "docker exec -it [CONTAINER_NAME] /bin/sh",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-it",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "exec",
+      "-it",
+      "binsh"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0030",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker exec -it /bin/sh (Verbose)",
+    "description": "Docker exec -it /bin/sh command for docker workflows in verbose mode.",
+    "command": "docker exec -it [CONTAINER_NAME] /bin/sh --log-level debug",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-it",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "exec",
+      "-it",
+      "binsh",
+      "--log-level"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0031",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker stop (Local)",
+    "description": "Docker stop command for docker workflows in local mode.",
+    "command": "docker stop [CONTAINER_NAME]",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "stop"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0032",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker stop (Team)",
+    "description": "Docker stop command for docker workflows in team mode.",
+    "command": "docker stop [CONTAINER_NAME]",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "stop"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0033",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker stop (CI)",
+    "description": "Docker stop command for docker workflows in ci mode.",
+    "command": "docker stop [CONTAINER_NAME] --quiet",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "stop",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0034",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker stop (Production)",
+    "description": "Docker stop command for docker workflows in production mode.",
+    "command": "docker stop [CONTAINER_NAME]",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "stop"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0035",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker stop (Verbose)",
+    "description": "Docker stop command for docker workflows in verbose mode.",
+    "command": "docker stop [CONTAINER_NAME] --log-level debug",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "stop",
+      "--log-level",
+      "debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0036",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker rm (Local)",
+    "description": "Docker rm command for docker workflows in local mode.",
+    "command": "docker rm [CONTAINER_NAME]",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "rm"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0037",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker rm (Team)",
+    "description": "Docker rm command for docker workflows in team mode.",
+    "command": "docker rm [CONTAINER_NAME]",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "rm"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0038",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker rm (CI)",
+    "description": "Docker rm command for docker workflows in ci mode.",
+    "command": "docker rm [CONTAINER_NAME] --quiet",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "rm",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0039",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker rm (Production)",
+    "description": "Docker rm command for docker workflows in production mode.",
+    "command": "docker rm [CONTAINER_NAME]",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "rm"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0040",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker rm (Verbose)",
+    "description": "Docker rm command for docker workflows in verbose mode.",
+    "command": "docker rm [CONTAINER_NAME] --log-level debug",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "rm",
+      "--log-level",
+      "debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0041",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker rmi : (Local)",
+    "description": "Docker rmi : command for docker workflows in local mode.",
+    "command": "docker rmi [IMAGE_NAME]:[TAG]",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "rmi",
+      ":"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0042",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker rmi : (Team)",
+    "description": "Docker rmi : command for docker workflows in team mode.",
+    "command": "docker rmi [IMAGE_NAME]:[TAG]",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "rmi",
+      ":"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0043",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker rmi : (CI)",
+    "description": "Docker rmi : command for docker workflows in ci mode.",
+    "command": "docker rmi [IMAGE_NAME]:[TAG] --quiet",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "rmi",
+      ":",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0044",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker rmi : (Production)",
+    "description": "Docker rmi : command for docker workflows in production mode.",
+    "command": "docker rmi [IMAGE_NAME]:[TAG]",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "rmi",
+      ":"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0045",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker rmi : (Verbose)",
+    "description": "Docker rmi : command for docker workflows in verbose mode.",
+    "command": "docker rmi [IMAGE_NAME]:[TAG] --log-level debug",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "rmi",
+      ":",
+      "--log-level",
+      "debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0046",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker system prune -f (Local)",
+    "description": "Docker system prune -f command for docker workflows in local mode.",
+    "command": "docker system prune -f",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "system",
+      "prune",
+      "-f"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0047",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker system prune -f (Team)",
+    "description": "Docker system prune -f command for docker workflows in team mode.",
+    "command": "docker system prune -f",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "system",
+      "prune",
+      "-f"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0048",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker system prune -f (CI)",
+    "description": "Docker system prune -f command for docker workflows in ci mode.",
+    "command": "docker system prune -f --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "system",
+      "prune",
+      "-f",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0049",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker system prune -f (Production)",
+    "description": "Docker system prune -f command for docker workflows in production mode.",
+    "command": "docker system prune -f",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "system",
+      "prune",
+      "-f"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0050",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker system prune -f (Verbose)",
+    "description": "Docker system prune -f command for docker workflows in verbose mode.",
+    "command": "docker system prune -f --log-level debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "system",
+      "prune",
+      "-f",
+      "--log-level"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0051",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker compose up -d (Local)",
+    "description": "Docker compose up -d command for docker workflows in local mode.",
+    "command": "docker compose up -d",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "compose",
+      "up",
+      "-d"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0052",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker compose up -d (Team)",
+    "description": "Docker compose up -d command for docker workflows in team mode.",
+    "command": "docker compose up -d",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "compose",
+      "up",
+      "-d"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0053",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker compose up -d (CI)",
+    "description": "Docker compose up -d command for docker workflows in ci mode.",
+    "command": "docker compose up -d --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "compose",
+      "up",
+      "-d",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0054",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker compose up -d (Production)",
+    "description": "Docker compose up -d command for docker workflows in production mode.",
+    "command": "docker compose up -d",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "compose",
+      "up",
+      "-d"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0055",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker compose up -d (Verbose)",
+    "description": "Docker compose up -d command for docker workflows in verbose mode.",
+    "command": "docker compose up -d --log-level debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "compose",
+      "up",
+      "-d",
+      "--log-level"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0056",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker compose down (Local)",
+    "description": "Docker compose down command for docker workflows in local mode.",
+    "command": "docker compose down",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "compose",
+      "down"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0057",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker compose down (Team)",
+    "description": "Docker compose down command for docker workflows in team mode.",
+    "command": "docker compose down",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "compose",
+      "down"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0058",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker compose down (CI)",
+    "description": "Docker compose down command for docker workflows in ci mode.",
+    "command": "docker compose down --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "compose",
+      "down",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0059",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker compose down (Production)",
+    "description": "Docker compose down command for docker workflows in production mode.",
+    "command": "docker compose down",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "compose",
+      "down"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0060",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker compose down (Verbose)",
+    "description": "Docker compose down command for docker workflows in verbose mode.",
+    "command": "docker compose down --log-level debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "compose",
+      "down",
+      "--log-level",
+      "debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0061",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker compose logs -f (Local)",
+    "description": "Docker compose logs -f command for docker workflows in local mode.",
+    "command": "docker compose logs -f",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "compose",
+      "logs",
+      "-f"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0062",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker compose logs -f (Team)",
+    "description": "Docker compose logs -f command for docker workflows in team mode.",
+    "command": "docker compose logs -f",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "compose",
+      "logs",
+      "-f"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0063",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker compose logs -f (CI)",
+    "description": "Docker compose logs -f command for docker workflows in ci mode.",
+    "command": "docker compose logs -f --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "compose",
+      "logs",
+      "-f",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0064",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker compose logs -f (Production)",
+    "description": "Docker compose logs -f command for docker workflows in production mode.",
+    "command": "docker compose logs -f",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by docker"
+      }
+    ],
+    "tags": [
+      "docker",
+      "compose",
+      "logs",
+      "-f"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0065",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker compose logs -f (Verbose)",
+    "description": "Docker compose logs -f command for docker workflows in verbose mode.",
+    "command": "docker compose logs -f --log-level debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by docker"
+      },
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "compose",
+      "logs",
+      "-f",
+      "--log-level"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0066",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker volume ls (Local)",
+    "description": "Docker volume ls command for docker workflows in local mode.",
+    "command": "docker volume ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "volume",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0067",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker volume ls (Team)",
+    "description": "Docker volume ls command for docker workflows in team mode.",
+    "command": "docker volume ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "volume",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0068",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker volume ls (CI)",
+    "description": "Docker volume ls command for docker workflows in ci mode.",
+    "command": "docker volume ls --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "volume",
+      "ls",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0069",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker volume ls (Production)",
+    "description": "Docker volume ls command for docker workflows in production mode.",
+    "command": "docker volume ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "volume",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0070",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker volume ls (Verbose)",
+    "description": "Docker volume ls command for docker workflows in verbose mode.",
+    "command": "docker volume ls --log-level debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "volume",
+      "ls",
+      "--log-level",
+      "debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0071",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker network ls (Local)",
+    "description": "Docker network ls command for docker workflows in local mode.",
+    "command": "docker network ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "network",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0072",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker network ls (Team)",
+    "description": "Docker network ls command for docker workflows in team mode.",
+    "command": "docker network ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "network",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0073",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker network ls (CI)",
+    "description": "Docker network ls command for docker workflows in ci mode.",
+    "command": "docker network ls --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "network",
+      "ls",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0074",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker network ls (Production)",
+    "description": "Docker network ls command for docker workflows in production mode.",
+    "command": "docker network ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "network",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0075",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker network ls (Verbose)",
+    "description": "Docker network ls command for docker workflows in verbose mode.",
+    "command": "docker network ls --log-level debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "network",
+      "ls",
+      "--log-level",
+      "debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0076",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker login (Local)",
+    "description": "Docker login command for docker workflows in local mode.",
+    "command": "docker login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0077",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker login (Team)",
+    "description": "Docker login command for docker workflows in team mode.",
+    "command": "docker login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0078",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker login (CI)",
+    "description": "Docker login command for docker workflows in ci mode.",
+    "command": "docker login --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "login",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0079",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker login (Production)",
+    "description": "Docker login command for docker workflows in production mode.",
+    "command": "docker login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0080",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker login (Verbose)",
+    "description": "Docker login command for docker workflows in verbose mode.",
+    "command": "docker login --log-level debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "login",
+      "--log-level",
+      "debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0081",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker push : (Local)",
+    "description": "Docker push : command for docker workflows in local mode.",
+    "command": "docker push [IMAGE_NAME]:[TAG]",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "push",
+      ":"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0082",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker push : (Team)",
+    "description": "Docker push : command for docker workflows in team mode.",
+    "command": "docker push [IMAGE_NAME]:[TAG]",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "push",
+      ":"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0083",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker push : (CI)",
+    "description": "Docker push : command for docker workflows in ci mode.",
+    "command": "docker push [IMAGE_NAME]:[TAG] --quiet",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "push",
+      ":",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0084",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker push : (Production)",
+    "description": "Docker push : command for docker workflows in production mode.",
+    "command": "docker push [IMAGE_NAME]:[TAG]",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "push",
+      ":"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0085",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker push : (Verbose)",
+    "description": "Docker push : command for docker workflows in verbose mode.",
+    "command": "docker push [IMAGE_NAME]:[TAG] --log-level debug",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "push",
+      ":",
+      "--log-level",
+      "debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0086",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker pull : (Local)",
+    "description": "Docker pull : command for docker workflows in local mode.",
+    "command": "docker pull [IMAGE_NAME]:[TAG]",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "pull",
+      ":"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0087",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker pull : (Team)",
+    "description": "Docker pull : command for docker workflows in team mode.",
+    "command": "docker pull [IMAGE_NAME]:[TAG]",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "pull",
+      ":"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0088",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker pull : (CI)",
+    "description": "Docker pull : command for docker workflows in ci mode.",
+    "command": "docker pull [IMAGE_NAME]:[TAG] --quiet",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "pull",
+      ":",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0089",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker pull : (Production)",
+    "description": "Docker pull : command for docker workflows in production mode.",
+    "command": "docker pull [IMAGE_NAME]:[TAG]",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "pull",
+      ":"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0090",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker pull : (Verbose)",
+    "description": "Docker pull : command for docker workflows in verbose mode.",
+    "command": "docker pull [IMAGE_NAME]:[TAG] --log-level debug",
+    "params": [
+      {
+        "placeholder": "[IMAGE_NAME]",
+        "label": "Image Name",
+        "description": "Value for image name",
+        "required": true
+      },
+      {
+        "placeholder": "[TAG]",
+        "label": "Tag",
+        "description": "Value for tag",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "pull",
+      ":",
+      "--log-level",
+      "debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0091",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker inspect (Local)",
+    "description": "Docker inspect command for docker workflows in local mode.",
+    "command": "docker inspect [CONTAINER_NAME]",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "inspect"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0092",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker inspect (Team)",
+    "description": "Docker inspect command for docker workflows in team mode.",
+    "command": "docker inspect [CONTAINER_NAME]",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "inspect"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0093",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker inspect (CI)",
+    "description": "Docker inspect command for docker workflows in ci mode.",
+    "command": "docker inspect [CONTAINER_NAME] --quiet",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "inspect",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0094",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker inspect (Production)",
+    "description": "Docker inspect command for docker workflows in production mode.",
+    "command": "docker inspect [CONTAINER_NAME]",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "docker",
+      "inspect"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0095",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker inspect (Verbose)",
+    "description": "Docker inspect command for docker workflows in verbose mode.",
+    "command": "docker inspect [CONTAINER_NAME] --log-level debug",
+    "params": [
+      {
+        "placeholder": "[CONTAINER_NAME]",
+        "label": "Container Name",
+        "description": "Value for container name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "inspect",
+      "--log-level",
+      "debug"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0096",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker stats (Local)",
+    "description": "Docker stats command for docker workflows in local mode.",
+    "command": "docker stats",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "stats"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0097",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker stats (Team)",
+    "description": "Docker stats command for docker workflows in team mode.",
+    "command": "docker stats",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "stats"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0098",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker stats (CI)",
+    "description": "Docker stats command for docker workflows in ci mode.",
+    "command": "docker stats --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "stats",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0099",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker stats (Production)",
+    "description": "Docker stats command for docker workflows in production mode.",
+    "command": "docker stats",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "docker",
+      "stats"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "docker-0100",
+    "tool": "docker",
+    "category": "Containers",
+    "title": "Docker stats (Verbose)",
+    "description": "Docker stats command for docker workflows in verbose mode.",
+    "command": "docker stats --log-level debug",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--log-level",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "docker",
+      "stats",
+      "--log-level",
+      "debug"
+    ],
+    "difficulty": "beginner"
+  }
+]

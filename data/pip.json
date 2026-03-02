@@ -1,0 +1,2154 @@
+[
+  {
+    "id": "pip-0001",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install (Local)",
+    "description": "Pip install command for pip workflows in local mode.",
+    "command": "pip install [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0002",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install (Team)",
+    "description": "Pip install command for pip workflows in team mode.",
+    "command": "pip install [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0003",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install (CI)",
+    "description": "Pip install command for pip workflows in ci mode.",
+    "command": "pip install [PACKAGE_NAME] --quiet",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0004",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install (Production)",
+    "description": "Pip install command for pip workflows in production mode.",
+    "command": "pip install [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0005",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install (Verbose)",
+    "description": "Pip install command for pip workflows in verbose mode.",
+    "command": "pip install [PACKAGE_NAME] -v",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0006",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install -U (Local)",
+    "description": "Pip install -U command for pip workflows in local mode.",
+    "command": "pip install -U [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-U",
+        "description": "Flag used by pip"
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "-u"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0007",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install -U (Team)",
+    "description": "Pip install -U command for pip workflows in team mode.",
+    "command": "pip install -U [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-U",
+        "description": "Flag used by pip"
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "-u"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0008",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install -U (CI)",
+    "description": "Pip install -U command for pip workflows in ci mode.",
+    "command": "pip install -U [PACKAGE_NAME] --quiet",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-U",
+        "description": "Flag used by pip"
+      },
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "-u",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0009",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install -U (Production)",
+    "description": "Pip install -U command for pip workflows in production mode.",
+    "command": "pip install -U [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-U",
+        "description": "Flag used by pip"
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "-u"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0010",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install -U (Verbose)",
+    "description": "Pip install -U command for pip workflows in verbose mode.",
+    "command": "pip install -U [PACKAGE_NAME] -v",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-U",
+        "description": "Flag used by pip"
+      },
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "-u",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0011",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip uninstall (Local)",
+    "description": "Pip uninstall command for pip workflows in local mode.",
+    "command": "pip uninstall [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "uninstall"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0012",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip uninstall (Team)",
+    "description": "Pip uninstall command for pip workflows in team mode.",
+    "command": "pip uninstall [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "uninstall"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0013",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip uninstall (CI)",
+    "description": "Pip uninstall command for pip workflows in ci mode.",
+    "command": "pip uninstall [PACKAGE_NAME] --quiet",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "uninstall",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0014",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip uninstall (Production)",
+    "description": "Pip uninstall command for pip workflows in production mode.",
+    "command": "pip uninstall [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "uninstall"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0015",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip uninstall (Verbose)",
+    "description": "Pip uninstall command for pip workflows in verbose mode.",
+    "command": "pip uninstall [PACKAGE_NAME] -v",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "uninstall",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0016",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip list (Local)",
+    "description": "Pip list command for pip workflows in local mode.",
+    "command": "pip list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0017",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip list (Team)",
+    "description": "Pip list command for pip workflows in team mode.",
+    "command": "pip list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0018",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip list (CI)",
+    "description": "Pip list command for pip workflows in ci mode.",
+    "command": "pip list --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "list",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0019",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip list (Production)",
+    "description": "Pip list command for pip workflows in production mode.",
+    "command": "pip list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0020",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip list (Verbose)",
+    "description": "Pip list command for pip workflows in verbose mode.",
+    "command": "pip list -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "list",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0021",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip freeze (Local)",
+    "description": "Pip freeze command for pip workflows in local mode.",
+    "command": "pip freeze",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "freeze"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0022",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip freeze (Team)",
+    "description": "Pip freeze command for pip workflows in team mode.",
+    "command": "pip freeze",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "freeze"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0023",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip freeze (CI)",
+    "description": "Pip freeze command for pip workflows in ci mode.",
+    "command": "pip freeze --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "freeze",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0024",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip freeze (Production)",
+    "description": "Pip freeze command for pip workflows in production mode.",
+    "command": "pip freeze",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "freeze"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0025",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip freeze (Verbose)",
+    "description": "Pip freeze command for pip workflows in verbose mode.",
+    "command": "pip freeze -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "freeze",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0026",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip show (Local)",
+    "description": "Pip show command for pip workflows in local mode.",
+    "command": "pip show [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "show"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0027",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip show (Team)",
+    "description": "Pip show command for pip workflows in team mode.",
+    "command": "pip show [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "show"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0028",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip show (CI)",
+    "description": "Pip show command for pip workflows in ci mode.",
+    "command": "pip show [PACKAGE_NAME] --quiet",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "show",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0029",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip show (Production)",
+    "description": "Pip show command for pip workflows in production mode.",
+    "command": "pip show [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "show"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0030",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip show (Verbose)",
+    "description": "Pip show command for pip workflows in verbose mode.",
+    "command": "pip show [PACKAGE_NAME] -v",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "show",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0031",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip cache dir (Local)",
+    "description": "Pip cache dir command for pip workflows in local mode.",
+    "command": "pip cache dir",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "cache",
+      "dir"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0032",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip cache dir (Team)",
+    "description": "Pip cache dir command for pip workflows in team mode.",
+    "command": "pip cache dir",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "cache",
+      "dir"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0033",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip cache dir (CI)",
+    "description": "Pip cache dir command for pip workflows in ci mode.",
+    "command": "pip cache dir --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "cache",
+      "dir",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0034",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip cache dir (Production)",
+    "description": "Pip cache dir command for pip workflows in production mode.",
+    "command": "pip cache dir",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "cache",
+      "dir"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0035",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip cache dir (Verbose)",
+    "description": "Pip cache dir command for pip workflows in verbose mode.",
+    "command": "pip cache dir -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "cache",
+      "dir",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0036",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip cache purge (Local)",
+    "description": "Pip cache purge command for pip workflows in local mode.",
+    "command": "pip cache purge",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "cache",
+      "purge"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0037",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip cache purge (Team)",
+    "description": "Pip cache purge command for pip workflows in team mode.",
+    "command": "pip cache purge",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "cache",
+      "purge"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0038",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip cache purge (CI)",
+    "description": "Pip cache purge command for pip workflows in ci mode.",
+    "command": "pip cache purge --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "cache",
+      "purge",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0039",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip cache purge (Production)",
+    "description": "Pip cache purge command for pip workflows in production mode.",
+    "command": "pip cache purge",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "cache",
+      "purge"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0040",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip cache purge (Verbose)",
+    "description": "Pip cache purge command for pip workflows in verbose mode.",
+    "command": "pip cache purge -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "cache",
+      "purge",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0041",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install -r requirements.txt (Local)",
+    "description": "Pip install -r requirements.txt command for pip workflows in local mode.",
+    "command": "pip install -r requirements.txt",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-r",
+        "description": "Flag used by pip"
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "-r",
+      "requirementstxt"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0042",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install -r requirements.txt (Team)",
+    "description": "Pip install -r requirements.txt command for pip workflows in team mode.",
+    "command": "pip install -r requirements.txt",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-r",
+        "description": "Flag used by pip"
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "-r",
+      "requirementstxt"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0043",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install -r requirements.txt (CI)",
+    "description": "Pip install -r requirements.txt command for pip workflows in ci mode.",
+    "command": "pip install -r requirements.txt --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-r",
+        "description": "Flag used by pip"
+      },
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "-r",
+      "requirementstxt",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0044",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install -r requirements.txt (Production)",
+    "description": "Pip install -r requirements.txt command for pip workflows in production mode.",
+    "command": "pip install -r requirements.txt",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-r",
+        "description": "Flag used by pip"
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "-r",
+      "requirementstxt"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0045",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install -r requirements.txt (Verbose)",
+    "description": "Pip install -r requirements.txt command for pip workflows in verbose mode.",
+    "command": "pip install -r requirements.txt -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-r",
+        "description": "Flag used by pip"
+      },
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "-r",
+      "requirementstxt",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0046",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip wheel -r requirements.txt (Local)",
+    "description": "Pip wheel -r requirements.txt command for pip workflows in local mode.",
+    "command": "pip wheel -r requirements.txt",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-r",
+        "description": "Flag used by pip"
+      }
+    ],
+    "tags": [
+      "pip",
+      "wheel",
+      "-r",
+      "requirementstxt"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0047",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip wheel -r requirements.txt (Team)",
+    "description": "Pip wheel -r requirements.txt command for pip workflows in team mode.",
+    "command": "pip wheel -r requirements.txt",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-r",
+        "description": "Flag used by pip"
+      }
+    ],
+    "tags": [
+      "pip",
+      "wheel",
+      "-r",
+      "requirementstxt"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0048",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip wheel -r requirements.txt (CI)",
+    "description": "Pip wheel -r requirements.txt command for pip workflows in ci mode.",
+    "command": "pip wheel -r requirements.txt --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-r",
+        "description": "Flag used by pip"
+      },
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "wheel",
+      "-r",
+      "requirementstxt",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0049",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip wheel -r requirements.txt (Production)",
+    "description": "Pip wheel -r requirements.txt command for pip workflows in production mode.",
+    "command": "pip wheel -r requirements.txt",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-r",
+        "description": "Flag used by pip"
+      }
+    ],
+    "tags": [
+      "pip",
+      "wheel",
+      "-r",
+      "requirementstxt"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0050",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip wheel -r requirements.txt (Verbose)",
+    "description": "Pip wheel -r requirements.txt command for pip workflows in verbose mode.",
+    "command": "pip wheel -r requirements.txt -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-r",
+        "description": "Flag used by pip"
+      },
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "wheel",
+      "-r",
+      "requirementstxt",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0051",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip download (Local)",
+    "description": "Pip download command for pip workflows in local mode.",
+    "command": "pip download [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "download"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0052",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip download (Team)",
+    "description": "Pip download command for pip workflows in team mode.",
+    "command": "pip download [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "download"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0053",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip download (CI)",
+    "description": "Pip download command for pip workflows in ci mode.",
+    "command": "pip download [PACKAGE_NAME] --quiet",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "download",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0054",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip download (Production)",
+    "description": "Pip download command for pip workflows in production mode.",
+    "command": "pip download [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "download"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0055",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip download (Verbose)",
+    "description": "Pip download command for pip workflows in verbose mode.",
+    "command": "pip download [PACKAGE_NAME] -v",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "download",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0056",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip check (Local)",
+    "description": "Pip check command for pip workflows in local mode.",
+    "command": "pip check",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "check"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0057",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip check (Team)",
+    "description": "Pip check command for pip workflows in team mode.",
+    "command": "pip check",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "check"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0058",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip check (CI)",
+    "description": "Pip check command for pip workflows in ci mode.",
+    "command": "pip check --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "check",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0059",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip check (Production)",
+    "description": "Pip check command for pip workflows in production mode.",
+    "command": "pip check",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "check"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0060",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip check (Verbose)",
+    "description": "Pip check command for pip workflows in verbose mode.",
+    "command": "pip check -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "check",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0061",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip index versions (Local)",
+    "description": "Pip index versions command for pip workflows in local mode.",
+    "command": "pip index versions [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "index",
+      "versions"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0062",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip index versions (Team)",
+    "description": "Pip index versions command for pip workflows in team mode.",
+    "command": "pip index versions [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "index",
+      "versions"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0063",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip index versions (CI)",
+    "description": "Pip index versions command for pip workflows in ci mode.",
+    "command": "pip index versions [PACKAGE_NAME] --quiet",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "index",
+      "versions",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0064",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip index versions (Production)",
+    "description": "Pip index versions command for pip workflows in production mode.",
+    "command": "pip index versions [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "index",
+      "versions"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0065",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip index versions (Verbose)",
+    "description": "Pip index versions command for pip workflows in verbose mode.",
+    "command": "pip index versions [PACKAGE_NAME] -v",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "index",
+      "versions",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0066",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip config list (Local)",
+    "description": "Pip config list command for pip workflows in local mode.",
+    "command": "pip config list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "config",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0067",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip config list (Team)",
+    "description": "Pip config list command for pip workflows in team mode.",
+    "command": "pip config list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "config",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0068",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip config list (CI)",
+    "description": "Pip config list command for pip workflows in ci mode.",
+    "command": "pip config list --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "config",
+      "list",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0069",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip config list (Production)",
+    "description": "Pip config list command for pip workflows in production mode.",
+    "command": "pip config list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "config",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0070",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip config list (Verbose)",
+    "description": "Pip config list command for pip workflows in verbose mode.",
+    "command": "pip config list -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "config",
+      "list",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0071",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip config set global.index-url (Local)",
+    "description": "Pip config set global.index-url command for pip workflows in local mode.",
+    "command": "pip config set global.index-url [URL]",
+    "params": [
+      {
+        "placeholder": "[URL]",
+        "label": "Url",
+        "description": "Value for url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "config",
+      "set",
+      "globalindex-url"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0072",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip config set global.index-url (Team)",
+    "description": "Pip config set global.index-url command for pip workflows in team mode.",
+    "command": "pip config set global.index-url [URL]",
+    "params": [
+      {
+        "placeholder": "[URL]",
+        "label": "Url",
+        "description": "Value for url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "config",
+      "set",
+      "globalindex-url"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0073",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip config set global.index-url (CI)",
+    "description": "Pip config set global.index-url command for pip workflows in ci mode.",
+    "command": "pip config set global.index-url [URL] --quiet",
+    "params": [
+      {
+        "placeholder": "[URL]",
+        "label": "Url",
+        "description": "Value for url",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "config",
+      "set",
+      "globalindex-url",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0074",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip config set global.index-url (Production)",
+    "description": "Pip config set global.index-url command for pip workflows in production mode.",
+    "command": "pip config set global.index-url [URL]",
+    "params": [
+      {
+        "placeholder": "[URL]",
+        "label": "Url",
+        "description": "Value for url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pip",
+      "config",
+      "set",
+      "globalindex-url"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0075",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip config set global.index-url (Verbose)",
+    "description": "Pip config set global.index-url command for pip workflows in verbose mode.",
+    "command": "pip config set global.index-url [URL] -v",
+    "params": [
+      {
+        "placeholder": "[URL]",
+        "label": "Url",
+        "description": "Value for url",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "config",
+      "set",
+      "globalindex-url",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0076",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install pip-tools (Local)",
+    "description": "Pip install pip-tools command for pip workflows in local mode.",
+    "command": "pip install pip-tools",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "install",
+      "pip-tools"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0077",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install pip-tools (Team)",
+    "description": "Pip install pip-tools command for pip workflows in team mode.",
+    "command": "pip install pip-tools",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "install",
+      "pip-tools"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0078",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install pip-tools (CI)",
+    "description": "Pip install pip-tools command for pip workflows in ci mode.",
+    "command": "pip install pip-tools --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "pip-tools",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0079",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install pip-tools (Production)",
+    "description": "Pip install pip-tools command for pip workflows in production mode.",
+    "command": "pip install pip-tools",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "install",
+      "pip-tools"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0080",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install pip-tools (Verbose)",
+    "description": "Pip install pip-tools command for pip workflows in verbose mode.",
+    "command": "pip install pip-tools -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "pip-tools",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0081",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip-compile requirements.in (Local)",
+    "description": "Pip-compile requirements.in command for pip workflows in local mode.",
+    "command": "pip-compile requirements.in",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "pip-compile",
+      "requirementsin"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0082",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip-compile requirements.in (Team)",
+    "description": "Pip-compile requirements.in command for pip workflows in team mode.",
+    "command": "pip-compile requirements.in",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "pip-compile",
+      "requirementsin"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0083",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip-compile requirements.in (CI)",
+    "description": "Pip-compile requirements.in command for pip workflows in ci mode.",
+    "command": "pip-compile requirements.in --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "pip-compile",
+      "requirementsin",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0084",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip-compile requirements.in (Production)",
+    "description": "Pip-compile requirements.in command for pip workflows in production mode.",
+    "command": "pip-compile requirements.in",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "pip-compile",
+      "requirementsin"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0085",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip-compile requirements.in (Verbose)",
+    "description": "Pip-compile requirements.in command for pip workflows in verbose mode.",
+    "command": "pip-compile requirements.in -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "pip-compile",
+      "requirementsin",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0086",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip-sync requirements.txt (Local)",
+    "description": "Pip-sync requirements.txt command for pip workflows in local mode.",
+    "command": "pip-sync requirements.txt",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "pip-sync",
+      "requirementstxt"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0087",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip-sync requirements.txt (Team)",
+    "description": "Pip-sync requirements.txt command for pip workflows in team mode.",
+    "command": "pip-sync requirements.txt",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "pip-sync",
+      "requirementstxt"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0088",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip-sync requirements.txt (CI)",
+    "description": "Pip-sync requirements.txt command for pip workflows in ci mode.",
+    "command": "pip-sync requirements.txt --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "pip-sync",
+      "requirementstxt",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0089",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip-sync requirements.txt (Production)",
+    "description": "Pip-sync requirements.txt command for pip workflows in production mode.",
+    "command": "pip-sync requirements.txt",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "pip-sync",
+      "requirementstxt"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0090",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip-sync requirements.txt (Verbose)",
+    "description": "Pip-sync requirements.txt command for pip workflows in verbose mode.",
+    "command": "pip-sync requirements.txt -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "pip-sync",
+      "requirementstxt",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0091",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pipdeptree (Local)",
+    "description": "Pipdeptree command for pip workflows in local mode.",
+    "command": "pipdeptree",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "pipdeptree"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0092",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pipdeptree (Team)",
+    "description": "Pipdeptree command for pip workflows in team mode.",
+    "command": "pipdeptree",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "pipdeptree"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0093",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pipdeptree (CI)",
+    "description": "Pipdeptree command for pip workflows in ci mode.",
+    "command": "pipdeptree --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "pipdeptree",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0094",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pipdeptree (Production)",
+    "description": "Pipdeptree command for pip workflows in production mode.",
+    "command": "pipdeptree",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pip",
+      "pipdeptree"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0095",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pipdeptree (Verbose)",
+    "description": "Pipdeptree command for pip workflows in verbose mode.",
+    "command": "pipdeptree -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "pipdeptree",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0096",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install --upgrade pip (Local)",
+    "description": "Pip install --upgrade pip command for pip workflows in local mode.",
+    "command": "pip install --upgrade pip",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--upgrade",
+        "description": "Flag used by pip"
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "--upgrade"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0097",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install --upgrade pip (Team)",
+    "description": "Pip install --upgrade pip command for pip workflows in team mode.",
+    "command": "pip install --upgrade pip",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--upgrade",
+        "description": "Flag used by pip"
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "--upgrade"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0098",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install --upgrade pip (CI)",
+    "description": "Pip install --upgrade pip command for pip workflows in ci mode.",
+    "command": "pip install --upgrade pip --quiet",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--upgrade",
+        "description": "Flag used by pip"
+      },
+      {
+        "flag": "--quiet",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "--upgrade",
+      "--quiet"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0099",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install --upgrade pip (Production)",
+    "description": "Pip install --upgrade pip command for pip workflows in production mode.",
+    "command": "pip install --upgrade pip",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--upgrade",
+        "description": "Flag used by pip"
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "--upgrade"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pip-0100",
+    "tool": "pip",
+    "category": "Python",
+    "title": "Pip install --upgrade pip (Verbose)",
+    "description": "Pip install --upgrade pip command for pip workflows in verbose mode.",
+    "command": "pip install --upgrade pip -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--upgrade",
+        "description": "Flag used by pip"
+      },
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pip",
+      "install",
+      "--upgrade",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  }
+]

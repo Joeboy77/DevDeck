@@ -1,0 +1,2134 @@
+[
+  {
+    "id": "react-native-0001",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native init (Local)",
+    "description": "Npx react-native init command for react-native workflows in local mode.",
+    "command": "npx react-native init [APP_NAME]",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "init"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0002",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native init (Team)",
+    "description": "Npx react-native init command for react-native workflows in team mode.",
+    "command": "npx react-native init [APP_NAME]",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "init"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0003",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native init (CI)",
+    "description": "Npx react-native init command for react-native workflows in ci mode.",
+    "command": "npx react-native init [APP_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "init",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0004",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native init (Production)",
+    "description": "Npx react-native init command for react-native workflows in production mode.",
+    "command": "npx react-native init [APP_NAME]",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "init"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0005",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native init (Verbose)",
+    "description": "Npx react-native init command for react-native workflows in verbose mode.",
+    "command": "npx react-native init [APP_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "init",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0006",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native run-android (Local)",
+    "description": "Npx react-native run-android command for react-native workflows in local mode.",
+    "command": "npx react-native run-android",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "run-android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0007",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native run-android (Team)",
+    "description": "Npx react-native run-android command for react-native workflows in team mode.",
+    "command": "npx react-native run-android",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "run-android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0008",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native run-android (CI)",
+    "description": "Npx react-native run-android command for react-native workflows in ci mode.",
+    "command": "npx react-native run-android --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "run-android",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0009",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native run-android (Production)",
+    "description": "Npx react-native run-android command for react-native workflows in production mode.",
+    "command": "npx react-native run-android",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "run-android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0010",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native run-android (Verbose)",
+    "description": "Npx react-native run-android command for react-native workflows in verbose mode.",
+    "command": "npx react-native run-android --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "run-android",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0011",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native run-ios (Local)",
+    "description": "Npx react-native run-ios command for react-native workflows in local mode.",
+    "command": "npx react-native run-ios",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "run-ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0012",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native run-ios (Team)",
+    "description": "Npx react-native run-ios command for react-native workflows in team mode.",
+    "command": "npx react-native run-ios",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "run-ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0013",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native run-ios (CI)",
+    "description": "Npx react-native run-ios command for react-native workflows in ci mode.",
+    "command": "npx react-native run-ios --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "run-ios",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0014",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native run-ios (Production)",
+    "description": "Npx react-native run-ios command for react-native workflows in production mode.",
+    "command": "npx react-native run-ios",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "run-ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0015",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native run-ios (Verbose)",
+    "description": "Npx react-native run-ios command for react-native workflows in verbose mode.",
+    "command": "npx react-native run-ios --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "run-ios",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0016",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native start (Local)",
+    "description": "Npx react-native start command for react-native workflows in local mode.",
+    "command": "npx react-native start",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "start"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0017",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native start (Team)",
+    "description": "Npx react-native start command for react-native workflows in team mode.",
+    "command": "npx react-native start",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "start"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0018",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native start (CI)",
+    "description": "Npx react-native start command for react-native workflows in ci mode.",
+    "command": "npx react-native start --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "start",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0019",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native start (Production)",
+    "description": "Npx react-native start command for react-native workflows in production mode.",
+    "command": "npx react-native start",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "start"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0020",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native start (Verbose)",
+    "description": "Npx react-native start command for react-native workflows in verbose mode.",
+    "command": "npx react-native start --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "start",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0021",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native doctor (Local)",
+    "description": "Npx react-native doctor command for react-native workflows in local mode.",
+    "command": "npx react-native doctor",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "doctor"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0022",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native doctor (Team)",
+    "description": "Npx react-native doctor command for react-native workflows in team mode.",
+    "command": "npx react-native doctor",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "doctor"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0023",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native doctor (CI)",
+    "description": "Npx react-native doctor command for react-native workflows in ci mode.",
+    "command": "npx react-native doctor --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "doctor",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0024",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native doctor (Production)",
+    "description": "Npx react-native doctor command for react-native workflows in production mode.",
+    "command": "npx react-native doctor",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "doctor"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0025",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native doctor (Verbose)",
+    "description": "Npx react-native doctor command for react-native workflows in verbose mode.",
+    "command": "npx react-native doctor --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "doctor",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0026",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native config (Local)",
+    "description": "Npx react-native config command for react-native workflows in local mode.",
+    "command": "npx react-native config",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "config"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0027",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native config (Team)",
+    "description": "Npx react-native config command for react-native workflows in team mode.",
+    "command": "npx react-native config",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "config"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0028",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native config (CI)",
+    "description": "Npx react-native config command for react-native workflows in ci mode.",
+    "command": "npx react-native config --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "config",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0029",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native config (Production)",
+    "description": "Npx react-native config command for react-native workflows in production mode.",
+    "command": "npx react-native config",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "config"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0030",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native config (Verbose)",
+    "description": "Npx react-native config command for react-native workflows in verbose mode.",
+    "command": "npx react-native config --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "config",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0031",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native bundle --platform ios --dev (Local)",
+    "description": "Npx react-native bundle --platform ios --dev command for react-native workflows in local mode.",
+    "command": "npx react-native bundle --platform ios --dev false --entry-file index.js --bundle-output ios/main.jsbundle",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--dev",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--entry-file",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--bundle-output",
+        "description": "Flag used by npx"
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "bundle",
+      "--platform",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0032",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native bundle --platform ios --dev (Team)",
+    "description": "Npx react-native bundle --platform ios --dev command for react-native workflows in team mode.",
+    "command": "npx react-native bundle --platform ios --dev false --entry-file index.js --bundle-output ios/main.jsbundle",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--dev",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--entry-file",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--bundle-output",
+        "description": "Flag used by npx"
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "bundle",
+      "--platform",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0033",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native bundle --platform ios --dev (CI)",
+    "description": "Npx react-native bundle --platform ios --dev command for react-native workflows in ci mode.",
+    "command": "npx react-native bundle --platform ios --dev false --entry-file index.js --bundle-output ios/main.jsbundle --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--dev",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--entry-file",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--bundle-output",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "bundle",
+      "--platform",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0034",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native bundle --platform ios --dev (Production)",
+    "description": "Npx react-native bundle --platform ios --dev command for react-native workflows in production mode.",
+    "command": "npx react-native bundle --platform ios --dev false --entry-file index.js --bundle-output ios/main.jsbundle",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--dev",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--entry-file",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--bundle-output",
+        "description": "Flag used by npx"
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "bundle",
+      "--platform",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0035",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native bundle --platform ios --dev (Verbose)",
+    "description": "Npx react-native bundle --platform ios --dev command for react-native workflows in verbose mode.",
+    "command": "npx react-native bundle --platform ios --dev false --entry-file index.js --bundle-output ios/main.jsbundle --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--dev",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--entry-file",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--bundle-output",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "bundle",
+      "--platform",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0036",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native bundle --platform android --dev (Local)",
+    "description": "Npx react-native bundle --platform android --dev command for react-native workflows in local mode.",
+    "command": "npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--dev",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--entry-file",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--bundle-output",
+        "description": "Flag used by npx"
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "bundle",
+      "--platform",
+      "android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0037",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native bundle --platform android --dev (Team)",
+    "description": "Npx react-native bundle --platform android --dev command for react-native workflows in team mode.",
+    "command": "npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--dev",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--entry-file",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--bundle-output",
+        "description": "Flag used by npx"
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "bundle",
+      "--platform",
+      "android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0038",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native bundle --platform android --dev (CI)",
+    "description": "Npx react-native bundle --platform android --dev command for react-native workflows in ci mode.",
+    "command": "npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--dev",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--entry-file",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--bundle-output",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "bundle",
+      "--platform",
+      "android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0039",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native bundle --platform android --dev (Production)",
+    "description": "Npx react-native bundle --platform android --dev command for react-native workflows in production mode.",
+    "command": "npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--dev",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--entry-file",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--bundle-output",
+        "description": "Flag used by npx"
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "bundle",
+      "--platform",
+      "android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0040",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native bundle --platform android --dev (Verbose)",
+    "description": "Npx react-native bundle --platform android --dev command for react-native workflows in verbose mode.",
+    "command": "npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--platform",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--dev",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--entry-file",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--bundle-output",
+        "description": "Flag used by npx"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "bundle",
+      "--platform",
+      "android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0041",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native log-android (Local)",
+    "description": "Npx react-native log-android command for react-native workflows in local mode.",
+    "command": "npx react-native log-android",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "log-android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0042",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native log-android (Team)",
+    "description": "Npx react-native log-android command for react-native workflows in team mode.",
+    "command": "npx react-native log-android",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "log-android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0043",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native log-android (CI)",
+    "description": "Npx react-native log-android command for react-native workflows in ci mode.",
+    "command": "npx react-native log-android --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "log-android",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0044",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native log-android (Production)",
+    "description": "Npx react-native log-android command for react-native workflows in production mode.",
+    "command": "npx react-native log-android",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "log-android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0045",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native log-android (Verbose)",
+    "description": "Npx react-native log-android command for react-native workflows in verbose mode.",
+    "command": "npx react-native log-android --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "log-android",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0046",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native log-ios (Local)",
+    "description": "Npx react-native log-ios command for react-native workflows in local mode.",
+    "command": "npx react-native log-ios",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "log-ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0047",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native log-ios (Team)",
+    "description": "Npx react-native log-ios command for react-native workflows in team mode.",
+    "command": "npx react-native log-ios",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "log-ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0048",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native log-ios (CI)",
+    "description": "Npx react-native log-ios command for react-native workflows in ci mode.",
+    "command": "npx react-native log-ios --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "log-ios",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0049",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native log-ios (Production)",
+    "description": "Npx react-native log-ios command for react-native workflows in production mode.",
+    "command": "npx react-native log-ios",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "log-ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0050",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native log-ios (Verbose)",
+    "description": "Npx react-native log-ios command for react-native workflows in verbose mode.",
+    "command": "npx react-native log-ios --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "log-ios",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0051",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native upgrade (Local)",
+    "description": "Npx react-native upgrade command for react-native workflows in local mode.",
+    "command": "npx react-native upgrade",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "upgrade"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0052",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native upgrade (Team)",
+    "description": "Npx react-native upgrade command for react-native workflows in team mode.",
+    "command": "npx react-native upgrade",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "upgrade"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0053",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native upgrade (CI)",
+    "description": "Npx react-native upgrade command for react-native workflows in ci mode.",
+    "command": "npx react-native upgrade --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "upgrade",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0054",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native upgrade (Production)",
+    "description": "Npx react-native upgrade command for react-native workflows in production mode.",
+    "command": "npx react-native upgrade",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "upgrade"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0055",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native upgrade (Verbose)",
+    "description": "Npx react-native upgrade command for react-native workflows in verbose mode.",
+    "command": "npx react-native upgrade --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "upgrade",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0056",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native clean-project-auto (Local)",
+    "description": "Npx react-native clean-project-auto command for react-native workflows in local mode.",
+    "command": "npx react-native clean-project-auto",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "clean-project-auto"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0057",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native clean-project-auto (Team)",
+    "description": "Npx react-native clean-project-auto command for react-native workflows in team mode.",
+    "command": "npx react-native clean-project-auto",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "clean-project-auto"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0058",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native clean-project-auto (CI)",
+    "description": "Npx react-native clean-project-auto command for react-native workflows in ci mode.",
+    "command": "npx react-native clean-project-auto --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "clean-project-auto",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0059",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native clean-project-auto (Production)",
+    "description": "Npx react-native clean-project-auto command for react-native workflows in production mode.",
+    "command": "npx react-native clean-project-auto",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "clean-project-auto"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0060",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native clean-project-auto (Verbose)",
+    "description": "Npx react-native clean-project-auto command for react-native workflows in verbose mode.",
+    "command": "npx react-native clean-project-auto --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "clean-project-auto",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0061",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native info (Local)",
+    "description": "Npx react-native info command for react-native workflows in local mode.",
+    "command": "npx react-native info",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "info"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0062",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native info (Team)",
+    "description": "Npx react-native info command for react-native workflows in team mode.",
+    "command": "npx react-native info",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "info"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0063",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native info (CI)",
+    "description": "Npx react-native info command for react-native workflows in ci mode.",
+    "command": "npx react-native info --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "info",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0064",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native info (Production)",
+    "description": "Npx react-native info command for react-native workflows in production mode.",
+    "command": "npx react-native info",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "info"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0065",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native info (Verbose)",
+    "description": "Npx react-native info command for react-native workflows in verbose mode.",
+    "command": "npx react-native info --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "info",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0066",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native codegen (Local)",
+    "description": "Npx react-native codegen command for react-native workflows in local mode.",
+    "command": "npx react-native codegen",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "codegen"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0067",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native codegen (Team)",
+    "description": "Npx react-native codegen command for react-native workflows in team mode.",
+    "command": "npx react-native codegen",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "codegen"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0068",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native codegen (CI)",
+    "description": "Npx react-native codegen command for react-native workflows in ci mode.",
+    "command": "npx react-native codegen --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "codegen",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0069",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native codegen (Production)",
+    "description": "Npx react-native codegen command for react-native workflows in production mode.",
+    "command": "npx react-native codegen",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "codegen"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0070",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native codegen (Verbose)",
+    "description": "Npx react-native codegen command for react-native workflows in verbose mode.",
+    "command": "npx react-native codegen --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "codegen",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0071",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native link (Local)",
+    "description": "Npx react-native link command for react-native workflows in local mode.",
+    "command": "npx react-native link [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "link"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0072",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native link (Team)",
+    "description": "Npx react-native link command for react-native workflows in team mode.",
+    "command": "npx react-native link [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "link"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0073",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native link (CI)",
+    "description": "Npx react-native link command for react-native workflows in ci mode.",
+    "command": "npx react-native link [PACKAGE_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "link",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0074",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native link (Production)",
+    "description": "Npx react-native link command for react-native workflows in production mode.",
+    "command": "npx react-native link [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "link"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0075",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native link (Verbose)",
+    "description": "Npx react-native link command for react-native workflows in verbose mode.",
+    "command": "npx react-native link [PACKAGE_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "link",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0076",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native unlink (Local)",
+    "description": "Npx react-native unlink command for react-native workflows in local mode.",
+    "command": "npx react-native unlink [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "unlink"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0077",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native unlink (Team)",
+    "description": "Npx react-native unlink command for react-native workflows in team mode.",
+    "command": "npx react-native unlink [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "unlink"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0078",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native unlink (CI)",
+    "description": "Npx react-native unlink command for react-native workflows in ci mode.",
+    "command": "npx react-native unlink [PACKAGE_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "unlink",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0079",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native unlink (Production)",
+    "description": "Npx react-native unlink command for react-native workflows in production mode.",
+    "command": "npx react-native unlink [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "unlink"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0080",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native unlink (Verbose)",
+    "description": "Npx react-native unlink command for react-native workflows in verbose mode.",
+    "command": "npx react-native unlink [PACKAGE_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "unlink",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0081",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx pod-install ios (Local)",
+    "description": "Npx pod-install ios command for react-native workflows in local mode.",
+    "command": "npx pod-install ios",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "pod-install",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0082",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx pod-install ios (Team)",
+    "description": "Npx pod-install ios command for react-native workflows in team mode.",
+    "command": "npx pod-install ios",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "pod-install",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0083",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx pod-install ios (CI)",
+    "description": "Npx pod-install ios command for react-native workflows in ci mode.",
+    "command": "npx pod-install ios --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "pod-install",
+      "ios",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0084",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx pod-install ios (Production)",
+    "description": "Npx pod-install ios command for react-native workflows in production mode.",
+    "command": "npx pod-install ios",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "pod-install",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0085",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx pod-install ios (Verbose)",
+    "description": "Npx pod-install ios command for react-native workflows in verbose mode.",
+    "command": "npx pod-install ios --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "pod-install",
+      "ios",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0086",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx jetify (Local)",
+    "description": "Npx jetify command for react-native workflows in local mode.",
+    "command": "npx jetify",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "jetify"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0087",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx jetify (Team)",
+    "description": "Npx jetify command for react-native workflows in team mode.",
+    "command": "npx jetify",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "jetify"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0088",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx jetify (CI)",
+    "description": "Npx jetify command for react-native workflows in ci mode.",
+    "command": "npx jetify --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "jetify",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0089",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx jetify (Production)",
+    "description": "Npx jetify command for react-native workflows in production mode.",
+    "command": "npx jetify",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "jetify"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0090",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx jetify (Verbose)",
+    "description": "Npx jetify command for react-native workflows in verbose mode.",
+    "command": "npx jetify --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "jetify",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0091",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native-asset (Local)",
+    "description": "Npx react-native-asset command for react-native workflows in local mode.",
+    "command": "npx react-native-asset",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "react-native-asset"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0092",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native-asset (Team)",
+    "description": "Npx react-native-asset command for react-native workflows in team mode.",
+    "command": "npx react-native-asset",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "react-native-asset"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0093",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native-asset (CI)",
+    "description": "Npx react-native-asset command for react-native workflows in ci mode.",
+    "command": "npx react-native-asset --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "react-native-asset",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0094",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native-asset (Production)",
+    "description": "Npx react-native-asset command for react-native workflows in production mode.",
+    "command": "npx react-native-asset",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "react-native-asset"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0095",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native-asset (Verbose)",
+    "description": "Npx react-native-asset command for react-native workflows in verbose mode.",
+    "command": "npx react-native-asset --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "react-native-asset",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0096",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native test (Local)",
+    "description": "Npx react-native test command for react-native workflows in local mode.",
+    "command": "npx react-native test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0097",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native test (Team)",
+    "description": "Npx react-native test command for react-native workflows in team mode.",
+    "command": "npx react-native test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0098",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native test (CI)",
+    "description": "Npx react-native test command for react-native workflows in ci mode.",
+    "command": "npx react-native test --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "test",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0099",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native test (Production)",
+    "description": "Npx react-native test command for react-native workflows in production mode.",
+    "command": "npx react-native test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react-native",
+      "npx",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-native-0100",
+    "tool": "react-native",
+    "category": "Mobile",
+    "title": "Npx react-native test (Verbose)",
+    "description": "Npx react-native test command for react-native workflows in verbose mode.",
+    "command": "npx react-native test --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "react-native",
+      "npx",
+      "test",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  }
+]

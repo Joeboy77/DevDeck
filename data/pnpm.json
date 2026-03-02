@@ -1,0 +1,2075 @@
+[
+  {
+    "id": "pnpm-0001",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm install (Local)",
+    "description": "Pnpm install command for pnpm workflows in local mode.",
+    "command": "pnpm install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0002",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm install (Team)",
+    "description": "Pnpm install command for pnpm workflows in team mode.",
+    "command": "pnpm install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0003",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm install (CI)",
+    "description": "Pnpm install command for pnpm workflows in ci mode.",
+    "command": "pnpm install --reporter=silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "install",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0004",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm install (Production)",
+    "description": "Pnpm install command for pnpm workflows in production mode.",
+    "command": "pnpm install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0005",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm install (Verbose)",
+    "description": "Pnpm install command for pnpm workflows in verbose mode.",
+    "command": "pnpm install --reporter ndjson",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "install",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0006",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm add (Local)",
+    "description": "Pnpm add command for pnpm workflows in local mode.",
+    "command": "pnpm add [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0007",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm add (Team)",
+    "description": "Pnpm add command for pnpm workflows in team mode.",
+    "command": "pnpm add [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0008",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm add (CI)",
+    "description": "Pnpm add command for pnpm workflows in ci mode.",
+    "command": "pnpm add [PACKAGE_NAME] --reporter=silent",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "add",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0009",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm add (Production)",
+    "description": "Pnpm add command for pnpm workflows in production mode.",
+    "command": "pnpm add [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0010",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm add (Verbose)",
+    "description": "Pnpm add command for pnpm workflows in verbose mode.",
+    "command": "pnpm add [PACKAGE_NAME] --reporter ndjson",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "add",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0011",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm add -D (Local)",
+    "description": "Pnpm add -D command for pnpm workflows in local mode.",
+    "command": "pnpm add -D [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by pnpm"
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "add",
+      "-d"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0012",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm add -D (Team)",
+    "description": "Pnpm add -D command for pnpm workflows in team mode.",
+    "command": "pnpm add -D [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by pnpm"
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "add",
+      "-d"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0013",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm add -D (CI)",
+    "description": "Pnpm add -D command for pnpm workflows in ci mode.",
+    "command": "pnpm add -D [PACKAGE_NAME] --reporter=silent",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by pnpm"
+      },
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "add",
+      "-d",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0014",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm add -D (Production)",
+    "description": "Pnpm add -D command for pnpm workflows in production mode.",
+    "command": "pnpm add -D [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by pnpm"
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "add",
+      "-d"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0015",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm add -D (Verbose)",
+    "description": "Pnpm add -D command for pnpm workflows in verbose mode.",
+    "command": "pnpm add -D [PACKAGE_NAME] --reporter ndjson",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by pnpm"
+      },
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "add",
+      "-d",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0016",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm remove (Local)",
+    "description": "Pnpm remove command for pnpm workflows in local mode.",
+    "command": "pnpm remove [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "remove"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0017",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm remove (Team)",
+    "description": "Pnpm remove command for pnpm workflows in team mode.",
+    "command": "pnpm remove [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "remove"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0018",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm remove (CI)",
+    "description": "Pnpm remove command for pnpm workflows in ci mode.",
+    "command": "pnpm remove [PACKAGE_NAME] --reporter=silent",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "remove",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0019",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm remove (Production)",
+    "description": "Pnpm remove command for pnpm workflows in production mode.",
+    "command": "pnpm remove [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "remove"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0020",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm remove (Verbose)",
+    "description": "Pnpm remove command for pnpm workflows in verbose mode.",
+    "command": "pnpm remove [PACKAGE_NAME] --reporter ndjson",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "remove",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0021",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm dev (Local)",
+    "description": "Pnpm dev command for pnpm workflows in local mode.",
+    "command": "pnpm dev",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "dev"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0022",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm dev (Team)",
+    "description": "Pnpm dev command for pnpm workflows in team mode.",
+    "command": "pnpm dev",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "dev"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0023",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm dev (CI)",
+    "description": "Pnpm dev command for pnpm workflows in ci mode.",
+    "command": "pnpm dev --reporter=silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "dev",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0024",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm dev (Production)",
+    "description": "Pnpm dev command for pnpm workflows in production mode.",
+    "command": "pnpm dev",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "dev"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0025",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm dev (Verbose)",
+    "description": "Pnpm dev command for pnpm workflows in verbose mode.",
+    "command": "pnpm dev --reporter ndjson",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "dev",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0026",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm build (Local)",
+    "description": "Pnpm build command for pnpm workflows in local mode.",
+    "command": "pnpm build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0027",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm build (Team)",
+    "description": "Pnpm build command for pnpm workflows in team mode.",
+    "command": "pnpm build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0028",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm build (CI)",
+    "description": "Pnpm build command for pnpm workflows in ci mode.",
+    "command": "pnpm build --reporter=silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "build",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0029",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm build (Production)",
+    "description": "Pnpm build command for pnpm workflows in production mode.",
+    "command": "pnpm build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0030",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm build (Verbose)",
+    "description": "Pnpm build command for pnpm workflows in verbose mode.",
+    "command": "pnpm build --reporter ndjson",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "build",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0031",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm test (Local)",
+    "description": "Pnpm test command for pnpm workflows in local mode.",
+    "command": "pnpm test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0032",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm test (Team)",
+    "description": "Pnpm test command for pnpm workflows in team mode.",
+    "command": "pnpm test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0033",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm test (CI)",
+    "description": "Pnpm test command for pnpm workflows in ci mode.",
+    "command": "pnpm test --reporter=silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "test",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0034",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm test (Production)",
+    "description": "Pnpm test command for pnpm workflows in production mode.",
+    "command": "pnpm test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0035",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm test (Verbose)",
+    "description": "Pnpm test command for pnpm workflows in verbose mode.",
+    "command": "pnpm test --reporter ndjson",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "test",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0036",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm lint (Local)",
+    "description": "Pnpm lint command for pnpm workflows in local mode.",
+    "command": "pnpm lint",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "lint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0037",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm lint (Team)",
+    "description": "Pnpm lint command for pnpm workflows in team mode.",
+    "command": "pnpm lint",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "lint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0038",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm lint (CI)",
+    "description": "Pnpm lint command for pnpm workflows in ci mode.",
+    "command": "pnpm lint --reporter=silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "lint",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0039",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm lint (Production)",
+    "description": "Pnpm lint command for pnpm workflows in production mode.",
+    "command": "pnpm lint",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "lint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0040",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm lint (Verbose)",
+    "description": "Pnpm lint command for pnpm workflows in verbose mode.",
+    "command": "pnpm lint --reporter ndjson",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "lint",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0041",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm update (Local)",
+    "description": "Pnpm update command for pnpm workflows in local mode.",
+    "command": "pnpm update",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "update"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0042",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm update (Team)",
+    "description": "Pnpm update command for pnpm workflows in team mode.",
+    "command": "pnpm update",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "update"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0043",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm update (CI)",
+    "description": "Pnpm update command for pnpm workflows in ci mode.",
+    "command": "pnpm update --reporter=silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "update",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0044",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm update (Production)",
+    "description": "Pnpm update command for pnpm workflows in production mode.",
+    "command": "pnpm update",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "update"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0045",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm update (Verbose)",
+    "description": "Pnpm update command for pnpm workflows in verbose mode.",
+    "command": "pnpm update --reporter ndjson",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "update",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0046",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm audit (Local)",
+    "description": "Pnpm audit command for pnpm workflows in local mode.",
+    "command": "pnpm audit",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "audit"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0047",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm audit (Team)",
+    "description": "Pnpm audit command for pnpm workflows in team mode.",
+    "command": "pnpm audit",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "audit"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0048",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm audit (CI)",
+    "description": "Pnpm audit command for pnpm workflows in ci mode.",
+    "command": "pnpm audit --reporter=silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "audit",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0049",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm audit (Production)",
+    "description": "Pnpm audit command for pnpm workflows in production mode.",
+    "command": "pnpm audit",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "audit"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0050",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm audit (Verbose)",
+    "description": "Pnpm audit command for pnpm workflows in verbose mode.",
+    "command": "pnpm audit --reporter ndjson",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "audit",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0051",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm dlx (Local)",
+    "description": "Pnpm dlx command for pnpm workflows in local mode.",
+    "command": "pnpm dlx [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "dlx"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0052",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm dlx (Team)",
+    "description": "Pnpm dlx command for pnpm workflows in team mode.",
+    "command": "pnpm dlx [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "dlx"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0053",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm dlx (CI)",
+    "description": "Pnpm dlx command for pnpm workflows in ci mode.",
+    "command": "pnpm dlx [PACKAGE_NAME] --reporter=silent",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "dlx",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0054",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm dlx (Production)",
+    "description": "Pnpm dlx command for pnpm workflows in production mode.",
+    "command": "pnpm dlx [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "dlx"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0055",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm dlx (Verbose)",
+    "description": "Pnpm dlx command for pnpm workflows in verbose mode.",
+    "command": "pnpm dlx [PACKAGE_NAME] --reporter ndjson",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "dlx",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0056",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm store prune (Local)",
+    "description": "Pnpm store prune command for pnpm workflows in local mode.",
+    "command": "pnpm store prune",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "store",
+      "prune"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0057",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm store prune (Team)",
+    "description": "Pnpm store prune command for pnpm workflows in team mode.",
+    "command": "pnpm store prune",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "store",
+      "prune"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0058",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm store prune (CI)",
+    "description": "Pnpm store prune command for pnpm workflows in ci mode.",
+    "command": "pnpm store prune --reporter=silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "store",
+      "prune",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0059",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm store prune (Production)",
+    "description": "Pnpm store prune command for pnpm workflows in production mode.",
+    "command": "pnpm store prune",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "store",
+      "prune"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0060",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm store prune (Verbose)",
+    "description": "Pnpm store prune command for pnpm workflows in verbose mode.",
+    "command": "pnpm store prune --reporter ndjson",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "store",
+      "prune",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0061",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm publish (Local)",
+    "description": "Pnpm publish command for pnpm workflows in local mode.",
+    "command": "pnpm publish",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "publish"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0062",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm publish (Team)",
+    "description": "Pnpm publish command for pnpm workflows in team mode.",
+    "command": "pnpm publish",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "publish"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0063",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm publish (CI)",
+    "description": "Pnpm publish command for pnpm workflows in ci mode.",
+    "command": "pnpm publish --reporter=silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "publish",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0064",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm publish (Production)",
+    "description": "Pnpm publish command for pnpm workflows in production mode.",
+    "command": "pnpm publish",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "publish"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0065",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm publish (Verbose)",
+    "description": "Pnpm publish command for pnpm workflows in verbose mode.",
+    "command": "pnpm publish --reporter ndjson",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "publish",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0066",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm recursive test (Local)",
+    "description": "Pnpm recursive test command for pnpm workflows in local mode.",
+    "command": "pnpm recursive test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "recursive",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0067",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm recursive test (Team)",
+    "description": "Pnpm recursive test command for pnpm workflows in team mode.",
+    "command": "pnpm recursive test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "recursive",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0068",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm recursive test (CI)",
+    "description": "Pnpm recursive test command for pnpm workflows in ci mode.",
+    "command": "pnpm recursive test --reporter=silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "recursive",
+      "test",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0069",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm recursive test (Production)",
+    "description": "Pnpm recursive test command for pnpm workflows in production mode.",
+    "command": "pnpm recursive test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "recursive",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0070",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm recursive test (Verbose)",
+    "description": "Pnpm recursive test command for pnpm workflows in verbose mode.",
+    "command": "pnpm recursive test --reporter ndjson",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "recursive",
+      "test",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0071",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm recursive build (Local)",
+    "description": "Pnpm recursive build command for pnpm workflows in local mode.",
+    "command": "pnpm recursive build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "recursive",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0072",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm recursive build (Team)",
+    "description": "Pnpm recursive build command for pnpm workflows in team mode.",
+    "command": "pnpm recursive build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "recursive",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0073",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm recursive build (CI)",
+    "description": "Pnpm recursive build command for pnpm workflows in ci mode.",
+    "command": "pnpm recursive build --reporter=silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "recursive",
+      "build",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0074",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm recursive build (Production)",
+    "description": "Pnpm recursive build command for pnpm workflows in production mode.",
+    "command": "pnpm recursive build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "recursive",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0075",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm recursive build (Verbose)",
+    "description": "Pnpm recursive build command for pnpm workflows in verbose mode.",
+    "command": "pnpm recursive build --reporter ndjson",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "recursive",
+      "build",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0076",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm why (Local)",
+    "description": "Pnpm why command for pnpm workflows in local mode.",
+    "command": "pnpm why [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "why"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0077",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm why (Team)",
+    "description": "Pnpm why command for pnpm workflows in team mode.",
+    "command": "pnpm why [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "why"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0078",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm why (CI)",
+    "description": "Pnpm why command for pnpm workflows in ci mode.",
+    "command": "pnpm why [PACKAGE_NAME] --reporter=silent",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "why",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0079",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm why (Production)",
+    "description": "Pnpm why command for pnpm workflows in production mode.",
+    "command": "pnpm why [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "why"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0080",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm why (Verbose)",
+    "description": "Pnpm why command for pnpm workflows in verbose mode.",
+    "command": "pnpm why [PACKAGE_NAME] --reporter ndjson",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "why",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0081",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm list --depth 0 (Local)",
+    "description": "Pnpm list --depth 0 command for pnpm workflows in local mode.",
+    "command": "pnpm list --depth 0",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--depth",
+        "description": "Flag used by pnpm"
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "list",
+      "--depth",
+      "0"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0082",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm list --depth 0 (Team)",
+    "description": "Pnpm list --depth 0 command for pnpm workflows in team mode.",
+    "command": "pnpm list --depth 0",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--depth",
+        "description": "Flag used by pnpm"
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "list",
+      "--depth",
+      "0"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0083",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm list --depth 0 (CI)",
+    "description": "Pnpm list --depth 0 command for pnpm workflows in ci mode.",
+    "command": "pnpm list --depth 0 --reporter=silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--depth",
+        "description": "Flag used by pnpm"
+      },
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "list",
+      "--depth",
+      "0",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0084",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm list --depth 0 (Production)",
+    "description": "Pnpm list --depth 0 command for pnpm workflows in production mode.",
+    "command": "pnpm list --depth 0",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--depth",
+        "description": "Flag used by pnpm"
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "list",
+      "--depth",
+      "0"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0085",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm list --depth 0 (Verbose)",
+    "description": "Pnpm list --depth 0 command for pnpm workflows in verbose mode.",
+    "command": "pnpm list --depth 0 --reporter ndjson",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--depth",
+        "description": "Flag used by pnpm"
+      },
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "list",
+      "--depth",
+      "0",
+      "--reporter"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0086",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm import (Local)",
+    "description": "Pnpm import command for pnpm workflows in local mode.",
+    "command": "pnpm import",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "import"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0087",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm import (Team)",
+    "description": "Pnpm import command for pnpm workflows in team mode.",
+    "command": "pnpm import",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "import"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0088",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm import (CI)",
+    "description": "Pnpm import command for pnpm workflows in ci mode.",
+    "command": "pnpm import --reporter=silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "import",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0089",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm import (Production)",
+    "description": "Pnpm import command for pnpm workflows in production mode.",
+    "command": "pnpm import",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "import"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0090",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm import (Verbose)",
+    "description": "Pnpm import command for pnpm workflows in verbose mode.",
+    "command": "pnpm import --reporter ndjson",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "import",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0091",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm patch (Local)",
+    "description": "Pnpm patch command for pnpm workflows in local mode.",
+    "command": "pnpm patch [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "patch"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0092",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm patch (Team)",
+    "description": "Pnpm patch command for pnpm workflows in team mode.",
+    "command": "pnpm patch [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "patch"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0093",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm patch (CI)",
+    "description": "Pnpm patch command for pnpm workflows in ci mode.",
+    "command": "pnpm patch [PACKAGE_NAME] --reporter=silent",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "patch",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0094",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm patch (Production)",
+    "description": "Pnpm patch command for pnpm workflows in production mode.",
+    "command": "pnpm patch [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "pnpm",
+      "patch"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0095",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm patch (Verbose)",
+    "description": "Pnpm patch command for pnpm workflows in verbose mode.",
+    "command": "pnpm patch [PACKAGE_NAME] --reporter ndjson",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "patch",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0096",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm install --frozen-lockfile (Local)",
+    "description": "Pnpm install --frozen-lockfile command for pnpm workflows in local mode.",
+    "command": "pnpm install --frozen-lockfile",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--frozen-lockfile",
+        "description": "Flag used by pnpm"
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "install",
+      "--frozen-lockfile"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0097",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm install --frozen-lockfile (Team)",
+    "description": "Pnpm install --frozen-lockfile command for pnpm workflows in team mode.",
+    "command": "pnpm install --frozen-lockfile",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--frozen-lockfile",
+        "description": "Flag used by pnpm"
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "install",
+      "--frozen-lockfile"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0098",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm install --frozen-lockfile (CI)",
+    "description": "Pnpm install --frozen-lockfile command for pnpm workflows in ci mode.",
+    "command": "pnpm install --frozen-lockfile --reporter=silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--frozen-lockfile",
+        "description": "Flag used by pnpm"
+      },
+      {
+        "flag": "--reporter=silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "install",
+      "--frozen-lockfile",
+      "--reportersilent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0099",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm install --frozen-lockfile (Production)",
+    "description": "Pnpm install --frozen-lockfile command for pnpm workflows in production mode.",
+    "command": "pnpm install --frozen-lockfile",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--frozen-lockfile",
+        "description": "Flag used by pnpm"
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "install",
+      "--frozen-lockfile"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "pnpm-0100",
+    "tool": "pnpm",
+    "category": "JavaScript",
+    "title": "Pnpm install --frozen-lockfile (Verbose)",
+    "description": "Pnpm install --frozen-lockfile command for pnpm workflows in verbose mode.",
+    "command": "pnpm install --frozen-lockfile --reporter ndjson",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--frozen-lockfile",
+        "description": "Flag used by pnpm"
+      },
+      {
+        "flag": "--reporter",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "pnpm",
+      "install",
+      "--frozen-lockfile",
+      "--reporter",
+      "ndjson"
+    ],
+    "difficulty": "beginner"
+  }
+]

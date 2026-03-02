@@ -1,0 +1,1989 @@
+[
+  {
+    "id": "flutter-0001",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter create (Local)",
+    "description": "Flutter create command for flutter workflows in local mode.",
+    "command": "flutter create [APP_NAME]",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "create"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0002",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter create (Team)",
+    "description": "Flutter create command for flutter workflows in team mode.",
+    "command": "flutter create [APP_NAME]",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "create"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0003",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter create (CI)",
+    "description": "Flutter create command for flutter workflows in ci mode.",
+    "command": "flutter create [APP_NAME] --machine",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "create",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0004",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter create (Production)",
+    "description": "Flutter create command for flutter workflows in production mode.",
+    "command": "flutter create [APP_NAME]",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "create"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0005",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter create (Verbose)",
+    "description": "Flutter create command for flutter workflows in verbose mode.",
+    "command": "flutter create [APP_NAME] -v",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "create",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0006",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub get (Local)",
+    "description": "Flutter pub get command for flutter workflows in local mode.",
+    "command": "flutter pub get",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "pub",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0007",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub get (Team)",
+    "description": "Flutter pub get command for flutter workflows in team mode.",
+    "command": "flutter pub get",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "pub",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0008",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub get (CI)",
+    "description": "Flutter pub get command for flutter workflows in ci mode.",
+    "command": "flutter pub get --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "pub",
+      "get",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0009",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub get (Production)",
+    "description": "Flutter pub get command for flutter workflows in production mode.",
+    "command": "flutter pub get",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "pub",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0010",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub get (Verbose)",
+    "description": "Flutter pub get command for flutter workflows in verbose mode.",
+    "command": "flutter pub get -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "pub",
+      "get",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0011",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub add (Local)",
+    "description": "Flutter pub add command for flutter workflows in local mode.",
+    "command": "flutter pub add [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "pub",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0012",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub add (Team)",
+    "description": "Flutter pub add command for flutter workflows in team mode.",
+    "command": "flutter pub add [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "pub",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0013",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub add (CI)",
+    "description": "Flutter pub add command for flutter workflows in ci mode.",
+    "command": "flutter pub add [PACKAGE_NAME] --machine",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "pub",
+      "add",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0014",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub add (Production)",
+    "description": "Flutter pub add command for flutter workflows in production mode.",
+    "command": "flutter pub add [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "pub",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0015",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub add (Verbose)",
+    "description": "Flutter pub add command for flutter workflows in verbose mode.",
+    "command": "flutter pub add [PACKAGE_NAME] -v",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "pub",
+      "add",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0016",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub upgrade (Local)",
+    "description": "Flutter pub upgrade command for flutter workflows in local mode.",
+    "command": "flutter pub upgrade",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "pub",
+      "upgrade"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0017",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub upgrade (Team)",
+    "description": "Flutter pub upgrade command for flutter workflows in team mode.",
+    "command": "flutter pub upgrade",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "pub",
+      "upgrade"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0018",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub upgrade (CI)",
+    "description": "Flutter pub upgrade command for flutter workflows in ci mode.",
+    "command": "flutter pub upgrade --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "pub",
+      "upgrade",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0019",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub upgrade (Production)",
+    "description": "Flutter pub upgrade command for flutter workflows in production mode.",
+    "command": "flutter pub upgrade",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "pub",
+      "upgrade"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0020",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub upgrade (Verbose)",
+    "description": "Flutter pub upgrade command for flutter workflows in verbose mode.",
+    "command": "flutter pub upgrade -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "pub",
+      "upgrade",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0021",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run (Local)",
+    "description": "Flutter run command for flutter workflows in local mode.",
+    "command": "flutter run",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0022",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run (Team)",
+    "description": "Flutter run command for flutter workflows in team mode.",
+    "command": "flutter run",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0023",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run (CI)",
+    "description": "Flutter run command for flutter workflows in ci mode.",
+    "command": "flutter run --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0024",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run (Production)",
+    "description": "Flutter run command for flutter workflows in production mode.",
+    "command": "flutter run",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0025",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run (Verbose)",
+    "description": "Flutter run command for flutter workflows in verbose mode.",
+    "command": "flutter run -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0026",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run -d chrome (Local)",
+    "description": "Flutter run -d chrome command for flutter workflows in local mode.",
+    "command": "flutter run -d chrome",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by flutter"
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "-d",
+      "chrome"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0027",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run -d chrome (Team)",
+    "description": "Flutter run -d chrome command for flutter workflows in team mode.",
+    "command": "flutter run -d chrome",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by flutter"
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "-d",
+      "chrome"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0028",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run -d chrome (CI)",
+    "description": "Flutter run -d chrome command for flutter workflows in ci mode.",
+    "command": "flutter run -d chrome --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by flutter"
+      },
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "-d",
+      "chrome",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0029",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run -d chrome (Production)",
+    "description": "Flutter run -d chrome command for flutter workflows in production mode.",
+    "command": "flutter run -d chrome",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by flutter"
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "-d",
+      "chrome"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0030",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run -d chrome (Verbose)",
+    "description": "Flutter run -d chrome command for flutter workflows in verbose mode.",
+    "command": "flutter run -d chrome -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by flutter"
+      },
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "-d",
+      "chrome",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0031",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run -d ios (Local)",
+    "description": "Flutter run -d ios command for flutter workflows in local mode.",
+    "command": "flutter run -d ios",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by flutter"
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "-d",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0032",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run -d ios (Team)",
+    "description": "Flutter run -d ios command for flutter workflows in team mode.",
+    "command": "flutter run -d ios",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by flutter"
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "-d",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0033",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run -d ios (CI)",
+    "description": "Flutter run -d ios command for flutter workflows in ci mode.",
+    "command": "flutter run -d ios --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by flutter"
+      },
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "-d",
+      "ios",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0034",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run -d ios (Production)",
+    "description": "Flutter run -d ios command for flutter workflows in production mode.",
+    "command": "flutter run -d ios",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by flutter"
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "-d",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0035",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run -d ios (Verbose)",
+    "description": "Flutter run -d ios command for flutter workflows in verbose mode.",
+    "command": "flutter run -d ios -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by flutter"
+      },
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "-d",
+      "ios",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0036",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run -d android (Local)",
+    "description": "Flutter run -d android command for flutter workflows in local mode.",
+    "command": "flutter run -d android",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by flutter"
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "-d",
+      "android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0037",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run -d android (Team)",
+    "description": "Flutter run -d android command for flutter workflows in team mode.",
+    "command": "flutter run -d android",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by flutter"
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "-d",
+      "android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0038",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run -d android (CI)",
+    "description": "Flutter run -d android command for flutter workflows in ci mode.",
+    "command": "flutter run -d android --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by flutter"
+      },
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "-d",
+      "android",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0039",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run -d android (Production)",
+    "description": "Flutter run -d android command for flutter workflows in production mode.",
+    "command": "flutter run -d android",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by flutter"
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "-d",
+      "android"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0040",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter run -d android (Verbose)",
+    "description": "Flutter run -d android command for flutter workflows in verbose mode.",
+    "command": "flutter run -d android -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-d",
+        "description": "Flag used by flutter"
+      },
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "run",
+      "-d",
+      "android",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0041",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter build apk (Local)",
+    "description": "Flutter build apk command for flutter workflows in local mode.",
+    "command": "flutter build apk",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "build",
+      "apk"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0042",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter build apk (Team)",
+    "description": "Flutter build apk command for flutter workflows in team mode.",
+    "command": "flutter build apk",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "build",
+      "apk"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0043",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter build apk (CI)",
+    "description": "Flutter build apk command for flutter workflows in ci mode.",
+    "command": "flutter build apk --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "build",
+      "apk",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0044",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter build apk (Production)",
+    "description": "Flutter build apk command for flutter workflows in production mode.",
+    "command": "flutter build apk",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "build",
+      "apk"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0045",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter build apk (Verbose)",
+    "description": "Flutter build apk command for flutter workflows in verbose mode.",
+    "command": "flutter build apk -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "build",
+      "apk",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0046",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter build ios (Local)",
+    "description": "Flutter build ios command for flutter workflows in local mode.",
+    "command": "flutter build ios",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "build",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0047",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter build ios (Team)",
+    "description": "Flutter build ios command for flutter workflows in team mode.",
+    "command": "flutter build ios",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "build",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0048",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter build ios (CI)",
+    "description": "Flutter build ios command for flutter workflows in ci mode.",
+    "command": "flutter build ios --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "build",
+      "ios",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0049",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter build ios (Production)",
+    "description": "Flutter build ios command for flutter workflows in production mode.",
+    "command": "flutter build ios",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "build",
+      "ios"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0050",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter build ios (Verbose)",
+    "description": "Flutter build ios command for flutter workflows in verbose mode.",
+    "command": "flutter build ios -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "build",
+      "ios",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0051",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter build web (Local)",
+    "description": "Flutter build web command for flutter workflows in local mode.",
+    "command": "flutter build web",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "build",
+      "web"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0052",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter build web (Team)",
+    "description": "Flutter build web command for flutter workflows in team mode.",
+    "command": "flutter build web",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "build",
+      "web"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0053",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter build web (CI)",
+    "description": "Flutter build web command for flutter workflows in ci mode.",
+    "command": "flutter build web --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "build",
+      "web",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0054",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter build web (Production)",
+    "description": "Flutter build web command for flutter workflows in production mode.",
+    "command": "flutter build web",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "build",
+      "web"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0055",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter build web (Verbose)",
+    "description": "Flutter build web command for flutter workflows in verbose mode.",
+    "command": "flutter build web -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "build",
+      "web",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0056",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter test (Local)",
+    "description": "Flutter test command for flutter workflows in local mode.",
+    "command": "flutter test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0057",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter test (Team)",
+    "description": "Flutter test command for flutter workflows in team mode.",
+    "command": "flutter test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0058",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter test (CI)",
+    "description": "Flutter test command for flutter workflows in ci mode.",
+    "command": "flutter test --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "test",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0059",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter test (Production)",
+    "description": "Flutter test command for flutter workflows in production mode.",
+    "command": "flutter test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0060",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter test (Verbose)",
+    "description": "Flutter test command for flutter workflows in verbose mode.",
+    "command": "flutter test -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "test",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0061",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter analyze (Local)",
+    "description": "Flutter analyze command for flutter workflows in local mode.",
+    "command": "flutter analyze",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "analyze"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0062",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter analyze (Team)",
+    "description": "Flutter analyze command for flutter workflows in team mode.",
+    "command": "flutter analyze",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "analyze"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0063",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter analyze (CI)",
+    "description": "Flutter analyze command for flutter workflows in ci mode.",
+    "command": "flutter analyze --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "analyze",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0064",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter analyze (Production)",
+    "description": "Flutter analyze command for flutter workflows in production mode.",
+    "command": "flutter analyze",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "analyze"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0065",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter analyze (Verbose)",
+    "description": "Flutter analyze command for flutter workflows in verbose mode.",
+    "command": "flutter analyze -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "analyze",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0066",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter doctor (Local)",
+    "description": "Flutter doctor command for flutter workflows in local mode.",
+    "command": "flutter doctor",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "doctor"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0067",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter doctor (Team)",
+    "description": "Flutter doctor command for flutter workflows in team mode.",
+    "command": "flutter doctor",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "doctor"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0068",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter doctor (CI)",
+    "description": "Flutter doctor command for flutter workflows in ci mode.",
+    "command": "flutter doctor --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "doctor",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0069",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter doctor (Production)",
+    "description": "Flutter doctor command for flutter workflows in production mode.",
+    "command": "flutter doctor",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "doctor"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0070",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter doctor (Verbose)",
+    "description": "Flutter doctor command for flutter workflows in verbose mode.",
+    "command": "flutter doctor -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "doctor",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0071",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter clean (Local)",
+    "description": "Flutter clean command for flutter workflows in local mode.",
+    "command": "flutter clean",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "clean"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0072",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter clean (Team)",
+    "description": "Flutter clean command for flutter workflows in team mode.",
+    "command": "flutter clean",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "clean"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0073",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter clean (CI)",
+    "description": "Flutter clean command for flutter workflows in ci mode.",
+    "command": "flutter clean --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "clean",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0074",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter clean (Production)",
+    "description": "Flutter clean command for flutter workflows in production mode.",
+    "command": "flutter clean",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "clean"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0075",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter clean (Verbose)",
+    "description": "Flutter clean command for flutter workflows in verbose mode.",
+    "command": "flutter clean -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "clean",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0076",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub outdated (Local)",
+    "description": "Flutter pub outdated command for flutter workflows in local mode.",
+    "command": "flutter pub outdated",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "pub",
+      "outdated"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0077",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub outdated (Team)",
+    "description": "Flutter pub outdated command for flutter workflows in team mode.",
+    "command": "flutter pub outdated",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "pub",
+      "outdated"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0078",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub outdated (CI)",
+    "description": "Flutter pub outdated command for flutter workflows in ci mode.",
+    "command": "flutter pub outdated --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "pub",
+      "outdated",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0079",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub outdated (Production)",
+    "description": "Flutter pub outdated command for flutter workflows in production mode.",
+    "command": "flutter pub outdated",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "pub",
+      "outdated"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0080",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub outdated (Verbose)",
+    "description": "Flutter pub outdated command for flutter workflows in verbose mode.",
+    "command": "flutter pub outdated -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "pub",
+      "outdated",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0081",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub deps (Local)",
+    "description": "Flutter pub deps command for flutter workflows in local mode.",
+    "command": "flutter pub deps",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "pub",
+      "deps"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0082",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub deps (Team)",
+    "description": "Flutter pub deps command for flutter workflows in team mode.",
+    "command": "flutter pub deps",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "pub",
+      "deps"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0083",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub deps (CI)",
+    "description": "Flutter pub deps command for flutter workflows in ci mode.",
+    "command": "flutter pub deps --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "pub",
+      "deps",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0084",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub deps (Production)",
+    "description": "Flutter pub deps command for flutter workflows in production mode.",
+    "command": "flutter pub deps",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "pub",
+      "deps"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0085",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter pub deps (Verbose)",
+    "description": "Flutter pub deps command for flutter workflows in verbose mode.",
+    "command": "flutter pub deps -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "pub",
+      "deps",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0086",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Dart format . (Local)",
+    "description": "Dart format . command for flutter workflows in local mode.",
+    "command": "dart format .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "dart",
+      "format"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0087",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Dart format . (Team)",
+    "description": "Dart format . command for flutter workflows in team mode.",
+    "command": "dart format .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "dart",
+      "format"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0088",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Dart format . (CI)",
+    "description": "Dart format . command for flutter workflows in ci mode.",
+    "command": "dart format . --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "dart",
+      "format",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0089",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Dart format . (Production)",
+    "description": "Dart format . command for flutter workflows in production mode.",
+    "command": "dart format .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "dart",
+      "format"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0090",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Dart format . (Verbose)",
+    "description": "Dart format . command for flutter workflows in verbose mode.",
+    "command": "dart format . -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "dart",
+      "format",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0091",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Dart fix --apply (Local)",
+    "description": "Dart fix --apply command for flutter workflows in local mode.",
+    "command": "dart fix --apply",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--apply",
+        "description": "Flag used by dart"
+      }
+    ],
+    "tags": [
+      "flutter",
+      "dart",
+      "fix",
+      "--apply"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0092",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Dart fix --apply (Team)",
+    "description": "Dart fix --apply command for flutter workflows in team mode.",
+    "command": "dart fix --apply",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--apply",
+        "description": "Flag used by dart"
+      }
+    ],
+    "tags": [
+      "flutter",
+      "dart",
+      "fix",
+      "--apply"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0093",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Dart fix --apply (CI)",
+    "description": "Dart fix --apply command for flutter workflows in ci mode.",
+    "command": "dart fix --apply --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--apply",
+        "description": "Flag used by dart"
+      },
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "dart",
+      "fix",
+      "--apply",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0094",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Dart fix --apply (Production)",
+    "description": "Dart fix --apply command for flutter workflows in production mode.",
+    "command": "dart fix --apply",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--apply",
+        "description": "Flag used by dart"
+      }
+    ],
+    "tags": [
+      "flutter",
+      "dart",
+      "fix",
+      "--apply"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0095",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Dart fix --apply (Verbose)",
+    "description": "Dart fix --apply command for flutter workflows in verbose mode.",
+    "command": "dart fix --apply -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--apply",
+        "description": "Flag used by dart"
+      },
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "dart",
+      "fix",
+      "--apply",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0096",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter gen-l10n (Local)",
+    "description": "Flutter gen-l10n command for flutter workflows in local mode.",
+    "command": "flutter gen-l10n",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "gen-l10n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0097",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter gen-l10n (Team)",
+    "description": "Flutter gen-l10n command for flutter workflows in team mode.",
+    "command": "flutter gen-l10n",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "gen-l10n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0098",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter gen-l10n (CI)",
+    "description": "Flutter gen-l10n command for flutter workflows in ci mode.",
+    "command": "flutter gen-l10n --machine",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--machine",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "gen-l10n",
+      "--machine"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0099",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter gen-l10n (Production)",
+    "description": "Flutter gen-l10n command for flutter workflows in production mode.",
+    "command": "flutter gen-l10n",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "flutter",
+      "gen-l10n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "flutter-0100",
+    "tool": "flutter",
+    "category": "Mobile",
+    "title": "Flutter gen-l10n (Verbose)",
+    "description": "Flutter gen-l10n command for flutter workflows in verbose mode.",
+    "command": "flutter gen-l10n -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "flutter",
+      "gen-l10n",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  }
+]

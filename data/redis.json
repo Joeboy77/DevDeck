@@ -1,0 +1,2317 @@
+[
+  {
+    "id": "redis-0001",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli PING (Local)",
+    "description": "Redis-cli PING command for redis workflows in local mode.",
+    "command": "redis-cli PING",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "ping"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0002",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli PING (Team)",
+    "description": "Redis-cli PING command for redis workflows in team mode.",
+    "command": "redis-cli PING",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "ping"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0003",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli PING (CI)",
+    "description": "Redis-cli PING command for redis workflows in ci mode.",
+    "command": "redis-cli PING",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "ping"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0004",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli PING (Production)",
+    "description": "Redis-cli PING command for redis workflows in production mode.",
+    "command": "redis-cli PING",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "ping"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0005",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli PING (Verbose)",
+    "description": "Redis-cli PING command for redis workflows in verbose mode.",
+    "command": "redis-cli PING",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "ping"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0006",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli SET (Local)",
+    "description": "Redis-cli SET command for redis workflows in local mode.",
+    "command": "redis-cli SET [KEY] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "set"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0007",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli SET (Team)",
+    "description": "Redis-cli SET command for redis workflows in team mode.",
+    "command": "redis-cli SET [KEY] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "set"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0008",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli SET (CI)",
+    "description": "Redis-cli SET command for redis workflows in ci mode.",
+    "command": "redis-cli SET [KEY] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "set"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0009",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli SET (Production)",
+    "description": "Redis-cli SET command for redis workflows in production mode.",
+    "command": "redis-cli SET [KEY] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "set"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0010",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli SET (Verbose)",
+    "description": "Redis-cli SET command for redis workflows in verbose mode.",
+    "command": "redis-cli SET [KEY] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "set"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0011",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli GET (Local)",
+    "description": "Redis-cli GET command for redis workflows in local mode.",
+    "command": "redis-cli GET [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0012",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli GET (Team)",
+    "description": "Redis-cli GET command for redis workflows in team mode.",
+    "command": "redis-cli GET [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0013",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli GET (CI)",
+    "description": "Redis-cli GET command for redis workflows in ci mode.",
+    "command": "redis-cli GET [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0014",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli GET (Production)",
+    "description": "Redis-cli GET command for redis workflows in production mode.",
+    "command": "redis-cli GET [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0015",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli GET (Verbose)",
+    "description": "Redis-cli GET command for redis workflows in verbose mode.",
+    "command": "redis-cli GET [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0016",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli DEL (Local)",
+    "description": "Redis-cli DEL command for redis workflows in local mode.",
+    "command": "redis-cli DEL [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "del"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0017",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli DEL (Team)",
+    "description": "Redis-cli DEL command for redis workflows in team mode.",
+    "command": "redis-cli DEL [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "del"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0018",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli DEL (CI)",
+    "description": "Redis-cli DEL command for redis workflows in ci mode.",
+    "command": "redis-cli DEL [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "del"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0019",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli DEL (Production)",
+    "description": "Redis-cli DEL command for redis workflows in production mode.",
+    "command": "redis-cli DEL [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "del"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0020",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli DEL (Verbose)",
+    "description": "Redis-cli DEL command for redis workflows in verbose mode.",
+    "command": "redis-cli DEL [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "del"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0021",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli EXISTS (Local)",
+    "description": "Redis-cli EXISTS command for redis workflows in local mode.",
+    "command": "redis-cli EXISTS [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "exists"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0022",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli EXISTS (Team)",
+    "description": "Redis-cli EXISTS command for redis workflows in team mode.",
+    "command": "redis-cli EXISTS [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "exists"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0023",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli EXISTS (CI)",
+    "description": "Redis-cli EXISTS command for redis workflows in ci mode.",
+    "command": "redis-cli EXISTS [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "exists"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0024",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli EXISTS (Production)",
+    "description": "Redis-cli EXISTS command for redis workflows in production mode.",
+    "command": "redis-cli EXISTS [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "exists"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0025",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli EXISTS (Verbose)",
+    "description": "Redis-cli EXISTS command for redis workflows in verbose mode.",
+    "command": "redis-cli EXISTS [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "exists"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0026",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli EXPIRE (Local)",
+    "description": "Redis-cli EXPIRE command for redis workflows in local mode.",
+    "command": "redis-cli EXPIRE [KEY] [SECONDS]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      },
+      {
+        "placeholder": "[SECONDS]",
+        "label": "Seconds",
+        "description": "Value for seconds",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "expire"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0027",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli EXPIRE (Team)",
+    "description": "Redis-cli EXPIRE command for redis workflows in team mode.",
+    "command": "redis-cli EXPIRE [KEY] [SECONDS]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      },
+      {
+        "placeholder": "[SECONDS]",
+        "label": "Seconds",
+        "description": "Value for seconds",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "expire"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0028",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli EXPIRE (CI)",
+    "description": "Redis-cli EXPIRE command for redis workflows in ci mode.",
+    "command": "redis-cli EXPIRE [KEY] [SECONDS]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      },
+      {
+        "placeholder": "[SECONDS]",
+        "label": "Seconds",
+        "description": "Value for seconds",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "expire"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0029",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli EXPIRE (Production)",
+    "description": "Redis-cli EXPIRE command for redis workflows in production mode.",
+    "command": "redis-cli EXPIRE [KEY] [SECONDS]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      },
+      {
+        "placeholder": "[SECONDS]",
+        "label": "Seconds",
+        "description": "Value for seconds",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "expire"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0030",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli EXPIRE (Verbose)",
+    "description": "Redis-cli EXPIRE command for redis workflows in verbose mode.",
+    "command": "redis-cli EXPIRE [KEY] [SECONDS]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      },
+      {
+        "placeholder": "[SECONDS]",
+        "label": "Seconds",
+        "description": "Value for seconds",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "expire"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0031",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli TTL (Local)",
+    "description": "Redis-cli TTL command for redis workflows in local mode.",
+    "command": "redis-cli TTL [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "ttl"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0032",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli TTL (Team)",
+    "description": "Redis-cli TTL command for redis workflows in team mode.",
+    "command": "redis-cli TTL [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "ttl"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0033",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli TTL (CI)",
+    "description": "Redis-cli TTL command for redis workflows in ci mode.",
+    "command": "redis-cli TTL [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "ttl"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0034",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli TTL (Production)",
+    "description": "Redis-cli TTL command for redis workflows in production mode.",
+    "command": "redis-cli TTL [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "ttl"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0035",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli TTL (Verbose)",
+    "description": "Redis-cli TTL command for redis workflows in verbose mode.",
+    "command": "redis-cli TTL [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "ttl"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0036",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli INCR (Local)",
+    "description": "Redis-cli INCR command for redis workflows in local mode.",
+    "command": "redis-cli INCR [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "incr"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0037",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli INCR (Team)",
+    "description": "Redis-cli INCR command for redis workflows in team mode.",
+    "command": "redis-cli INCR [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "incr"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0038",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli INCR (CI)",
+    "description": "Redis-cli INCR command for redis workflows in ci mode.",
+    "command": "redis-cli INCR [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "incr"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0039",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli INCR (Production)",
+    "description": "Redis-cli INCR command for redis workflows in production mode.",
+    "command": "redis-cli INCR [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "incr"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0040",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli INCR (Verbose)",
+    "description": "Redis-cli INCR command for redis workflows in verbose mode.",
+    "command": "redis-cli INCR [KEY]",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "incr"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0041",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli HSET (Local)",
+    "description": "Redis-cli HSET command for redis workflows in local mode.",
+    "command": "redis-cli HSET [HASH_KEY] [FIELD] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[HASH_KEY]",
+        "label": "Hash Key",
+        "description": "Value for hash key",
+        "required": true
+      },
+      {
+        "placeholder": "[FIELD]",
+        "label": "Field",
+        "description": "Value for field",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "hset"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "redis-0042",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli HSET (Team)",
+    "description": "Redis-cli HSET command for redis workflows in team mode.",
+    "command": "redis-cli HSET [HASH_KEY] [FIELD] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[HASH_KEY]",
+        "label": "Hash Key",
+        "description": "Value for hash key",
+        "required": true
+      },
+      {
+        "placeholder": "[FIELD]",
+        "label": "Field",
+        "description": "Value for field",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "hset"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "redis-0043",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli HSET (CI)",
+    "description": "Redis-cli HSET command for redis workflows in ci mode.",
+    "command": "redis-cli HSET [HASH_KEY] [FIELD] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[HASH_KEY]",
+        "label": "Hash Key",
+        "description": "Value for hash key",
+        "required": true
+      },
+      {
+        "placeholder": "[FIELD]",
+        "label": "Field",
+        "description": "Value for field",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "hset"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "redis-0044",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli HSET (Production)",
+    "description": "Redis-cli HSET command for redis workflows in production mode.",
+    "command": "redis-cli HSET [HASH_KEY] [FIELD] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[HASH_KEY]",
+        "label": "Hash Key",
+        "description": "Value for hash key",
+        "required": true
+      },
+      {
+        "placeholder": "[FIELD]",
+        "label": "Field",
+        "description": "Value for field",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "hset"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "redis-0045",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli HSET (Verbose)",
+    "description": "Redis-cli HSET command for redis workflows in verbose mode.",
+    "command": "redis-cli HSET [HASH_KEY] [FIELD] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[HASH_KEY]",
+        "label": "Hash Key",
+        "description": "Value for hash key",
+        "required": true
+      },
+      {
+        "placeholder": "[FIELD]",
+        "label": "Field",
+        "description": "Value for field",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "hset"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "redis-0046",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli HGET (Local)",
+    "description": "Redis-cli HGET command for redis workflows in local mode.",
+    "command": "redis-cli HGET [HASH_KEY] [FIELD]",
+    "params": [
+      {
+        "placeholder": "[HASH_KEY]",
+        "label": "Hash Key",
+        "description": "Value for hash key",
+        "required": true
+      },
+      {
+        "placeholder": "[FIELD]",
+        "label": "Field",
+        "description": "Value for field",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "hget"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0047",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli HGET (Team)",
+    "description": "Redis-cli HGET command for redis workflows in team mode.",
+    "command": "redis-cli HGET [HASH_KEY] [FIELD]",
+    "params": [
+      {
+        "placeholder": "[HASH_KEY]",
+        "label": "Hash Key",
+        "description": "Value for hash key",
+        "required": true
+      },
+      {
+        "placeholder": "[FIELD]",
+        "label": "Field",
+        "description": "Value for field",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "hget"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0048",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli HGET (CI)",
+    "description": "Redis-cli HGET command for redis workflows in ci mode.",
+    "command": "redis-cli HGET [HASH_KEY] [FIELD]",
+    "params": [
+      {
+        "placeholder": "[HASH_KEY]",
+        "label": "Hash Key",
+        "description": "Value for hash key",
+        "required": true
+      },
+      {
+        "placeholder": "[FIELD]",
+        "label": "Field",
+        "description": "Value for field",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "hget"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0049",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli HGET (Production)",
+    "description": "Redis-cli HGET command for redis workflows in production mode.",
+    "command": "redis-cli HGET [HASH_KEY] [FIELD]",
+    "params": [
+      {
+        "placeholder": "[HASH_KEY]",
+        "label": "Hash Key",
+        "description": "Value for hash key",
+        "required": true
+      },
+      {
+        "placeholder": "[FIELD]",
+        "label": "Field",
+        "description": "Value for field",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "hget"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0050",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli HGET (Verbose)",
+    "description": "Redis-cli HGET command for redis workflows in verbose mode.",
+    "command": "redis-cli HGET [HASH_KEY] [FIELD]",
+    "params": [
+      {
+        "placeholder": "[HASH_KEY]",
+        "label": "Hash Key",
+        "description": "Value for hash key",
+        "required": true
+      },
+      {
+        "placeholder": "[FIELD]",
+        "label": "Field",
+        "description": "Value for field",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "hget"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0051",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli LPUSH (Local)",
+    "description": "Redis-cli LPUSH command for redis workflows in local mode.",
+    "command": "redis-cli LPUSH [LIST_KEY] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[LIST_KEY]",
+        "label": "List Key",
+        "description": "Value for list key",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "lpush"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0052",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli LPUSH (Team)",
+    "description": "Redis-cli LPUSH command for redis workflows in team mode.",
+    "command": "redis-cli LPUSH [LIST_KEY] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[LIST_KEY]",
+        "label": "List Key",
+        "description": "Value for list key",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "lpush"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0053",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli LPUSH (CI)",
+    "description": "Redis-cli LPUSH command for redis workflows in ci mode.",
+    "command": "redis-cli LPUSH [LIST_KEY] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[LIST_KEY]",
+        "label": "List Key",
+        "description": "Value for list key",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "lpush"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0054",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli LPUSH (Production)",
+    "description": "Redis-cli LPUSH command for redis workflows in production mode.",
+    "command": "redis-cli LPUSH [LIST_KEY] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[LIST_KEY]",
+        "label": "List Key",
+        "description": "Value for list key",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "lpush"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0055",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli LPUSH (Verbose)",
+    "description": "Redis-cli LPUSH command for redis workflows in verbose mode.",
+    "command": "redis-cli LPUSH [LIST_KEY] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[LIST_KEY]",
+        "label": "List Key",
+        "description": "Value for list key",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "lpush"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0056",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli LRANGE 0 -1 (Local)",
+    "description": "Redis-cli LRANGE 0 -1 command for redis workflows in local mode.",
+    "command": "redis-cli LRANGE [LIST_KEY] 0 -1",
+    "params": [
+      {
+        "placeholder": "[LIST_KEY]",
+        "label": "List Key",
+        "description": "Value for list key",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-1",
+        "description": "Flag used by redis-cli"
+      }
+    ],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "lrange",
+      "0",
+      "-1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0057",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli LRANGE 0 -1 (Team)",
+    "description": "Redis-cli LRANGE 0 -1 command for redis workflows in team mode.",
+    "command": "redis-cli LRANGE [LIST_KEY] 0 -1",
+    "params": [
+      {
+        "placeholder": "[LIST_KEY]",
+        "label": "List Key",
+        "description": "Value for list key",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-1",
+        "description": "Flag used by redis-cli"
+      }
+    ],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "lrange",
+      "0",
+      "-1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0058",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli LRANGE 0 -1 (CI)",
+    "description": "Redis-cli LRANGE 0 -1 command for redis workflows in ci mode.",
+    "command": "redis-cli LRANGE [LIST_KEY] 0 -1",
+    "params": [
+      {
+        "placeholder": "[LIST_KEY]",
+        "label": "List Key",
+        "description": "Value for list key",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-1",
+        "description": "Flag used by redis-cli"
+      }
+    ],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "lrange",
+      "0",
+      "-1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0059",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli LRANGE 0 -1 (Production)",
+    "description": "Redis-cli LRANGE 0 -1 command for redis workflows in production mode.",
+    "command": "redis-cli LRANGE [LIST_KEY] 0 -1",
+    "params": [
+      {
+        "placeholder": "[LIST_KEY]",
+        "label": "List Key",
+        "description": "Value for list key",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-1",
+        "description": "Flag used by redis-cli"
+      }
+    ],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "lrange",
+      "0",
+      "-1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0060",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli LRANGE 0 -1 (Verbose)",
+    "description": "Redis-cli LRANGE 0 -1 command for redis workflows in verbose mode.",
+    "command": "redis-cli LRANGE [LIST_KEY] 0 -1",
+    "params": [
+      {
+        "placeholder": "[LIST_KEY]",
+        "label": "List Key",
+        "description": "Value for list key",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-1",
+        "description": "Flag used by redis-cli"
+      }
+    ],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "lrange",
+      "0",
+      "-1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0061",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli SADD (Local)",
+    "description": "Redis-cli SADD command for redis workflows in local mode.",
+    "command": "redis-cli SADD [SET_KEY] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[SET_KEY]",
+        "label": "Set Key",
+        "description": "Value for set key",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "sadd"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0062",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli SADD (Team)",
+    "description": "Redis-cli SADD command for redis workflows in team mode.",
+    "command": "redis-cli SADD [SET_KEY] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[SET_KEY]",
+        "label": "Set Key",
+        "description": "Value for set key",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "sadd"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0063",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli SADD (CI)",
+    "description": "Redis-cli SADD command for redis workflows in ci mode.",
+    "command": "redis-cli SADD [SET_KEY] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[SET_KEY]",
+        "label": "Set Key",
+        "description": "Value for set key",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "sadd"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0064",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli SADD (Production)",
+    "description": "Redis-cli SADD command for redis workflows in production mode.",
+    "command": "redis-cli SADD [SET_KEY] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[SET_KEY]",
+        "label": "Set Key",
+        "description": "Value for set key",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "sadd"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0065",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli SADD (Verbose)",
+    "description": "Redis-cli SADD command for redis workflows in verbose mode.",
+    "command": "redis-cli SADD [SET_KEY] [VALUE]",
+    "params": [
+      {
+        "placeholder": "[SET_KEY]",
+        "label": "Set Key",
+        "description": "Value for set key",
+        "required": true
+      },
+      {
+        "placeholder": "[VALUE]",
+        "label": "Value",
+        "description": "Value for value",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "sadd"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0066",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli SMEMBERS (Local)",
+    "description": "Redis-cli SMEMBERS command for redis workflows in local mode.",
+    "command": "redis-cli SMEMBERS [SET_KEY]",
+    "params": [
+      {
+        "placeholder": "[SET_KEY]",
+        "label": "Set Key",
+        "description": "Value for set key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "smembers"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0067",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli SMEMBERS (Team)",
+    "description": "Redis-cli SMEMBERS command for redis workflows in team mode.",
+    "command": "redis-cli SMEMBERS [SET_KEY]",
+    "params": [
+      {
+        "placeholder": "[SET_KEY]",
+        "label": "Set Key",
+        "description": "Value for set key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "smembers"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0068",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli SMEMBERS (CI)",
+    "description": "Redis-cli SMEMBERS command for redis workflows in ci mode.",
+    "command": "redis-cli SMEMBERS [SET_KEY]",
+    "params": [
+      {
+        "placeholder": "[SET_KEY]",
+        "label": "Set Key",
+        "description": "Value for set key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "smembers"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0069",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli SMEMBERS (Production)",
+    "description": "Redis-cli SMEMBERS command for redis workflows in production mode.",
+    "command": "redis-cli SMEMBERS [SET_KEY]",
+    "params": [
+      {
+        "placeholder": "[SET_KEY]",
+        "label": "Set Key",
+        "description": "Value for set key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "smembers"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0070",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli SMEMBERS (Verbose)",
+    "description": "Redis-cli SMEMBERS command for redis workflows in verbose mode.",
+    "command": "redis-cli SMEMBERS [SET_KEY]",
+    "params": [
+      {
+        "placeholder": "[SET_KEY]",
+        "label": "Set Key",
+        "description": "Value for set key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "smembers"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0071",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli FLUSHDB (Local)",
+    "description": "Redis-cli FLUSHDB command for redis workflows in local mode.",
+    "command": "redis-cli FLUSHDB",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "flushdb"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0072",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli FLUSHDB (Team)",
+    "description": "Redis-cli FLUSHDB command for redis workflows in team mode.",
+    "command": "redis-cli FLUSHDB",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "flushdb"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0073",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli FLUSHDB (CI)",
+    "description": "Redis-cli FLUSHDB command for redis workflows in ci mode.",
+    "command": "redis-cli FLUSHDB",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "flushdb"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0074",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli FLUSHDB (Production)",
+    "description": "Redis-cli FLUSHDB command for redis workflows in production mode.",
+    "command": "redis-cli FLUSHDB",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "flushdb"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0075",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli FLUSHDB (Verbose)",
+    "description": "Redis-cli FLUSHDB command for redis workflows in verbose mode.",
+    "command": "redis-cli FLUSHDB",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "flushdb"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0076",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli MONITOR (Local)",
+    "description": "Redis-cli MONITOR command for redis workflows in local mode.",
+    "command": "redis-cli MONITOR",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "monitor"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0077",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli MONITOR (Team)",
+    "description": "Redis-cli MONITOR command for redis workflows in team mode.",
+    "command": "redis-cli MONITOR",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "monitor"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0078",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli MONITOR (CI)",
+    "description": "Redis-cli MONITOR command for redis workflows in ci mode.",
+    "command": "redis-cli MONITOR",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "monitor"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0079",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli MONITOR (Production)",
+    "description": "Redis-cli MONITOR command for redis workflows in production mode.",
+    "command": "redis-cli MONITOR",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "monitor"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0080",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli MONITOR (Verbose)",
+    "description": "Redis-cli MONITOR command for redis workflows in verbose mode.",
+    "command": "redis-cli MONITOR",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "monitor"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0081",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli INFO memory (Local)",
+    "description": "Redis-cli INFO memory command for redis workflows in local mode.",
+    "command": "redis-cli INFO memory",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "info",
+      "memory"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0082",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli INFO memory (Team)",
+    "description": "Redis-cli INFO memory command for redis workflows in team mode.",
+    "command": "redis-cli INFO memory",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "info",
+      "memory"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0083",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli INFO memory (CI)",
+    "description": "Redis-cli INFO memory command for redis workflows in ci mode.",
+    "command": "redis-cli INFO memory",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "info",
+      "memory"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0084",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli INFO memory (Production)",
+    "description": "Redis-cli INFO memory command for redis workflows in production mode.",
+    "command": "redis-cli INFO memory",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "info",
+      "memory"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0085",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli INFO memory (Verbose)",
+    "description": "Redis-cli INFO memory command for redis workflows in verbose mode.",
+    "command": "redis-cli INFO memory",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "info",
+      "memory"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0086",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli PUBSUB CHANNELS (Local)",
+    "description": "Redis-cli PUBSUB CHANNELS command for redis workflows in local mode.",
+    "command": "redis-cli PUBSUB CHANNELS",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "pubsub",
+      "channels"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0087",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli PUBSUB CHANNELS (Team)",
+    "description": "Redis-cli PUBSUB CHANNELS command for redis workflows in team mode.",
+    "command": "redis-cli PUBSUB CHANNELS",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "pubsub",
+      "channels"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0088",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli PUBSUB CHANNELS (CI)",
+    "description": "Redis-cli PUBSUB CHANNELS command for redis workflows in ci mode.",
+    "command": "redis-cli PUBSUB CHANNELS",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "pubsub",
+      "channels"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0089",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli PUBSUB CHANNELS (Production)",
+    "description": "Redis-cli PUBSUB CHANNELS command for redis workflows in production mode.",
+    "command": "redis-cli PUBSUB CHANNELS",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "pubsub",
+      "channels"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0090",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli PUBSUB CHANNELS (Verbose)",
+    "description": "Redis-cli PUBSUB CHANNELS command for redis workflows in verbose mode.",
+    "command": "redis-cli PUBSUB CHANNELS",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "pubsub",
+      "channels"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0091",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli CONFIG GET * (Local)",
+    "description": "Redis-cli CONFIG GET * command for redis workflows in local mode.",
+    "command": "redis-cli CONFIG GET *",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "config",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0092",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli CONFIG GET * (Team)",
+    "description": "Redis-cli CONFIG GET * command for redis workflows in team mode.",
+    "command": "redis-cli CONFIG GET *",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "config",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0093",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli CONFIG GET * (CI)",
+    "description": "Redis-cli CONFIG GET * command for redis workflows in ci mode.",
+    "command": "redis-cli CONFIG GET *",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "config",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0094",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli CONFIG GET * (Production)",
+    "description": "Redis-cli CONFIG GET * command for redis workflows in production mode.",
+    "command": "redis-cli CONFIG GET *",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "config",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0095",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli CONFIG GET * (Verbose)",
+    "description": "Redis-cli CONFIG GET * command for redis workflows in verbose mode.",
+    "command": "redis-cli CONFIG GET *",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "config",
+      "get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0096",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli DBSIZE (Local)",
+    "description": "Redis-cli DBSIZE command for redis workflows in local mode.",
+    "command": "redis-cli DBSIZE",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "dbsize"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0097",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli DBSIZE (Team)",
+    "description": "Redis-cli DBSIZE command for redis workflows in team mode.",
+    "command": "redis-cli DBSIZE",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "dbsize"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0098",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli DBSIZE (CI)",
+    "description": "Redis-cli DBSIZE command for redis workflows in ci mode.",
+    "command": "redis-cli DBSIZE",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "dbsize"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0099",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli DBSIZE (Production)",
+    "description": "Redis-cli DBSIZE command for redis workflows in production mode.",
+    "command": "redis-cli DBSIZE",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "dbsize"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "redis-0100",
+    "tool": "redis",
+    "category": "Database",
+    "title": "Redis-cli DBSIZE (Verbose)",
+    "description": "Redis-cli DBSIZE command for redis workflows in verbose mode.",
+    "command": "redis-cli DBSIZE",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "redis",
+      "redis-cli",
+      "dbsize"
+    ],
+    "difficulty": "beginner"
+  }
+]

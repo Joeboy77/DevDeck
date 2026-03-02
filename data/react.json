@@ -1,0 +1,2057 @@
+[
+  {
+    "id": "react-0001",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npx create-react-app (Local)",
+    "description": "Npx create-react-app command for react workflows in local mode.",
+    "command": "npx create-react-app [APP_NAME]",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "react",
+      "npx",
+      "create-react-app"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0002",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npx create-react-app (Team)",
+    "description": "Npx create-react-app command for react workflows in team mode.",
+    "command": "npx create-react-app [APP_NAME]",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "react",
+      "npx",
+      "create-react-app"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0003",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npx create-react-app (CI)",
+    "description": "Npx create-react-app command for react workflows in ci mode.",
+    "command": "npx create-react-app [APP_NAME]",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "react",
+      "npx",
+      "create-react-app"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0004",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npx create-react-app (Production)",
+    "description": "Npx create-react-app command for react workflows in production mode.",
+    "command": "npx create-react-app [APP_NAME]",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "react",
+      "npx",
+      "create-react-app"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0005",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npx create-react-app (Verbose)",
+    "description": "Npx create-react-app command for react workflows in verbose mode.",
+    "command": "npx create-react-app [APP_NAME]",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "react",
+      "npx",
+      "create-react-app"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0006",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm create vite@latest -- --template react-ts (Local)",
+    "description": "Npm create vite@latest -- --template react-ts command for react workflows in local mode.",
+    "command": "npm create vite@latest [APP_NAME] -- --template react-ts",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--",
+        "description": "Flag used by npm"
+      },
+      {
+        "flag": "--template",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "create",
+      "vitelatest",
+      "--",
+      "--template"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0007",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm create vite@latest -- --template react-ts (Team)",
+    "description": "Npm create vite@latest -- --template react-ts command for react workflows in team mode.",
+    "command": "npm create vite@latest [APP_NAME] -- --template react-ts",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--",
+        "description": "Flag used by npm"
+      },
+      {
+        "flag": "--template",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "create",
+      "vitelatest",
+      "--",
+      "--template"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0008",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm create vite@latest -- --template react-ts (CI)",
+    "description": "Npm create vite@latest -- --template react-ts command for react workflows in ci mode.",
+    "command": "npm create vite@latest [APP_NAME] -- --template react-ts",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--",
+        "description": "Flag used by npm"
+      },
+      {
+        "flag": "--template",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "create",
+      "vitelatest",
+      "--",
+      "--template"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0009",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm create vite@latest -- --template react-ts (Production)",
+    "description": "Npm create vite@latest -- --template react-ts command for react workflows in production mode.",
+    "command": "npm create vite@latest [APP_NAME] -- --template react-ts",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--",
+        "description": "Flag used by npm"
+      },
+      {
+        "flag": "--template",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "create",
+      "vitelatest",
+      "--",
+      "--template"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0010",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm create vite@latest -- --template react-ts (Verbose)",
+    "description": "Npm create vite@latest -- --template react-ts command for react workflows in verbose mode.",
+    "command": "npm create vite@latest [APP_NAME] -- --template react-ts",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--",
+        "description": "Flag used by npm"
+      },
+      {
+        "flag": "--template",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "create",
+      "vitelatest",
+      "--",
+      "--template"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0011",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Yarn create vite --template react-ts (Local)",
+    "description": "Yarn create vite --template react-ts command for react workflows in local mode.",
+    "command": "yarn create vite [APP_NAME] --template react-ts",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--template",
+        "description": "Flag used by yarn"
+      }
+    ],
+    "tags": [
+      "react",
+      "yarn",
+      "create",
+      "vite",
+      "--template",
+      "react-ts"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0012",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Yarn create vite --template react-ts (Team)",
+    "description": "Yarn create vite --template react-ts command for react workflows in team mode.",
+    "command": "yarn create vite [APP_NAME] --template react-ts",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--template",
+        "description": "Flag used by yarn"
+      }
+    ],
+    "tags": [
+      "react",
+      "yarn",
+      "create",
+      "vite",
+      "--template",
+      "react-ts"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0013",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Yarn create vite --template react-ts (CI)",
+    "description": "Yarn create vite --template react-ts command for react workflows in ci mode.",
+    "command": "yarn create vite [APP_NAME] --template react-ts",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--template",
+        "description": "Flag used by yarn"
+      }
+    ],
+    "tags": [
+      "react",
+      "yarn",
+      "create",
+      "vite",
+      "--template",
+      "react-ts"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0014",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Yarn create vite --template react-ts (Production)",
+    "description": "Yarn create vite --template react-ts command for react workflows in production mode.",
+    "command": "yarn create vite [APP_NAME] --template react-ts",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--template",
+        "description": "Flag used by yarn"
+      }
+    ],
+    "tags": [
+      "react",
+      "yarn",
+      "create",
+      "vite",
+      "--template",
+      "react-ts"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0015",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Yarn create vite --template react-ts (Verbose)",
+    "description": "Yarn create vite --template react-ts command for react workflows in verbose mode.",
+    "command": "yarn create vite [APP_NAME] --template react-ts",
+    "params": [
+      {
+        "placeholder": "[APP_NAME]",
+        "label": "App Name",
+        "description": "Value for app name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--template",
+        "description": "Flag used by yarn"
+      }
+    ],
+    "tags": [
+      "react",
+      "yarn",
+      "create",
+      "vite",
+      "--template",
+      "react-ts"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0016",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run dev (Local)",
+    "description": "Npm run dev command for react workflows in local mode.",
+    "command": "npm run dev",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "dev"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0017",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run dev (Team)",
+    "description": "Npm run dev command for react workflows in team mode.",
+    "command": "npm run dev",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "dev"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0018",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run dev (CI)",
+    "description": "Npm run dev command for react workflows in ci mode.",
+    "command": "npm run dev",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "dev"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0019",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run dev (Production)",
+    "description": "Npm run dev command for react workflows in production mode.",
+    "command": "npm run dev",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "dev"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0020",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run dev (Verbose)",
+    "description": "Npm run dev command for react workflows in verbose mode.",
+    "command": "npm run dev",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "dev"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0021",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run build (Local)",
+    "description": "Npm run build command for react workflows in local mode.",
+    "command": "npm run build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0022",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run build (Team)",
+    "description": "Npm run build command for react workflows in team mode.",
+    "command": "npm run build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0023",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run build (CI)",
+    "description": "Npm run build command for react workflows in ci mode.",
+    "command": "npm run build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0024",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run build (Production)",
+    "description": "Npm run build command for react workflows in production mode.",
+    "command": "npm run build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0025",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run build (Verbose)",
+    "description": "Npm run build command for react workflows in verbose mode.",
+    "command": "npm run build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0026",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run preview (Local)",
+    "description": "Npm run preview command for react workflows in local mode.",
+    "command": "npm run preview",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "preview"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0027",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run preview (Team)",
+    "description": "Npm run preview command for react workflows in team mode.",
+    "command": "npm run preview",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "preview"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0028",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run preview (CI)",
+    "description": "Npm run preview command for react workflows in ci mode.",
+    "command": "npm run preview",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "preview"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0029",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run preview (Production)",
+    "description": "Npm run preview command for react workflows in production mode.",
+    "command": "npm run preview",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "preview"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0030",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run preview (Verbose)",
+    "description": "Npm run preview command for react workflows in verbose mode.",
+    "command": "npm run preview",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "preview"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0031",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run test (Local)",
+    "description": "Npm run test command for react workflows in local mode.",
+    "command": "npm run test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0032",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run test (Team)",
+    "description": "Npm run test command for react workflows in team mode.",
+    "command": "npm run test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0033",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run test (CI)",
+    "description": "Npm run test command for react workflows in ci mode.",
+    "command": "npm run test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0034",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run test (Production)",
+    "description": "Npm run test command for react workflows in production mode.",
+    "command": "npm run test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0035",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run test (Verbose)",
+    "description": "Npm run test command for react workflows in verbose mode.",
+    "command": "npm run test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0036",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run lint (Local)",
+    "description": "Npm run lint command for react workflows in local mode.",
+    "command": "npm run lint",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "lint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0037",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run lint (Team)",
+    "description": "Npm run lint command for react workflows in team mode.",
+    "command": "npm run lint",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "lint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0038",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run lint (CI)",
+    "description": "Npm run lint command for react workflows in ci mode.",
+    "command": "npm run lint",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "lint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0039",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run lint (Production)",
+    "description": "Npm run lint command for react workflows in production mode.",
+    "command": "npm run lint",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "lint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0040",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run lint (Verbose)",
+    "description": "Npm run lint command for react workflows in verbose mode.",
+    "command": "npm run lint",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "lint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0041",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run storybook (Local)",
+    "description": "Npm run storybook command for react workflows in local mode.",
+    "command": "npm run storybook",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "storybook"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0042",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run storybook (Team)",
+    "description": "Npm run storybook command for react workflows in team mode.",
+    "command": "npm run storybook",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "storybook"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0043",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run storybook (CI)",
+    "description": "Npm run storybook command for react workflows in ci mode.",
+    "command": "npm run storybook",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "storybook"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0044",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run storybook (Production)",
+    "description": "Npm run storybook command for react workflows in production mode.",
+    "command": "npm run storybook",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "storybook"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0045",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run storybook (Verbose)",
+    "description": "Npm run storybook command for react workflows in verbose mode.",
+    "command": "npm run storybook",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "storybook"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0046",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run test:coverage (Local)",
+    "description": "Npm run test:coverage command for react workflows in local mode.",
+    "command": "npm run test:coverage",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "test:coverage"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0047",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run test:coverage (Team)",
+    "description": "Npm run test:coverage command for react workflows in team mode.",
+    "command": "npm run test:coverage",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "test:coverage"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0048",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run test:coverage (CI)",
+    "description": "Npm run test:coverage command for react workflows in ci mode.",
+    "command": "npm run test:coverage",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "test:coverage"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0049",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run test:coverage (Production)",
+    "description": "Npm run test:coverage command for react workflows in production mode.",
+    "command": "npm run test:coverage",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "test:coverage"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0050",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run test:coverage (Verbose)",
+    "description": "Npm run test:coverage command for react workflows in verbose mode.",
+    "command": "npm run test:coverage",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "test:coverage"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0051",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install react-router-dom (Local)",
+    "description": "Npm install react-router-dom command for react workflows in local mode.",
+    "command": "npm install react-router-dom",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "react-router-dom"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0052",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install react-router-dom (Team)",
+    "description": "Npm install react-router-dom command for react workflows in team mode.",
+    "command": "npm install react-router-dom",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "react-router-dom"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0053",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install react-router-dom (CI)",
+    "description": "Npm install react-router-dom command for react workflows in ci mode.",
+    "command": "npm install react-router-dom",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "react-router-dom"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0054",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install react-router-dom (Production)",
+    "description": "Npm install react-router-dom command for react workflows in production mode.",
+    "command": "npm install react-router-dom",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "react-router-dom"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0055",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install react-router-dom (Verbose)",
+    "description": "Npm install react-router-dom command for react workflows in verbose mode.",
+    "command": "npm install react-router-dom",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "react-router-dom"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0056",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install @tanstack/react-query (Local)",
+    "description": "Npm install @tanstack/react-query command for react workflows in local mode.",
+    "command": "npm install @tanstack/react-query",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "tanstackreact-query"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0057",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install @tanstack/react-query (Team)",
+    "description": "Npm install @tanstack/react-query command for react workflows in team mode.",
+    "command": "npm install @tanstack/react-query",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "tanstackreact-query"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0058",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install @tanstack/react-query (CI)",
+    "description": "Npm install @tanstack/react-query command for react workflows in ci mode.",
+    "command": "npm install @tanstack/react-query",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "tanstackreact-query"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0059",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install @tanstack/react-query (Production)",
+    "description": "Npm install @tanstack/react-query command for react workflows in production mode.",
+    "command": "npm install @tanstack/react-query",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "tanstackreact-query"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0060",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install @tanstack/react-query (Verbose)",
+    "description": "Npm install @tanstack/react-query command for react workflows in verbose mode.",
+    "command": "npm install @tanstack/react-query",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "tanstackreact-query"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0061",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D @types/react @types/react-dom (Local)",
+    "description": "Npm install -D @types/react @types/react-dom command for react workflows in local mode.",
+    "command": "npm install -D @types/react @types/react-dom",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "typesreact",
+      "typesreact-dom"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0062",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D @types/react @types/react-dom (Team)",
+    "description": "Npm install -D @types/react @types/react-dom command for react workflows in team mode.",
+    "command": "npm install -D @types/react @types/react-dom",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "typesreact",
+      "typesreact-dom"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0063",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D @types/react @types/react-dom (CI)",
+    "description": "Npm install -D @types/react @types/react-dom command for react workflows in ci mode.",
+    "command": "npm install -D @types/react @types/react-dom",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "typesreact",
+      "typesreact-dom"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0064",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D @types/react @types/react-dom (Production)",
+    "description": "Npm install -D @types/react @types/react-dom command for react workflows in production mode.",
+    "command": "npm install -D @types/react @types/react-dom",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "typesreact",
+      "typesreact-dom"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0065",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D @types/react @types/react-dom (Verbose)",
+    "description": "Npm install -D @types/react @types/react-dom command for react workflows in verbose mode.",
+    "command": "npm install -D @types/react @types/react-dom",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "typesreact",
+      "typesreact-dom"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0066",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install zustand (Local)",
+    "description": "Npm install zustand command for react workflows in local mode.",
+    "command": "npm install zustand",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "zustand"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0067",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install zustand (Team)",
+    "description": "Npm install zustand command for react workflows in team mode.",
+    "command": "npm install zustand",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "zustand"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0068",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install zustand (CI)",
+    "description": "Npm install zustand command for react workflows in ci mode.",
+    "command": "npm install zustand",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "zustand"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0069",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install zustand (Production)",
+    "description": "Npm install zustand command for react workflows in production mode.",
+    "command": "npm install zustand",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "zustand"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0070",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install zustand (Verbose)",
+    "description": "Npm install zustand command for react workflows in verbose mode.",
+    "command": "npm install zustand",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "zustand"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0071",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install redux react-redux (Local)",
+    "description": "Npm install redux react-redux command for react workflows in local mode.",
+    "command": "npm install redux react-redux",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "redux",
+      "react-redux"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0072",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install redux react-redux (Team)",
+    "description": "Npm install redux react-redux command for react workflows in team mode.",
+    "command": "npm install redux react-redux",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "redux",
+      "react-redux"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0073",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install redux react-redux (CI)",
+    "description": "Npm install redux react-redux command for react workflows in ci mode.",
+    "command": "npm install redux react-redux",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "redux",
+      "react-redux"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0074",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install redux react-redux (Production)",
+    "description": "Npm install redux react-redux command for react workflows in production mode.",
+    "command": "npm install redux react-redux",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "redux",
+      "react-redux"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0075",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install redux react-redux (Verbose)",
+    "description": "Npm install redux react-redux command for react workflows in verbose mode.",
+    "command": "npm install redux react-redux",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "redux",
+      "react-redux"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0076",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D eslint-plugin-react-hooks (Local)",
+    "description": "Npm install -D eslint-plugin-react-hooks command for react workflows in local mode.",
+    "command": "npm install -D eslint-plugin-react-hooks",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "eslint-plugin-react-hooks"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0077",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D eslint-plugin-react-hooks (Team)",
+    "description": "Npm install -D eslint-plugin-react-hooks command for react workflows in team mode.",
+    "command": "npm install -D eslint-plugin-react-hooks",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "eslint-plugin-react-hooks"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0078",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D eslint-plugin-react-hooks (CI)",
+    "description": "Npm install -D eslint-plugin-react-hooks command for react workflows in ci mode.",
+    "command": "npm install -D eslint-plugin-react-hooks",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "eslint-plugin-react-hooks"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0079",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D eslint-plugin-react-hooks (Production)",
+    "description": "Npm install -D eslint-plugin-react-hooks command for react workflows in production mode.",
+    "command": "npm install -D eslint-plugin-react-hooks",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "eslint-plugin-react-hooks"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0080",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D eslint-plugin-react-hooks (Verbose)",
+    "description": "Npm install -D eslint-plugin-react-hooks command for react workflows in verbose mode.",
+    "command": "npm install -D eslint-plugin-react-hooks",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "eslint-plugin-react-hooks"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0081",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D vitest @testing-library/react (Local)",
+    "description": "Npm install -D vitest @testing-library/react command for react workflows in local mode.",
+    "command": "npm install -D vitest @testing-library/react",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "vitest",
+      "testing-libraryreact"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0082",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D vitest @testing-library/react (Team)",
+    "description": "Npm install -D vitest @testing-library/react command for react workflows in team mode.",
+    "command": "npm install -D vitest @testing-library/react",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "vitest",
+      "testing-libraryreact"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0083",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D vitest @testing-library/react (CI)",
+    "description": "Npm install -D vitest @testing-library/react command for react workflows in ci mode.",
+    "command": "npm install -D vitest @testing-library/react",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "vitest",
+      "testing-libraryreact"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0084",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D vitest @testing-library/react (Production)",
+    "description": "Npm install -D vitest @testing-library/react command for react workflows in production mode.",
+    "command": "npm install -D vitest @testing-library/react",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "vitest",
+      "testing-libraryreact"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0085",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D vitest @testing-library/react (Verbose)",
+    "description": "Npm install -D vitest @testing-library/react command for react workflows in verbose mode.",
+    "command": "npm install -D vitest @testing-library/react",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "vitest",
+      "testing-libraryreact"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0086",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D @vitejs/plugin-react (Local)",
+    "description": "Npm install -D @vitejs/plugin-react command for react workflows in local mode.",
+    "command": "npm install -D @vitejs/plugin-react",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "vitejsplugin-react"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0087",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D @vitejs/plugin-react (Team)",
+    "description": "Npm install -D @vitejs/plugin-react command for react workflows in team mode.",
+    "command": "npm install -D @vitejs/plugin-react",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "vitejsplugin-react"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0088",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D @vitejs/plugin-react (CI)",
+    "description": "Npm install -D @vitejs/plugin-react command for react workflows in ci mode.",
+    "command": "npm install -D @vitejs/plugin-react",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "vitejsplugin-react"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0089",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D @vitejs/plugin-react (Production)",
+    "description": "Npm install -D @vitejs/plugin-react command for react workflows in production mode.",
+    "command": "npm install -D @vitejs/plugin-react",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "vitejsplugin-react"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0090",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D @vitejs/plugin-react (Verbose)",
+    "description": "Npm install -D @vitejs/plugin-react command for react workflows in verbose mode.",
+    "command": "npm install -D @vitejs/plugin-react",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "vitejsplugin-react"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0091",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D @storybook/react-vite (Local)",
+    "description": "Npm install -D @storybook/react-vite command for react workflows in local mode.",
+    "command": "npm install -D @storybook/react-vite",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "storybookreact-vite"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0092",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D @storybook/react-vite (Team)",
+    "description": "Npm install -D @storybook/react-vite command for react workflows in team mode.",
+    "command": "npm install -D @storybook/react-vite",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "storybookreact-vite"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0093",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D @storybook/react-vite (CI)",
+    "description": "Npm install -D @storybook/react-vite command for react workflows in ci mode.",
+    "command": "npm install -D @storybook/react-vite",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "storybookreact-vite"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0094",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D @storybook/react-vite (Production)",
+    "description": "Npm install -D @storybook/react-vite command for react workflows in production mode.",
+    "command": "npm install -D @storybook/react-vite",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "storybookreact-vite"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0095",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm install -D @storybook/react-vite (Verbose)",
+    "description": "Npm install -D @storybook/react-vite command for react workflows in verbose mode.",
+    "command": "npm install -D @storybook/react-vite",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by npm"
+      }
+    ],
+    "tags": [
+      "react",
+      "npm",
+      "install",
+      "-d",
+      "storybookreact-vite"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0096",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run eject (Local)",
+    "description": "Npm run eject command for react workflows in local mode.",
+    "command": "npm run eject",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "eject"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0097",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run eject (Team)",
+    "description": "Npm run eject command for react workflows in team mode.",
+    "command": "npm run eject",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "eject"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0098",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run eject (CI)",
+    "description": "Npm run eject command for react workflows in ci mode.",
+    "command": "npm run eject",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "eject"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0099",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run eject (Production)",
+    "description": "Npm run eject command for react workflows in production mode.",
+    "command": "npm run eject",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "eject"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "react-0100",
+    "tool": "react",
+    "category": "Frontend",
+    "title": "Npm run eject (Verbose)",
+    "description": "Npm run eject command for react workflows in verbose mode.",
+    "command": "npm run eject",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "react",
+      "npm",
+      "run",
+      "eject"
+    ],
+    "difficulty": "beginner"
+  }
+]

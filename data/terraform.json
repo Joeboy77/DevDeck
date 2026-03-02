@@ -1,0 +1,2079 @@
+[
+  {
+    "id": "terraform-0001",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform init (Local)",
+    "description": "Terraform init command for terraform workflows in local mode.",
+    "command": "terraform init",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "init"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0002",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform init (Team)",
+    "description": "Terraform init command for terraform workflows in team mode.",
+    "command": "terraform init",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "init"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0003",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform init (CI)",
+    "description": "Terraform init command for terraform workflows in ci mode.",
+    "command": "terraform init -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "init",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0004",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform init (Production)",
+    "description": "Terraform init command for terraform workflows in production mode.",
+    "command": "terraform init",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "init"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0005",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform init (Verbose)",
+    "description": "Terraform init command for terraform workflows in verbose mode.",
+    "command": "terraform init -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "init",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0006",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform fmt -recursive (Local)",
+    "description": "Terraform fmt -recursive command for terraform workflows in local mode.",
+    "command": "terraform fmt -recursive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-recursive",
+        "description": "Flag used by terraform"
+      }
+    ],
+    "tags": [
+      "terraform",
+      "fmt",
+      "-recursive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0007",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform fmt -recursive (Team)",
+    "description": "Terraform fmt -recursive command for terraform workflows in team mode.",
+    "command": "terraform fmt -recursive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-recursive",
+        "description": "Flag used by terraform"
+      }
+    ],
+    "tags": [
+      "terraform",
+      "fmt",
+      "-recursive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0008",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform fmt -recursive (CI)",
+    "description": "Terraform fmt -recursive command for terraform workflows in ci mode.",
+    "command": "terraform fmt -recursive -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-recursive",
+        "description": "Flag used by terraform"
+      },
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "fmt",
+      "-recursive",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0009",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform fmt -recursive (Production)",
+    "description": "Terraform fmt -recursive command for terraform workflows in production mode.",
+    "command": "terraform fmt -recursive",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-recursive",
+        "description": "Flag used by terraform"
+      }
+    ],
+    "tags": [
+      "terraform",
+      "fmt",
+      "-recursive"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0010",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform fmt -recursive (Verbose)",
+    "description": "Terraform fmt -recursive command for terraform workflows in verbose mode.",
+    "command": "terraform fmt -recursive -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-recursive",
+        "description": "Flag used by terraform"
+      },
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "fmt",
+      "-recursive",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0011",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform validate (Local)",
+    "description": "Terraform validate command for terraform workflows in local mode.",
+    "command": "terraform validate",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "validate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0012",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform validate (Team)",
+    "description": "Terraform validate command for terraform workflows in team mode.",
+    "command": "terraform validate",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "validate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0013",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform validate (CI)",
+    "description": "Terraform validate command for terraform workflows in ci mode.",
+    "command": "terraform validate -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "validate",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0014",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform validate (Production)",
+    "description": "Terraform validate command for terraform workflows in production mode.",
+    "command": "terraform validate",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "validate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0015",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform validate (Verbose)",
+    "description": "Terraform validate command for terraform workflows in verbose mode.",
+    "command": "terraform validate -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "validate",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0016",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform plan (Local)",
+    "description": "Terraform plan command for terraform workflows in local mode.",
+    "command": "terraform plan",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "plan"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0017",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform plan (Team)",
+    "description": "Terraform plan command for terraform workflows in team mode.",
+    "command": "terraform plan",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "plan"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0018",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform plan (CI)",
+    "description": "Terraform plan command for terraform workflows in ci mode.",
+    "command": "terraform plan -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "plan",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0019",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform plan (Production)",
+    "description": "Terraform plan command for terraform workflows in production mode.",
+    "command": "terraform plan",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "plan"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0020",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform plan (Verbose)",
+    "description": "Terraform plan command for terraform workflows in verbose mode.",
+    "command": "terraform plan -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "plan",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0021",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform apply (Local)",
+    "description": "Terraform apply command for terraform workflows in local mode.",
+    "command": "terraform apply",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "apply"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0022",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform apply (Team)",
+    "description": "Terraform apply command for terraform workflows in team mode.",
+    "command": "terraform apply",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "apply"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0023",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform apply (CI)",
+    "description": "Terraform apply command for terraform workflows in ci mode.",
+    "command": "terraform apply -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "apply",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0024",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform apply (Production)",
+    "description": "Terraform apply command for terraform workflows in production mode.",
+    "command": "terraform apply",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "apply"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0025",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform apply (Verbose)",
+    "description": "Terraform apply command for terraform workflows in verbose mode.",
+    "command": "terraform apply -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "apply",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0026",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform apply -auto-approve (Local)",
+    "description": "Terraform apply -auto-approve command for terraform workflows in local mode.",
+    "command": "terraform apply -auto-approve",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-auto-approve",
+        "description": "Flag used by terraform"
+      }
+    ],
+    "tags": [
+      "terraform",
+      "apply",
+      "-auto-approve"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0027",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform apply -auto-approve (Team)",
+    "description": "Terraform apply -auto-approve command for terraform workflows in team mode.",
+    "command": "terraform apply -auto-approve",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-auto-approve",
+        "description": "Flag used by terraform"
+      }
+    ],
+    "tags": [
+      "terraform",
+      "apply",
+      "-auto-approve"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0028",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform apply -auto-approve (CI)",
+    "description": "Terraform apply -auto-approve command for terraform workflows in ci mode.",
+    "command": "terraform apply -auto-approve -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-auto-approve",
+        "description": "Flag used by terraform"
+      },
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "apply",
+      "-auto-approve",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0029",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform apply -auto-approve (Production)",
+    "description": "Terraform apply -auto-approve command for terraform workflows in production mode.",
+    "command": "terraform apply -auto-approve",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-auto-approve",
+        "description": "Flag used by terraform"
+      }
+    ],
+    "tags": [
+      "terraform",
+      "apply",
+      "-auto-approve"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0030",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform apply -auto-approve (Verbose)",
+    "description": "Terraform apply -auto-approve command for terraform workflows in verbose mode.",
+    "command": "terraform apply -auto-approve -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-auto-approve",
+        "description": "Flag used by terraform"
+      },
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "apply",
+      "-auto-approve",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0031",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform destroy (Local)",
+    "description": "Terraform destroy command for terraform workflows in local mode.",
+    "command": "terraform destroy",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "destroy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0032",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform destroy (Team)",
+    "description": "Terraform destroy command for terraform workflows in team mode.",
+    "command": "terraform destroy",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "destroy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0033",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform destroy (CI)",
+    "description": "Terraform destroy command for terraform workflows in ci mode.",
+    "command": "terraform destroy -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "destroy",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0034",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform destroy (Production)",
+    "description": "Terraform destroy command for terraform workflows in production mode.",
+    "command": "terraform destroy",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "destroy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0035",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform destroy (Verbose)",
+    "description": "Terraform destroy command for terraform workflows in verbose mode.",
+    "command": "terraform destroy -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "destroy",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0036",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform destroy -auto-approve (Local)",
+    "description": "Terraform destroy -auto-approve command for terraform workflows in local mode.",
+    "command": "terraform destroy -auto-approve",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-auto-approve",
+        "description": "Flag used by terraform"
+      }
+    ],
+    "tags": [
+      "terraform",
+      "destroy",
+      "-auto-approve"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0037",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform destroy -auto-approve (Team)",
+    "description": "Terraform destroy -auto-approve command for terraform workflows in team mode.",
+    "command": "terraform destroy -auto-approve",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-auto-approve",
+        "description": "Flag used by terraform"
+      }
+    ],
+    "tags": [
+      "terraform",
+      "destroy",
+      "-auto-approve"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0038",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform destroy -auto-approve (CI)",
+    "description": "Terraform destroy -auto-approve command for terraform workflows in ci mode.",
+    "command": "terraform destroy -auto-approve -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-auto-approve",
+        "description": "Flag used by terraform"
+      },
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "destroy",
+      "-auto-approve",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0039",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform destroy -auto-approve (Production)",
+    "description": "Terraform destroy -auto-approve command for terraform workflows in production mode.",
+    "command": "terraform destroy -auto-approve",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-auto-approve",
+        "description": "Flag used by terraform"
+      }
+    ],
+    "tags": [
+      "terraform",
+      "destroy",
+      "-auto-approve"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0040",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform destroy -auto-approve (Verbose)",
+    "description": "Terraform destroy -auto-approve command for terraform workflows in verbose mode.",
+    "command": "terraform destroy -auto-approve -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-auto-approve",
+        "description": "Flag used by terraform"
+      },
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "destroy",
+      "-auto-approve",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0041",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform workspace list (Local)",
+    "description": "Terraform workspace list command for terraform workflows in local mode.",
+    "command": "terraform workspace list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "workspace",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0042",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform workspace list (Team)",
+    "description": "Terraform workspace list command for terraform workflows in team mode.",
+    "command": "terraform workspace list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "workspace",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0043",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform workspace list (CI)",
+    "description": "Terraform workspace list command for terraform workflows in ci mode.",
+    "command": "terraform workspace list -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "workspace",
+      "list",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0044",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform workspace list (Production)",
+    "description": "Terraform workspace list command for terraform workflows in production mode.",
+    "command": "terraform workspace list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "workspace",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0045",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform workspace list (Verbose)",
+    "description": "Terraform workspace list command for terraform workflows in verbose mode.",
+    "command": "terraform workspace list -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "workspace",
+      "list",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0046",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform workspace select (Local)",
+    "description": "Terraform workspace select command for terraform workflows in local mode.",
+    "command": "terraform workspace select [WORKSPACE_NAME]",
+    "params": [
+      {
+        "placeholder": "[WORKSPACE_NAME]",
+        "label": "Workspace Name",
+        "description": "Value for workspace name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "workspace",
+      "select"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0047",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform workspace select (Team)",
+    "description": "Terraform workspace select command for terraform workflows in team mode.",
+    "command": "terraform workspace select [WORKSPACE_NAME]",
+    "params": [
+      {
+        "placeholder": "[WORKSPACE_NAME]",
+        "label": "Workspace Name",
+        "description": "Value for workspace name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "workspace",
+      "select"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0048",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform workspace select (CI)",
+    "description": "Terraform workspace select command for terraform workflows in ci mode.",
+    "command": "terraform workspace select [WORKSPACE_NAME] -no-color",
+    "params": [
+      {
+        "placeholder": "[WORKSPACE_NAME]",
+        "label": "Workspace Name",
+        "description": "Value for workspace name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "workspace",
+      "select",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0049",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform workspace select (Production)",
+    "description": "Terraform workspace select command for terraform workflows in production mode.",
+    "command": "terraform workspace select [WORKSPACE_NAME]",
+    "params": [
+      {
+        "placeholder": "[WORKSPACE_NAME]",
+        "label": "Workspace Name",
+        "description": "Value for workspace name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "workspace",
+      "select"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0050",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform workspace select (Verbose)",
+    "description": "Terraform workspace select command for terraform workflows in verbose mode.",
+    "command": "terraform workspace select [WORKSPACE_NAME] -no-color",
+    "params": [
+      {
+        "placeholder": "[WORKSPACE_NAME]",
+        "label": "Workspace Name",
+        "description": "Value for workspace name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "workspace",
+      "select",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0051",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform workspace new (Local)",
+    "description": "Terraform workspace new command for terraform workflows in local mode.",
+    "command": "terraform workspace new [WORKSPACE_NAME]",
+    "params": [
+      {
+        "placeholder": "[WORKSPACE_NAME]",
+        "label": "Workspace Name",
+        "description": "Value for workspace name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "workspace",
+      "new"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0052",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform workspace new (Team)",
+    "description": "Terraform workspace new command for terraform workflows in team mode.",
+    "command": "terraform workspace new [WORKSPACE_NAME]",
+    "params": [
+      {
+        "placeholder": "[WORKSPACE_NAME]",
+        "label": "Workspace Name",
+        "description": "Value for workspace name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "workspace",
+      "new"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0053",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform workspace new (CI)",
+    "description": "Terraform workspace new command for terraform workflows in ci mode.",
+    "command": "terraform workspace new [WORKSPACE_NAME] -no-color",
+    "params": [
+      {
+        "placeholder": "[WORKSPACE_NAME]",
+        "label": "Workspace Name",
+        "description": "Value for workspace name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "workspace",
+      "new",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0054",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform workspace new (Production)",
+    "description": "Terraform workspace new command for terraform workflows in production mode.",
+    "command": "terraform workspace new [WORKSPACE_NAME]",
+    "params": [
+      {
+        "placeholder": "[WORKSPACE_NAME]",
+        "label": "Workspace Name",
+        "description": "Value for workspace name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "workspace",
+      "new"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0055",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform workspace new (Verbose)",
+    "description": "Terraform workspace new command for terraform workflows in verbose mode.",
+    "command": "terraform workspace new [WORKSPACE_NAME] -no-color",
+    "params": [
+      {
+        "placeholder": "[WORKSPACE_NAME]",
+        "label": "Workspace Name",
+        "description": "Value for workspace name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "workspace",
+      "new",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0056",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform state list (Local)",
+    "description": "Terraform state list command for terraform workflows in local mode.",
+    "command": "terraform state list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "state",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0057",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform state list (Team)",
+    "description": "Terraform state list command for terraform workflows in team mode.",
+    "command": "terraform state list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "state",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0058",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform state list (CI)",
+    "description": "Terraform state list command for terraform workflows in ci mode.",
+    "command": "terraform state list -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "state",
+      "list",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0059",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform state list (Production)",
+    "description": "Terraform state list command for terraform workflows in production mode.",
+    "command": "terraform state list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "state",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0060",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform state list (Verbose)",
+    "description": "Terraform state list command for terraform workflows in verbose mode.",
+    "command": "terraform state list -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "state",
+      "list",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0061",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform output (Local)",
+    "description": "Terraform output command for terraform workflows in local mode.",
+    "command": "terraform output",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "output"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0062",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform output (Team)",
+    "description": "Terraform output command for terraform workflows in team mode.",
+    "command": "terraform output",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "output"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0063",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform output (CI)",
+    "description": "Terraform output command for terraform workflows in ci mode.",
+    "command": "terraform output -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "output",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0064",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform output (Production)",
+    "description": "Terraform output command for terraform workflows in production mode.",
+    "command": "terraform output",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "output"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0065",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform output (Verbose)",
+    "description": "Terraform output command for terraform workflows in verbose mode.",
+    "command": "terraform output -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "output",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0066",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform output -json (Local)",
+    "description": "Terraform output -json command for terraform workflows in local mode.",
+    "command": "terraform output -json",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-json",
+        "description": "Flag used by terraform"
+      }
+    ],
+    "tags": [
+      "terraform",
+      "output",
+      "-json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0067",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform output -json (Team)",
+    "description": "Terraform output -json command for terraform workflows in team mode.",
+    "command": "terraform output -json",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-json",
+        "description": "Flag used by terraform"
+      }
+    ],
+    "tags": [
+      "terraform",
+      "output",
+      "-json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0068",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform output -json (CI)",
+    "description": "Terraform output -json command for terraform workflows in ci mode.",
+    "command": "terraform output -json -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-json",
+        "description": "Flag used by terraform"
+      },
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "output",
+      "-json",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0069",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform output -json (Production)",
+    "description": "Terraform output -json command for terraform workflows in production mode.",
+    "command": "terraform output -json",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-json",
+        "description": "Flag used by terraform"
+      }
+    ],
+    "tags": [
+      "terraform",
+      "output",
+      "-json"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0070",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform output -json (Verbose)",
+    "description": "Terraform output -json command for terraform workflows in verbose mode.",
+    "command": "terraform output -json -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-json",
+        "description": "Flag used by terraform"
+      },
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "output",
+      "-json",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0071",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform providers (Local)",
+    "description": "Terraform providers command for terraform workflows in local mode.",
+    "command": "terraform providers",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "providers"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0072",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform providers (Team)",
+    "description": "Terraform providers command for terraform workflows in team mode.",
+    "command": "terraform providers",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "providers"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0073",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform providers (CI)",
+    "description": "Terraform providers command for terraform workflows in ci mode.",
+    "command": "terraform providers -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "providers",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0074",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform providers (Production)",
+    "description": "Terraform providers command for terraform workflows in production mode.",
+    "command": "terraform providers",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "providers"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0075",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform providers (Verbose)",
+    "description": "Terraform providers command for terraform workflows in verbose mode.",
+    "command": "terraform providers -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "providers",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0076",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform graph (Local)",
+    "description": "Terraform graph command for terraform workflows in local mode.",
+    "command": "terraform graph",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "graph"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0077",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform graph (Team)",
+    "description": "Terraform graph command for terraform workflows in team mode.",
+    "command": "terraform graph",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "graph"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0078",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform graph (CI)",
+    "description": "Terraform graph command for terraform workflows in ci mode.",
+    "command": "terraform graph -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "graph",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0079",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform graph (Production)",
+    "description": "Terraform graph command for terraform workflows in production mode.",
+    "command": "terraform graph",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "graph"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0080",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform graph (Verbose)",
+    "description": "Terraform graph command for terraform workflows in verbose mode.",
+    "command": "terraform graph -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "graph",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0081",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform taint (Local)",
+    "description": "Terraform taint command for terraform workflows in local mode.",
+    "command": "terraform taint [RESOURCE_ADDRESS]",
+    "params": [
+      {
+        "placeholder": "[RESOURCE_ADDRESS]",
+        "label": "Resource Address",
+        "description": "Value for resource address",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "taint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0082",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform taint (Team)",
+    "description": "Terraform taint command for terraform workflows in team mode.",
+    "command": "terraform taint [RESOURCE_ADDRESS]",
+    "params": [
+      {
+        "placeholder": "[RESOURCE_ADDRESS]",
+        "label": "Resource Address",
+        "description": "Value for resource address",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "taint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0083",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform taint (CI)",
+    "description": "Terraform taint command for terraform workflows in ci mode.",
+    "command": "terraform taint [RESOURCE_ADDRESS] -no-color",
+    "params": [
+      {
+        "placeholder": "[RESOURCE_ADDRESS]",
+        "label": "Resource Address",
+        "description": "Value for resource address",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "taint",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0084",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform taint (Production)",
+    "description": "Terraform taint command for terraform workflows in production mode.",
+    "command": "terraform taint [RESOURCE_ADDRESS]",
+    "params": [
+      {
+        "placeholder": "[RESOURCE_ADDRESS]",
+        "label": "Resource Address",
+        "description": "Value for resource address",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "taint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0085",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform taint (Verbose)",
+    "description": "Terraform taint command for terraform workflows in verbose mode.",
+    "command": "terraform taint [RESOURCE_ADDRESS] -no-color",
+    "params": [
+      {
+        "placeholder": "[RESOURCE_ADDRESS]",
+        "label": "Resource Address",
+        "description": "Value for resource address",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "taint",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0086",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform import (Local)",
+    "description": "Terraform import command for terraform workflows in local mode.",
+    "command": "terraform import [RESOURCE_ADDRESS] [RESOURCE_ID]",
+    "params": [
+      {
+        "placeholder": "[RESOURCE_ADDRESS]",
+        "label": "Resource Address",
+        "description": "Value for resource address",
+        "required": true
+      },
+      {
+        "placeholder": "[RESOURCE_ID]",
+        "label": "Resource Id",
+        "description": "Value for resource id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "import"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0087",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform import (Team)",
+    "description": "Terraform import command for terraform workflows in team mode.",
+    "command": "terraform import [RESOURCE_ADDRESS] [RESOURCE_ID]",
+    "params": [
+      {
+        "placeholder": "[RESOURCE_ADDRESS]",
+        "label": "Resource Address",
+        "description": "Value for resource address",
+        "required": true
+      },
+      {
+        "placeholder": "[RESOURCE_ID]",
+        "label": "Resource Id",
+        "description": "Value for resource id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "import"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0088",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform import (CI)",
+    "description": "Terraform import command for terraform workflows in ci mode.",
+    "command": "terraform import [RESOURCE_ADDRESS] [RESOURCE_ID] -no-color",
+    "params": [
+      {
+        "placeholder": "[RESOURCE_ADDRESS]",
+        "label": "Resource Address",
+        "description": "Value for resource address",
+        "required": true
+      },
+      {
+        "placeholder": "[RESOURCE_ID]",
+        "label": "Resource Id",
+        "description": "Value for resource id",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "import",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0089",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform import (Production)",
+    "description": "Terraform import command for terraform workflows in production mode.",
+    "command": "terraform import [RESOURCE_ADDRESS] [RESOURCE_ID]",
+    "params": [
+      {
+        "placeholder": "[RESOURCE_ADDRESS]",
+        "label": "Resource Address",
+        "description": "Value for resource address",
+        "required": true
+      },
+      {
+        "placeholder": "[RESOURCE_ID]",
+        "label": "Resource Id",
+        "description": "Value for resource id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "import"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0090",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform import (Verbose)",
+    "description": "Terraform import command for terraform workflows in verbose mode.",
+    "command": "terraform import [RESOURCE_ADDRESS] [RESOURCE_ID] -no-color",
+    "params": [
+      {
+        "placeholder": "[RESOURCE_ADDRESS]",
+        "label": "Resource Address",
+        "description": "Value for resource address",
+        "required": true
+      },
+      {
+        "placeholder": "[RESOURCE_ID]",
+        "label": "Resource Id",
+        "description": "Value for resource id",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "import",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0091",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform show (Local)",
+    "description": "Terraform show command for terraform workflows in local mode.",
+    "command": "terraform show",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "show"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0092",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform show (Team)",
+    "description": "Terraform show command for terraform workflows in team mode.",
+    "command": "terraform show",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "show"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0093",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform show (CI)",
+    "description": "Terraform show command for terraform workflows in ci mode.",
+    "command": "terraform show -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "show",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0094",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform show (Production)",
+    "description": "Terraform show command for terraform workflows in production mode.",
+    "command": "terraform show",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "show"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0095",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform show (Verbose)",
+    "description": "Terraform show command for terraform workflows in verbose mode.",
+    "command": "terraform show -no-color",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "show",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0096",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform force-unlock (Local)",
+    "description": "Terraform force-unlock command for terraform workflows in local mode.",
+    "command": "terraform force-unlock [LOCK_ID]",
+    "params": [
+      {
+        "placeholder": "[LOCK_ID]",
+        "label": "Lock Id",
+        "description": "Value for lock id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "force-unlock"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0097",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform force-unlock (Team)",
+    "description": "Terraform force-unlock command for terraform workflows in team mode.",
+    "command": "terraform force-unlock [LOCK_ID]",
+    "params": [
+      {
+        "placeholder": "[LOCK_ID]",
+        "label": "Lock Id",
+        "description": "Value for lock id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "force-unlock"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0098",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform force-unlock (CI)",
+    "description": "Terraform force-unlock command for terraform workflows in ci mode.",
+    "command": "terraform force-unlock [LOCK_ID] -no-color",
+    "params": [
+      {
+        "placeholder": "[LOCK_ID]",
+        "label": "Lock Id",
+        "description": "Value for lock id",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "force-unlock",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0099",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform force-unlock (Production)",
+    "description": "Terraform force-unlock command for terraform workflows in production mode.",
+    "command": "terraform force-unlock [LOCK_ID]",
+    "params": [
+      {
+        "placeholder": "[LOCK_ID]",
+        "label": "Lock Id",
+        "description": "Value for lock id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "terraform",
+      "force-unlock"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "terraform-0100",
+    "tool": "terraform",
+    "category": "Infrastructure",
+    "title": "Terraform force-unlock (Verbose)",
+    "description": "Terraform force-unlock command for terraform workflows in verbose mode.",
+    "command": "terraform force-unlock [LOCK_ID] -no-color",
+    "params": [
+      {
+        "placeholder": "[LOCK_ID]",
+        "label": "Lock Id",
+        "description": "Value for lock id",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-no-color",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "terraform",
+      "force-unlock",
+      "-no-color"
+    ],
+    "difficulty": "beginner"
+  }
+]

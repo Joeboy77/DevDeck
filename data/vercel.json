@@ -1,0 +1,1967 @@
+[
+  {
+    "id": "vercel-0001",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel login (Local)",
+    "description": "Vercel login command for vercel workflows in local mode.",
+    "command": "vercel login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0002",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel login (Team)",
+    "description": "Vercel login command for vercel workflows in team mode.",
+    "command": "vercel login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0003",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel login (CI)",
+    "description": "Vercel login command for vercel workflows in ci mode.",
+    "command": "vercel login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0004",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel login (Production)",
+    "description": "Vercel login command for vercel workflows in production mode.",
+    "command": "vercel login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0005",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel login (Verbose)",
+    "description": "Vercel login command for vercel workflows in verbose mode.",
+    "command": "vercel login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0006",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel (Local)",
+    "description": "Vercel command for vercel workflows in local mode.",
+    "command": "vercel",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0007",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel (Team)",
+    "description": "Vercel command for vercel workflows in team mode.",
+    "command": "vercel",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0008",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel (CI)",
+    "description": "Vercel command for vercel workflows in ci mode.",
+    "command": "vercel",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0009",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel (Production)",
+    "description": "Vercel command for vercel workflows in production mode.",
+    "command": "vercel",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0010",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel (Verbose)",
+    "description": "Vercel command for vercel workflows in verbose mode.",
+    "command": "vercel",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0011",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel --prod (Local)",
+    "description": "Vercel --prod command for vercel workflows in local mode.",
+    "command": "vercel --prod",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--prod",
+        "description": "Flag used by vercel"
+      }
+    ],
+    "tags": [
+      "vercel",
+      "--prod"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0012",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel --prod (Team)",
+    "description": "Vercel --prod command for vercel workflows in team mode.",
+    "command": "vercel --prod",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--prod",
+        "description": "Flag used by vercel"
+      }
+    ],
+    "tags": [
+      "vercel",
+      "--prod"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0013",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel --prod (CI)",
+    "description": "Vercel --prod command for vercel workflows in ci mode.",
+    "command": "vercel --prod",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--prod",
+        "description": "Flag used by vercel"
+      }
+    ],
+    "tags": [
+      "vercel",
+      "--prod"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0014",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel --prod (Production)",
+    "description": "Vercel --prod command for vercel workflows in production mode.",
+    "command": "vercel --prod",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--prod",
+        "description": "Flag used by vercel"
+      }
+    ],
+    "tags": [
+      "vercel",
+      "--prod"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0015",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel --prod (Verbose)",
+    "description": "Vercel --prod command for vercel workflows in verbose mode.",
+    "command": "vercel --prod",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--prod",
+        "description": "Flag used by vercel"
+      }
+    ],
+    "tags": [
+      "vercel",
+      "--prod"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0016",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel pull --yes --environment=preview (Local)",
+    "description": "Vercel pull --yes --environment=preview command for vercel workflows in local mode.",
+    "command": "vercel pull --yes --environment=preview",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--yes",
+        "description": "Flag used by vercel"
+      },
+      {
+        "flag": "--environment=preview",
+        "description": "Flag used by vercel"
+      }
+    ],
+    "tags": [
+      "vercel",
+      "pull",
+      "--yes",
+      "--environmentpreview"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0017",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel pull --yes --environment=preview (Team)",
+    "description": "Vercel pull --yes --environment=preview command for vercel workflows in team mode.",
+    "command": "vercel pull --yes --environment=preview",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--yes",
+        "description": "Flag used by vercel"
+      },
+      {
+        "flag": "--environment=preview",
+        "description": "Flag used by vercel"
+      }
+    ],
+    "tags": [
+      "vercel",
+      "pull",
+      "--yes",
+      "--environmentpreview"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0018",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel pull --yes --environment=preview (CI)",
+    "description": "Vercel pull --yes --environment=preview command for vercel workflows in ci mode.",
+    "command": "vercel pull --yes --environment=preview",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--yes",
+        "description": "Flag used by vercel"
+      },
+      {
+        "flag": "--environment=preview",
+        "description": "Flag used by vercel"
+      }
+    ],
+    "tags": [
+      "vercel",
+      "pull",
+      "--yes",
+      "--environmentpreview"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0019",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel pull --yes --environment=preview (Production)",
+    "description": "Vercel pull --yes --environment=preview command for vercel workflows in production mode.",
+    "command": "vercel pull --yes --environment=preview",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--yes",
+        "description": "Flag used by vercel"
+      },
+      {
+        "flag": "--environment=preview",
+        "description": "Flag used by vercel"
+      }
+    ],
+    "tags": [
+      "vercel",
+      "pull",
+      "--yes",
+      "--environmentpreview"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0020",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel pull --yes --environment=preview (Verbose)",
+    "description": "Vercel pull --yes --environment=preview command for vercel workflows in verbose mode.",
+    "command": "vercel pull --yes --environment=preview",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--yes",
+        "description": "Flag used by vercel"
+      },
+      {
+        "flag": "--environment=preview",
+        "description": "Flag used by vercel"
+      }
+    ],
+    "tags": [
+      "vercel",
+      "pull",
+      "--yes",
+      "--environmentpreview"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0021",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel pull --yes --environment=production (Local)",
+    "description": "Vercel pull --yes --environment=production command for vercel workflows in local mode.",
+    "command": "vercel pull --yes --environment=production",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--yes",
+        "description": "Flag used by vercel"
+      },
+      {
+        "flag": "--environment=production",
+        "description": "Flag used by vercel"
+      }
+    ],
+    "tags": [
+      "vercel",
+      "pull",
+      "--yes",
+      "--environmentproduction"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0022",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel pull --yes --environment=production (Team)",
+    "description": "Vercel pull --yes --environment=production command for vercel workflows in team mode.",
+    "command": "vercel pull --yes --environment=production",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--yes",
+        "description": "Flag used by vercel"
+      },
+      {
+        "flag": "--environment=production",
+        "description": "Flag used by vercel"
+      }
+    ],
+    "tags": [
+      "vercel",
+      "pull",
+      "--yes",
+      "--environmentproduction"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0023",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel pull --yes --environment=production (CI)",
+    "description": "Vercel pull --yes --environment=production command for vercel workflows in ci mode.",
+    "command": "vercel pull --yes --environment=production",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--yes",
+        "description": "Flag used by vercel"
+      },
+      {
+        "flag": "--environment=production",
+        "description": "Flag used by vercel"
+      }
+    ],
+    "tags": [
+      "vercel",
+      "pull",
+      "--yes",
+      "--environmentproduction"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0024",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel pull --yes --environment=production (Production)",
+    "description": "Vercel pull --yes --environment=production command for vercel workflows in production mode.",
+    "command": "vercel pull --yes --environment=production",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--yes",
+        "description": "Flag used by vercel"
+      },
+      {
+        "flag": "--environment=production",
+        "description": "Flag used by vercel"
+      }
+    ],
+    "tags": [
+      "vercel",
+      "pull",
+      "--yes",
+      "--environmentproduction"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0025",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel pull --yes --environment=production (Verbose)",
+    "description": "Vercel pull --yes --environment=production command for vercel workflows in verbose mode.",
+    "command": "vercel pull --yes --environment=production",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--yes",
+        "description": "Flag used by vercel"
+      },
+      {
+        "flag": "--environment=production",
+        "description": "Flag used by vercel"
+      }
+    ],
+    "tags": [
+      "vercel",
+      "pull",
+      "--yes",
+      "--environmentproduction"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0026",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel env ls (Local)",
+    "description": "Vercel env ls command for vercel workflows in local mode.",
+    "command": "vercel env ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "env",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0027",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel env ls (Team)",
+    "description": "Vercel env ls command for vercel workflows in team mode.",
+    "command": "vercel env ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "env",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0028",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel env ls (CI)",
+    "description": "Vercel env ls command for vercel workflows in ci mode.",
+    "command": "vercel env ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "env",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0029",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel env ls (Production)",
+    "description": "Vercel env ls command for vercel workflows in production mode.",
+    "command": "vercel env ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "env",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0030",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel env ls (Verbose)",
+    "description": "Vercel env ls command for vercel workflows in verbose mode.",
+    "command": "vercel env ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "env",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0031",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel env add production (Local)",
+    "description": "Vercel env add production command for vercel workflows in local mode.",
+    "command": "vercel env add [KEY] production",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "env",
+      "add",
+      "production"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0032",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel env add production (Team)",
+    "description": "Vercel env add production command for vercel workflows in team mode.",
+    "command": "vercel env add [KEY] production",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "env",
+      "add",
+      "production"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0033",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel env add production (CI)",
+    "description": "Vercel env add production command for vercel workflows in ci mode.",
+    "command": "vercel env add [KEY] production",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "env",
+      "add",
+      "production"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0034",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel env add production (Production)",
+    "description": "Vercel env add production command for vercel workflows in production mode.",
+    "command": "vercel env add [KEY] production",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "env",
+      "add",
+      "production"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0035",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel env add production (Verbose)",
+    "description": "Vercel env add production command for vercel workflows in verbose mode.",
+    "command": "vercel env add [KEY] production",
+    "params": [
+      {
+        "placeholder": "[KEY]",
+        "label": "Key",
+        "description": "Value for key",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "env",
+      "add",
+      "production"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0036",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel env pull .env.local (Local)",
+    "description": "Vercel env pull .env.local command for vercel workflows in local mode.",
+    "command": "vercel env pull .env.local",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "env",
+      "pull",
+      "envlocal"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0037",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel env pull .env.local (Team)",
+    "description": "Vercel env pull .env.local command for vercel workflows in team mode.",
+    "command": "vercel env pull .env.local",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "env",
+      "pull",
+      "envlocal"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0038",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel env pull .env.local (CI)",
+    "description": "Vercel env pull .env.local command for vercel workflows in ci mode.",
+    "command": "vercel env pull .env.local",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "env",
+      "pull",
+      "envlocal"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0039",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel env pull .env.local (Production)",
+    "description": "Vercel env pull .env.local command for vercel workflows in production mode.",
+    "command": "vercel env pull .env.local",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "env",
+      "pull",
+      "envlocal"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0040",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel env pull .env.local (Verbose)",
+    "description": "Vercel env pull .env.local command for vercel workflows in verbose mode.",
+    "command": "vercel env pull .env.local",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "env",
+      "pull",
+      "envlocal"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0041",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel domains ls (Local)",
+    "description": "Vercel domains ls command for vercel workflows in local mode.",
+    "command": "vercel domains ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "domains",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0042",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel domains ls (Team)",
+    "description": "Vercel domains ls command for vercel workflows in team mode.",
+    "command": "vercel domains ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "domains",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0043",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel domains ls (CI)",
+    "description": "Vercel domains ls command for vercel workflows in ci mode.",
+    "command": "vercel domains ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "domains",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0044",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel domains ls (Production)",
+    "description": "Vercel domains ls command for vercel workflows in production mode.",
+    "command": "vercel domains ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "domains",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0045",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel domains ls (Verbose)",
+    "description": "Vercel domains ls command for vercel workflows in verbose mode.",
+    "command": "vercel domains ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "domains",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0046",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel domains add (Local)",
+    "description": "Vercel domains add command for vercel workflows in local mode.",
+    "command": "vercel domains add [DOMAIN]",
+    "params": [
+      {
+        "placeholder": "[DOMAIN]",
+        "label": "Domain",
+        "description": "Value for domain",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "domains",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0047",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel domains add (Team)",
+    "description": "Vercel domains add command for vercel workflows in team mode.",
+    "command": "vercel domains add [DOMAIN]",
+    "params": [
+      {
+        "placeholder": "[DOMAIN]",
+        "label": "Domain",
+        "description": "Value for domain",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "domains",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0048",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel domains add (CI)",
+    "description": "Vercel domains add command for vercel workflows in ci mode.",
+    "command": "vercel domains add [DOMAIN]",
+    "params": [
+      {
+        "placeholder": "[DOMAIN]",
+        "label": "Domain",
+        "description": "Value for domain",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "domains",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0049",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel domains add (Production)",
+    "description": "Vercel domains add command for vercel workflows in production mode.",
+    "command": "vercel domains add [DOMAIN]",
+    "params": [
+      {
+        "placeholder": "[DOMAIN]",
+        "label": "Domain",
+        "description": "Value for domain",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "domains",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0050",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel domains add (Verbose)",
+    "description": "Vercel domains add command for vercel workflows in verbose mode.",
+    "command": "vercel domains add [DOMAIN]",
+    "params": [
+      {
+        "placeholder": "[DOMAIN]",
+        "label": "Domain",
+        "description": "Value for domain",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "domains",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0051",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel projects ls (Local)",
+    "description": "Vercel projects ls command for vercel workflows in local mode.",
+    "command": "vercel projects ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "projects",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0052",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel projects ls (Team)",
+    "description": "Vercel projects ls command for vercel workflows in team mode.",
+    "command": "vercel projects ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "projects",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0053",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel projects ls (CI)",
+    "description": "Vercel projects ls command for vercel workflows in ci mode.",
+    "command": "vercel projects ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "projects",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0054",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel projects ls (Production)",
+    "description": "Vercel projects ls command for vercel workflows in production mode.",
+    "command": "vercel projects ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "projects",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0055",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel projects ls (Verbose)",
+    "description": "Vercel projects ls command for vercel workflows in verbose mode.",
+    "command": "vercel projects ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "projects",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0056",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel rollback (Local)",
+    "description": "Vercel rollback command for vercel workflows in local mode.",
+    "command": "vercel rollback [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "rollback"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0057",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel rollback (Team)",
+    "description": "Vercel rollback command for vercel workflows in team mode.",
+    "command": "vercel rollback [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "rollback"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0058",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel rollback (CI)",
+    "description": "Vercel rollback command for vercel workflows in ci mode.",
+    "command": "vercel rollback [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "rollback"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0059",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel rollback (Production)",
+    "description": "Vercel rollback command for vercel workflows in production mode.",
+    "command": "vercel rollback [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "rollback"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0060",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel rollback (Verbose)",
+    "description": "Vercel rollback command for vercel workflows in verbose mode.",
+    "command": "vercel rollback [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "rollback"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0061",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel logs (Local)",
+    "description": "Vercel logs command for vercel workflows in local mode.",
+    "command": "vercel logs [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "logs"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0062",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel logs (Team)",
+    "description": "Vercel logs command for vercel workflows in team mode.",
+    "command": "vercel logs [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "logs"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0063",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel logs (CI)",
+    "description": "Vercel logs command for vercel workflows in ci mode.",
+    "command": "vercel logs [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "logs"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0064",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel logs (Production)",
+    "description": "Vercel logs command for vercel workflows in production mode.",
+    "command": "vercel logs [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "logs"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0065",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel logs (Verbose)",
+    "description": "Vercel logs command for vercel workflows in verbose mode.",
+    "command": "vercel logs [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "logs"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0066",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel alias ls (Local)",
+    "description": "Vercel alias ls command for vercel workflows in local mode.",
+    "command": "vercel alias ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "alias",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0067",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel alias ls (Team)",
+    "description": "Vercel alias ls command for vercel workflows in team mode.",
+    "command": "vercel alias ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "alias",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0068",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel alias ls (CI)",
+    "description": "Vercel alias ls command for vercel workflows in ci mode.",
+    "command": "vercel alias ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "alias",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0069",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel alias ls (Production)",
+    "description": "Vercel alias ls command for vercel workflows in production mode.",
+    "command": "vercel alias ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "alias",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0070",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel alias ls (Verbose)",
+    "description": "Vercel alias ls command for vercel workflows in verbose mode.",
+    "command": "vercel alias ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "alias",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0071",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel alias set (Local)",
+    "description": "Vercel alias set command for vercel workflows in local mode.",
+    "command": "vercel alias set [DEPLOYMENT_URL] [DOMAIN]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      },
+      {
+        "placeholder": "[DOMAIN]",
+        "label": "Domain",
+        "description": "Value for domain",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "alias",
+      "set"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0072",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel alias set (Team)",
+    "description": "Vercel alias set command for vercel workflows in team mode.",
+    "command": "vercel alias set [DEPLOYMENT_URL] [DOMAIN]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      },
+      {
+        "placeholder": "[DOMAIN]",
+        "label": "Domain",
+        "description": "Value for domain",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "alias",
+      "set"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0073",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel alias set (CI)",
+    "description": "Vercel alias set command for vercel workflows in ci mode.",
+    "command": "vercel alias set [DEPLOYMENT_URL] [DOMAIN]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      },
+      {
+        "placeholder": "[DOMAIN]",
+        "label": "Domain",
+        "description": "Value for domain",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "alias",
+      "set"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0074",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel alias set (Production)",
+    "description": "Vercel alias set command for vercel workflows in production mode.",
+    "command": "vercel alias set [DEPLOYMENT_URL] [DOMAIN]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      },
+      {
+        "placeholder": "[DOMAIN]",
+        "label": "Domain",
+        "description": "Value for domain",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "alias",
+      "set"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0075",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel alias set (Verbose)",
+    "description": "Vercel alias set command for vercel workflows in verbose mode.",
+    "command": "vercel alias set [DEPLOYMENT_URL] [DOMAIN]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      },
+      {
+        "placeholder": "[DOMAIN]",
+        "label": "Domain",
+        "description": "Value for domain",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "alias",
+      "set"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0076",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel inspect (Local)",
+    "description": "Vercel inspect command for vercel workflows in local mode.",
+    "command": "vercel inspect [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "inspect"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0077",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel inspect (Team)",
+    "description": "Vercel inspect command for vercel workflows in team mode.",
+    "command": "vercel inspect [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "inspect"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0078",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel inspect (CI)",
+    "description": "Vercel inspect command for vercel workflows in ci mode.",
+    "command": "vercel inspect [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "inspect"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0079",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel inspect (Production)",
+    "description": "Vercel inspect command for vercel workflows in production mode.",
+    "command": "vercel inspect [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "inspect"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0080",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel inspect (Verbose)",
+    "description": "Vercel inspect command for vercel workflows in verbose mode.",
+    "command": "vercel inspect [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "inspect"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0081",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel whoami (Local)",
+    "description": "Vercel whoami command for vercel workflows in local mode.",
+    "command": "vercel whoami",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "whoami"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0082",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel whoami (Team)",
+    "description": "Vercel whoami command for vercel workflows in team mode.",
+    "command": "vercel whoami",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "whoami"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0083",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel whoami (CI)",
+    "description": "Vercel whoami command for vercel workflows in ci mode.",
+    "command": "vercel whoami",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "whoami"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0084",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel whoami (Production)",
+    "description": "Vercel whoami command for vercel workflows in production mode.",
+    "command": "vercel whoami",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "whoami"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0085",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel whoami (Verbose)",
+    "description": "Vercel whoami command for vercel workflows in verbose mode.",
+    "command": "vercel whoami",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "whoami"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0086",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel teams ls (Local)",
+    "description": "Vercel teams ls command for vercel workflows in local mode.",
+    "command": "vercel teams ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "teams",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0087",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel teams ls (Team)",
+    "description": "Vercel teams ls command for vercel workflows in team mode.",
+    "command": "vercel teams ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "teams",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0088",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel teams ls (CI)",
+    "description": "Vercel teams ls command for vercel workflows in ci mode.",
+    "command": "vercel teams ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "teams",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0089",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel teams ls (Production)",
+    "description": "Vercel teams ls command for vercel workflows in production mode.",
+    "command": "vercel teams ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "teams",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0090",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel teams ls (Verbose)",
+    "description": "Vercel teams ls command for vercel workflows in verbose mode.",
+    "command": "vercel teams ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "teams",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0091",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel redeploy (Local)",
+    "description": "Vercel redeploy command for vercel workflows in local mode.",
+    "command": "vercel redeploy [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "redeploy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0092",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel redeploy (Team)",
+    "description": "Vercel redeploy command for vercel workflows in team mode.",
+    "command": "vercel redeploy [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "redeploy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0093",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel redeploy (CI)",
+    "description": "Vercel redeploy command for vercel workflows in ci mode.",
+    "command": "vercel redeploy [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "redeploy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0094",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel redeploy (Production)",
+    "description": "Vercel redeploy command for vercel workflows in production mode.",
+    "command": "vercel redeploy [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "redeploy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0095",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel redeploy (Verbose)",
+    "description": "Vercel redeploy command for vercel workflows in verbose mode.",
+    "command": "vercel redeploy [DEPLOYMENT_URL]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_URL]",
+        "label": "Deployment Url",
+        "description": "Value for deployment url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "redeploy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0096",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel certs ls (Local)",
+    "description": "Vercel certs ls command for vercel workflows in local mode.",
+    "command": "vercel certs ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "certs",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0097",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel certs ls (Team)",
+    "description": "Vercel certs ls command for vercel workflows in team mode.",
+    "command": "vercel certs ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "certs",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0098",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel certs ls (CI)",
+    "description": "Vercel certs ls command for vercel workflows in ci mode.",
+    "command": "vercel certs ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "certs",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0099",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel certs ls (Production)",
+    "description": "Vercel certs ls command for vercel workflows in production mode.",
+    "command": "vercel certs ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "certs",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "vercel-0100",
+    "tool": "vercel",
+    "category": "Cloud",
+    "title": "Vercel certs ls (Verbose)",
+    "description": "Vercel certs ls command for vercel workflows in verbose mode.",
+    "command": "vercel certs ls",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "vercel",
+      "certs",
+      "ls"
+    ],
+    "difficulty": "beginner"
+  }
+]

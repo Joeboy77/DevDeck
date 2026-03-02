@@ -1,0 +1,3205 @@
+[
+  {
+    "id": "kubernetes-0001",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get pods -A (Local)",
+    "description": "Kubectl get pods -A command for kubernetes workflows in local mode.",
+    "command": "kubectl get pods -A",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "pods",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0002",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get pods -A (Team)",
+    "description": "Kubectl get pods -A command for kubernetes workflows in team mode.",
+    "command": "kubectl get pods -A",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "pods",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0003",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get pods -A (CI)",
+    "description": "Kubectl get pods -A command for kubernetes workflows in ci mode.",
+    "command": "kubectl get pods -A --v=2",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "pods",
+      "-a",
+      "--v2"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0004",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get pods -A (Production)",
+    "description": "Kubectl get pods -A command for kubernetes workflows in production mode.",
+    "command": "kubectl get pods -A",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "pods",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0005",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get pods -A (Verbose)",
+    "description": "Kubectl get pods -A command for kubernetes workflows in verbose mode.",
+    "command": "kubectl get pods -A -v=6",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "pods",
+      "-a",
+      "-v6"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0006",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get deployments -A (Local)",
+    "description": "Kubectl get deployments -A command for kubernetes workflows in local mode.",
+    "command": "kubectl get deployments -A",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "deployments",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0007",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get deployments -A (Team)",
+    "description": "Kubectl get deployments -A command for kubernetes workflows in team mode.",
+    "command": "kubectl get deployments -A",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "deployments",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0008",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get deployments -A (CI)",
+    "description": "Kubectl get deployments -A command for kubernetes workflows in ci mode.",
+    "command": "kubectl get deployments -A --v=2",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "deployments",
+      "-a",
+      "--v2"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0009",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get deployments -A (Production)",
+    "description": "Kubectl get deployments -A command for kubernetes workflows in production mode.",
+    "command": "kubectl get deployments -A",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "deployments",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0010",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get deployments -A (Verbose)",
+    "description": "Kubectl get deployments -A command for kubernetes workflows in verbose mode.",
+    "command": "kubectl get deployments -A -v=6",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "deployments",
+      "-a",
+      "-v6"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0011",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get services -A (Local)",
+    "description": "Kubectl get services -A command for kubernetes workflows in local mode.",
+    "command": "kubectl get services -A",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "services",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0012",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get services -A (Team)",
+    "description": "Kubectl get services -A command for kubernetes workflows in team mode.",
+    "command": "kubectl get services -A",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "services",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0013",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get services -A (CI)",
+    "description": "Kubectl get services -A command for kubernetes workflows in ci mode.",
+    "command": "kubectl get services -A --v=2",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "services",
+      "-a",
+      "--v2"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0014",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get services -A (Production)",
+    "description": "Kubectl get services -A command for kubernetes workflows in production mode.",
+    "command": "kubectl get services -A",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "services",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0015",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get services -A (Verbose)",
+    "description": "Kubectl get services -A command for kubernetes workflows in verbose mode.",
+    "command": "kubectl get services -A -v=6",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "services",
+      "-a",
+      "-v6"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0016",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl describe pod -n (Local)",
+    "description": "Kubectl describe pod -n command for kubernetes workflows in local mode.",
+    "command": "kubectl describe pod [POD_NAME] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "describe",
+      "pod",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0017",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl describe pod -n (Team)",
+    "description": "Kubectl describe pod -n command for kubernetes workflows in team mode.",
+    "command": "kubectl describe pod [POD_NAME] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "describe",
+      "pod",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0018",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl describe pod -n (CI)",
+    "description": "Kubectl describe pod -n command for kubernetes workflows in ci mode.",
+    "command": "kubectl describe pod [POD_NAME] -n [NAMESPACE] --v=2",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "describe",
+      "pod",
+      "-n",
+      "--v2"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0019",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl describe pod -n (Production)",
+    "description": "Kubectl describe pod -n command for kubernetes workflows in production mode.",
+    "command": "kubectl describe pod [POD_NAME] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "describe",
+      "pod",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0020",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl describe pod -n (Verbose)",
+    "description": "Kubectl describe pod -n command for kubernetes workflows in verbose mode.",
+    "command": "kubectl describe pod [POD_NAME] -n [NAMESPACE] -v=6",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "describe",
+      "pod",
+      "-n",
+      "-v6"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0021",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl logs -n (Local)",
+    "description": "Kubectl logs -n command for kubernetes workflows in local mode.",
+    "command": "kubectl logs [POD_NAME] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "logs",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0022",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl logs -n (Team)",
+    "description": "Kubectl logs -n command for kubernetes workflows in team mode.",
+    "command": "kubectl logs [POD_NAME] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "logs",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0023",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl logs -n (CI)",
+    "description": "Kubectl logs -n command for kubernetes workflows in ci mode.",
+    "command": "kubectl logs [POD_NAME] -n [NAMESPACE] --v=2",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "logs",
+      "-n",
+      "--v2"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0024",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl logs -n (Production)",
+    "description": "Kubectl logs -n command for kubernetes workflows in production mode.",
+    "command": "kubectl logs [POD_NAME] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "logs",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0025",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl logs -n (Verbose)",
+    "description": "Kubectl logs -n command for kubernetes workflows in verbose mode.",
+    "command": "kubectl logs [POD_NAME] -n [NAMESPACE] -v=6",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "logs",
+      "-n",
+      "-v6"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0026",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl logs -f -n (Local)",
+    "description": "Kubectl logs -f -n command for kubernetes workflows in local mode.",
+    "command": "kubectl logs -f [POD_NAME] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "logs",
+      "-f",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0027",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl logs -f -n (Team)",
+    "description": "Kubectl logs -f -n command for kubernetes workflows in team mode.",
+    "command": "kubectl logs -f [POD_NAME] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "logs",
+      "-f",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0028",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl logs -f -n (CI)",
+    "description": "Kubectl logs -f -n command for kubernetes workflows in ci mode.",
+    "command": "kubectl logs -f [POD_NAME] -n [NAMESPACE] --v=2",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "logs",
+      "-f",
+      "-n",
+      "--v2"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0029",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl logs -f -n (Production)",
+    "description": "Kubectl logs -f -n command for kubernetes workflows in production mode.",
+    "command": "kubectl logs -f [POD_NAME] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "logs",
+      "-f",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0030",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl logs -f -n (Verbose)",
+    "description": "Kubectl logs -f -n command for kubernetes workflows in verbose mode.",
+    "command": "kubectl logs -f [POD_NAME] -n [NAMESPACE] -v=6",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "logs",
+      "-f",
+      "-n",
+      "-v6"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0031",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl exec -it -n -- sh (Local)",
+    "description": "Kubectl exec -it -n -- sh command for kubernetes workflows in local mode.",
+    "command": "kubectl exec -it [POD_NAME] -n [NAMESPACE] -- sh",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-it",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "exec",
+      "-it",
+      "-n",
+      "--"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0032",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl exec -it -n -- sh (Team)",
+    "description": "Kubectl exec -it -n -- sh command for kubernetes workflows in team mode.",
+    "command": "kubectl exec -it [POD_NAME] -n [NAMESPACE] -- sh",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-it",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "exec",
+      "-it",
+      "-n",
+      "--"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0033",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl exec -it -n -- sh (CI)",
+    "description": "Kubectl exec -it -n -- sh command for kubernetes workflows in ci mode.",
+    "command": "kubectl exec -it [POD_NAME] -n [NAMESPACE] -- sh --v=2",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-it",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "exec",
+      "-it",
+      "-n",
+      "--"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0034",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl exec -it -n -- sh (Production)",
+    "description": "Kubectl exec -it -n -- sh command for kubernetes workflows in production mode.",
+    "command": "kubectl exec -it [POD_NAME] -n [NAMESPACE] -- sh",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-it",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "exec",
+      "-it",
+      "-n",
+      "--"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0035",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl exec -it -n -- sh (Verbose)",
+    "description": "Kubectl exec -it -n -- sh command for kubernetes workflows in verbose mode.",
+    "command": "kubectl exec -it [POD_NAME] -n [NAMESPACE] -- sh -v=6",
+    "params": [
+      {
+        "placeholder": "[POD_NAME]",
+        "label": "Pod Name",
+        "description": "Value for pod name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-it",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "exec",
+      "-it",
+      "-n",
+      "--"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0036",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl apply -f (Local)",
+    "description": "Kubectl apply -f command for kubernetes workflows in local mode.",
+    "command": "kubectl apply -f [FILE]",
+    "params": [
+      {
+        "placeholder": "[FILE]",
+        "label": "File",
+        "description": "Value for file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "apply",
+      "-f"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0037",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl apply -f (Team)",
+    "description": "Kubectl apply -f command for kubernetes workflows in team mode.",
+    "command": "kubectl apply -f [FILE]",
+    "params": [
+      {
+        "placeholder": "[FILE]",
+        "label": "File",
+        "description": "Value for file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "apply",
+      "-f"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0038",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl apply -f (CI)",
+    "description": "Kubectl apply -f command for kubernetes workflows in ci mode.",
+    "command": "kubectl apply -f [FILE] --v=2",
+    "params": [
+      {
+        "placeholder": "[FILE]",
+        "label": "File",
+        "description": "Value for file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "apply",
+      "-f",
+      "--v2"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0039",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl apply -f (Production)",
+    "description": "Kubectl apply -f command for kubernetes workflows in production mode.",
+    "command": "kubectl apply -f [FILE]",
+    "params": [
+      {
+        "placeholder": "[FILE]",
+        "label": "File",
+        "description": "Value for file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "apply",
+      "-f"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0040",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl apply -f (Verbose)",
+    "description": "Kubectl apply -f command for kubernetes workflows in verbose mode.",
+    "command": "kubectl apply -f [FILE] -v=6",
+    "params": [
+      {
+        "placeholder": "[FILE]",
+        "label": "File",
+        "description": "Value for file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "apply",
+      "-f",
+      "-v6"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0041",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl delete -f (Local)",
+    "description": "Kubectl delete -f command for kubernetes workflows in local mode.",
+    "command": "kubectl delete -f [FILE]",
+    "params": [
+      {
+        "placeholder": "[FILE]",
+        "label": "File",
+        "description": "Value for file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "delete",
+      "-f"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0042",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl delete -f (Team)",
+    "description": "Kubectl delete -f command for kubernetes workflows in team mode.",
+    "command": "kubectl delete -f [FILE]",
+    "params": [
+      {
+        "placeholder": "[FILE]",
+        "label": "File",
+        "description": "Value for file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "delete",
+      "-f"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0043",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl delete -f (CI)",
+    "description": "Kubectl delete -f command for kubernetes workflows in ci mode.",
+    "command": "kubectl delete -f [FILE] --v=2",
+    "params": [
+      {
+        "placeholder": "[FILE]",
+        "label": "File",
+        "description": "Value for file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "delete",
+      "-f",
+      "--v2"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0044",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl delete -f (Production)",
+    "description": "Kubectl delete -f command for kubernetes workflows in production mode.",
+    "command": "kubectl delete -f [FILE]",
+    "params": [
+      {
+        "placeholder": "[FILE]",
+        "label": "File",
+        "description": "Value for file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "delete",
+      "-f"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0045",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl delete -f (Verbose)",
+    "description": "Kubectl delete -f command for kubernetes workflows in verbose mode.",
+    "command": "kubectl delete -f [FILE] -v=6",
+    "params": [
+      {
+        "placeholder": "[FILE]",
+        "label": "File",
+        "description": "Value for file",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-f",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "delete",
+      "-f",
+      "-v6"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0046",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl rollout status deployment/ -n (Local)",
+    "description": "Kubectl rollout status deployment/ -n command for kubernetes workflows in local mode.",
+    "command": "kubectl rollout status deployment/[DEPLOYMENT_NAME] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_NAME]",
+        "label": "Deployment Name",
+        "description": "Value for deployment name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "rollout",
+      "status",
+      "deployment",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0047",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl rollout status deployment/ -n (Team)",
+    "description": "Kubectl rollout status deployment/ -n command for kubernetes workflows in team mode.",
+    "command": "kubectl rollout status deployment/[DEPLOYMENT_NAME] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_NAME]",
+        "label": "Deployment Name",
+        "description": "Value for deployment name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "rollout",
+      "status",
+      "deployment",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0048",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl rollout status deployment/ -n (CI)",
+    "description": "Kubectl rollout status deployment/ -n command for kubernetes workflows in ci mode.",
+    "command": "kubectl rollout status deployment/[DEPLOYMENT_NAME] -n [NAMESPACE] --v=2",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_NAME]",
+        "label": "Deployment Name",
+        "description": "Value for deployment name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "rollout",
+      "status",
+      "deployment",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0049",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl rollout status deployment/ -n (Production)",
+    "description": "Kubectl rollout status deployment/ -n command for kubernetes workflows in production mode.",
+    "command": "kubectl rollout status deployment/[DEPLOYMENT_NAME] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_NAME]",
+        "label": "Deployment Name",
+        "description": "Value for deployment name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "rollout",
+      "status",
+      "deployment",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0050",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl rollout status deployment/ -n (Verbose)",
+    "description": "Kubectl rollout status deployment/ -n command for kubernetes workflows in verbose mode.",
+    "command": "kubectl rollout status deployment/[DEPLOYMENT_NAME] -n [NAMESPACE] -v=6",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_NAME]",
+        "label": "Deployment Name",
+        "description": "Value for deployment name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "rollout",
+      "status",
+      "deployment",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0051",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl rollout restart deployment/ -n (Local)",
+    "description": "Kubectl rollout restart deployment/ -n command for kubernetes workflows in local mode.",
+    "command": "kubectl rollout restart deployment/[DEPLOYMENT_NAME] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_NAME]",
+        "label": "Deployment Name",
+        "description": "Value for deployment name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "rollout",
+      "restart",
+      "deployment",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0052",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl rollout restart deployment/ -n (Team)",
+    "description": "Kubectl rollout restart deployment/ -n command for kubernetes workflows in team mode.",
+    "command": "kubectl rollout restart deployment/[DEPLOYMENT_NAME] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_NAME]",
+        "label": "Deployment Name",
+        "description": "Value for deployment name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "rollout",
+      "restart",
+      "deployment",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0053",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl rollout restart deployment/ -n (CI)",
+    "description": "Kubectl rollout restart deployment/ -n command for kubernetes workflows in ci mode.",
+    "command": "kubectl rollout restart deployment/[DEPLOYMENT_NAME] -n [NAMESPACE] --v=2",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_NAME]",
+        "label": "Deployment Name",
+        "description": "Value for deployment name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "rollout",
+      "restart",
+      "deployment",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0054",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl rollout restart deployment/ -n (Production)",
+    "description": "Kubectl rollout restart deployment/ -n command for kubernetes workflows in production mode.",
+    "command": "kubectl rollout restart deployment/[DEPLOYMENT_NAME] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_NAME]",
+        "label": "Deployment Name",
+        "description": "Value for deployment name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "rollout",
+      "restart",
+      "deployment",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0055",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl rollout restart deployment/ -n (Verbose)",
+    "description": "Kubectl rollout restart deployment/ -n command for kubernetes workflows in verbose mode.",
+    "command": "kubectl rollout restart deployment/[DEPLOYMENT_NAME] -n [NAMESPACE] -v=6",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_NAME]",
+        "label": "Deployment Name",
+        "description": "Value for deployment name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "rollout",
+      "restart",
+      "deployment",
+      "-n"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0056",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl port-forward svc/ : -n (Local)",
+    "description": "Kubectl port-forward svc/ : -n command for kubernetes workflows in local mode.",
+    "command": "kubectl port-forward svc/[SERVICE_NAME] [LOCAL_PORT]:[REMOTE_PORT] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[SERVICE_NAME]",
+        "label": "Service Name",
+        "description": "Value for service name",
+        "required": true
+      },
+      {
+        "placeholder": "[LOCAL_PORT]",
+        "label": "Local Port",
+        "description": "Value for local port",
+        "required": true
+      },
+      {
+        "placeholder": "[REMOTE_PORT]",
+        "label": "Remote Port",
+        "description": "Value for remote port",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "port-forward",
+      "svc",
+      ":",
+      "-n"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "kubernetes-0057",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl port-forward svc/ : -n (Team)",
+    "description": "Kubectl port-forward svc/ : -n command for kubernetes workflows in team mode.",
+    "command": "kubectl port-forward svc/[SERVICE_NAME] [LOCAL_PORT]:[REMOTE_PORT] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[SERVICE_NAME]",
+        "label": "Service Name",
+        "description": "Value for service name",
+        "required": true
+      },
+      {
+        "placeholder": "[LOCAL_PORT]",
+        "label": "Local Port",
+        "description": "Value for local port",
+        "required": true
+      },
+      {
+        "placeholder": "[REMOTE_PORT]",
+        "label": "Remote Port",
+        "description": "Value for remote port",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "port-forward",
+      "svc",
+      ":",
+      "-n"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "kubernetes-0058",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl port-forward svc/ : -n (CI)",
+    "description": "Kubectl port-forward svc/ : -n command for kubernetes workflows in ci mode.",
+    "command": "kubectl port-forward svc/[SERVICE_NAME] [LOCAL_PORT]:[REMOTE_PORT] -n [NAMESPACE] --v=2",
+    "params": [
+      {
+        "placeholder": "[SERVICE_NAME]",
+        "label": "Service Name",
+        "description": "Value for service name",
+        "required": true
+      },
+      {
+        "placeholder": "[LOCAL_PORT]",
+        "label": "Local Port",
+        "description": "Value for local port",
+        "required": true
+      },
+      {
+        "placeholder": "[REMOTE_PORT]",
+        "label": "Remote Port",
+        "description": "Value for remote port",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "port-forward",
+      "svc",
+      ":",
+      "-n"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "kubernetes-0059",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl port-forward svc/ : -n (Production)",
+    "description": "Kubectl port-forward svc/ : -n command for kubernetes workflows in production mode.",
+    "command": "kubectl port-forward svc/[SERVICE_NAME] [LOCAL_PORT]:[REMOTE_PORT] -n [NAMESPACE]",
+    "params": [
+      {
+        "placeholder": "[SERVICE_NAME]",
+        "label": "Service Name",
+        "description": "Value for service name",
+        "required": true
+      },
+      {
+        "placeholder": "[LOCAL_PORT]",
+        "label": "Local Port",
+        "description": "Value for local port",
+        "required": true
+      },
+      {
+        "placeholder": "[REMOTE_PORT]",
+        "label": "Remote Port",
+        "description": "Value for remote port",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "port-forward",
+      "svc",
+      ":",
+      "-n"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "kubernetes-0060",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl port-forward svc/ : -n (Verbose)",
+    "description": "Kubectl port-forward svc/ : -n command for kubernetes workflows in verbose mode.",
+    "command": "kubectl port-forward svc/[SERVICE_NAME] [LOCAL_PORT]:[REMOTE_PORT] -n [NAMESPACE] -v=6",
+    "params": [
+      {
+        "placeholder": "[SERVICE_NAME]",
+        "label": "Service Name",
+        "description": "Value for service name",
+        "required": true
+      },
+      {
+        "placeholder": "[LOCAL_PORT]",
+        "label": "Local Port",
+        "description": "Value for local port",
+        "required": true
+      },
+      {
+        "placeholder": "[REMOTE_PORT]",
+        "label": "Remote Port",
+        "description": "Value for remote port",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "port-forward",
+      "svc",
+      ":",
+      "-n"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "kubernetes-0061",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl top nodes (Local)",
+    "description": "Kubectl top nodes command for kubernetes workflows in local mode.",
+    "command": "kubectl top nodes",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "top",
+      "nodes"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0062",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl top nodes (Team)",
+    "description": "Kubectl top nodes command for kubernetes workflows in team mode.",
+    "command": "kubectl top nodes",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "top",
+      "nodes"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0063",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl top nodes (CI)",
+    "description": "Kubectl top nodes command for kubernetes workflows in ci mode.",
+    "command": "kubectl top nodes --v=2",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "top",
+      "nodes",
+      "--v2"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0064",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl top nodes (Production)",
+    "description": "Kubectl top nodes command for kubernetes workflows in production mode.",
+    "command": "kubectl top nodes",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "top",
+      "nodes"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0065",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl top nodes (Verbose)",
+    "description": "Kubectl top nodes command for kubernetes workflows in verbose mode.",
+    "command": "kubectl top nodes -v=6",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "top",
+      "nodes",
+      "-v6"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0066",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl top pods -A (Local)",
+    "description": "Kubectl top pods -A command for kubernetes workflows in local mode.",
+    "command": "kubectl top pods -A",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "top",
+      "pods",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0067",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl top pods -A (Team)",
+    "description": "Kubectl top pods -A command for kubernetes workflows in team mode.",
+    "command": "kubectl top pods -A",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "top",
+      "pods",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0068",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl top pods -A (CI)",
+    "description": "Kubectl top pods -A command for kubernetes workflows in ci mode.",
+    "command": "kubectl top pods -A --v=2",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "top",
+      "pods",
+      "-a",
+      "--v2"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0069",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl top pods -A (Production)",
+    "description": "Kubectl top pods -A command for kubernetes workflows in production mode.",
+    "command": "kubectl top pods -A",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "top",
+      "pods",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0070",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl top pods -A (Verbose)",
+    "description": "Kubectl top pods -A command for kubernetes workflows in verbose mode.",
+    "command": "kubectl top pods -A -v=6",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-A",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "top",
+      "pods",
+      "-a",
+      "-v6"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0071",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl config get-contexts (Local)",
+    "description": "Kubectl config get-contexts command for kubernetes workflows in local mode.",
+    "command": "kubectl config get-contexts",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "config",
+      "get-contexts"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0072",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl config get-contexts (Team)",
+    "description": "Kubectl config get-contexts command for kubernetes workflows in team mode.",
+    "command": "kubectl config get-contexts",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "config",
+      "get-contexts"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0073",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl config get-contexts (CI)",
+    "description": "Kubectl config get-contexts command for kubernetes workflows in ci mode.",
+    "command": "kubectl config get-contexts --v=2",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "config",
+      "get-contexts",
+      "--v2"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0074",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl config get-contexts (Production)",
+    "description": "Kubectl config get-contexts command for kubernetes workflows in production mode.",
+    "command": "kubectl config get-contexts",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "config",
+      "get-contexts"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0075",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl config get-contexts (Verbose)",
+    "description": "Kubectl config get-contexts command for kubernetes workflows in verbose mode.",
+    "command": "kubectl config get-contexts -v=6",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "config",
+      "get-contexts",
+      "-v6"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0076",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl config use-context (Local)",
+    "description": "Kubectl config use-context command for kubernetes workflows in local mode.",
+    "command": "kubectl config use-context [CONTEXT_NAME]",
+    "params": [
+      {
+        "placeholder": "[CONTEXT_NAME]",
+        "label": "Context Name",
+        "description": "Value for context name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "config",
+      "use-context"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0077",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl config use-context (Team)",
+    "description": "Kubectl config use-context command for kubernetes workflows in team mode.",
+    "command": "kubectl config use-context [CONTEXT_NAME]",
+    "params": [
+      {
+        "placeholder": "[CONTEXT_NAME]",
+        "label": "Context Name",
+        "description": "Value for context name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "config",
+      "use-context"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0078",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl config use-context (CI)",
+    "description": "Kubectl config use-context command for kubernetes workflows in ci mode.",
+    "command": "kubectl config use-context [CONTEXT_NAME] --v=2",
+    "params": [
+      {
+        "placeholder": "[CONTEXT_NAME]",
+        "label": "Context Name",
+        "description": "Value for context name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "config",
+      "use-context",
+      "--v2"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0079",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl config use-context (Production)",
+    "description": "Kubectl config use-context command for kubernetes workflows in production mode.",
+    "command": "kubectl config use-context [CONTEXT_NAME]",
+    "params": [
+      {
+        "placeholder": "[CONTEXT_NAME]",
+        "label": "Context Name",
+        "description": "Value for context name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "config",
+      "use-context"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0080",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl config use-context (Verbose)",
+    "description": "Kubectl config use-context command for kubernetes workflows in verbose mode.",
+    "command": "kubectl config use-context [CONTEXT_NAME] -v=6",
+    "params": [
+      {
+        "placeholder": "[CONTEXT_NAME]",
+        "label": "Context Name",
+        "description": "Value for context name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "config",
+      "use-context",
+      "-v6"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0081",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl cluster-info (Local)",
+    "description": "Kubectl cluster-info command for kubernetes workflows in local mode.",
+    "command": "kubectl cluster-info",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "cluster-info"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0082",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl cluster-info (Team)",
+    "description": "Kubectl cluster-info command for kubernetes workflows in team mode.",
+    "command": "kubectl cluster-info",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "cluster-info"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0083",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl cluster-info (CI)",
+    "description": "Kubectl cluster-info command for kubernetes workflows in ci mode.",
+    "command": "kubectl cluster-info --v=2",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "cluster-info",
+      "--v2"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0084",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl cluster-info (Production)",
+    "description": "Kubectl cluster-info command for kubernetes workflows in production mode.",
+    "command": "kubectl cluster-info",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "cluster-info"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0085",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl cluster-info (Verbose)",
+    "description": "Kubectl cluster-info command for kubernetes workflows in verbose mode.",
+    "command": "kubectl cluster-info -v=6",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "cluster-info",
+      "-v6"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0086",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get events -n --sort-by=.metadata.creationTimestamp (Local)",
+    "description": "Kubectl get events -n --sort-by=.metadata.creationTimestamp command for kubernetes workflows in local mode.",
+    "command": "kubectl get events -n [NAMESPACE] --sort-by=.metadata.creationTimestamp",
+    "params": [
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--sort-by=.metadata.creationTimestamp",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "events",
+      "-n",
+      "--sort-bymetadatacreationtimestamp"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0087",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get events -n --sort-by=.metadata.creationTimestamp (Team)",
+    "description": "Kubectl get events -n --sort-by=.metadata.creationTimestamp command for kubernetes workflows in team mode.",
+    "command": "kubectl get events -n [NAMESPACE] --sort-by=.metadata.creationTimestamp",
+    "params": [
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--sort-by=.metadata.creationTimestamp",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "events",
+      "-n",
+      "--sort-bymetadatacreationtimestamp"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0088",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get events -n --sort-by=.metadata.creationTimestamp (CI)",
+    "description": "Kubectl get events -n --sort-by=.metadata.creationTimestamp command for kubernetes workflows in ci mode.",
+    "command": "kubectl get events -n [NAMESPACE] --sort-by=.metadata.creationTimestamp --v=2",
+    "params": [
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--sort-by=.metadata.creationTimestamp",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "events",
+      "-n",
+      "--sort-bymetadatacreationtimestamp"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0089",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get events -n --sort-by=.metadata.creationTimestamp (Production)",
+    "description": "Kubectl get events -n --sort-by=.metadata.creationTimestamp command for kubernetes workflows in production mode.",
+    "command": "kubectl get events -n [NAMESPACE] --sort-by=.metadata.creationTimestamp",
+    "params": [
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--sort-by=.metadata.creationTimestamp",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "events",
+      "-n",
+      "--sort-bymetadatacreationtimestamp"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0090",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl get events -n --sort-by=.metadata.creationTimestamp (Verbose)",
+    "description": "Kubectl get events -n --sort-by=.metadata.creationTimestamp command for kubernetes workflows in verbose mode.",
+    "command": "kubectl get events -n [NAMESPACE] --sort-by=.metadata.creationTimestamp -v=6",
+    "params": [
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--sort-by=.metadata.creationTimestamp",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "get",
+      "events",
+      "-n",
+      "--sort-bymetadatacreationtimestamp"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0091",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl patch deployment -n -p  (Local)",
+    "description": "Kubectl patch deployment -n -p  command for kubernetes workflows in local mode.",
+    "command": "kubectl patch deployment [DEPLOYMENT_NAME] -n [NAMESPACE] -p '[PATCH_JSON]'",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_NAME]",
+        "label": "Deployment Name",
+        "description": "Value for deployment name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      },
+      {
+        "placeholder": "[PATCH_JSON]",
+        "label": "Patch Json",
+        "description": "Value for patch json",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-p",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "patch",
+      "deployment",
+      "-n",
+      "-p"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "kubernetes-0092",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl patch deployment -n -p  (Team)",
+    "description": "Kubectl patch deployment -n -p  command for kubernetes workflows in team mode.",
+    "command": "kubectl patch deployment [DEPLOYMENT_NAME] -n [NAMESPACE] -p '[PATCH_JSON]'",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_NAME]",
+        "label": "Deployment Name",
+        "description": "Value for deployment name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      },
+      {
+        "placeholder": "[PATCH_JSON]",
+        "label": "Patch Json",
+        "description": "Value for patch json",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-p",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "patch",
+      "deployment",
+      "-n",
+      "-p"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "kubernetes-0093",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl patch deployment -n -p  (CI)",
+    "description": "Kubectl patch deployment -n -p  command for kubernetes workflows in ci mode.",
+    "command": "kubectl patch deployment [DEPLOYMENT_NAME] -n [NAMESPACE] -p '[PATCH_JSON]' --v=2",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_NAME]",
+        "label": "Deployment Name",
+        "description": "Value for deployment name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      },
+      {
+        "placeholder": "[PATCH_JSON]",
+        "label": "Patch Json",
+        "description": "Value for patch json",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-p",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "patch",
+      "deployment",
+      "-n",
+      "-p"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "kubernetes-0094",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl patch deployment -n -p  (Production)",
+    "description": "Kubectl patch deployment -n -p  command for kubernetes workflows in production mode.",
+    "command": "kubectl patch deployment [DEPLOYMENT_NAME] -n [NAMESPACE] -p '[PATCH_JSON]'",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_NAME]",
+        "label": "Deployment Name",
+        "description": "Value for deployment name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      },
+      {
+        "placeholder": "[PATCH_JSON]",
+        "label": "Patch Json",
+        "description": "Value for patch json",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-p",
+        "description": "Flag used by kubectl"
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "patch",
+      "deployment",
+      "-n",
+      "-p"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "kubernetes-0095",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl patch deployment -n -p  (Verbose)",
+    "description": "Kubectl patch deployment -n -p  command for kubernetes workflows in verbose mode.",
+    "command": "kubectl patch deployment [DEPLOYMENT_NAME] -n [NAMESPACE] -p '[PATCH_JSON]' -v=6",
+    "params": [
+      {
+        "placeholder": "[DEPLOYMENT_NAME]",
+        "label": "Deployment Name",
+        "description": "Value for deployment name",
+        "required": true
+      },
+      {
+        "placeholder": "[NAMESPACE]",
+        "label": "Namespace",
+        "description": "Value for namespace",
+        "required": true
+      },
+      {
+        "placeholder": "[PATCH_JSON]",
+        "label": "Patch Json",
+        "description": "Value for patch json",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-n",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-p",
+        "description": "Flag used by kubectl"
+      },
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "patch",
+      "deployment",
+      "-n",
+      "-p"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "kubernetes-0096",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl api-resources (Local)",
+    "description": "Kubectl api-resources command for kubernetes workflows in local mode.",
+    "command": "kubectl api-resources",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "api-resources"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0097",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl api-resources (Team)",
+    "description": "Kubectl api-resources command for kubernetes workflows in team mode.",
+    "command": "kubectl api-resources",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "api-resources"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0098",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl api-resources (CI)",
+    "description": "Kubectl api-resources command for kubernetes workflows in ci mode.",
+    "command": "kubectl api-resources --v=2",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--v=2",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "api-resources",
+      "--v2"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0099",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl api-resources (Production)",
+    "description": "Kubectl api-resources command for kubernetes workflows in production mode.",
+    "command": "kubectl api-resources",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "api-resources"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "kubernetes-0100",
+    "tool": "kubernetes",
+    "category": "DevOps",
+    "title": "Kubectl api-resources (Verbose)",
+    "description": "Kubectl api-resources command for kubernetes workflows in verbose mode.",
+    "command": "kubectl api-resources -v=6",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v=6",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "api-resources",
+      "-v6"
+    ],
+    "difficulty": "beginner"
+  }
+]

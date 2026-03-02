@@ -1,0 +1,2170 @@
+[
+  {
+    "id": "python-0001",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python -m venv .venv (Local)",
+    "description": "Python -m venv .venv command for python workflows in local mode.",
+    "command": "python -m venv .venv",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-m",
+        "description": "Flag used by python"
+      }
+    ],
+    "tags": [
+      "python",
+      "-m",
+      "venv"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0002",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python -m venv .venv (Team)",
+    "description": "Python -m venv .venv command for python workflows in team mode.",
+    "command": "python -m venv .venv",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-m",
+        "description": "Flag used by python"
+      }
+    ],
+    "tags": [
+      "python",
+      "-m",
+      "venv"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0003",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python -m venv .venv (CI)",
+    "description": "Python -m venv .venv command for python workflows in ci mode.",
+    "command": "python -m venv .venv -q",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-m",
+        "description": "Flag used by python"
+      },
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "-m",
+      "venv",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0004",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python -m venv .venv (Production)",
+    "description": "Python -m venv .venv command for python workflows in production mode.",
+    "command": "python -m venv .venv",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-m",
+        "description": "Flag used by python"
+      }
+    ],
+    "tags": [
+      "python",
+      "-m",
+      "venv"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0005",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python -m venv .venv (Verbose)",
+    "description": "Python -m venv .venv command for python workflows in verbose mode.",
+    "command": "python -m venv .venv -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-m",
+        "description": "Flag used by python"
+      },
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "-m",
+      "venv",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0006",
+    "tool": "python",
+    "category": "Python",
+    "title": "Source .venv/bin/activate (Local)",
+    "description": "Source .venv/bin/activate command for python workflows in local mode.",
+    "command": "source .venv/bin/activate",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "source",
+      "venvbinactivate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0007",
+    "tool": "python",
+    "category": "Python",
+    "title": "Source .venv/bin/activate (Team)",
+    "description": "Source .venv/bin/activate command for python workflows in team mode.",
+    "command": "source .venv/bin/activate",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "source",
+      "venvbinactivate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0008",
+    "tool": "python",
+    "category": "Python",
+    "title": "Source .venv/bin/activate (CI)",
+    "description": "Source .venv/bin/activate command for python workflows in ci mode.",
+    "command": "source .venv/bin/activate -q",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "source",
+      "venvbinactivate",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0009",
+    "tool": "python",
+    "category": "Python",
+    "title": "Source .venv/bin/activate (Production)",
+    "description": "Source .venv/bin/activate command for python workflows in production mode.",
+    "command": "source .venv/bin/activate",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "source",
+      "venvbinactivate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0010",
+    "tool": "python",
+    "category": "Python",
+    "title": "Source .venv/bin/activate (Verbose)",
+    "description": "Source .venv/bin/activate command for python workflows in verbose mode.",
+    "command": "source .venv/bin/activate -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "source",
+      "venvbinactivate",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0011",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pip install -r requirements.txt (Local)",
+    "description": "Pip install -r requirements.txt command for python workflows in local mode.",
+    "command": "pip install -r requirements.txt",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-r",
+        "description": "Flag used by pip"
+      }
+    ],
+    "tags": [
+      "python",
+      "pip",
+      "install",
+      "-r",
+      "requirementstxt"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0012",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pip install -r requirements.txt (Team)",
+    "description": "Pip install -r requirements.txt command for python workflows in team mode.",
+    "command": "pip install -r requirements.txt",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-r",
+        "description": "Flag used by pip"
+      }
+    ],
+    "tags": [
+      "python",
+      "pip",
+      "install",
+      "-r",
+      "requirementstxt"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0013",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pip install -r requirements.txt (CI)",
+    "description": "Pip install -r requirements.txt command for python workflows in ci mode.",
+    "command": "pip install -r requirements.txt -q",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-r",
+        "description": "Flag used by pip"
+      },
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "pip",
+      "install",
+      "-r",
+      "requirementstxt",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0014",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pip install -r requirements.txt (Production)",
+    "description": "Pip install -r requirements.txt command for python workflows in production mode.",
+    "command": "pip install -r requirements.txt",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-r",
+        "description": "Flag used by pip"
+      }
+    ],
+    "tags": [
+      "python",
+      "pip",
+      "install",
+      "-r",
+      "requirementstxt"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0015",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pip install -r requirements.txt (Verbose)",
+    "description": "Pip install -r requirements.txt command for python workflows in verbose mode.",
+    "command": "pip install -r requirements.txt -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-r",
+        "description": "Flag used by pip"
+      },
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "pip",
+      "install",
+      "-r",
+      "requirementstxt",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0016",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pip install (Local)",
+    "description": "Pip install command for python workflows in local mode.",
+    "command": "pip install [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "python",
+      "pip",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0017",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pip install (Team)",
+    "description": "Pip install command for python workflows in team mode.",
+    "command": "pip install [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "python",
+      "pip",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0018",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pip install (CI)",
+    "description": "Pip install command for python workflows in ci mode.",
+    "command": "pip install [PACKAGE_NAME] -q",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "pip",
+      "install",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0019",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pip install (Production)",
+    "description": "Pip install command for python workflows in production mode.",
+    "command": "pip install [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "python",
+      "pip",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0020",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pip install (Verbose)",
+    "description": "Pip install command for python workflows in verbose mode.",
+    "command": "pip install [PACKAGE_NAME] -v",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "pip",
+      "install",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0021",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pip freeze > requirements.txt (Local)",
+    "description": "Pip freeze > requirements.txt command for python workflows in local mode.",
+    "command": "pip freeze > requirements.txt",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "pip",
+      "freeze",
+      "requirementstxt"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0022",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pip freeze > requirements.txt (Team)",
+    "description": "Pip freeze > requirements.txt command for python workflows in team mode.",
+    "command": "pip freeze > requirements.txt",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "pip",
+      "freeze",
+      "requirementstxt"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0023",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pip freeze > requirements.txt (CI)",
+    "description": "Pip freeze > requirements.txt command for python workflows in ci mode.",
+    "command": "pip freeze > requirements.txt -q",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "pip",
+      "freeze",
+      "requirementstxt",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0024",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pip freeze > requirements.txt (Production)",
+    "description": "Pip freeze > requirements.txt command for python workflows in production mode.",
+    "command": "pip freeze > requirements.txt",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "pip",
+      "freeze",
+      "requirementstxt"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0025",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pip freeze > requirements.txt (Verbose)",
+    "description": "Pip freeze > requirements.txt command for python workflows in verbose mode.",
+    "command": "pip freeze > requirements.txt -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "pip",
+      "freeze",
+      "requirementstxt",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0026",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pytest (Local)",
+    "description": "Pytest command for python workflows in local mode.",
+    "command": "pytest",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "pytest"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0027",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pytest (Team)",
+    "description": "Pytest command for python workflows in team mode.",
+    "command": "pytest",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "pytest"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0028",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pytest (CI)",
+    "description": "Pytest command for python workflows in ci mode.",
+    "command": "pytest -q",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "pytest",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0029",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pytest (Production)",
+    "description": "Pytest command for python workflows in production mode.",
+    "command": "pytest",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "pytest"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0030",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pytest (Verbose)",
+    "description": "Pytest command for python workflows in verbose mode.",
+    "command": "pytest -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "pytest",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0031",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pytest -k (Local)",
+    "description": "Pytest -k command for python workflows in local mode.",
+    "command": "pytest -k [TEST_PATTERN]",
+    "params": [
+      {
+        "placeholder": "[TEST_PATTERN]",
+        "label": "Test Pattern",
+        "description": "Value for test pattern",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-k",
+        "description": "Flag used by pytest"
+      }
+    ],
+    "tags": [
+      "python",
+      "pytest",
+      "-k"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0032",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pytest -k (Team)",
+    "description": "Pytest -k command for python workflows in team mode.",
+    "command": "pytest -k [TEST_PATTERN]",
+    "params": [
+      {
+        "placeholder": "[TEST_PATTERN]",
+        "label": "Test Pattern",
+        "description": "Value for test pattern",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-k",
+        "description": "Flag used by pytest"
+      }
+    ],
+    "tags": [
+      "python",
+      "pytest",
+      "-k"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0033",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pytest -k (CI)",
+    "description": "Pytest -k command for python workflows in ci mode.",
+    "command": "pytest -k [TEST_PATTERN] -q",
+    "params": [
+      {
+        "placeholder": "[TEST_PATTERN]",
+        "label": "Test Pattern",
+        "description": "Value for test pattern",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-k",
+        "description": "Flag used by pytest"
+      },
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "pytest",
+      "-k",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0034",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pytest -k (Production)",
+    "description": "Pytest -k command for python workflows in production mode.",
+    "command": "pytest -k [TEST_PATTERN]",
+    "params": [
+      {
+        "placeholder": "[TEST_PATTERN]",
+        "label": "Test Pattern",
+        "description": "Value for test pattern",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-k",
+        "description": "Flag used by pytest"
+      }
+    ],
+    "tags": [
+      "python",
+      "pytest",
+      "-k"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0035",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pytest -k (Verbose)",
+    "description": "Pytest -k command for python workflows in verbose mode.",
+    "command": "pytest -k [TEST_PATTERN] -v",
+    "params": [
+      {
+        "placeholder": "[TEST_PATTERN]",
+        "label": "Test Pattern",
+        "description": "Value for test pattern",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-k",
+        "description": "Flag used by pytest"
+      },
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "pytest",
+      "-k",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0036",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pytest --maxfail=1 (Local)",
+    "description": "Pytest --maxfail=1 command for python workflows in local mode.",
+    "command": "pytest --maxfail=1",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--maxfail=1",
+        "description": "Flag used by pytest"
+      }
+    ],
+    "tags": [
+      "python",
+      "pytest",
+      "--maxfail1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0037",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pytest --maxfail=1 (Team)",
+    "description": "Pytest --maxfail=1 command for python workflows in team mode.",
+    "command": "pytest --maxfail=1",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--maxfail=1",
+        "description": "Flag used by pytest"
+      }
+    ],
+    "tags": [
+      "python",
+      "pytest",
+      "--maxfail1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0038",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pytest --maxfail=1 (CI)",
+    "description": "Pytest --maxfail=1 command for python workflows in ci mode.",
+    "command": "pytest --maxfail=1 -q",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--maxfail=1",
+        "description": "Flag used by pytest"
+      },
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "pytest",
+      "--maxfail1",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0039",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pytest --maxfail=1 (Production)",
+    "description": "Pytest --maxfail=1 command for python workflows in production mode.",
+    "command": "pytest --maxfail=1",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--maxfail=1",
+        "description": "Flag used by pytest"
+      }
+    ],
+    "tags": [
+      "python",
+      "pytest",
+      "--maxfail1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0040",
+    "tool": "python",
+    "category": "Python",
+    "title": "Pytest --maxfail=1 (Verbose)",
+    "description": "Pytest --maxfail=1 command for python workflows in verbose mode.",
+    "command": "pytest --maxfail=1 -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--maxfail=1",
+        "description": "Flag used by pytest"
+      },
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "pytest",
+      "--maxfail1",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0041",
+    "tool": "python",
+    "category": "Python",
+    "title": "Black . (Local)",
+    "description": "Black . command for python workflows in local mode.",
+    "command": "black .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "black"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0042",
+    "tool": "python",
+    "category": "Python",
+    "title": "Black . (Team)",
+    "description": "Black . command for python workflows in team mode.",
+    "command": "black .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "black"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0043",
+    "tool": "python",
+    "category": "Python",
+    "title": "Black . (CI)",
+    "description": "Black . command for python workflows in ci mode.",
+    "command": "black . -q",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "black",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0044",
+    "tool": "python",
+    "category": "Python",
+    "title": "Black . (Production)",
+    "description": "Black . command for python workflows in production mode.",
+    "command": "black .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "black"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0045",
+    "tool": "python",
+    "category": "Python",
+    "title": "Black . (Verbose)",
+    "description": "Black . command for python workflows in verbose mode.",
+    "command": "black . -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "black",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0046",
+    "tool": "python",
+    "category": "Python",
+    "title": "Ruff check . (Local)",
+    "description": "Ruff check . command for python workflows in local mode.",
+    "command": "ruff check .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "ruff",
+      "check"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0047",
+    "tool": "python",
+    "category": "Python",
+    "title": "Ruff check . (Team)",
+    "description": "Ruff check . command for python workflows in team mode.",
+    "command": "ruff check .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "ruff",
+      "check"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0048",
+    "tool": "python",
+    "category": "Python",
+    "title": "Ruff check . (CI)",
+    "description": "Ruff check . command for python workflows in ci mode.",
+    "command": "ruff check . -q",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "ruff",
+      "check",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0049",
+    "tool": "python",
+    "category": "Python",
+    "title": "Ruff check . (Production)",
+    "description": "Ruff check . command for python workflows in production mode.",
+    "command": "ruff check .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "ruff",
+      "check"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0050",
+    "tool": "python",
+    "category": "Python",
+    "title": "Ruff check . (Verbose)",
+    "description": "Ruff check . command for python workflows in verbose mode.",
+    "command": "ruff check . -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "ruff",
+      "check",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0051",
+    "tool": "python",
+    "category": "Python",
+    "title": "Mypy . (Local)",
+    "description": "Mypy . command for python workflows in local mode.",
+    "command": "mypy .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "mypy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0052",
+    "tool": "python",
+    "category": "Python",
+    "title": "Mypy . (Team)",
+    "description": "Mypy . command for python workflows in team mode.",
+    "command": "mypy .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "mypy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0053",
+    "tool": "python",
+    "category": "Python",
+    "title": "Mypy . (CI)",
+    "description": "Mypy . command for python workflows in ci mode.",
+    "command": "mypy . -q",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "mypy",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0054",
+    "tool": "python",
+    "category": "Python",
+    "title": "Mypy . (Production)",
+    "description": "Mypy . command for python workflows in production mode.",
+    "command": "mypy .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "mypy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0055",
+    "tool": "python",
+    "category": "Python",
+    "title": "Mypy . (Verbose)",
+    "description": "Mypy . command for python workflows in verbose mode.",
+    "command": "mypy . -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "mypy",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0056",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python -m http.server (Local)",
+    "description": "Python -m http.server command for python workflows in local mode.",
+    "command": "python -m http.server [PORT]",
+    "params": [
+      {
+        "placeholder": "[PORT]",
+        "label": "Port",
+        "description": "Value for port",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-m",
+        "description": "Flag used by python"
+      }
+    ],
+    "tags": [
+      "python",
+      "-m",
+      "httpserver"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0057",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python -m http.server (Team)",
+    "description": "Python -m http.server command for python workflows in team mode.",
+    "command": "python -m http.server [PORT]",
+    "params": [
+      {
+        "placeholder": "[PORT]",
+        "label": "Port",
+        "description": "Value for port",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-m",
+        "description": "Flag used by python"
+      }
+    ],
+    "tags": [
+      "python",
+      "-m",
+      "httpserver"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0058",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python -m http.server (CI)",
+    "description": "Python -m http.server command for python workflows in ci mode.",
+    "command": "python -m http.server [PORT] -q",
+    "params": [
+      {
+        "placeholder": "[PORT]",
+        "label": "Port",
+        "description": "Value for port",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-m",
+        "description": "Flag used by python"
+      },
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "-m",
+      "httpserver",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0059",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python -m http.server (Production)",
+    "description": "Python -m http.server command for python workflows in production mode.",
+    "command": "python -m http.server [PORT]",
+    "params": [
+      {
+        "placeholder": "[PORT]",
+        "label": "Port",
+        "description": "Value for port",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-m",
+        "description": "Flag used by python"
+      }
+    ],
+    "tags": [
+      "python",
+      "-m",
+      "httpserver"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0060",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python -m http.server (Verbose)",
+    "description": "Python -m http.server command for python workflows in verbose mode.",
+    "command": "python -m http.server [PORT] -v",
+    "params": [
+      {
+        "placeholder": "[PORT]",
+        "label": "Port",
+        "description": "Value for port",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-m",
+        "description": "Flag used by python"
+      },
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "-m",
+      "httpserver",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0061",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python manage.py runserver (Local)",
+    "description": "Python manage.py runserver command for python workflows in local mode.",
+    "command": "python manage.py runserver",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "managepy",
+      "runserver"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0062",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python manage.py runserver (Team)",
+    "description": "Python manage.py runserver command for python workflows in team mode.",
+    "command": "python manage.py runserver",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "managepy",
+      "runserver"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0063",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python manage.py runserver (CI)",
+    "description": "Python manage.py runserver command for python workflows in ci mode.",
+    "command": "python manage.py runserver -q",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "managepy",
+      "runserver",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0064",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python manage.py runserver (Production)",
+    "description": "Python manage.py runserver command for python workflows in production mode.",
+    "command": "python manage.py runserver",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "managepy",
+      "runserver"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0065",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python manage.py runserver (Verbose)",
+    "description": "Python manage.py runserver command for python workflows in verbose mode.",
+    "command": "python manage.py runserver -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "managepy",
+      "runserver",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0066",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python manage.py makemigrations (Local)",
+    "description": "Python manage.py makemigrations command for python workflows in local mode.",
+    "command": "python manage.py makemigrations",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "managepy",
+      "makemigrations"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0067",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python manage.py makemigrations (Team)",
+    "description": "Python manage.py makemigrations command for python workflows in team mode.",
+    "command": "python manage.py makemigrations",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "managepy",
+      "makemigrations"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0068",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python manage.py makemigrations (CI)",
+    "description": "Python manage.py makemigrations command for python workflows in ci mode.",
+    "command": "python manage.py makemigrations -q",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "managepy",
+      "makemigrations",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0069",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python manage.py makemigrations (Production)",
+    "description": "Python manage.py makemigrations command for python workflows in production mode.",
+    "command": "python manage.py makemigrations",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "managepy",
+      "makemigrations"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0070",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python manage.py makemigrations (Verbose)",
+    "description": "Python manage.py makemigrations command for python workflows in verbose mode.",
+    "command": "python manage.py makemigrations -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "managepy",
+      "makemigrations",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0071",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python manage.py migrate (Local)",
+    "description": "Python manage.py migrate command for python workflows in local mode.",
+    "command": "python manage.py migrate",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "managepy",
+      "migrate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0072",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python manage.py migrate (Team)",
+    "description": "Python manage.py migrate command for python workflows in team mode.",
+    "command": "python manage.py migrate",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "managepy",
+      "migrate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0073",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python manage.py migrate (CI)",
+    "description": "Python manage.py migrate command for python workflows in ci mode.",
+    "command": "python manage.py migrate -q",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "managepy",
+      "migrate",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0074",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python manage.py migrate (Production)",
+    "description": "Python manage.py migrate command for python workflows in production mode.",
+    "command": "python manage.py migrate",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "managepy",
+      "migrate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0075",
+    "tool": "python",
+    "category": "Python",
+    "title": "Python manage.py migrate (Verbose)",
+    "description": "Python manage.py migrate command for python workflows in verbose mode.",
+    "command": "python manage.py migrate -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "managepy",
+      "migrate",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0076",
+    "tool": "python",
+    "category": "Python",
+    "title": "Uvicorn :app --reload (Local)",
+    "description": "Uvicorn :app --reload command for python workflows in local mode.",
+    "command": "uvicorn [APP_MODULE]:app --reload",
+    "params": [
+      {
+        "placeholder": "[APP_MODULE]",
+        "label": "App Module",
+        "description": "Value for app module",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--reload",
+        "description": "Flag used by uvicorn"
+      }
+    ],
+    "tags": [
+      "python",
+      "uvicorn",
+      ":app",
+      "--reload"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0077",
+    "tool": "python",
+    "category": "Python",
+    "title": "Uvicorn :app --reload (Team)",
+    "description": "Uvicorn :app --reload command for python workflows in team mode.",
+    "command": "uvicorn [APP_MODULE]:app --reload",
+    "params": [
+      {
+        "placeholder": "[APP_MODULE]",
+        "label": "App Module",
+        "description": "Value for app module",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--reload",
+        "description": "Flag used by uvicorn"
+      }
+    ],
+    "tags": [
+      "python",
+      "uvicorn",
+      ":app",
+      "--reload"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0078",
+    "tool": "python",
+    "category": "Python",
+    "title": "Uvicorn :app --reload (CI)",
+    "description": "Uvicorn :app --reload command for python workflows in ci mode.",
+    "command": "uvicorn [APP_MODULE]:app --reload -q",
+    "params": [
+      {
+        "placeholder": "[APP_MODULE]",
+        "label": "App Module",
+        "description": "Value for app module",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--reload",
+        "description": "Flag used by uvicorn"
+      },
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "uvicorn",
+      ":app",
+      "--reload",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0079",
+    "tool": "python",
+    "category": "Python",
+    "title": "Uvicorn :app --reload (Production)",
+    "description": "Uvicorn :app --reload command for python workflows in production mode.",
+    "command": "uvicorn [APP_MODULE]:app --reload",
+    "params": [
+      {
+        "placeholder": "[APP_MODULE]",
+        "label": "App Module",
+        "description": "Value for app module",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--reload",
+        "description": "Flag used by uvicorn"
+      }
+    ],
+    "tags": [
+      "python",
+      "uvicorn",
+      ":app",
+      "--reload"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0080",
+    "tool": "python",
+    "category": "Python",
+    "title": "Uvicorn :app --reload (Verbose)",
+    "description": "Uvicorn :app --reload command for python workflows in verbose mode.",
+    "command": "uvicorn [APP_MODULE]:app --reload -v",
+    "params": [
+      {
+        "placeholder": "[APP_MODULE]",
+        "label": "App Module",
+        "description": "Value for app module",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--reload",
+        "description": "Flag used by uvicorn"
+      },
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "uvicorn",
+      ":app",
+      "--reload",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0081",
+    "tool": "python",
+    "category": "Python",
+    "title": "Gunicorn :app (Local)",
+    "description": "Gunicorn :app command for python workflows in local mode.",
+    "command": "gunicorn [APP_MODULE]:app",
+    "params": [
+      {
+        "placeholder": "[APP_MODULE]",
+        "label": "App Module",
+        "description": "Value for app module",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "python",
+      "gunicorn",
+      ":app"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0082",
+    "tool": "python",
+    "category": "Python",
+    "title": "Gunicorn :app (Team)",
+    "description": "Gunicorn :app command for python workflows in team mode.",
+    "command": "gunicorn [APP_MODULE]:app",
+    "params": [
+      {
+        "placeholder": "[APP_MODULE]",
+        "label": "App Module",
+        "description": "Value for app module",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "python",
+      "gunicorn",
+      ":app"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0083",
+    "tool": "python",
+    "category": "Python",
+    "title": "Gunicorn :app (CI)",
+    "description": "Gunicorn :app command for python workflows in ci mode.",
+    "command": "gunicorn [APP_MODULE]:app -q",
+    "params": [
+      {
+        "placeholder": "[APP_MODULE]",
+        "label": "App Module",
+        "description": "Value for app module",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "gunicorn",
+      ":app",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0084",
+    "tool": "python",
+    "category": "Python",
+    "title": "Gunicorn :app (Production)",
+    "description": "Gunicorn :app command for python workflows in production mode.",
+    "command": "gunicorn [APP_MODULE]:app",
+    "params": [
+      {
+        "placeholder": "[APP_MODULE]",
+        "label": "App Module",
+        "description": "Value for app module",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "python",
+      "gunicorn",
+      ":app"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0085",
+    "tool": "python",
+    "category": "Python",
+    "title": "Gunicorn :app (Verbose)",
+    "description": "Gunicorn :app command for python workflows in verbose mode.",
+    "command": "gunicorn [APP_MODULE]:app -v",
+    "params": [
+      {
+        "placeholder": "[APP_MODULE]",
+        "label": "App Module",
+        "description": "Value for app module",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "gunicorn",
+      ":app",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0086",
+    "tool": "python",
+    "category": "Python",
+    "title": "Alembic upgrade head (Local)",
+    "description": "Alembic upgrade head command for python workflows in local mode.",
+    "command": "alembic upgrade head",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "alembic",
+      "upgrade",
+      "head"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0087",
+    "tool": "python",
+    "category": "Python",
+    "title": "Alembic upgrade head (Team)",
+    "description": "Alembic upgrade head command for python workflows in team mode.",
+    "command": "alembic upgrade head",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "alembic",
+      "upgrade",
+      "head"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0088",
+    "tool": "python",
+    "category": "Python",
+    "title": "Alembic upgrade head (CI)",
+    "description": "Alembic upgrade head command for python workflows in ci mode.",
+    "command": "alembic upgrade head -q",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "alembic",
+      "upgrade",
+      "head",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0089",
+    "tool": "python",
+    "category": "Python",
+    "title": "Alembic upgrade head (Production)",
+    "description": "Alembic upgrade head command for python workflows in production mode.",
+    "command": "alembic upgrade head",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "alembic",
+      "upgrade",
+      "head"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0090",
+    "tool": "python",
+    "category": "Python",
+    "title": "Alembic upgrade head (Verbose)",
+    "description": "Alembic upgrade head command for python workflows in verbose mode.",
+    "command": "alembic upgrade head -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "alembic",
+      "upgrade",
+      "head",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0091",
+    "tool": "python",
+    "category": "Python",
+    "title": "Poetry install (Local)",
+    "description": "Poetry install command for python workflows in local mode.",
+    "command": "poetry install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "poetry",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0092",
+    "tool": "python",
+    "category": "Python",
+    "title": "Poetry install (Team)",
+    "description": "Poetry install command for python workflows in team mode.",
+    "command": "poetry install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "poetry",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0093",
+    "tool": "python",
+    "category": "Python",
+    "title": "Poetry install (CI)",
+    "description": "Poetry install command for python workflows in ci mode.",
+    "command": "poetry install -q",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "poetry",
+      "install",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0094",
+    "tool": "python",
+    "category": "Python",
+    "title": "Poetry install (Production)",
+    "description": "Poetry install command for python workflows in production mode.",
+    "command": "poetry install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "poetry",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0095",
+    "tool": "python",
+    "category": "Python",
+    "title": "Poetry install (Verbose)",
+    "description": "Poetry install command for python workflows in verbose mode.",
+    "command": "poetry install -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "poetry",
+      "install",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0096",
+    "tool": "python",
+    "category": "Python",
+    "title": "Poetry run pytest (Local)",
+    "description": "Poetry run pytest command for python workflows in local mode.",
+    "command": "poetry run pytest",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "poetry",
+      "run",
+      "pytest"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0097",
+    "tool": "python",
+    "category": "Python",
+    "title": "Poetry run pytest (Team)",
+    "description": "Poetry run pytest command for python workflows in team mode.",
+    "command": "poetry run pytest",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "poetry",
+      "run",
+      "pytest"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0098",
+    "tool": "python",
+    "category": "Python",
+    "title": "Poetry run pytest (CI)",
+    "description": "Poetry run pytest command for python workflows in ci mode.",
+    "command": "poetry run pytest -q",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-q",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "poetry",
+      "run",
+      "pytest",
+      "-q"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0099",
+    "tool": "python",
+    "category": "Python",
+    "title": "Poetry run pytest (Production)",
+    "description": "Poetry run pytest command for python workflows in production mode.",
+    "command": "poetry run pytest",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "python",
+      "poetry",
+      "run",
+      "pytest"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "python-0100",
+    "tool": "python",
+    "category": "Python",
+    "title": "Poetry run pytest (Verbose)",
+    "description": "Poetry run pytest command for python workflows in verbose mode.",
+    "command": "poetry run pytest -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "python",
+      "poetry",
+      "run",
+      "pytest",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  }
+]

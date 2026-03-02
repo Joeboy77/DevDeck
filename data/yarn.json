@@ -1,0 +1,2034 @@
+[
+  {
+    "id": "yarn-0001",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn install (Local)",
+    "description": "Yarn install command for yarn workflows in local mode.",
+    "command": "yarn install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0002",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn install (Team)",
+    "description": "Yarn install command for yarn workflows in team mode.",
+    "command": "yarn install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0003",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn install (CI)",
+    "description": "Yarn install command for yarn workflows in ci mode.",
+    "command": "yarn install --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "install",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0004",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn install (Production)",
+    "description": "Yarn install command for yarn workflows in production mode.",
+    "command": "yarn install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0005",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn install (Verbose)",
+    "description": "Yarn install command for yarn workflows in verbose mode.",
+    "command": "yarn install --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "install",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0006",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn add (Local)",
+    "description": "Yarn add command for yarn workflows in local mode.",
+    "command": "yarn add [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0007",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn add (Team)",
+    "description": "Yarn add command for yarn workflows in team mode.",
+    "command": "yarn add [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0008",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn add (CI)",
+    "description": "Yarn add command for yarn workflows in ci mode.",
+    "command": "yarn add [PACKAGE_NAME] --silent",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "add",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0009",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn add (Production)",
+    "description": "Yarn add command for yarn workflows in production mode.",
+    "command": "yarn add [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0010",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn add (Verbose)",
+    "description": "Yarn add command for yarn workflows in verbose mode.",
+    "command": "yarn add [PACKAGE_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "add",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0011",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn add -D (Local)",
+    "description": "Yarn add -D command for yarn workflows in local mode.",
+    "command": "yarn add -D [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by yarn"
+      }
+    ],
+    "tags": [
+      "yarn",
+      "add",
+      "-d"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0012",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn add -D (Team)",
+    "description": "Yarn add -D command for yarn workflows in team mode.",
+    "command": "yarn add -D [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by yarn"
+      }
+    ],
+    "tags": [
+      "yarn",
+      "add",
+      "-d"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0013",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn add -D (CI)",
+    "description": "Yarn add -D command for yarn workflows in ci mode.",
+    "command": "yarn add -D [PACKAGE_NAME] --silent",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by yarn"
+      },
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "add",
+      "-d",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0014",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn add -D (Production)",
+    "description": "Yarn add -D command for yarn workflows in production mode.",
+    "command": "yarn add -D [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by yarn"
+      }
+    ],
+    "tags": [
+      "yarn",
+      "add",
+      "-d"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0015",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn add -D (Verbose)",
+    "description": "Yarn add -D command for yarn workflows in verbose mode.",
+    "command": "yarn add -D [PACKAGE_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-D",
+        "description": "Flag used by yarn"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "add",
+      "-d",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0016",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn remove (Local)",
+    "description": "Yarn remove command for yarn workflows in local mode.",
+    "command": "yarn remove [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "remove"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0017",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn remove (Team)",
+    "description": "Yarn remove command for yarn workflows in team mode.",
+    "command": "yarn remove [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "remove"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0018",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn remove (CI)",
+    "description": "Yarn remove command for yarn workflows in ci mode.",
+    "command": "yarn remove [PACKAGE_NAME] --silent",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "remove",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0019",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn remove (Production)",
+    "description": "Yarn remove command for yarn workflows in production mode.",
+    "command": "yarn remove [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "remove"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0020",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn remove (Verbose)",
+    "description": "Yarn remove command for yarn workflows in verbose mode.",
+    "command": "yarn remove [PACKAGE_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "remove",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0021",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn dev (Local)",
+    "description": "Yarn dev command for yarn workflows in local mode.",
+    "command": "yarn dev",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "dev"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0022",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn dev (Team)",
+    "description": "Yarn dev command for yarn workflows in team mode.",
+    "command": "yarn dev",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "dev"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0023",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn dev (CI)",
+    "description": "Yarn dev command for yarn workflows in ci mode.",
+    "command": "yarn dev --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "dev",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0024",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn dev (Production)",
+    "description": "Yarn dev command for yarn workflows in production mode.",
+    "command": "yarn dev",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "dev"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0025",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn dev (Verbose)",
+    "description": "Yarn dev command for yarn workflows in verbose mode.",
+    "command": "yarn dev --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "dev",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0026",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn build (Local)",
+    "description": "Yarn build command for yarn workflows in local mode.",
+    "command": "yarn build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0027",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn build (Team)",
+    "description": "Yarn build command for yarn workflows in team mode.",
+    "command": "yarn build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0028",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn build (CI)",
+    "description": "Yarn build command for yarn workflows in ci mode.",
+    "command": "yarn build --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "build",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0029",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn build (Production)",
+    "description": "Yarn build command for yarn workflows in production mode.",
+    "command": "yarn build",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "build"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0030",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn build (Verbose)",
+    "description": "Yarn build command for yarn workflows in verbose mode.",
+    "command": "yarn build --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "build",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0031",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn test (Local)",
+    "description": "Yarn test command for yarn workflows in local mode.",
+    "command": "yarn test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0032",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn test (Team)",
+    "description": "Yarn test command for yarn workflows in team mode.",
+    "command": "yarn test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0033",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn test (CI)",
+    "description": "Yarn test command for yarn workflows in ci mode.",
+    "command": "yarn test --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "test",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0034",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn test (Production)",
+    "description": "Yarn test command for yarn workflows in production mode.",
+    "command": "yarn test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0035",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn test (Verbose)",
+    "description": "Yarn test command for yarn workflows in verbose mode.",
+    "command": "yarn test --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "test",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0036",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn lint (Local)",
+    "description": "Yarn lint command for yarn workflows in local mode.",
+    "command": "yarn lint",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "lint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0037",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn lint (Team)",
+    "description": "Yarn lint command for yarn workflows in team mode.",
+    "command": "yarn lint",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "lint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0038",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn lint (CI)",
+    "description": "Yarn lint command for yarn workflows in ci mode.",
+    "command": "yarn lint --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "lint",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0039",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn lint (Production)",
+    "description": "Yarn lint command for yarn workflows in production mode.",
+    "command": "yarn lint",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "lint"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0040",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn lint (Verbose)",
+    "description": "Yarn lint command for yarn workflows in verbose mode.",
+    "command": "yarn lint --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "lint",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0041",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn format (Local)",
+    "description": "Yarn format command for yarn workflows in local mode.",
+    "command": "yarn format",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "format"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0042",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn format (Team)",
+    "description": "Yarn format command for yarn workflows in team mode.",
+    "command": "yarn format",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "format"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0043",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn format (CI)",
+    "description": "Yarn format command for yarn workflows in ci mode.",
+    "command": "yarn format --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "format",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0044",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn format (Production)",
+    "description": "Yarn format command for yarn workflows in production mode.",
+    "command": "yarn format",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "format"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0045",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn format (Verbose)",
+    "description": "Yarn format command for yarn workflows in verbose mode.",
+    "command": "yarn format --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "format",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0046",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn cache clean (Local)",
+    "description": "Yarn cache clean command for yarn workflows in local mode.",
+    "command": "yarn cache clean",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "cache",
+      "clean"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0047",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn cache clean (Team)",
+    "description": "Yarn cache clean command for yarn workflows in team mode.",
+    "command": "yarn cache clean",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "cache",
+      "clean"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0048",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn cache clean (CI)",
+    "description": "Yarn cache clean command for yarn workflows in ci mode.",
+    "command": "yarn cache clean --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "cache",
+      "clean",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0049",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn cache clean (Production)",
+    "description": "Yarn cache clean command for yarn workflows in production mode.",
+    "command": "yarn cache clean",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "cache",
+      "clean"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0050",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn cache clean (Verbose)",
+    "description": "Yarn cache clean command for yarn workflows in verbose mode.",
+    "command": "yarn cache clean --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "cache",
+      "clean",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0051",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn outdated (Local)",
+    "description": "Yarn outdated command for yarn workflows in local mode.",
+    "command": "yarn outdated",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "outdated"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0052",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn outdated (Team)",
+    "description": "Yarn outdated command for yarn workflows in team mode.",
+    "command": "yarn outdated",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "outdated"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0053",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn outdated (CI)",
+    "description": "Yarn outdated command for yarn workflows in ci mode.",
+    "command": "yarn outdated --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "outdated",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0054",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn outdated (Production)",
+    "description": "Yarn outdated command for yarn workflows in production mode.",
+    "command": "yarn outdated",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "outdated"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0055",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn outdated (Verbose)",
+    "description": "Yarn outdated command for yarn workflows in verbose mode.",
+    "command": "yarn outdated --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "outdated",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0056",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn upgrade (Local)",
+    "description": "Yarn upgrade command for yarn workflows in local mode.",
+    "command": "yarn upgrade",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "upgrade"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0057",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn upgrade (Team)",
+    "description": "Yarn upgrade command for yarn workflows in team mode.",
+    "command": "yarn upgrade",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "upgrade"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0058",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn upgrade (CI)",
+    "description": "Yarn upgrade command for yarn workflows in ci mode.",
+    "command": "yarn upgrade --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "upgrade",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0059",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn upgrade (Production)",
+    "description": "Yarn upgrade command for yarn workflows in production mode.",
+    "command": "yarn upgrade",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "upgrade"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0060",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn upgrade (Verbose)",
+    "description": "Yarn upgrade command for yarn workflows in verbose mode.",
+    "command": "yarn upgrade --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "upgrade",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0061",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn npm publish (Local)",
+    "description": "Yarn npm publish command for yarn workflows in local mode.",
+    "command": "yarn npm publish",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "npm",
+      "publish"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0062",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn npm publish (Team)",
+    "description": "Yarn npm publish command for yarn workflows in team mode.",
+    "command": "yarn npm publish",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "npm",
+      "publish"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0063",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn npm publish (CI)",
+    "description": "Yarn npm publish command for yarn workflows in ci mode.",
+    "command": "yarn npm publish --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "npm",
+      "publish",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0064",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn npm publish (Production)",
+    "description": "Yarn npm publish command for yarn workflows in production mode.",
+    "command": "yarn npm publish",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "npm",
+      "publish"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0065",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn npm publish (Verbose)",
+    "description": "Yarn npm publish command for yarn workflows in verbose mode.",
+    "command": "yarn npm publish --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "npm",
+      "publish",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0066",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn workspaces list (Local)",
+    "description": "Yarn workspaces list command for yarn workflows in local mode.",
+    "command": "yarn workspaces list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "workspaces",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0067",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn workspaces list (Team)",
+    "description": "Yarn workspaces list command for yarn workflows in team mode.",
+    "command": "yarn workspaces list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "workspaces",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0068",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn workspaces list (CI)",
+    "description": "Yarn workspaces list command for yarn workflows in ci mode.",
+    "command": "yarn workspaces list --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "workspaces",
+      "list",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0069",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn workspaces list (Production)",
+    "description": "Yarn workspaces list command for yarn workflows in production mode.",
+    "command": "yarn workspaces list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "workspaces",
+      "list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0070",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn workspaces list (Verbose)",
+    "description": "Yarn workspaces list command for yarn workflows in verbose mode.",
+    "command": "yarn workspaces list --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "workspaces",
+      "list",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0071",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn workspaces foreach -v run test (Local)",
+    "description": "Yarn workspaces foreach -v run test command for yarn workflows in local mode.",
+    "command": "yarn workspaces foreach -v run test",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by yarn"
+      }
+    ],
+    "tags": [
+      "yarn",
+      "workspaces",
+      "foreach",
+      "-v",
+      "run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0072",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn workspaces foreach -v run test (Team)",
+    "description": "Yarn workspaces foreach -v run test command for yarn workflows in team mode.",
+    "command": "yarn workspaces foreach -v run test",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by yarn"
+      }
+    ],
+    "tags": [
+      "yarn",
+      "workspaces",
+      "foreach",
+      "-v",
+      "run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0073",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn workspaces foreach -v run test (CI)",
+    "description": "Yarn workspaces foreach -v run test command for yarn workflows in ci mode.",
+    "command": "yarn workspaces foreach -v run test --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by yarn"
+      },
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "workspaces",
+      "foreach",
+      "-v",
+      "run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0074",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn workspaces foreach -v run test (Production)",
+    "description": "Yarn workspaces foreach -v run test command for yarn workflows in production mode.",
+    "command": "yarn workspaces foreach -v run test",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by yarn"
+      }
+    ],
+    "tags": [
+      "yarn",
+      "workspaces",
+      "foreach",
+      "-v",
+      "run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0075",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn workspaces foreach -v run test (Verbose)",
+    "description": "Yarn workspaces foreach -v run test command for yarn workflows in verbose mode.",
+    "command": "yarn workspaces foreach -v run test --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by yarn"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "workspaces",
+      "foreach",
+      "-v",
+      "run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0076",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn constraints (Local)",
+    "description": "Yarn constraints command for yarn workflows in local mode.",
+    "command": "yarn constraints",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "constraints"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0077",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn constraints (Team)",
+    "description": "Yarn constraints command for yarn workflows in team mode.",
+    "command": "yarn constraints",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "constraints"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0078",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn constraints (CI)",
+    "description": "Yarn constraints command for yarn workflows in ci mode.",
+    "command": "yarn constraints --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "constraints",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0079",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn constraints (Production)",
+    "description": "Yarn constraints command for yarn workflows in production mode.",
+    "command": "yarn constraints",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "constraints"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0080",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn constraints (Verbose)",
+    "description": "Yarn constraints command for yarn workflows in verbose mode.",
+    "command": "yarn constraints --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "constraints",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0081",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn dlx (Local)",
+    "description": "Yarn dlx command for yarn workflows in local mode.",
+    "command": "yarn dlx [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "dlx"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0082",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn dlx (Team)",
+    "description": "Yarn dlx command for yarn workflows in team mode.",
+    "command": "yarn dlx [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "dlx"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0083",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn dlx (CI)",
+    "description": "Yarn dlx command for yarn workflows in ci mode.",
+    "command": "yarn dlx [PACKAGE_NAME] --silent",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "dlx",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0084",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn dlx (Production)",
+    "description": "Yarn dlx command for yarn workflows in production mode.",
+    "command": "yarn dlx [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "dlx"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0085",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn dlx (Verbose)",
+    "description": "Yarn dlx command for yarn workflows in verbose mode.",
+    "command": "yarn dlx [PACKAGE_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "dlx",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0086",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn why (Local)",
+    "description": "Yarn why command for yarn workflows in local mode.",
+    "command": "yarn why [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "why"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0087",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn why (Team)",
+    "description": "Yarn why command for yarn workflows in team mode.",
+    "command": "yarn why [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "why"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0088",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn why (CI)",
+    "description": "Yarn why command for yarn workflows in ci mode.",
+    "command": "yarn why [PACKAGE_NAME] --silent",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "why",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0089",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn why (Production)",
+    "description": "Yarn why command for yarn workflows in production mode.",
+    "command": "yarn why [PACKAGE_NAME]",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "why"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0090",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn why (Verbose)",
+    "description": "Yarn why command for yarn workflows in verbose mode.",
+    "command": "yarn why [PACKAGE_NAME] --verbose",
+    "params": [
+      {
+        "placeholder": "[PACKAGE_NAME]",
+        "label": "Package Name",
+        "description": "Value for package name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "why",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0091",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn set version stable (Local)",
+    "description": "Yarn set version stable command for yarn workflows in local mode.",
+    "command": "yarn set version stable",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "set",
+      "version",
+      "stable"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0092",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn set version stable (Team)",
+    "description": "Yarn set version stable command for yarn workflows in team mode.",
+    "command": "yarn set version stable",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "set",
+      "version",
+      "stable"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0093",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn set version stable (CI)",
+    "description": "Yarn set version stable command for yarn workflows in ci mode.",
+    "command": "yarn set version stable --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "set",
+      "version",
+      "stable",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0094",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn set version stable (Production)",
+    "description": "Yarn set version stable command for yarn workflows in production mode.",
+    "command": "yarn set version stable",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "yarn",
+      "set",
+      "version",
+      "stable"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0095",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn set version stable (Verbose)",
+    "description": "Yarn set version stable command for yarn workflows in verbose mode.",
+    "command": "yarn set version stable --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "set",
+      "version",
+      "stable",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0096",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn install --immutable (Local)",
+    "description": "Yarn install --immutable command for yarn workflows in local mode.",
+    "command": "yarn install --immutable",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--immutable",
+        "description": "Flag used by yarn"
+      }
+    ],
+    "tags": [
+      "yarn",
+      "install",
+      "--immutable"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0097",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn install --immutable (Team)",
+    "description": "Yarn install --immutable command for yarn workflows in team mode.",
+    "command": "yarn install --immutable",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--immutable",
+        "description": "Flag used by yarn"
+      }
+    ],
+    "tags": [
+      "yarn",
+      "install",
+      "--immutable"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0098",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn install --immutable (CI)",
+    "description": "Yarn install --immutable command for yarn workflows in ci mode.",
+    "command": "yarn install --immutable --silent",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--immutable",
+        "description": "Flag used by yarn"
+      },
+      {
+        "flag": "--silent",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "install",
+      "--immutable",
+      "--silent"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0099",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn install --immutable (Production)",
+    "description": "Yarn install --immutable command for yarn workflows in production mode.",
+    "command": "yarn install --immutable",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--immutable",
+        "description": "Flag used by yarn"
+      }
+    ],
+    "tags": [
+      "yarn",
+      "install",
+      "--immutable"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "yarn-0100",
+    "tool": "yarn",
+    "category": "JavaScript",
+    "title": "Yarn install --immutable (Verbose)",
+    "description": "Yarn install --immutable command for yarn workflows in verbose mode.",
+    "command": "yarn install --immutable --verbose",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--immutable",
+        "description": "Flag used by yarn"
+      },
+      {
+        "flag": "--verbose",
+        "description": "Flag used by "
+      }
+    ],
+    "tags": [
+      "yarn",
+      "install",
+      "--immutable",
+      "--verbose"
+    ],
+    "difficulty": "beginner"
+  }
+]

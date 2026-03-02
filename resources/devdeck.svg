@@ -1,0 +1,14 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="8" width="112" height="112" rx="20" fill="#1F6FEB"/>
+  <path d="M32 42H96V52H32V42Z" fill="white"/>
+  <path d="M32 59H76V69H32V59Z" fill="white"/>
+  <path d="M32 76H64V86H32V76Z" fill="white"/>
+  <circle cx="90" cy="81" r="12" fill="white"/>
+</svg>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="8" width="112" height="112" rx="20" fill="#1F6FEB"/>
+  <path d="M32 42H96V52H32V42Z" fill="white"/>
+  <path d="M32 59H76V69H32V59Z" fill="white"/>
+  <path d="M32 76H64V86H32V76Z" fill="white"/>
+  <circle cx="90" cy="81" r="12" fill="white"/>
+</svg>

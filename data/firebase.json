@@ -1,0 +1,1917 @@
+[
+  {
+    "id": "firebase-0001",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase login (Local)",
+    "description": "Firebase login command for firebase workflows in local mode.",
+    "command": "firebase login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0002",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase login (Team)",
+    "description": "Firebase login command for firebase workflows in team mode.",
+    "command": "firebase login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0003",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase login (CI)",
+    "description": "Firebase login command for firebase workflows in ci mode.",
+    "command": "firebase login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0004",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase login (Production)",
+    "description": "Firebase login command for firebase workflows in production mode.",
+    "command": "firebase login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0005",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase login (Verbose)",
+    "description": "Firebase login command for firebase workflows in verbose mode.",
+    "command": "firebase login",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "login"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0006",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase init (Local)",
+    "description": "Firebase init command for firebase workflows in local mode.",
+    "command": "firebase init",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "init"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0007",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase init (Team)",
+    "description": "Firebase init command for firebase workflows in team mode.",
+    "command": "firebase init",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "init"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0008",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase init (CI)",
+    "description": "Firebase init command for firebase workflows in ci mode.",
+    "command": "firebase init",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "init"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0009",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase init (Production)",
+    "description": "Firebase init command for firebase workflows in production mode.",
+    "command": "firebase init",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "init"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0010",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase init (Verbose)",
+    "description": "Firebase init command for firebase workflows in verbose mode.",
+    "command": "firebase init",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "init"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0011",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy (Local)",
+    "description": "Firebase deploy command for firebase workflows in local mode.",
+    "command": "firebase deploy",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "deploy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0012",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy (Team)",
+    "description": "Firebase deploy command for firebase workflows in team mode.",
+    "command": "firebase deploy",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "deploy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0013",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy (CI)",
+    "description": "Firebase deploy command for firebase workflows in ci mode.",
+    "command": "firebase deploy",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "deploy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0014",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy (Production)",
+    "description": "Firebase deploy command for firebase workflows in production mode.",
+    "command": "firebase deploy",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "deploy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0015",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy (Verbose)",
+    "description": "Firebase deploy command for firebase workflows in verbose mode.",
+    "command": "firebase deploy",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "deploy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0016",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy --only hosting (Local)",
+    "description": "Firebase deploy --only hosting command for firebase workflows in local mode.",
+    "command": "firebase deploy --only hosting",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--only",
+        "description": "Flag used by firebase"
+      }
+    ],
+    "tags": [
+      "firebase",
+      "deploy",
+      "--only",
+      "hosting"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0017",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy --only hosting (Team)",
+    "description": "Firebase deploy --only hosting command for firebase workflows in team mode.",
+    "command": "firebase deploy --only hosting",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--only",
+        "description": "Flag used by firebase"
+      }
+    ],
+    "tags": [
+      "firebase",
+      "deploy",
+      "--only",
+      "hosting"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0018",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy --only hosting (CI)",
+    "description": "Firebase deploy --only hosting command for firebase workflows in ci mode.",
+    "command": "firebase deploy --only hosting",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--only",
+        "description": "Flag used by firebase"
+      }
+    ],
+    "tags": [
+      "firebase",
+      "deploy",
+      "--only",
+      "hosting"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0019",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy --only hosting (Production)",
+    "description": "Firebase deploy --only hosting command for firebase workflows in production mode.",
+    "command": "firebase deploy --only hosting",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--only",
+        "description": "Flag used by firebase"
+      }
+    ],
+    "tags": [
+      "firebase",
+      "deploy",
+      "--only",
+      "hosting"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0020",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy --only hosting (Verbose)",
+    "description": "Firebase deploy --only hosting command for firebase workflows in verbose mode.",
+    "command": "firebase deploy --only hosting",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--only",
+        "description": "Flag used by firebase"
+      }
+    ],
+    "tags": [
+      "firebase",
+      "deploy",
+      "--only",
+      "hosting"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0021",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy --only functions (Local)",
+    "description": "Firebase deploy --only functions command for firebase workflows in local mode.",
+    "command": "firebase deploy --only functions",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--only",
+        "description": "Flag used by firebase"
+      }
+    ],
+    "tags": [
+      "firebase",
+      "deploy",
+      "--only",
+      "functions"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0022",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy --only functions (Team)",
+    "description": "Firebase deploy --only functions command for firebase workflows in team mode.",
+    "command": "firebase deploy --only functions",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--only",
+        "description": "Flag used by firebase"
+      }
+    ],
+    "tags": [
+      "firebase",
+      "deploy",
+      "--only",
+      "functions"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0023",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy --only functions (CI)",
+    "description": "Firebase deploy --only functions command for firebase workflows in ci mode.",
+    "command": "firebase deploy --only functions",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--only",
+        "description": "Flag used by firebase"
+      }
+    ],
+    "tags": [
+      "firebase",
+      "deploy",
+      "--only",
+      "functions"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0024",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy --only functions (Production)",
+    "description": "Firebase deploy --only functions command for firebase workflows in production mode.",
+    "command": "firebase deploy --only functions",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--only",
+        "description": "Flag used by firebase"
+      }
+    ],
+    "tags": [
+      "firebase",
+      "deploy",
+      "--only",
+      "functions"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0025",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy --only functions (Verbose)",
+    "description": "Firebase deploy --only functions command for firebase workflows in verbose mode.",
+    "command": "firebase deploy --only functions",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--only",
+        "description": "Flag used by firebase"
+      }
+    ],
+    "tags": [
+      "firebase",
+      "deploy",
+      "--only",
+      "functions"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0026",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase emulators:start (Local)",
+    "description": "Firebase emulators:start command for firebase workflows in local mode.",
+    "command": "firebase emulators:start",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "emulators:start"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0027",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase emulators:start (Team)",
+    "description": "Firebase emulators:start command for firebase workflows in team mode.",
+    "command": "firebase emulators:start",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "emulators:start"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0028",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase emulators:start (CI)",
+    "description": "Firebase emulators:start command for firebase workflows in ci mode.",
+    "command": "firebase emulators:start",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "emulators:start"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0029",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase emulators:start (Production)",
+    "description": "Firebase emulators:start command for firebase workflows in production mode.",
+    "command": "firebase emulators:start",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "emulators:start"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0030",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase emulators:start (Verbose)",
+    "description": "Firebase emulators:start command for firebase workflows in verbose mode.",
+    "command": "firebase emulators:start",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "emulators:start"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0031",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase emulators:exec  (Local)",
+    "description": "Firebase emulators:exec  command for firebase workflows in local mode.",
+    "command": "firebase emulators:exec \"[COMMAND]\"",
+    "params": [
+      {
+        "placeholder": "[COMMAND]",
+        "label": "Command",
+        "description": "Value for command",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "emulators:exec"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0032",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase emulators:exec  (Team)",
+    "description": "Firebase emulators:exec  command for firebase workflows in team mode.",
+    "command": "firebase emulators:exec \"[COMMAND]\"",
+    "params": [
+      {
+        "placeholder": "[COMMAND]",
+        "label": "Command",
+        "description": "Value for command",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "emulators:exec"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0033",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase emulators:exec  (CI)",
+    "description": "Firebase emulators:exec  command for firebase workflows in ci mode.",
+    "command": "firebase emulators:exec \"[COMMAND]\"",
+    "params": [
+      {
+        "placeholder": "[COMMAND]",
+        "label": "Command",
+        "description": "Value for command",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "emulators:exec"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0034",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase emulators:exec  (Production)",
+    "description": "Firebase emulators:exec  command for firebase workflows in production mode.",
+    "command": "firebase emulators:exec \"[COMMAND]\"",
+    "params": [
+      {
+        "placeholder": "[COMMAND]",
+        "label": "Command",
+        "description": "Value for command",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "emulators:exec"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0035",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase emulators:exec  (Verbose)",
+    "description": "Firebase emulators:exec  command for firebase workflows in verbose mode.",
+    "command": "firebase emulators:exec \"[COMMAND]\"",
+    "params": [
+      {
+        "placeholder": "[COMMAND]",
+        "label": "Command",
+        "description": "Value for command",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "emulators:exec"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0036",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase functions:log (Local)",
+    "description": "Firebase functions:log command for firebase workflows in local mode.",
+    "command": "firebase functions:log",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "functions:log"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0037",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase functions:log (Team)",
+    "description": "Firebase functions:log command for firebase workflows in team mode.",
+    "command": "firebase functions:log",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "functions:log"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0038",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase functions:log (CI)",
+    "description": "Firebase functions:log command for firebase workflows in ci mode.",
+    "command": "firebase functions:log",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "functions:log"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0039",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase functions:log (Production)",
+    "description": "Firebase functions:log command for firebase workflows in production mode.",
+    "command": "firebase functions:log",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "functions:log"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0040",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase functions:log (Verbose)",
+    "description": "Firebase functions:log command for firebase workflows in verbose mode.",
+    "command": "firebase functions:log",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "functions:log"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0041",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase hosting:channel:deploy (Local)",
+    "description": "Firebase hosting:channel:deploy command for firebase workflows in local mode.",
+    "command": "firebase hosting:channel:deploy [CHANNEL_NAME]",
+    "params": [
+      {
+        "placeholder": "[CHANNEL_NAME]",
+        "label": "Channel Name",
+        "description": "Value for channel name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "hosting:channel:deploy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0042",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase hosting:channel:deploy (Team)",
+    "description": "Firebase hosting:channel:deploy command for firebase workflows in team mode.",
+    "command": "firebase hosting:channel:deploy [CHANNEL_NAME]",
+    "params": [
+      {
+        "placeholder": "[CHANNEL_NAME]",
+        "label": "Channel Name",
+        "description": "Value for channel name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "hosting:channel:deploy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0043",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase hosting:channel:deploy (CI)",
+    "description": "Firebase hosting:channel:deploy command for firebase workflows in ci mode.",
+    "command": "firebase hosting:channel:deploy [CHANNEL_NAME]",
+    "params": [
+      {
+        "placeholder": "[CHANNEL_NAME]",
+        "label": "Channel Name",
+        "description": "Value for channel name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "hosting:channel:deploy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0044",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase hosting:channel:deploy (Production)",
+    "description": "Firebase hosting:channel:deploy command for firebase workflows in production mode.",
+    "command": "firebase hosting:channel:deploy [CHANNEL_NAME]",
+    "params": [
+      {
+        "placeholder": "[CHANNEL_NAME]",
+        "label": "Channel Name",
+        "description": "Value for channel name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "hosting:channel:deploy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0045",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase hosting:channel:deploy (Verbose)",
+    "description": "Firebase hosting:channel:deploy command for firebase workflows in verbose mode.",
+    "command": "firebase hosting:channel:deploy [CHANNEL_NAME]",
+    "params": [
+      {
+        "placeholder": "[CHANNEL_NAME]",
+        "label": "Channel Name",
+        "description": "Value for channel name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "hosting:channel:deploy"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0046",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase target:apply hosting (Local)",
+    "description": "Firebase target:apply hosting command for firebase workflows in local mode.",
+    "command": "firebase target:apply hosting [TARGET_NAME] [SITE_ID]",
+    "params": [
+      {
+        "placeholder": "[TARGET_NAME]",
+        "label": "Target Name",
+        "description": "Value for target name",
+        "required": true
+      },
+      {
+        "placeholder": "[SITE_ID]",
+        "label": "Site Id",
+        "description": "Value for site id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "target:apply",
+      "hosting"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0047",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase target:apply hosting (Team)",
+    "description": "Firebase target:apply hosting command for firebase workflows in team mode.",
+    "command": "firebase target:apply hosting [TARGET_NAME] [SITE_ID]",
+    "params": [
+      {
+        "placeholder": "[TARGET_NAME]",
+        "label": "Target Name",
+        "description": "Value for target name",
+        "required": true
+      },
+      {
+        "placeholder": "[SITE_ID]",
+        "label": "Site Id",
+        "description": "Value for site id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "target:apply",
+      "hosting"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0048",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase target:apply hosting (CI)",
+    "description": "Firebase target:apply hosting command for firebase workflows in ci mode.",
+    "command": "firebase target:apply hosting [TARGET_NAME] [SITE_ID]",
+    "params": [
+      {
+        "placeholder": "[TARGET_NAME]",
+        "label": "Target Name",
+        "description": "Value for target name",
+        "required": true
+      },
+      {
+        "placeholder": "[SITE_ID]",
+        "label": "Site Id",
+        "description": "Value for site id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "target:apply",
+      "hosting"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0049",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase target:apply hosting (Production)",
+    "description": "Firebase target:apply hosting command for firebase workflows in production mode.",
+    "command": "firebase target:apply hosting [TARGET_NAME] [SITE_ID]",
+    "params": [
+      {
+        "placeholder": "[TARGET_NAME]",
+        "label": "Target Name",
+        "description": "Value for target name",
+        "required": true
+      },
+      {
+        "placeholder": "[SITE_ID]",
+        "label": "Site Id",
+        "description": "Value for site id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "target:apply",
+      "hosting"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0050",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase target:apply hosting (Verbose)",
+    "description": "Firebase target:apply hosting command for firebase workflows in verbose mode.",
+    "command": "firebase target:apply hosting [TARGET_NAME] [SITE_ID]",
+    "params": [
+      {
+        "placeholder": "[TARGET_NAME]",
+        "label": "Target Name",
+        "description": "Value for target name",
+        "required": true
+      },
+      {
+        "placeholder": "[SITE_ID]",
+        "label": "Site Id",
+        "description": "Value for site id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "target:apply",
+      "hosting"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0051",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase use (Local)",
+    "description": "Firebase use command for firebase workflows in local mode.",
+    "command": "firebase use [PROJECT_ID]",
+    "params": [
+      {
+        "placeholder": "[PROJECT_ID]",
+        "label": "Project Id",
+        "description": "Value for project id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "use"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0052",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase use (Team)",
+    "description": "Firebase use command for firebase workflows in team mode.",
+    "command": "firebase use [PROJECT_ID]",
+    "params": [
+      {
+        "placeholder": "[PROJECT_ID]",
+        "label": "Project Id",
+        "description": "Value for project id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "use"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0053",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase use (CI)",
+    "description": "Firebase use command for firebase workflows in ci mode.",
+    "command": "firebase use [PROJECT_ID]",
+    "params": [
+      {
+        "placeholder": "[PROJECT_ID]",
+        "label": "Project Id",
+        "description": "Value for project id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "use"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0054",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase use (Production)",
+    "description": "Firebase use command for firebase workflows in production mode.",
+    "command": "firebase use [PROJECT_ID]",
+    "params": [
+      {
+        "placeholder": "[PROJECT_ID]",
+        "label": "Project Id",
+        "description": "Value for project id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "use"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0055",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase use (Verbose)",
+    "description": "Firebase use command for firebase workflows in verbose mode.",
+    "command": "firebase use [PROJECT_ID]",
+    "params": [
+      {
+        "placeholder": "[PROJECT_ID]",
+        "label": "Project Id",
+        "description": "Value for project id",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "use"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0056",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase projects:list (Local)",
+    "description": "Firebase projects:list command for firebase workflows in local mode.",
+    "command": "firebase projects:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "projects:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0057",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase projects:list (Team)",
+    "description": "Firebase projects:list command for firebase workflows in team mode.",
+    "command": "firebase projects:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "projects:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0058",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase projects:list (CI)",
+    "description": "Firebase projects:list command for firebase workflows in ci mode.",
+    "command": "firebase projects:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "projects:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0059",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase projects:list (Production)",
+    "description": "Firebase projects:list command for firebase workflows in production mode.",
+    "command": "firebase projects:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "projects:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0060",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase projects:list (Verbose)",
+    "description": "Firebase projects:list command for firebase workflows in verbose mode.",
+    "command": "firebase projects:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "projects:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0061",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase firestore:indexes (Local)",
+    "description": "Firebase firestore:indexes command for firebase workflows in local mode.",
+    "command": "firebase firestore:indexes",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "firestore:indexes"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0062",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase firestore:indexes (Team)",
+    "description": "Firebase firestore:indexes command for firebase workflows in team mode.",
+    "command": "firebase firestore:indexes",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "firestore:indexes"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0063",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase firestore:indexes (CI)",
+    "description": "Firebase firestore:indexes command for firebase workflows in ci mode.",
+    "command": "firebase firestore:indexes",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "firestore:indexes"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0064",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase firestore:indexes (Production)",
+    "description": "Firebase firestore:indexes command for firebase workflows in production mode.",
+    "command": "firebase firestore:indexes",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "firestore:indexes"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0065",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase firestore:indexes (Verbose)",
+    "description": "Firebase firestore:indexes command for firebase workflows in verbose mode.",
+    "command": "firebase firestore:indexes",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "firestore:indexes"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0066",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase firestore:delete (Local)",
+    "description": "Firebase firestore:delete command for firebase workflows in local mode.",
+    "command": "firebase firestore:delete [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "firestore:delete"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0067",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase firestore:delete (Team)",
+    "description": "Firebase firestore:delete command for firebase workflows in team mode.",
+    "command": "firebase firestore:delete [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "firestore:delete"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0068",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase firestore:delete (CI)",
+    "description": "Firebase firestore:delete command for firebase workflows in ci mode.",
+    "command": "firebase firestore:delete [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "firestore:delete"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0069",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase firestore:delete (Production)",
+    "description": "Firebase firestore:delete command for firebase workflows in production mode.",
+    "command": "firebase firestore:delete [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "firestore:delete"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0070",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase firestore:delete (Verbose)",
+    "description": "Firebase firestore:delete command for firebase workflows in verbose mode.",
+    "command": "firebase firestore:delete [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "firestore:delete"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0071",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase database:get (Local)",
+    "description": "Firebase database:get command for firebase workflows in local mode.",
+    "command": "firebase database:get [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "database:get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0072",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase database:get (Team)",
+    "description": "Firebase database:get command for firebase workflows in team mode.",
+    "command": "firebase database:get [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "database:get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0073",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase database:get (CI)",
+    "description": "Firebase database:get command for firebase workflows in ci mode.",
+    "command": "firebase database:get [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "database:get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0074",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase database:get (Production)",
+    "description": "Firebase database:get command for firebase workflows in production mode.",
+    "command": "firebase database:get [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "database:get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0075",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase database:get (Verbose)",
+    "description": "Firebase database:get command for firebase workflows in verbose mode.",
+    "command": "firebase database:get [PATH]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "database:get"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0076",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase database:set (Local)",
+    "description": "Firebase database:set command for firebase workflows in local mode.",
+    "command": "firebase database:set [PATH] [DATA]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      },
+      {
+        "placeholder": "[DATA]",
+        "label": "Data",
+        "description": "Value for data",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "database:set"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0077",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase database:set (Team)",
+    "description": "Firebase database:set command for firebase workflows in team mode.",
+    "command": "firebase database:set [PATH] [DATA]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      },
+      {
+        "placeholder": "[DATA]",
+        "label": "Data",
+        "description": "Value for data",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "database:set"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0078",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase database:set (CI)",
+    "description": "Firebase database:set command for firebase workflows in ci mode.",
+    "command": "firebase database:set [PATH] [DATA]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      },
+      {
+        "placeholder": "[DATA]",
+        "label": "Data",
+        "description": "Value for data",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "database:set"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0079",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase database:set (Production)",
+    "description": "Firebase database:set command for firebase workflows in production mode.",
+    "command": "firebase database:set [PATH] [DATA]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      },
+      {
+        "placeholder": "[DATA]",
+        "label": "Data",
+        "description": "Value for data",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "database:set"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0080",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase database:set (Verbose)",
+    "description": "Firebase database:set command for firebase workflows in verbose mode.",
+    "command": "firebase database:set [PATH] [DATA]",
+    "params": [
+      {
+        "placeholder": "[PATH]",
+        "label": "Path",
+        "description": "Value for path",
+        "required": true
+      },
+      {
+        "placeholder": "[DATA]",
+        "label": "Data",
+        "description": "Value for data",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "database:set"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0081",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase apps:list (Local)",
+    "description": "Firebase apps:list command for firebase workflows in local mode.",
+    "command": "firebase apps:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "apps:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0082",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase apps:list (Team)",
+    "description": "Firebase apps:list command for firebase workflows in team mode.",
+    "command": "firebase apps:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "apps:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0083",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase apps:list (CI)",
+    "description": "Firebase apps:list command for firebase workflows in ci mode.",
+    "command": "firebase apps:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "apps:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0084",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase apps:list (Production)",
+    "description": "Firebase apps:list command for firebase workflows in production mode.",
+    "command": "firebase apps:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "apps:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0085",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase apps:list (Verbose)",
+    "description": "Firebase apps:list command for firebase workflows in verbose mode.",
+    "command": "firebase apps:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "apps:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0086",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase functions:shell (Local)",
+    "description": "Firebase functions:shell command for firebase workflows in local mode.",
+    "command": "firebase functions:shell",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "functions:shell"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0087",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase functions:shell (Team)",
+    "description": "Firebase functions:shell command for firebase workflows in team mode.",
+    "command": "firebase functions:shell",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "functions:shell"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0088",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase functions:shell (CI)",
+    "description": "Firebase functions:shell command for firebase workflows in ci mode.",
+    "command": "firebase functions:shell",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "functions:shell"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0089",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase functions:shell (Production)",
+    "description": "Firebase functions:shell command for firebase workflows in production mode.",
+    "command": "firebase functions:shell",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "functions:shell"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0090",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase functions:shell (Verbose)",
+    "description": "Firebase functions:shell command for firebase workflows in verbose mode.",
+    "command": "firebase functions:shell",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "functions:shell"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0091",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase ext:list (Local)",
+    "description": "Firebase ext:list command for firebase workflows in local mode.",
+    "command": "firebase ext:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "ext:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0092",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase ext:list (Team)",
+    "description": "Firebase ext:list command for firebase workflows in team mode.",
+    "command": "firebase ext:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "ext:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0093",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase ext:list (CI)",
+    "description": "Firebase ext:list command for firebase workflows in ci mode.",
+    "command": "firebase ext:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "ext:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0094",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase ext:list (Production)",
+    "description": "Firebase ext:list command for firebase workflows in production mode.",
+    "command": "firebase ext:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "ext:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0095",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase ext:list (Verbose)",
+    "description": "Firebase ext:list command for firebase workflows in verbose mode.",
+    "command": "firebase ext:list",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "firebase",
+      "ext:list"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0096",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy --except functions (Local)",
+    "description": "Firebase deploy --except functions command for firebase workflows in local mode.",
+    "command": "firebase deploy --except functions",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--except",
+        "description": "Flag used by firebase"
+      }
+    ],
+    "tags": [
+      "firebase",
+      "deploy",
+      "--except",
+      "functions"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0097",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy --except functions (Team)",
+    "description": "Firebase deploy --except functions command for firebase workflows in team mode.",
+    "command": "firebase deploy --except functions",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--except",
+        "description": "Flag used by firebase"
+      }
+    ],
+    "tags": [
+      "firebase",
+      "deploy",
+      "--except",
+      "functions"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0098",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy --except functions (CI)",
+    "description": "Firebase deploy --except functions command for firebase workflows in ci mode.",
+    "command": "firebase deploy --except functions",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--except",
+        "description": "Flag used by firebase"
+      }
+    ],
+    "tags": [
+      "firebase",
+      "deploy",
+      "--except",
+      "functions"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0099",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy --except functions (Production)",
+    "description": "Firebase deploy --except functions command for firebase workflows in production mode.",
+    "command": "firebase deploy --except functions",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--except",
+        "description": "Flag used by firebase"
+      }
+    ],
+    "tags": [
+      "firebase",
+      "deploy",
+      "--except",
+      "functions"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "firebase-0100",
+    "tool": "firebase",
+    "category": "Backend",
+    "title": "Firebase deploy --except functions (Verbose)",
+    "description": "Firebase deploy --except functions command for firebase workflows in verbose mode.",
+    "command": "firebase deploy --except functions",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--except",
+        "description": "Flag used by firebase"
+      }
+    ],
+    "tags": [
+      "firebase",
+      "deploy",
+      "--except",
+      "functions"
+    ],
+    "difficulty": "beginner"
+  }
+]

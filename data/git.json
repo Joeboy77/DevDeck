@@ -1,0 +1,2107 @@
+[
+  {
+    "id": "git-0001",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git init (Local)",
+    "description": "Git init command for git workflows in local mode.",
+    "command": "git init",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "init"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0002",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git init (Team)",
+    "description": "Git init command for git workflows in team mode.",
+    "command": "git init",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "init"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0003",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git init (CI)",
+    "description": "Git init command for git workflows in ci mode.",
+    "command": "git init",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "init"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0004",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git init (Production)",
+    "description": "Git init command for git workflows in production mode.",
+    "command": "git init",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "init"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0005",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git init (Verbose)",
+    "description": "Git init command for git workflows in verbose mode.",
+    "command": "git init",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "init"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0006",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git clone (Local)",
+    "description": "Git clone command for git workflows in local mode.",
+    "command": "git clone [REPO_URL]",
+    "params": [
+      {
+        "placeholder": "[REPO_URL]",
+        "label": "Repo Url",
+        "description": "Value for repo url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "clone"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0007",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git clone (Team)",
+    "description": "Git clone command for git workflows in team mode.",
+    "command": "git clone [REPO_URL]",
+    "params": [
+      {
+        "placeholder": "[REPO_URL]",
+        "label": "Repo Url",
+        "description": "Value for repo url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "clone"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0008",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git clone (CI)",
+    "description": "Git clone command for git workflows in ci mode.",
+    "command": "git clone [REPO_URL]",
+    "params": [
+      {
+        "placeholder": "[REPO_URL]",
+        "label": "Repo Url",
+        "description": "Value for repo url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "clone"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0009",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git clone (Production)",
+    "description": "Git clone command for git workflows in production mode.",
+    "command": "git clone [REPO_URL]",
+    "params": [
+      {
+        "placeholder": "[REPO_URL]",
+        "label": "Repo Url",
+        "description": "Value for repo url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "clone"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0010",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git clone (Verbose)",
+    "description": "Git clone command for git workflows in verbose mode.",
+    "command": "git clone [REPO_URL]",
+    "params": [
+      {
+        "placeholder": "[REPO_URL]",
+        "label": "Repo Url",
+        "description": "Value for repo url",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "clone"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0011",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git checkout -b (Local)",
+    "description": "Git checkout -b command for git workflows in local mode.",
+    "command": "git checkout -b [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-b",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "checkout",
+      "-b"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0012",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git checkout -b (Team)",
+    "description": "Git checkout -b command for git workflows in team mode.",
+    "command": "git checkout -b [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-b",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "checkout",
+      "-b"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0013",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git checkout -b (CI)",
+    "description": "Git checkout -b command for git workflows in ci mode.",
+    "command": "git checkout -b [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-b",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "checkout",
+      "-b"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0014",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git checkout -b (Production)",
+    "description": "Git checkout -b command for git workflows in production mode.",
+    "command": "git checkout -b [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-b",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "checkout",
+      "-b"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0015",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git checkout -b (Verbose)",
+    "description": "Git checkout -b command for git workflows in verbose mode.",
+    "command": "git checkout -b [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-b",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "checkout",
+      "-b"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0016",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git checkout (Local)",
+    "description": "Git checkout command for git workflows in local mode.",
+    "command": "git checkout [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "checkout"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0017",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git checkout (Team)",
+    "description": "Git checkout command for git workflows in team mode.",
+    "command": "git checkout [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "checkout"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0018",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git checkout (CI)",
+    "description": "Git checkout command for git workflows in ci mode.",
+    "command": "git checkout [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "checkout"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0019",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git checkout (Production)",
+    "description": "Git checkout command for git workflows in production mode.",
+    "command": "git checkout [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "checkout"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0020",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git checkout (Verbose)",
+    "description": "Git checkout command for git workflows in verbose mode.",
+    "command": "git checkout [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "checkout"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0021",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git branch -a (Local)",
+    "description": "Git branch -a command for git workflows in local mode.",
+    "command": "git branch -a",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-a",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0022",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git branch -a (Team)",
+    "description": "Git branch -a command for git workflows in team mode.",
+    "command": "git branch -a",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-a",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0023",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git branch -a (CI)",
+    "description": "Git branch -a command for git workflows in ci mode.",
+    "command": "git branch -a",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-a",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0024",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git branch -a (Production)",
+    "description": "Git branch -a command for git workflows in production mode.",
+    "command": "git branch -a",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-a",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0025",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git branch -a (Verbose)",
+    "description": "Git branch -a command for git workflows in verbose mode.",
+    "command": "git branch -a",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-a",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "branch",
+      "-a"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0026",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git add . (Local)",
+    "description": "Git add . command for git workflows in local mode.",
+    "command": "git add .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0027",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git add . (Team)",
+    "description": "Git add . command for git workflows in team mode.",
+    "command": "git add .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0028",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git add . (CI)",
+    "description": "Git add . command for git workflows in ci mode.",
+    "command": "git add .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0029",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git add . (Production)",
+    "description": "Git add . command for git workflows in production mode.",
+    "command": "git add .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0030",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git add . (Verbose)",
+    "description": "Git add . command for git workflows in verbose mode.",
+    "command": "git add .",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "add"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0031",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git commit -m  (Local)",
+    "description": "Git commit -m  command for git workflows in local mode.",
+    "command": "git commit -m \"[MESSAGE]\"",
+    "params": [
+      {
+        "placeholder": "[MESSAGE]",
+        "label": "Message",
+        "description": "Value for message",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-m",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "commit",
+      "-m"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0032",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git commit -m  (Team)",
+    "description": "Git commit -m  command for git workflows in team mode.",
+    "command": "git commit -m \"[MESSAGE]\"",
+    "params": [
+      {
+        "placeholder": "[MESSAGE]",
+        "label": "Message",
+        "description": "Value for message",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-m",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "commit",
+      "-m"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0033",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git commit -m  (CI)",
+    "description": "Git commit -m  command for git workflows in ci mode.",
+    "command": "git commit -m \"[MESSAGE]\"",
+    "params": [
+      {
+        "placeholder": "[MESSAGE]",
+        "label": "Message",
+        "description": "Value for message",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-m",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "commit",
+      "-m"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0034",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git commit -m  (Production)",
+    "description": "Git commit -m  command for git workflows in production mode.",
+    "command": "git commit -m \"[MESSAGE]\"",
+    "params": [
+      {
+        "placeholder": "[MESSAGE]",
+        "label": "Message",
+        "description": "Value for message",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-m",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "commit",
+      "-m"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0035",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git commit -m  (Verbose)",
+    "description": "Git commit -m  command for git workflows in verbose mode.",
+    "command": "git commit -m \"[MESSAGE]\"",
+    "params": [
+      {
+        "placeholder": "[MESSAGE]",
+        "label": "Message",
+        "description": "Value for message",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-m",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "commit",
+      "-m"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0036",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git pull origin (Local)",
+    "description": "Git pull origin command for git workflows in local mode.",
+    "command": "git pull origin [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "pull",
+      "origin"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0037",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git pull origin (Team)",
+    "description": "Git pull origin command for git workflows in team mode.",
+    "command": "git pull origin [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "pull",
+      "origin"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0038",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git pull origin (CI)",
+    "description": "Git pull origin command for git workflows in ci mode.",
+    "command": "git pull origin [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "pull",
+      "origin"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0039",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git pull origin (Production)",
+    "description": "Git pull origin command for git workflows in production mode.",
+    "command": "git pull origin [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "pull",
+      "origin"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0040",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git pull origin (Verbose)",
+    "description": "Git pull origin command for git workflows in verbose mode.",
+    "command": "git pull origin [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "pull",
+      "origin"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0041",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git push origin (Local)",
+    "description": "Git push origin command for git workflows in local mode.",
+    "command": "git push origin [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "push",
+      "origin"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0042",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git push origin (Team)",
+    "description": "Git push origin command for git workflows in team mode.",
+    "command": "git push origin [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "push",
+      "origin"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0043",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git push origin (CI)",
+    "description": "Git push origin command for git workflows in ci mode.",
+    "command": "git push origin [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "push",
+      "origin"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0044",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git push origin (Production)",
+    "description": "Git push origin command for git workflows in production mode.",
+    "command": "git push origin [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "push",
+      "origin"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0045",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git push origin (Verbose)",
+    "description": "Git push origin command for git workflows in verbose mode.",
+    "command": "git push origin [BRANCH_NAME]",
+    "params": [
+      {
+        "placeholder": "[BRANCH_NAME]",
+        "label": "Branch Name",
+        "description": "Value for branch name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "push",
+      "origin"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0046",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git reset --soft HEAD~1 (Local)",
+    "description": "Git reset --soft HEAD~1 command for git workflows in local mode.",
+    "command": "git reset --soft HEAD~1",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--soft",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "reset",
+      "--soft",
+      "head1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0047",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git reset --soft HEAD~1 (Team)",
+    "description": "Git reset --soft HEAD~1 command for git workflows in team mode.",
+    "command": "git reset --soft HEAD~1",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--soft",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "reset",
+      "--soft",
+      "head1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0048",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git reset --soft HEAD~1 (CI)",
+    "description": "Git reset --soft HEAD~1 command for git workflows in ci mode.",
+    "command": "git reset --soft HEAD~1",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--soft",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "reset",
+      "--soft",
+      "head1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0049",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git reset --soft HEAD~1 (Production)",
+    "description": "Git reset --soft HEAD~1 command for git workflows in production mode.",
+    "command": "git reset --soft HEAD~1",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--soft",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "reset",
+      "--soft",
+      "head1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0050",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git reset --soft HEAD~1 (Verbose)",
+    "description": "Git reset --soft HEAD~1 command for git workflows in verbose mode.",
+    "command": "git reset --soft HEAD~1",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--soft",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "reset",
+      "--soft",
+      "head1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0051",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git reset --hard HEAD~1 (Local)",
+    "description": "Git reset --hard HEAD~1 command for git workflows in local mode.",
+    "command": "git reset --hard HEAD~1",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--hard",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "reset",
+      "--hard",
+      "head1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0052",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git reset --hard HEAD~1 (Team)",
+    "description": "Git reset --hard HEAD~1 command for git workflows in team mode.",
+    "command": "git reset --hard HEAD~1",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--hard",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "reset",
+      "--hard",
+      "head1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0053",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git reset --hard HEAD~1 (CI)",
+    "description": "Git reset --hard HEAD~1 command for git workflows in ci mode.",
+    "command": "git reset --hard HEAD~1",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--hard",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "reset",
+      "--hard",
+      "head1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0054",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git reset --hard HEAD~1 (Production)",
+    "description": "Git reset --hard HEAD~1 command for git workflows in production mode.",
+    "command": "git reset --hard HEAD~1",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--hard",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "reset",
+      "--hard",
+      "head1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0055",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git reset --hard HEAD~1 (Verbose)",
+    "description": "Git reset --hard HEAD~1 command for git workflows in verbose mode.",
+    "command": "git reset --hard HEAD~1",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--hard",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "reset",
+      "--hard",
+      "head1"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0056",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git rebase (Local)",
+    "description": "Git rebase command for git workflows in local mode.",
+    "command": "git rebase [BASE_BRANCH]",
+    "params": [
+      {
+        "placeholder": "[BASE_BRANCH]",
+        "label": "Base Branch",
+        "description": "Value for base branch",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "rebase"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0057",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git rebase (Team)",
+    "description": "Git rebase command for git workflows in team mode.",
+    "command": "git rebase [BASE_BRANCH]",
+    "params": [
+      {
+        "placeholder": "[BASE_BRANCH]",
+        "label": "Base Branch",
+        "description": "Value for base branch",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "rebase"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0058",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git rebase (CI)",
+    "description": "Git rebase command for git workflows in ci mode.",
+    "command": "git rebase [BASE_BRANCH]",
+    "params": [
+      {
+        "placeholder": "[BASE_BRANCH]",
+        "label": "Base Branch",
+        "description": "Value for base branch",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "rebase"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0059",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git rebase (Production)",
+    "description": "Git rebase command for git workflows in production mode.",
+    "command": "git rebase [BASE_BRANCH]",
+    "params": [
+      {
+        "placeholder": "[BASE_BRANCH]",
+        "label": "Base Branch",
+        "description": "Value for base branch",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "rebase"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0060",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git rebase (Verbose)",
+    "description": "Git rebase command for git workflows in verbose mode.",
+    "command": "git rebase [BASE_BRANCH]",
+    "params": [
+      {
+        "placeholder": "[BASE_BRANCH]",
+        "label": "Base Branch",
+        "description": "Value for base branch",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "rebase"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0061",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git cherry-pick (Local)",
+    "description": "Git cherry-pick command for git workflows in local mode.",
+    "command": "git cherry-pick [COMMIT_SHA]",
+    "params": [
+      {
+        "placeholder": "[COMMIT_SHA]",
+        "label": "Commit Sha",
+        "description": "Value for commit sha",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "cherry-pick"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0062",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git cherry-pick (Team)",
+    "description": "Git cherry-pick command for git workflows in team mode.",
+    "command": "git cherry-pick [COMMIT_SHA]",
+    "params": [
+      {
+        "placeholder": "[COMMIT_SHA]",
+        "label": "Commit Sha",
+        "description": "Value for commit sha",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "cherry-pick"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0063",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git cherry-pick (CI)",
+    "description": "Git cherry-pick command for git workflows in ci mode.",
+    "command": "git cherry-pick [COMMIT_SHA]",
+    "params": [
+      {
+        "placeholder": "[COMMIT_SHA]",
+        "label": "Commit Sha",
+        "description": "Value for commit sha",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "cherry-pick"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0064",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git cherry-pick (Production)",
+    "description": "Git cherry-pick command for git workflows in production mode.",
+    "command": "git cherry-pick [COMMIT_SHA]",
+    "params": [
+      {
+        "placeholder": "[COMMIT_SHA]",
+        "label": "Commit Sha",
+        "description": "Value for commit sha",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "cherry-pick"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0065",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git cherry-pick (Verbose)",
+    "description": "Git cherry-pick command for git workflows in verbose mode.",
+    "command": "git cherry-pick [COMMIT_SHA]",
+    "params": [
+      {
+        "placeholder": "[COMMIT_SHA]",
+        "label": "Commit Sha",
+        "description": "Value for commit sha",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "cherry-pick"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0066",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git stash (Local)",
+    "description": "Git stash command for git workflows in local mode.",
+    "command": "git stash",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "stash"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0067",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git stash (Team)",
+    "description": "Git stash command for git workflows in team mode.",
+    "command": "git stash",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "stash"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0068",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git stash (CI)",
+    "description": "Git stash command for git workflows in ci mode.",
+    "command": "git stash",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "stash"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0069",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git stash (Production)",
+    "description": "Git stash command for git workflows in production mode.",
+    "command": "git stash",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "stash"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0070",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git stash (Verbose)",
+    "description": "Git stash command for git workflows in verbose mode.",
+    "command": "git stash",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "stash"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0071",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git stash pop (Local)",
+    "description": "Git stash pop command for git workflows in local mode.",
+    "command": "git stash pop",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "stash",
+      "pop"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0072",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git stash pop (Team)",
+    "description": "Git stash pop command for git workflows in team mode.",
+    "command": "git stash pop",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "stash",
+      "pop"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0073",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git stash pop (CI)",
+    "description": "Git stash pop command for git workflows in ci mode.",
+    "command": "git stash pop",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "stash",
+      "pop"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0074",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git stash pop (Production)",
+    "description": "Git stash pop command for git workflows in production mode.",
+    "command": "git stash pop",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "stash",
+      "pop"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0075",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git stash pop (Verbose)",
+    "description": "Git stash pop command for git workflows in verbose mode.",
+    "command": "git stash pop",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "stash",
+      "pop"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0076",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git log --oneline --graph --decorate (Local)",
+    "description": "Git log --oneline --graph --decorate command for git workflows in local mode.",
+    "command": "git log --oneline --graph --decorate",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--oneline",
+        "description": "Flag used by git"
+      },
+      {
+        "flag": "--graph",
+        "description": "Flag used by git"
+      },
+      {
+        "flag": "--decorate",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "log",
+      "--oneline",
+      "--graph",
+      "--decorate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0077",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git log --oneline --graph --decorate (Team)",
+    "description": "Git log --oneline --graph --decorate command for git workflows in team mode.",
+    "command": "git log --oneline --graph --decorate",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--oneline",
+        "description": "Flag used by git"
+      },
+      {
+        "flag": "--graph",
+        "description": "Flag used by git"
+      },
+      {
+        "flag": "--decorate",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "log",
+      "--oneline",
+      "--graph",
+      "--decorate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0078",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git log --oneline --graph --decorate (CI)",
+    "description": "Git log --oneline --graph --decorate command for git workflows in ci mode.",
+    "command": "git log --oneline --graph --decorate",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--oneline",
+        "description": "Flag used by git"
+      },
+      {
+        "flag": "--graph",
+        "description": "Flag used by git"
+      },
+      {
+        "flag": "--decorate",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "log",
+      "--oneline",
+      "--graph",
+      "--decorate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0079",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git log --oneline --graph --decorate (Production)",
+    "description": "Git log --oneline --graph --decorate command for git workflows in production mode.",
+    "command": "git log --oneline --graph --decorate",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--oneline",
+        "description": "Flag used by git"
+      },
+      {
+        "flag": "--graph",
+        "description": "Flag used by git"
+      },
+      {
+        "flag": "--decorate",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "log",
+      "--oneline",
+      "--graph",
+      "--decorate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0080",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git log --oneline --graph --decorate (Verbose)",
+    "description": "Git log --oneline --graph --decorate command for git workflows in verbose mode.",
+    "command": "git log --oneline --graph --decorate",
+    "params": [],
+    "flags": [
+      {
+        "flag": "--oneline",
+        "description": "Flag used by git"
+      },
+      {
+        "flag": "--graph",
+        "description": "Flag used by git"
+      },
+      {
+        "flag": "--decorate",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "log",
+      "--oneline",
+      "--graph",
+      "--decorate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0081",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git diff (Local)",
+    "description": "Git diff command for git workflows in local mode.",
+    "command": "git diff",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "diff"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0082",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git diff (Team)",
+    "description": "Git diff command for git workflows in team mode.",
+    "command": "git diff",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "diff"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0083",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git diff (CI)",
+    "description": "Git diff command for git workflows in ci mode.",
+    "command": "git diff",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "diff"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0084",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git diff (Production)",
+    "description": "Git diff command for git workflows in production mode.",
+    "command": "git diff",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "diff"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0085",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git diff (Verbose)",
+    "description": "Git diff command for git workflows in verbose mode.",
+    "command": "git diff",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "diff"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0086",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git tag (Local)",
+    "description": "Git tag command for git workflows in local mode.",
+    "command": "git tag [TAG_NAME]",
+    "params": [
+      {
+        "placeholder": "[TAG_NAME]",
+        "label": "Tag Name",
+        "description": "Value for tag name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "tag"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0087",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git tag (Team)",
+    "description": "Git tag command for git workflows in team mode.",
+    "command": "git tag [TAG_NAME]",
+    "params": [
+      {
+        "placeholder": "[TAG_NAME]",
+        "label": "Tag Name",
+        "description": "Value for tag name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "tag"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0088",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git tag (CI)",
+    "description": "Git tag command for git workflows in ci mode.",
+    "command": "git tag [TAG_NAME]",
+    "params": [
+      {
+        "placeholder": "[TAG_NAME]",
+        "label": "Tag Name",
+        "description": "Value for tag name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "tag"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0089",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git tag (Production)",
+    "description": "Git tag command for git workflows in production mode.",
+    "command": "git tag [TAG_NAME]",
+    "params": [
+      {
+        "placeholder": "[TAG_NAME]",
+        "label": "Tag Name",
+        "description": "Value for tag name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "tag"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0090",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git tag (Verbose)",
+    "description": "Git tag command for git workflows in verbose mode.",
+    "command": "git tag [TAG_NAME]",
+    "params": [
+      {
+        "placeholder": "[TAG_NAME]",
+        "label": "Tag Name",
+        "description": "Value for tag name",
+        "required": true
+      }
+    ],
+    "flags": [],
+    "tags": [
+      "git",
+      "tag"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0091",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git bisect start (Local)",
+    "description": "Git bisect start command for git workflows in local mode.",
+    "command": "git bisect start",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "bisect",
+      "start"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0092",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git bisect start (Team)",
+    "description": "Git bisect start command for git workflows in team mode.",
+    "command": "git bisect start",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "bisect",
+      "start"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0093",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git bisect start (CI)",
+    "description": "Git bisect start command for git workflows in ci mode.",
+    "command": "git bisect start",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "bisect",
+      "start"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0094",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git bisect start (Production)",
+    "description": "Git bisect start command for git workflows in production mode.",
+    "command": "git bisect start",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "bisect",
+      "start"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0095",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git bisect start (Verbose)",
+    "description": "Git bisect start command for git workflows in verbose mode.",
+    "command": "git bisect start",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "git",
+      "bisect",
+      "start"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0096",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git remote -v (Local)",
+    "description": "Git remote -v command for git workflows in local mode.",
+    "command": "git remote -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "remote",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0097",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git remote -v (Team)",
+    "description": "Git remote -v command for git workflows in team mode.",
+    "command": "git remote -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "remote",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0098",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git remote -v (CI)",
+    "description": "Git remote -v command for git workflows in ci mode.",
+    "command": "git remote -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "remote",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0099",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git remote -v (Production)",
+    "description": "Git remote -v command for git workflows in production mode.",
+    "command": "git remote -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "remote",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "git-0100",
+    "tool": "git",
+    "category": "Version Control",
+    "title": "Git remote -v (Verbose)",
+    "description": "Git remote -v command for git workflows in verbose mode.",
+    "command": "git remote -v",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-v",
+        "description": "Flag used by git"
+      }
+    ],
+    "tags": [
+      "git",
+      "remote",
+      "-v"
+    ],
+    "difficulty": "beginner"
+  }
+]

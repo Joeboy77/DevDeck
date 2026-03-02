@@ -1,0 +1,1832 @@
+[
+  {
+    "id": "springboot-0001",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw clean (Local)",
+    "description": "./mvnw clean command for springboot workflows in local mode.",
+    "command": "./mvnw clean",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "clean"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0002",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw clean (Team)",
+    "description": "./mvnw clean command for springboot workflows in team mode.",
+    "command": "./mvnw clean",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "clean"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0003",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw clean (CI)",
+    "description": "./mvnw clean command for springboot workflows in ci mode.",
+    "command": "./mvnw clean",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "clean"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0004",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw clean (Production)",
+    "description": "./mvnw clean command for springboot workflows in production mode.",
+    "command": "./mvnw clean",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "clean"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0005",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw clean (Verbose)",
+    "description": "./mvnw clean command for springboot workflows in verbose mode.",
+    "command": "./mvnw clean",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "clean"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0006",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw test (Local)",
+    "description": "./mvnw test command for springboot workflows in local mode.",
+    "command": "./mvnw test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0007",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw test (Team)",
+    "description": "./mvnw test command for springboot workflows in team mode.",
+    "command": "./mvnw test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0008",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw test (CI)",
+    "description": "./mvnw test command for springboot workflows in ci mode.",
+    "command": "./mvnw test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0009",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw test (Production)",
+    "description": "./mvnw test command for springboot workflows in production mode.",
+    "command": "./mvnw test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0010",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw test (Verbose)",
+    "description": "./mvnw test command for springboot workflows in verbose mode.",
+    "command": "./mvnw test",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "test"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0011",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spring-boot:run (Local)",
+    "description": "./mvnw spring-boot:run command for springboot workflows in local mode.",
+    "command": "./mvnw spring-boot:run",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spring-boot:run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0012",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spring-boot:run (Team)",
+    "description": "./mvnw spring-boot:run command for springboot workflows in team mode.",
+    "command": "./mvnw spring-boot:run",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spring-boot:run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0013",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spring-boot:run (CI)",
+    "description": "./mvnw spring-boot:run command for springboot workflows in ci mode.",
+    "command": "./mvnw spring-boot:run",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spring-boot:run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0014",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spring-boot:run (Production)",
+    "description": "./mvnw spring-boot:run command for springboot workflows in production mode.",
+    "command": "./mvnw spring-boot:run",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spring-boot:run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0015",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spring-boot:run (Verbose)",
+    "description": "./mvnw spring-boot:run command for springboot workflows in verbose mode.",
+    "command": "./mvnw spring-boot:run",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spring-boot:run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0016",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw package (Local)",
+    "description": "./mvnw package command for springboot workflows in local mode.",
+    "command": "./mvnw package",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "package"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0017",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw package (Team)",
+    "description": "./mvnw package command for springboot workflows in team mode.",
+    "command": "./mvnw package",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "package"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0018",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw package (CI)",
+    "description": "./mvnw package command for springboot workflows in ci mode.",
+    "command": "./mvnw package",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "package"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0019",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw package (Production)",
+    "description": "./mvnw package command for springboot workflows in production mode.",
+    "command": "./mvnw package",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "package"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0020",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw package (Verbose)",
+    "description": "./mvnw package command for springboot workflows in verbose mode.",
+    "command": "./mvnw package",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "package"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0021",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw verify (Local)",
+    "description": "./mvnw verify command for springboot workflows in local mode.",
+    "command": "./mvnw verify",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "verify"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0022",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw verify (Team)",
+    "description": "./mvnw verify command for springboot workflows in team mode.",
+    "command": "./mvnw verify",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "verify"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0023",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw verify (CI)",
+    "description": "./mvnw verify command for springboot workflows in ci mode.",
+    "command": "./mvnw verify",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "verify"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0024",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw verify (Production)",
+    "description": "./mvnw verify command for springboot workflows in production mode.",
+    "command": "./mvnw verify",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "verify"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0025",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw verify (Verbose)",
+    "description": "./mvnw verify command for springboot workflows in verbose mode.",
+    "command": "./mvnw verify",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "verify"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0026",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw dependency:tree (Local)",
+    "description": "./mvnw dependency:tree command for springboot workflows in local mode.",
+    "command": "./mvnw dependency:tree",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "dependency:tree"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0027",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw dependency:tree (Team)",
+    "description": "./mvnw dependency:tree command for springboot workflows in team mode.",
+    "command": "./mvnw dependency:tree",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "dependency:tree"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0028",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw dependency:tree (CI)",
+    "description": "./mvnw dependency:tree command for springboot workflows in ci mode.",
+    "command": "./mvnw dependency:tree",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "dependency:tree"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0029",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw dependency:tree (Production)",
+    "description": "./mvnw dependency:tree command for springboot workflows in production mode.",
+    "command": "./mvnw dependency:tree",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "dependency:tree"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0030",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw dependency:tree (Verbose)",
+    "description": "./mvnw dependency:tree command for springboot workflows in verbose mode.",
+    "command": "./mvnw dependency:tree",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "dependency:tree"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0031",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw -DskipTests package (Local)",
+    "description": "./mvnw -DskipTests package command for springboot workflows in local mode.",
+    "command": "./mvnw -DskipTests package",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-DskipTests",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "-dskiptests",
+      "package"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0032",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw -DskipTests package (Team)",
+    "description": "./mvnw -DskipTests package command for springboot workflows in team mode.",
+    "command": "./mvnw -DskipTests package",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-DskipTests",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "-dskiptests",
+      "package"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0033",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw -DskipTests package (CI)",
+    "description": "./mvnw -DskipTests package command for springboot workflows in ci mode.",
+    "command": "./mvnw -DskipTests package",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-DskipTests",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "-dskiptests",
+      "package"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0034",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw -DskipTests package (Production)",
+    "description": "./mvnw -DskipTests package command for springboot workflows in production mode.",
+    "command": "./mvnw -DskipTests package",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-DskipTests",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "-dskiptests",
+      "package"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0035",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw -DskipTests package (Verbose)",
+    "description": "./mvnw -DskipTests package command for springboot workflows in verbose mode.",
+    "command": "./mvnw -DskipTests package",
+    "params": [],
+    "flags": [
+      {
+        "flag": "-DskipTests",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "-dskiptests",
+      "package"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0036",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spring-boot:build-image (Local)",
+    "description": "./mvnw spring-boot:build-image command for springboot workflows in local mode.",
+    "command": "./mvnw spring-boot:build-image",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spring-boot:build-image"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0037",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spring-boot:build-image (Team)",
+    "description": "./mvnw spring-boot:build-image command for springboot workflows in team mode.",
+    "command": "./mvnw spring-boot:build-image",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spring-boot:build-image"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0038",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spring-boot:build-image (CI)",
+    "description": "./mvnw spring-boot:build-image command for springboot workflows in ci mode.",
+    "command": "./mvnw spring-boot:build-image",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spring-boot:build-image"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0039",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spring-boot:build-image (Production)",
+    "description": "./mvnw spring-boot:build-image command for springboot workflows in production mode.",
+    "command": "./mvnw spring-boot:build-image",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spring-boot:build-image"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0040",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spring-boot:build-image (Verbose)",
+    "description": "./mvnw spring-boot:build-image command for springboot workflows in verbose mode.",
+    "command": "./mvnw spring-boot:build-image",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spring-boot:build-image"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0041",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spotbugs:check (Local)",
+    "description": "./mvnw spotbugs:check command for springboot workflows in local mode.",
+    "command": "./mvnw spotbugs:check",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spotbugs:check"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0042",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spotbugs:check (Team)",
+    "description": "./mvnw spotbugs:check command for springboot workflows in team mode.",
+    "command": "./mvnw spotbugs:check",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spotbugs:check"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0043",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spotbugs:check (CI)",
+    "description": "./mvnw spotbugs:check command for springboot workflows in ci mode.",
+    "command": "./mvnw spotbugs:check",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spotbugs:check"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0044",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spotbugs:check (Production)",
+    "description": "./mvnw spotbugs:check command for springboot workflows in production mode.",
+    "command": "./mvnw spotbugs:check",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spotbugs:check"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0045",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spotbugs:check (Verbose)",
+    "description": "./mvnw spotbugs:check command for springboot workflows in verbose mode.",
+    "command": "./mvnw spotbugs:check",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spotbugs:check"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0046",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw checkstyle:check (Local)",
+    "description": "./mvnw checkstyle:check command for springboot workflows in local mode.",
+    "command": "./mvnw checkstyle:check",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "checkstyle:check"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0047",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw checkstyle:check (Team)",
+    "description": "./mvnw checkstyle:check command for springboot workflows in team mode.",
+    "command": "./mvnw checkstyle:check",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "checkstyle:check"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0048",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw checkstyle:check (CI)",
+    "description": "./mvnw checkstyle:check command for springboot workflows in ci mode.",
+    "command": "./mvnw checkstyle:check",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "checkstyle:check"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0049",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw checkstyle:check (Production)",
+    "description": "./mvnw checkstyle:check command for springboot workflows in production mode.",
+    "command": "./mvnw checkstyle:check",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "checkstyle:check"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0050",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw checkstyle:check (Verbose)",
+    "description": "./mvnw checkstyle:check command for springboot workflows in verbose mode.",
+    "command": "./mvnw checkstyle:check",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "checkstyle:check"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0051",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw jacoco:report (Local)",
+    "description": "./mvnw jacoco:report command for springboot workflows in local mode.",
+    "command": "./mvnw jacoco:report",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "jacoco:report"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0052",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw jacoco:report (Team)",
+    "description": "./mvnw jacoco:report command for springboot workflows in team mode.",
+    "command": "./mvnw jacoco:report",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "jacoco:report"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0053",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw jacoco:report (CI)",
+    "description": "./mvnw jacoco:report command for springboot workflows in ci mode.",
+    "command": "./mvnw jacoco:report",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "jacoco:report"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0054",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw jacoco:report (Production)",
+    "description": "./mvnw jacoco:report command for springboot workflows in production mode.",
+    "command": "./mvnw jacoco:report",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "jacoco:report"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0055",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw jacoco:report (Verbose)",
+    "description": "./mvnw jacoco:report command for springboot workflows in verbose mode.",
+    "command": "./mvnw jacoco:report",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "jacoco:report"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0056",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw versions:display-dependency-updates (Local)",
+    "description": "./mvnw versions:display-dependency-updates command for springboot workflows in local mode.",
+    "command": "./mvnw versions:display-dependency-updates",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "versions:display-dependency-updates"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0057",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw versions:display-dependency-updates (Team)",
+    "description": "./mvnw versions:display-dependency-updates command for springboot workflows in team mode.",
+    "command": "./mvnw versions:display-dependency-updates",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "versions:display-dependency-updates"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0058",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw versions:display-dependency-updates (CI)",
+    "description": "./mvnw versions:display-dependency-updates command for springboot workflows in ci mode.",
+    "command": "./mvnw versions:display-dependency-updates",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "versions:display-dependency-updates"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0059",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw versions:display-dependency-updates (Production)",
+    "description": "./mvnw versions:display-dependency-updates command for springboot workflows in production mode.",
+    "command": "./mvnw versions:display-dependency-updates",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "versions:display-dependency-updates"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0060",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw versions:display-dependency-updates (Verbose)",
+    "description": "./mvnw versions:display-dependency-updates command for springboot workflows in verbose mode.",
+    "command": "./mvnw versions:display-dependency-updates",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "versions:display-dependency-updates"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0061",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw flyway:migrate (Local)",
+    "description": "./mvnw flyway:migrate command for springboot workflows in local mode.",
+    "command": "./mvnw flyway:migrate",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "flyway:migrate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0062",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw flyway:migrate (Team)",
+    "description": "./mvnw flyway:migrate command for springboot workflows in team mode.",
+    "command": "./mvnw flyway:migrate",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "flyway:migrate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0063",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw flyway:migrate (CI)",
+    "description": "./mvnw flyway:migrate command for springboot workflows in ci mode.",
+    "command": "./mvnw flyway:migrate",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "flyway:migrate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0064",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw flyway:migrate (Production)",
+    "description": "./mvnw flyway:migrate command for springboot workflows in production mode.",
+    "command": "./mvnw flyway:migrate",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "flyway:migrate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0065",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw flyway:migrate (Verbose)",
+    "description": "./mvnw flyway:migrate command for springboot workflows in verbose mode.",
+    "command": "./mvnw flyway:migrate",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "flyway:migrate"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0066",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw liquibase:update (Local)",
+    "description": "./mvnw liquibase:update command for springboot workflows in local mode.",
+    "command": "./mvnw liquibase:update",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "liquibase:update"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0067",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw liquibase:update (Team)",
+    "description": "./mvnw liquibase:update command for springboot workflows in team mode.",
+    "command": "./mvnw liquibase:update",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "liquibase:update"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0068",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw liquibase:update (CI)",
+    "description": "./mvnw liquibase:update command for springboot workflows in ci mode.",
+    "command": "./mvnw liquibase:update",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "liquibase:update"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0069",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw liquibase:update (Production)",
+    "description": "./mvnw liquibase:update command for springboot workflows in production mode.",
+    "command": "./mvnw liquibase:update",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "liquibase:update"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0070",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw liquibase:update (Verbose)",
+    "description": "./mvnw liquibase:update command for springboot workflows in verbose mode.",
+    "command": "./mvnw liquibase:update",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "liquibase:update"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0071",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spring-boot:run -Dspring-boot.run.profiles= (Local)",
+    "description": "./mvnw spring-boot:run -Dspring-boot.run.profiles= command for springboot workflows in local mode.",
+    "command": "./mvnw spring-boot:run -Dspring-boot.run.profiles=[PROFILE]",
+    "params": [
+      {
+        "placeholder": "[PROFILE]",
+        "label": "Profile",
+        "description": "Value for profile",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-Dspring-boot.run.profiles=[PROFILE]",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spring-boot:run",
+      "-dspring-bootrunprofiles"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0072",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spring-boot:run -Dspring-boot.run.profiles= (Team)",
+    "description": "./mvnw spring-boot:run -Dspring-boot.run.profiles= command for springboot workflows in team mode.",
+    "command": "./mvnw spring-boot:run -Dspring-boot.run.profiles=[PROFILE]",
+    "params": [
+      {
+        "placeholder": "[PROFILE]",
+        "label": "Profile",
+        "description": "Value for profile",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-Dspring-boot.run.profiles=[PROFILE]",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spring-boot:run",
+      "-dspring-bootrunprofiles"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0073",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spring-boot:run -Dspring-boot.run.profiles= (CI)",
+    "description": "./mvnw spring-boot:run -Dspring-boot.run.profiles= command for springboot workflows in ci mode.",
+    "command": "./mvnw spring-boot:run -Dspring-boot.run.profiles=[PROFILE]",
+    "params": [
+      {
+        "placeholder": "[PROFILE]",
+        "label": "Profile",
+        "description": "Value for profile",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-Dspring-boot.run.profiles=[PROFILE]",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spring-boot:run",
+      "-dspring-bootrunprofiles"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0074",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spring-boot:run -Dspring-boot.run.profiles= (Production)",
+    "description": "./mvnw spring-boot:run -Dspring-boot.run.profiles= command for springboot workflows in production mode.",
+    "command": "./mvnw spring-boot:run -Dspring-boot.run.profiles=[PROFILE]",
+    "params": [
+      {
+        "placeholder": "[PROFILE]",
+        "label": "Profile",
+        "description": "Value for profile",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-Dspring-boot.run.profiles=[PROFILE]",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spring-boot:run",
+      "-dspring-bootrunprofiles"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0075",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw spring-boot:run -Dspring-boot.run.profiles= (Verbose)",
+    "description": "./mvnw spring-boot:run -Dspring-boot.run.profiles= command for springboot workflows in verbose mode.",
+    "command": "./mvnw spring-boot:run -Dspring-boot.run.profiles=[PROFILE]",
+    "params": [
+      {
+        "placeholder": "[PROFILE]",
+        "label": "Profile",
+        "description": "Value for profile",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-Dspring-boot.run.profiles=[PROFILE]",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "spring-boot:run",
+      "-dspring-bootrunprofiles"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0076",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw -P spring-boot:run (Local)",
+    "description": "./mvnw -P spring-boot:run command for springboot workflows in local mode.",
+    "command": "./mvnw -P[PROFILE] spring-boot:run",
+    "params": [
+      {
+        "placeholder": "[PROFILE]",
+        "label": "Profile",
+        "description": "Value for profile",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-P[PROFILE]",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "-p",
+      "spring-boot:run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0077",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw -P spring-boot:run (Team)",
+    "description": "./mvnw -P spring-boot:run command for springboot workflows in team mode.",
+    "command": "./mvnw -P[PROFILE] spring-boot:run",
+    "params": [
+      {
+        "placeholder": "[PROFILE]",
+        "label": "Profile",
+        "description": "Value for profile",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-P[PROFILE]",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "-p",
+      "spring-boot:run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0078",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw -P spring-boot:run (CI)",
+    "description": "./mvnw -P spring-boot:run command for springboot workflows in ci mode.",
+    "command": "./mvnw -P[PROFILE] spring-boot:run",
+    "params": [
+      {
+        "placeholder": "[PROFILE]",
+        "label": "Profile",
+        "description": "Value for profile",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-P[PROFILE]",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "-p",
+      "spring-boot:run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0079",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw -P spring-boot:run (Production)",
+    "description": "./mvnw -P spring-boot:run command for springboot workflows in production mode.",
+    "command": "./mvnw -P[PROFILE] spring-boot:run",
+    "params": [
+      {
+        "placeholder": "[PROFILE]",
+        "label": "Profile",
+        "description": "Value for profile",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-P[PROFILE]",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "-p",
+      "spring-boot:run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0080",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw -P spring-boot:run (Verbose)",
+    "description": "./mvnw -P spring-boot:run command for springboot workflows in verbose mode.",
+    "command": "./mvnw -P[PROFILE] spring-boot:run",
+    "params": [
+      {
+        "placeholder": "[PROFILE]",
+        "label": "Profile",
+        "description": "Value for profile",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-P[PROFILE]",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "-p",
+      "spring-boot:run"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0081",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw dependency:analyze (Local)",
+    "description": "./mvnw dependency:analyze command for springboot workflows in local mode.",
+    "command": "./mvnw dependency:analyze",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "dependency:analyze"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0082",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw dependency:analyze (Team)",
+    "description": "./mvnw dependency:analyze command for springboot workflows in team mode.",
+    "command": "./mvnw dependency:analyze",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "dependency:analyze"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0083",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw dependency:analyze (CI)",
+    "description": "./mvnw dependency:analyze command for springboot workflows in ci mode.",
+    "command": "./mvnw dependency:analyze",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "dependency:analyze"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0084",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw dependency:analyze (Production)",
+    "description": "./mvnw dependency:analyze command for springboot workflows in production mode.",
+    "command": "./mvnw dependency:analyze",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "dependency:analyze"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0085",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw dependency:analyze (Verbose)",
+    "description": "./mvnw dependency:analyze command for springboot workflows in verbose mode.",
+    "command": "./mvnw dependency:analyze",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "dependency:analyze"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0086",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw help:effective-pom (Local)",
+    "description": "./mvnw help:effective-pom command for springboot workflows in local mode.",
+    "command": "./mvnw help:effective-pom",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "help:effective-pom"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0087",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw help:effective-pom (Team)",
+    "description": "./mvnw help:effective-pom command for springboot workflows in team mode.",
+    "command": "./mvnw help:effective-pom",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "help:effective-pom"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0088",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw help:effective-pom (CI)",
+    "description": "./mvnw help:effective-pom command for springboot workflows in ci mode.",
+    "command": "./mvnw help:effective-pom",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "help:effective-pom"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0089",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw help:effective-pom (Production)",
+    "description": "./mvnw help:effective-pom command for springboot workflows in production mode.",
+    "command": "./mvnw help:effective-pom",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "help:effective-pom"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0090",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw help:effective-pom (Verbose)",
+    "description": "./mvnw help:effective-pom command for springboot workflows in verbose mode.",
+    "command": "./mvnw help:effective-pom",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "help:effective-pom"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0091",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw test -Dtest= (Local)",
+    "description": "./mvnw test -Dtest= command for springboot workflows in local mode.",
+    "command": "./mvnw test -Dtest=[TEST_CLASS]",
+    "params": [
+      {
+        "placeholder": "[TEST_CLASS]",
+        "label": "Test Class",
+        "description": "Value for test class",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-Dtest=[TEST_CLASS]",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "test",
+      "-dtest"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0092",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw test -Dtest= (Team)",
+    "description": "./mvnw test -Dtest= command for springboot workflows in team mode.",
+    "command": "./mvnw test -Dtest=[TEST_CLASS]",
+    "params": [
+      {
+        "placeholder": "[TEST_CLASS]",
+        "label": "Test Class",
+        "description": "Value for test class",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-Dtest=[TEST_CLASS]",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "test",
+      "-dtest"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0093",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw test -Dtest= (CI)",
+    "description": "./mvnw test -Dtest= command for springboot workflows in ci mode.",
+    "command": "./mvnw test -Dtest=[TEST_CLASS]",
+    "params": [
+      {
+        "placeholder": "[TEST_CLASS]",
+        "label": "Test Class",
+        "description": "Value for test class",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-Dtest=[TEST_CLASS]",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "test",
+      "-dtest"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0094",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw test -Dtest= (Production)",
+    "description": "./mvnw test -Dtest= command for springboot workflows in production mode.",
+    "command": "./mvnw test -Dtest=[TEST_CLASS]",
+    "params": [
+      {
+        "placeholder": "[TEST_CLASS]",
+        "label": "Test Class",
+        "description": "Value for test class",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-Dtest=[TEST_CLASS]",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "test",
+      "-dtest"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0095",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw test -Dtest= (Verbose)",
+    "description": "./mvnw test -Dtest= command for springboot workflows in verbose mode.",
+    "command": "./mvnw test -Dtest=[TEST_CLASS]",
+    "params": [
+      {
+        "placeholder": "[TEST_CLASS]",
+        "label": "Test Class",
+        "description": "Value for test class",
+        "required": true
+      }
+    ],
+    "flags": [
+      {
+        "flag": "-Dtest=[TEST_CLASS]",
+        "description": "Flag used by ./mvnw"
+      }
+    ],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "test",
+      "-dtest"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0096",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw clean install (Local)",
+    "description": "./mvnw clean install command for springboot workflows in local mode.",
+    "command": "./mvnw clean install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "clean",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0097",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw clean install (Team)",
+    "description": "./mvnw clean install command for springboot workflows in team mode.",
+    "command": "./mvnw clean install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "clean",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0098",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw clean install (CI)",
+    "description": "./mvnw clean install command for springboot workflows in ci mode.",
+    "command": "./mvnw clean install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "clean",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0099",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw clean install (Production)",
+    "description": "./mvnw clean install command for springboot workflows in production mode.",
+    "command": "./mvnw clean install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "clean",
+      "install"
+    ],
+    "difficulty": "beginner"
+  },
+  {
+    "id": "springboot-0100",
+    "tool": "springboot",
+    "category": "Backend",
+    "title": "./mvnw clean install (Verbose)",
+    "description": "./mvnw clean install command for springboot workflows in verbose mode.",
+    "command": "./mvnw clean install",
+    "params": [],
+    "flags": [],
+    "tags": [
+      "springboot",
+      "mvnw",
+      "clean",
+      "install"
+    ],
+    "difficulty": "beginner"
+  }
+]
