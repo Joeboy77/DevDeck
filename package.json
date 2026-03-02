@@ -18,7 +18,8 @@
     "Snippets"
   ],
   "activationEvents": [
-    "onStartupFinished"
+    "onStartupFinished",
+    "onCommand:devdeck.openPanel"
   ],
   "main": "./dist/extension.js",
   "icon": "resources/devdeck.png",

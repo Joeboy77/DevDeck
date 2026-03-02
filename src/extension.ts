@@ -4,7 +4,15 @@ import { DevDeckPanel } from "./DevDeckPanel";
 
 export async function activate(context: vscode.ExtensionContext): Promise<void> {
   const commandProvider = new CommandProvider(context.extensionUri);
-  await commandProvider.initialize();
+  try {
+    await commandProvider.initialize();
+  } catch (error) {
+    const message =
+      error instanceof Error ? error.message : "Unknown initialization error";
+    vscode.window.showErrorMessage(
+      `DevDeck loaded with limited data: ${message}`
+    );
+  }
 
   const panel = new DevDeckPanel(context.extensionUri, commandProvider, context);
   context.subscriptions.push(

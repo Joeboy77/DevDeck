@@ -65,6 +65,7 @@ export class DevDeckPanel implements vscode.WebviewViewProvider {
   }
 
   public async reveal(): Promise<void> {
+    await vscode.commands.executeCommand("devdeck.sidebar.focus");
     await vscode.commands.executeCommand("workbench.view.extension.devdeck");
   }
 
