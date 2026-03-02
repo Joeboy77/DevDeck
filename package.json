@@ -3,7 +3,7 @@
   "displayName": "DevDeck - Developer Command Hub",
   "description": "Universal command discovery and execution hub for VS Code.",
   "version": "0.1.0",
-  "publisher": "devdeck",
+  "publisher": "DevDeck",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "onStartupFinished"
   ],
   "main": "./dist/extension.js",
+  "icon": "resources/devdeck.png",
   "scripts": {
     "generate:data": "node scripts/generate-command-data.mjs",
     "build:extension": "esbuild src/extension.ts --bundle --platform=node --target=node18 --format=cjs --external:vscode --outfile=dist/extension.js",
