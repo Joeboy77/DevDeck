@@ -8,6 +8,13 @@ import { vscode } from "./vscode";
 
 const MAX_RESULTS = 120;
 const SEARCH_INPUT_ID = "devdeck-search-input";
+const QUICK_PROMPTS = [
+  "undo last commit",
+  "docker logs",
+  "expo start",
+  "flutter run web",
+  "terraform plan"
+];
 type ViewMode = "all" | "favorites" | "history";
 type DensityMode = "comfortable" | "compact";
 type ToastLevel = "success" | "info" | "warning" | "error";
@@ -405,6 +412,7 @@ export function App(): ReactElement {
   const allCount = state.commands.length;
   const favoriteCount = state.favorites.length;
   const historyCount = state.history.length;
+  const toolCount = Object.keys(state.categories).length;
 
   const viewButton = (mode: ViewMode, label: string, count: number): ReactElement => (
     <button
@@ -413,8 +421,9 @@ export function App(): ReactElement {
       style={{
         border: "1px solid var(--vscode-button-border)",
         borderRadius: 999,
-        padding: "5px 10px",
+        padding: "6px 11px",
         fontSize: 11,
+        fontWeight: 600,
         cursor: "pointer",
         background:
           viewMode === mode
@@ -440,8 +449,16 @@ export function App(): ReactElement {
     }
 
     return (
-      <section style={{ marginBottom: 14 }}>
-        <div style={{ fontWeight: 600, fontSize: 12, opacity: 0.92, marginBottom: 4 }}>
+      <section
+        style={{
+          marginBottom: 14,
+          border: "1px solid var(--vscode-panel-border)",
+          borderRadius: 12,
+          padding: "10px 10px 2px",
+          background: "var(--vscode-editorWidget-background)"
+        }}
+      >
+        <div style={{ fontWeight: 700, fontSize: 12, opacity: 0.94, marginBottom: 4 }}>
           {title}
         </div>
         {subtitle && <div style={{ fontSize: 11, opacity: 0.72, marginBottom: 8 }}>{subtitle}</div>}
@@ -466,6 +483,14 @@ export function App(): ReactElement {
         ))}
       </section>
     );
+  };
+
+  const clearFilters = (): void => {
+    setRawQuery("");
+    setQuery("");
+    setCategory("all");
+    setViewMode("all");
+    setActiveIndex(-1);
   };
 
   return (
@@ -546,9 +571,41 @@ export function App(): ReactElement {
         <div style={{ fontSize: 12, opacity: 0.78 }}>
           Universal command discovery and execution hub for VS Code.
         </div>
+        <div style={{ display: "flex", gap: 6, marginTop: 9, flexWrap: "wrap" }}>
+          <span style={{ fontSize: 10, opacity: 0.75 }}>commands {allCount.toLocaleString()}</span>
+          <span style={{ fontSize: 10, opacity: 0.75 }}>tools {toolCount}</span>
+          <span style={{ fontSize: 10, opacity: 0.75 }}>favorites {favoriteCount}</span>
+          <span style={{ fontSize: 10, opacity: 0.75 }}>history {historyCount}</span>
+        </div>
       </section>
 
-      <SearchBar query={rawQuery} onChange={setRawQuery} resultCount={ranked.length} />
+      <SearchBar
+        query={rawQuery}
+        onChange={setRawQuery}
+        onClear={() => setRawQuery("")}
+        resultCount={ranked.length}
+      />
+
+      <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 12 }}>
+        {QUICK_PROMPTS.map((prompt) => (
+          <button
+            key={prompt}
+            onClick={() => setRawQuery(prompt)}
+            style={{
+              border: "1px solid var(--vscode-button-border)",
+              borderRadius: 999,
+              padding: "4px 9px",
+              fontSize: 10,
+              cursor: "pointer",
+              background: "var(--vscode-editor-background)",
+              color: "var(--vscode-foreground)",
+              opacity: 0.9
+            }}
+          >
+            {prompt}
+          </button>
+        ))}
+      </div>
 
       <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 10 }}>
         {viewButton("all", "All", allCount)}
@@ -600,13 +657,30 @@ export function App(): ReactElement {
             opacity: 0.9,
             border: "1px dashed var(--vscode-panel-border)",
             borderRadius: 10,
-            padding: 12
+            padding: 12,
+            background: "var(--vscode-editorWidget-background)"
           }}
         >
           <div style={{ fontWeight: 600, marginBottom: 5 }}>No commands found</div>
           <div style={{ fontSize: 12 }}>
             Try: "undo last commit", "docker logs", "expo start", or clear filters.
           </div>
+          <button
+            onClick={clearFilters}
+            style={{
+              marginTop: 9,
+              border: "1px solid var(--vscode-button-border)",
+              borderRadius: 8,
+              padding: "5px 9px",
+              fontSize: 11,
+              fontWeight: 600,
+              cursor: "pointer",
+              background: "var(--vscode-editor-background)",
+              color: "var(--vscode-foreground)"
+            }}
+          >
+            Reset Filters
+          </button>
         </div>
       ) : (
         visibleRanked.map((command: DevDeckCommand) => (

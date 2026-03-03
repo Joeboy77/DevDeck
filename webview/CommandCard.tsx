@@ -87,6 +87,10 @@ export function CommandCard({
   const missingRequired = command.params.some(
     (param) => param.required && !(values[param.placeholder] ?? "").trim()
   );
+  const requiredCount = command.params.filter((param) => param.required).length;
+  const filledRequired = command.params.filter(
+    (param) => param.required && (values[param.placeholder] ?? "").trim().length > 0
+  ).length;
 
   const secondaryButtonStyle: CSSProperties = {
     border: "1px solid var(--vscode-button-border)",
@@ -95,7 +99,8 @@ export function CommandCard({
     background: "var(--vscode-editor-background)",
     color: "var(--vscode-foreground)",
     cursor: "pointer",
-    fontSize: 12
+    fontSize: 12,
+    fontWeight: 500
   };
 
   return (
@@ -109,7 +114,7 @@ export function CommandCard({
             ? "var(--vscode-focusBorder)"
             : "var(--vscode-panel-border)"
         }`,
-        borderRadius: 12,
+        borderRadius: 14,
         padding: compact ? 9 : 12,
         marginBottom: compact ? 8 : 10,
         background: "var(--vscode-editorWidget-background)",
@@ -118,29 +123,51 @@ export function CommandCard({
         transition: "all 120ms ease"
       }}
     >
-      <button
-        id={`command-card-toggle-${command.id}`}
-        onClick={() => setExpanded((prev) => !prev)}
-        style={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          border: "none",
-          background: "transparent",
-          color: "var(--vscode-foreground)",
-          cursor: "pointer",
-          padding: 0,
-          textAlign: "left"
-        }}
-      >
-        <span style={{ fontWeight: 700, fontSize: compact ? 12 : 13, lineHeight: 1.3 }}>
-          <Highlight text={command.title} query={query} />
-        </span>
-        <span style={{ opacity: 0.8, fontSize: 11 }}>
-          {expanded ? "Collapse" : "Expand"}
-        </span>
-      </button>
+      <div style={{ display: "flex", justifyContent: "space-between", gap: 8 }}>
+        <button
+          id={`command-card-toggle-${command.id}`}
+          onClick={() => setExpanded((prev) => !prev)}
+          style={{
+            width: "100%",
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            border: "none",
+            background: "transparent",
+            color: "var(--vscode-foreground)",
+            cursor: "pointer",
+            padding: 0,
+            textAlign: "left"
+          }}
+        >
+          <span style={{ fontWeight: 700, fontSize: compact ? 12 : 13, lineHeight: 1.3 }}>
+            <Highlight text={command.title} query={query} />
+          </span>
+          <span style={{ opacity: 0.8, fontSize: 11 }}>
+            {expanded ? "Collapse" : "Expand"}
+          </span>
+        </button>
+        <button
+          onClick={() => onFavorite(command.id)}
+          style={{
+            border: "1px solid var(--vscode-button-border)",
+            borderRadius: 8,
+            background: favorite
+              ? "var(--vscode-button-background)"
+              : "var(--vscode-editor-background)",
+            color: favorite
+              ? "var(--vscode-button-foreground)"
+              : "var(--vscode-foreground)",
+            fontSize: 11,
+            fontWeight: 600,
+            padding: "3px 7px",
+            cursor: "pointer",
+            height: 24
+          }}
+        >
+          {favorite ? "★" : "☆"}
+        </button>
+      </div>
 
       <div
         style={{
@@ -166,7 +193,32 @@ export function CommandCard({
         <span>{command.category}</span>
         <span>{command.difficulty}</span>
         <span>{command.params.length} params</span>
+        {requiredCount > 0 && (
+          <span>
+            required {filledRequired}/{requiredCount}
+          </span>
+        )}
       </div>
+
+      {!expanded && (
+        <code
+          style={{
+            display: "block",
+            marginTop: 8,
+            background: "var(--vscode-textCodeBlock-background)",
+            border: "1px solid var(--vscode-panel-border)",
+            borderRadius: 8,
+            padding: "6px 8px",
+            fontSize: 11,
+            opacity: 0.9,
+            whiteSpace: "nowrap",
+            overflow: "hidden",
+            textOverflow: "ellipsis"
+          }}
+        >
+          <Highlight text={resolved} query={query} />
+        </code>
+      )}
 
       {expanded && (
         <div style={{ marginTop: compact ? 8 : 10, display: "grid", gap: compact ? 7 : 9 }}>
@@ -253,8 +305,8 @@ export function CommandCard({
             <button onClick={() => onCopy(resolved)} style={secondaryButtonStyle}>
               Copy
             </button>
-            <button onClick={() => onFavorite(command.id)} style={secondaryButtonStyle}>
-              {favorite ? "Unstar" : "Star"}
+            <button onClick={() => setExpanded(false)} style={secondaryButtonStyle}>
+              Done
             </button>
           </div>
         </div>

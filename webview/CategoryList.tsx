@@ -31,14 +31,13 @@ export function CategoryList({
   return (
     <div
       style={{
-        display: "flex",
-        gap: 6,
-        flexWrap: "wrap",
         marginBottom: 14,
         borderBottom: "1px solid var(--vscode-panel-border)",
         paddingBottom: 12
       }}
     >
+      <div style={{ fontSize: 11, opacity: 0.72, marginBottom: 7 }}>Tool Categories</div>
+      <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
       <button onClick={() => onSelect("all")} style={chipStyle(selected === "all")}>
         All
       </button>
@@ -47,6 +46,7 @@ export function CategoryList({
           {name} ({count})
         </button>
       ))}
+      </div>
     </div>
   );
 }
