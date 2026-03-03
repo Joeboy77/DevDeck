@@ -1,8 +1,7 @@
-# DevDeck - Developer Command Hub
+# DevDeck: Developer Command Hub.
+# Developer: Joe
 
 Universal command discovery and execution hub for VS Code.
-
-**Developed by Joe.**
 
 DevDeck helps you search, understand, and run commands directly from the VS Code sidebar so you can stay in flow.
 

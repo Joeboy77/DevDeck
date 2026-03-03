@@ -32,6 +32,24 @@ export interface SearchOptions {
   limit?: number;
 }
 
+export interface CommandLoadDiagnostics {
+  builtinFilesLoaded: number;
+  builtinFilesFailed: number;
+  invalidEntries: number;
+  duplicatesSkipped: number;
+  projectFileFound: boolean;
+  projectEntriesLoaded: number;
+  projectEntriesInvalid: number;
+  warnings: string[];
+}
+
+export interface CommandProviderStats {
+  total: number;
+  builtin: number;
+  project: number;
+  categories: number;
+}
+
 export interface ProjectSignals {
   node: boolean;
   docker: boolean;

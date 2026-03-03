@@ -627,6 +627,131 @@ function commandTags(tool, command) {
   return [...new Set([tool, ...base])].slice(0, 8);
 }
 
+function uniqBy(items, keyFn) {
+  const seen = new Set();
+  const result = [];
+  for (const item of items) {
+    const key = keyFn(item);
+    if (seen.has(key)) {
+      continue;
+    }
+    seen.add(key);
+    result.push(item);
+  }
+  return result;
+}
+
+function validateCommandShape(command) {
+  const issues = [];
+  const required = ["id", "tool", "category", "title", "description", "command", "difficulty"];
+  for (const key of required) {
+    if (typeof command[key] !== "string" || command[key].trim().length === 0) {
+      issues.push(`invalid ${key}`);
+    }
+  }
+
+  if (!Array.isArray(command.params)) {
+    issues.push("params must be an array");
+  } else {
+    for (const item of command.params) {
+      if (
+        !item ||
+        typeof item !== "object" ||
+        typeof item.placeholder !== "string" ||
+        typeof item.label !== "string" ||
+        typeof item.description !== "string" ||
+        typeof item.required !== "boolean"
+      ) {
+        issues.push("invalid param entry");
+        break;
+      }
+    }
+  }
+
+  if (!Array.isArray(command.flags)) {
+    issues.push("flags must be an array");
+  } else {
+    for (const item of command.flags) {
+      if (
+        !item ||
+        typeof item !== "object" ||
+        typeof item.flag !== "string" ||
+        typeof item.description !== "string"
+      ) {
+        issues.push("invalid flag entry");
+        break;
+      }
+    }
+  }
+
+  if (!Array.isArray(command.tags) || command.tags.length === 0) {
+    issues.push("tags must be a non-empty array");
+  } else if (!command.tags.every((tag) => typeof tag === "string" && tag.trim().length > 0)) {
+    issues.push("invalid tag entry");
+  }
+
+  if (!["beginner", "intermediate", "advanced"].includes(command.difficulty)) {
+    issues.push("invalid difficulty");
+  }
+
+  return issues;
+}
+
+function normalizeAndValidateCommands(tool, commands) {
+  const normalized = commands.map((item) => {
+    const params = item.params.map((param) => ({
+      ...param,
+      placeholder: param.placeholder.trim(),
+      label: param.label.trim(),
+      description: param.description.trim()
+    }));
+    const flags = uniqBy(
+      item.flags.map((flag) => ({
+        ...flag,
+        flag: flag.flag.trim(),
+        description: flag.description.trim()
+      })),
+      (flag) => flag.flag
+    );
+    const tags = [...new Set(item.tags.map((tag) => tag.trim().toLowerCase()).filter(Boolean))];
+    return {
+      ...item,
+      id: item.id.trim(),
+      tool: item.tool.trim(),
+      category: item.category.trim(),
+      title: item.title.trim(),
+      description: item.description.trim(),
+      command: item.command.replace(/\s+/g, " ").trim(),
+      params,
+      flags,
+      tags
+    };
+  });
+
+  const deduped = uniqBy(normalized, (item) => `${item.id}|${item.tool}|${item.command}`);
+  const errors = [];
+  const ids = new Set();
+  for (const command of deduped) {
+    if (ids.has(command.id)) {
+      errors.push(`duplicate id: ${command.id}`);
+    }
+    ids.add(command.id);
+
+    const issues = validateCommandShape(command);
+    if (issues.length > 0) {
+      errors.push(`${command.id}: ${issues.join(", ")}`);
+    }
+  }
+
+  if (errors.length > 0) {
+    throw new Error(
+      `Data quality checks failed for ${tool}: ${errors.slice(0, 8).join(" | ")}`
+    );
+  }
+
+  return deduped;
+}
+
 function buildForTool(tool, config) {
   const items = [];
   let index = 1;
@@ -646,7 +771,7 @@ function buildForTool(tool, config) {
         title: `${baseTitle} (${context.titleSuffix})`,
         description: `${baseTitle} command for ${tool} workflows in ${context.titleSuffix.toLowerCase()} mode.`,
         command,
-        params,
+        params: params.map((param) => ({ ...param })),
         flags: [...baseFlags, ...extractFlags(extra)].slice(0, 6),
         tags: commandTags(tool, command),
         difficulty: params.length > 2 ? "intermediate" : "beginner"
@@ -663,7 +788,7 @@ async function main() {
 
   let total = 0;
   for (const [tool, config] of Object.entries(TOOL_CATALOG)) {
-    const commands = buildForTool(tool, config);
+    const commands = normalizeAndValidateCommands(tool, buildForTool(tool, config));
     total += commands.length;
     const filePath = path.join(DATA_DIR, `${tool}.json`);
     await writeFile(filePath, `${JSON.stringify(commands, null, 2)}\n`, "utf8");

@@ -151,6 +151,8 @@ export class DevDeckPanel implements vscode.WebviewViewProvider {
         categories: this.commandProvider.categories(),
         favorites,
         history,
+        providerStats: this.commandProvider.stats(),
+        providerDiagnostics: this.commandProvider.diagnostics(),
         signals
       }
     });

@@ -42,6 +42,22 @@ const EMPTY_STATE: AppState = {
   categories: {},
   favorites: [],
   history: [],
+  providerStats: {
+    total: 0,
+    builtin: 0,
+    project: 0,
+    categories: 0
+  },
+  providerDiagnostics: {
+    builtinFilesLoaded: 0,
+    builtinFilesFailed: 0,
+    invalidEntries: 0,
+    duplicatesSkipped: 0,
+    projectFileFound: false,
+    projectEntriesLoaded: 0,
+    projectEntriesInvalid: 0,
+    warnings: []
+  },
   signals: {
     node: false,
     docker: false,
@@ -58,6 +74,14 @@ const EMPTY_STATE: AppState = {
     vercel: false
   }
 };
+
+function tokenizeQuery(query: string): string[] {
+  return query
+    .trim()
+    .toLowerCase()
+    .split(/\s+/)
+    .filter((term) => term.length > 1);
+}
 
 const SIGNAL_TOOLS: Record<keyof AppState["signals"], string[]> = {
   node: ["npm", "yarn", "pnpm"],
@@ -78,6 +102,7 @@ const SIGNAL_TOOLS: Record<keyof AppState["signals"], string[]> = {
 function scoreCommand(
   command: DevDeckCommand,
   query: string,
+  terms: string[],
   fuseScore: number | undefined,
   favorites: Set<string>,
   history: Set<string>,
@@ -98,6 +123,15 @@ function scoreCommand(
     if (title === q) {
       score += 40;
     }
+    if (cmd === q) {
+      score += 44;
+    }
+    if (cmd.startsWith(q)) {
+      score += 18;
+    }
+    if (title.startsWith(q)) {
+      score += 14;
+    }
     if (title.includes(q)) {
       score += 20;
     }
@@ -112,6 +146,27 @@ function scoreCommand(
     }
     if (command.tool.includes(q) || command.category.toLowerCase().includes(q)) {
       score += 10;
+    }
+
+    if (terms.length > 1) {
+      const termMatches = terms.reduce((acc, term) => {
+        if (
+          title.includes(term) ||
+          cmd.includes(term) ||
+          description.includes(term) ||
+          tags.some((tag) => tag.includes(term)) ||
+          command.category.toLowerCase().includes(term) ||
+          command.tool.toLowerCase().includes(term)
+        ) {
+          return acc + 1;
+        }
+        return acc;
+      }, 0);
+
+      score += termMatches * 5;
+      if (termMatches === terms.length) {
+        score += 12;
+      }
     }
   }
 
@@ -217,6 +272,8 @@ export function App(): ReactElement {
           ? categoryFiltered.filter((item) => history.has(item.id))
           : categoryFiltered;
 
+    const queryTerms = tokenizeQuery(query);
+
     if (!query.trim()) {
       return [...modeFiltered]
         .map((command) => ({
@@ -224,6 +281,7 @@ export function App(): ReactElement {
           rank: scoreCommand(
             command,
             "",
+            [],
             undefined,
             favorites,
             history,
@@ -235,19 +293,27 @@ export function App(): ReactElement {
         .slice(0, MAX_RESULTS);
     }
 
-    const fuse = new Fuse(categoryFiltered, {
+    const fuse = new Fuse(modeFiltered, {
       includeScore: true,
       threshold: 0.35,
       ignoreLocation: true,
-      keys: ["title", "description", "tags", "tool", "category"]
+      keys: [
+        { name: "title", weight: 0.33 },
+        { name: "command", weight: 0.28 },
+        { name: "tags", weight: 0.17 },
+        { name: "description", weight: 0.12 },
+        { name: "tool", weight: 0.06 },
+        { name: "category", weight: 0.04 }
+      ]
     });
-    return fuse
+    const ordered = fuse
       .search(query)
       .map((entry) => ({
         command: entry.item,
         rank: scoreCommand(
           entry.item,
           query,
+          queryTerms,
           entry.score,
           favorites,
           history,
@@ -256,14 +322,21 @@ export function App(): ReactElement {
       }))
       .sort((a, b) => b.rank - a.rank)
       .map((item) => item.command)
-      .filter((item) =>
-        viewMode === "favorites"
-          ? favorites.has(item.id)
-          : viewMode === "history"
-            ? history.has(item.id)
-            : true
-      )
-      .slice(0, MAX_RESULTS);
+      .slice(0, MAX_RESULTS * 2);
+
+    const deduped: DevDeckCommand[] = [];
+    const seen = new Set<string>();
+    for (const item of ordered) {
+      if (seen.has(item.id)) {
+        continue;
+      }
+      seen.add(item.id);
+      deduped.push(item);
+      if (deduped.length >= MAX_RESULTS) {
+        break;
+      }
+    }
+    return deduped;
   }, [category, favorites, history, query, state.commands, suggestedTools, viewMode]);
 
   const suggested = useMemo(() => {
@@ -413,6 +486,10 @@ export function App(): ReactElement {
   const favoriteCount = state.favorites.length;
   const historyCount = state.history.length;
   const toolCount = Object.keys(state.categories).length;
+  const qualityWarnings =
+    state.providerDiagnostics.warnings.length +
+    state.providerDiagnostics.builtinFilesFailed +
+    state.providerDiagnostics.projectEntriesInvalid;
 
   const viewButton = (mode: ViewMode, label: string, count: number): ReactElement => (
     <button
@@ -574,8 +651,19 @@ export function App(): ReactElement {
         <div style={{ display: "flex", gap: 6, marginTop: 9, flexWrap: "wrap" }}>
           <span style={{ fontSize: 10, opacity: 0.75 }}>commands {allCount.toLocaleString()}</span>
           <span style={{ fontSize: 10, opacity: 0.75 }}>tools {toolCount}</span>
+          <span style={{ fontSize: 10, opacity: 0.75 }}>
+            built-in {state.providerStats.builtin.toLocaleString()}
+          </span>
+          <span style={{ fontSize: 10, opacity: 0.75 }}>
+            project {state.providerStats.project.toLocaleString()}
+          </span>
           <span style={{ fontSize: 10, opacity: 0.75 }}>favorites {favoriteCount}</span>
           <span style={{ fontSize: 10, opacity: 0.75 }}>history {historyCount}</span>
+          {qualityWarnings > 0 && (
+            <span style={{ fontSize: 10, color: "var(--vscode-editorWarning-foreground)" }}>
+              data warnings {qualityWarnings}
+            </span>
+          )}
         </div>
       </section>
 

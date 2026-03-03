@@ -31,6 +31,22 @@ export interface AppState {
   categories: Record<string, number>;
   favorites: string[];
   history: string[];
+  providerStats: {
+    total: number;
+    builtin: number;
+    project: number;
+    categories: number;
+  };
+  providerDiagnostics: {
+    builtinFilesLoaded: number;
+    builtinFilesFailed: number;
+    invalidEntries: number;
+    duplicatesSkipped: number;
+    projectFileFound: boolean;
+    projectEntriesLoaded: number;
+    projectEntriesInvalid: number;
+    warnings: string[];
+  };
   signals: {
     node: boolean;
     docker: boolean;
