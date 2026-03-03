@@ -1,6 +1,7 @@
 <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path
-    d="M4 4h10a1 1 0 1 1 0 2H4a1 1 0 1 1 0-2Zm0 5h15a1 1 0 1 1 0 2H4a1 1 0 1 1 0-2Zm0 5h11a1 1 0 1 1 0 2H4a1 1 0 1 1 0-2Zm0 5h9a1 1 0 1 1 0 2H4a1 1 0 1 1 0-2Zm15.25-2.75a1.75 1.75 0 1 1 0 3.5 1.75 1.75 0 0 1 0-3.5Z"
-    fill="currentColor"
-  />
+  <rect x="3" y="4" width="12" height="2.6" rx="1.3" fill="currentColor" />
+  <rect x="3" y="8.5" width="17" height="2.6" rx="1.3" fill="currentColor" />
+  <rect x="3" y="13" width="13" height="2.6" rx="1.3" fill="currentColor" />
+  <rect x="3" y="17.5" width="10" height="2.6" rx="1.3" fill="currentColor" />
+  <circle cx="19.25" cy="18.75" r="2.2" fill="currentColor" />
 </svg>

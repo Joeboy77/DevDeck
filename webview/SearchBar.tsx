@@ -19,8 +19,8 @@ export function SearchBar({
         position: "sticky",
         top: 0,
         background: "var(--vscode-sideBar-background)",
-        paddingBottom: 10,
-        paddingTop: 4,
+        paddingBottom: 12,
+        paddingTop: 6,
         zIndex: 2
       }}
     >
@@ -33,10 +33,11 @@ export function SearchBar({
         style={{
           width: "100%",
           border: "1px solid var(--vscode-input-border)",
-          borderRadius: 8,
+          borderRadius: 10,
           background: "var(--vscode-input-background)",
           color: "var(--vscode-input-foreground)",
-          padding: "9px 11px",
+          padding: "10px 12px",
+          fontSize: 13,
           outline: "none"
         }}
       />

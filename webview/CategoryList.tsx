@@ -21,10 +21,11 @@ export function CategoryList({
     color: active
       ? "var(--vscode-button-foreground)"
       : "var(--vscode-foreground)",
-    borderRadius: 999,
-    padding: "5px 10px",
+    borderRadius: 9999,
+    padding: "6px 11px",
     cursor: "pointer",
-    fontSize: 11
+    fontSize: 11,
+    fontWeight: active ? 600 : 500
   });
 
   return (
@@ -33,9 +34,9 @@ export function CategoryList({
         display: "flex",
         gap: 6,
         flexWrap: "wrap",
-        marginBottom: 12,
+        marginBottom: 14,
         borderBottom: "1px solid var(--vscode-panel-border)",
-        paddingBottom: 10
+        paddingBottom: 12
       }}
     >
       <button onClick={() => onSelect("all")} style={chipStyle(selected === "all")}>

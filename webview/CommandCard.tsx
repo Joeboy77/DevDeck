@@ -110,9 +110,9 @@ export function CommandCard({
             : "var(--vscode-panel-border)"
         }`,
         borderRadius: 12,
-        padding: compact ? 9 : 11,
+        padding: compact ? 9 : 12,
         marginBottom: compact ? 8 : 10,
-        background: "var(--vscode-editor-background)",
+        background: "var(--vscode-editorWidget-background)",
         boxShadow: active ? "0 0 0 1px var(--vscode-focusBorder) inset" : "none",
         transform: hovered ? "translateY(-1px)" : "translateY(0)",
         transition: "all 120ms ease"
@@ -134,7 +134,7 @@ export function CommandCard({
           textAlign: "left"
         }}
       >
-        <span style={{ fontWeight: 600, fontSize: compact ? 12 : 13, lineHeight: 1.3 }}>
+        <span style={{ fontWeight: 700, fontSize: compact ? 12 : 13, lineHeight: 1.3 }}>
           <Highlight text={command.title} query={query} />
         </span>
         <span style={{ opacity: 0.8, fontSize: 11 }}>
@@ -144,7 +144,7 @@ export function CommandCard({
 
       <div
         style={{
-          marginTop: 7,
+          marginTop: 8,
           fontSize: compact ? 10 : 11,
           opacity: 0.85,
           display: "flex",
@@ -157,7 +157,8 @@ export function CommandCard({
           style={{
             border: "1px solid var(--vscode-panel-border)",
             borderRadius: 999,
-            padding: "2px 8px"
+            padding: "2px 8px",
+            fontWeight: 600
           }}
         >
           {command.tool}
@@ -231,7 +232,7 @@ export function CommandCard({
             </div>
           )}
 
-          <div style={{ display: "flex", gap: 8 }}>
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
             <button
               disabled={missingRequired}
               onClick={() => onRun(command.id, values)}

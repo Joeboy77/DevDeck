@@ -469,7 +469,15 @@ export function App(): ReactElement {
   };
 
   return (
-    <main style={{ padding: 12, color: "var(--vscode-foreground)", lineHeight: 1.35 }}>
+    <main
+      style={{
+        padding: 12,
+        color: "var(--vscode-foreground)",
+        lineHeight: 1.35,
+        maxWidth: 920,
+        margin: "0 auto"
+      }}
+    >
       {toasts.length > 0 && (
         <div
           style={{
@@ -525,6 +533,21 @@ export function App(): ReactElement {
         </section>
       )}
 
+      <section
+        style={{
+          border: "1px solid var(--vscode-panel-border)",
+          borderRadius: 12,
+          padding: "11px 12px",
+          marginBottom: 12,
+          background: "var(--vscode-editorWidget-background)"
+        }}
+      >
+        <div style={{ fontSize: 16, fontWeight: 700, marginBottom: 3 }}>DevDeck</div>
+        <div style={{ fontSize: 12, opacity: 0.78 }}>
+          Universal command discovery and execution hub for VS Code.
+        </div>
+      </section>
+
       <SearchBar query={rawQuery} onChange={setRawQuery} resultCount={ranked.length} />
 
       <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 10 }}>
@@ -549,7 +572,7 @@ export function App(): ReactElement {
         </button>
       </div>
 
-      <div style={{ fontSize: 11, opacity: 0.7, marginBottom: 10 }}>
+      <div style={{ fontSize: 11, opacity: 0.7, marginBottom: 12 }}>
         Arrow Up/Down navigates results. Enter expands active command.
       </div>
 
