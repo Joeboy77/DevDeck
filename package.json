@@ -34,10 +34,10 @@
     "lint": "eslint \"src/**/*.ts\" \"webview/**/*.{ts,tsx}\"",
     "check": "tsc -p tsconfig.json --noEmit",
     "test": "echo \"Tests will be added in Phase 2\"",
-    "package:vsix": "yarn build && npx @vscode/vsce package --readme-path README.marketplace.md",
-    "publish:patch": "yarn build && npx @vscode/vsce publish patch --readme-path README.marketplace.md",
-    "publish:minor": "yarn build && npx @vscode/vsce publish minor --readme-path README.marketplace.md",
-    "publish:major": "yarn build && npx @vscode/vsce publish major --readme-path README.marketplace.md"
+    "package:vsix": "yarn build && npx @vscode/vsce package",
+    "publish:patch": "yarn build && npx @vscode/vsce publish patch",
+    "publish:minor": "yarn build && npx @vscode/vsce publish minor",
+    "publish:major": "yarn build && npx @vscode/vsce publish major"
   },
   "keywords": [
     "commands",
@@ -90,7 +90,6 @@
     "LICENSE",
     "CHANGELOG.md",
     "README.md",
-    "README.marketplace.md",
     "CONTRIBUTING.md"
   ],
   "author": "Joe",

@@ -25,9 +25,9 @@ jobs:
         run: yarn build
 
       - name: Package VSIX
-        run: npx @vscode/vsce package --readme-path README.marketplace.md
+        run: npx @vscode/vsce package
 
       - name: Publish to VS Code Marketplace
-        run: npx @vscode/vsce publish --pat "${VSCE_PAT}" --packagePath *.vsix --readme-path README.marketplace.md
+        run: npx @vscode/vsce publish --pat "${VSCE_PAT}" --packagePath *.vsix
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
