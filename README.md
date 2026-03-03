@@ -1,65 +1,45 @@
 # DevDeck - Developer Command Hub
 
-<p align="center">
-  <img src="./assets/devdeck-hero.png" alt="DevDeck Hero Banner" />
-</p>
-
-<p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=DevDeck.devdeck"><img src="https://img.shields.io/visual-studio-marketplace/v/DevDeck.devdeck?style=for-the-badge" alt="Marketplace Version" /></a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=DevDeck.devdeck"><img src="https://img.shields.io/visual-studio-marketplace/i/DevDeck.devdeck?style=for-the-badge" alt="Installs" /></a>
-  <a href="https://github.com/Joeboy77/DevDeck/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Joeboy77/DevDeck/ci.yml?style=for-the-badge&label=CI" alt="CI Status" /></a>
-  <a href="https://github.com/Joeboy77/DevDeck/graphs/contributors"><img src="https://img.shields.io/github/contributors/Joeboy77/DevDeck?style=for-the-badge" alt="Contributors" /></a>
-</p>
-
-Universal command discovery and execution hub for VS Code.  
-Search commands in natural language, understand flags instantly, fill parameters safely, and run directly in terminal without leaving your editor.
+Universal command discovery and execution hub for VS Code.
 
 **Developed by Joe.**
 
+DevDeck helps you search, understand, and run commands directly from the VS Code sidebar so you can stay in flow.
+
 ## Why DevDeck
-- **No context switching:** find and run commands inside VS Code.
-- **Cross-stack coverage:** built-in command packs for major ecosystems.
-- **Fast retrieval:** fuzzy search and intent-friendly ranking.
-- **Safe execution:** required parameter checks before run.
-- **Team-friendly:** supports workspace commands via `.devdeck.json`.
+- Find commands without leaving your editor.
+- Run commands safely with required parameter checks.
+- Get relevant suggestions based on your project stack.
+- Keep your own project commands in one place.
 
-## UI Preview
-
-<p align="center">
-  <img src="./assets/devdeck-ui-preview.png" alt="DevDeck UI Preview" />
-</p>
-
-## Core Features
-- Sticky search with debounced updates and highlighted matches.
-- Suggested commands based on detected project signals.
-- Favorites and recent command history.
-- Category filtering by tool ecosystem.
+## Key Features
+- Fast command search and filtering by tool.
+- Suggested, Favorites, and Recent command sections.
 - Command cards with:
-  - description
-  - placeholders/params
-  - resolved preview
-  - copy/run actions
-- Keyboard support:
+  - plain-English description
+  - parameter inputs
+  - one-click copy
+  - one-click run in terminal
+- Keyboard-friendly interactions:
   - `Ctrl/Cmd + K` focus search
-  - `Arrow Up/Down` navigate
-  - `Enter` expand active card
+  - `Arrow Up/Down` move result focus
+  - `Enter` expand active command
   - `Esc` clear search
 
-## How to Use
-1. Install **DevDeck** from VS Code Marketplace.
-2. Open panel:
-   - Activity Bar → DevDeck icon
-   - or Command Palette → `DevDeck: Open Panel`
-3. Search command intent (examples):
+## How To Use
+1. Install **DevDeck** from the VS Code Marketplace.
+2. Open the panel:
+   - Activity Bar → DevDeck icon, or
+   - Command Palette → `DevDeck: Open Panel`
+3. Type what you want in search:
    - `undo last commit`
    - `docker logs`
    - `expo start`
-4. Expand a command card.
-5. Fill required placeholders (if any).
-6. Click **Run in Terminal** or **Copy**.
+4. Expand a card and fill required params.
+5. Click **Run in Terminal** or **Copy**.
 
-## Team Commands (`.devdeck.json`)
-Create a `.devdeck.json` in your workspace root to add project-specific commands.
+## Project Commands (`.devdeck.json`)
+Add a `.devdeck.json` file to your workspace root to define team/project commands.
 
 Example:
 ```json
@@ -79,14 +59,14 @@ Example:
 ]
 ```
 
-DevDeck watches this file and reloads automatically when it changes.
+DevDeck automatically reloads this file when it changes.
 
-## Supported Tool Packs
+## Included Tool Ecosystems
 `git`, `docker`, `kubernetes`, `aws`, `terraform`, `github`, `linux`, `npm`, `yarn`, `pnpm`, `python`, `pip`, `react`, `react-native`, `expo`, `flutter`, `firebase`, `vercel`, `postgresql`, `redis`, `springboot`
 
-## Feedback and Support
+## Support
 - Issues: https://github.com/Joeboy77/DevDeck/issues
-- Source: https://github.com/Joeboy77/DevDeck
+- Repository: https://github.com/Joeboy77/DevDeck
 
 ## Contributing
-If you want to contribute, read `CONTRIBUTING.md` for coding standards, structure, and workflow.
+Want to contribute? Read `CONTRIBUTING.md`.
